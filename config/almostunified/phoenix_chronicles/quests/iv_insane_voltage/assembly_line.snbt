@@ -1,0 +1,74 @@
+{
+  "chapter": "IV_INSANE_VOLTAGE",
+  "description": "Making §dLuV§r Components will require more work. You'll need to make an §3Assembly Line§r in order to progress.
+
+This Multiblock has a §evariable size§r§r. Each §3ULV Input Bus§r along the bottom can only hold a §dsingle stack§r of items, so you'll need different lengths for different recipes.
+
+You'll want to build this with a size of §d10§r to get started, or of a size of §d14§r to accept all possible recipes in base GTCEu. §6Don't worry§r if you overbuild - it can run any recipe if it's too long, but you may find the casings quite §4expensive§r right now. §7Choices, §8choices!§r
+
+---
+
+
+Recipes here will require §aFluids§r, so it's a good idea to keep the §3Input Hatches§r permanently filled with §dSoldering Alloy§r, §dLubricant§r and §dStyrene-Butadienne Rubber§r.
+
+§6This quest unlocks two new tutorials on the Assembly Line and Research in the §lTips and Tricks§r§6 tab - check them out to learn more!§r",
+  "icon_item": "gtceu:assembly_line",
+  "id": "assembly_line",
+  "parent": "none",
+  "positionX": 626,
+  "positionY": 619,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "radon",
+      "required": 1b
+    },
+    {
+      "id": "laminated_glass",
+      "required": 1b
+    },
+    {
+      "id": "first_zpm_circuits",
+      "required": 1b
+    },
+    {
+      "id": "high_power_integrated_circuit",
+      "required": 1b
+    },
+    {
+      "id": "rtm_alloy_coils",
+      "required": 1b
+    },
+    {
+      "id": "nether_stars",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 4,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "STAR",
+  "subtitle": 'AKA the "Assline"',
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Assembly Line"}',
+      "item_id": "gtceu:assembly_line",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:assembly_line_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Assembly Line",
+  "visibility": "NORMAL"
+}

@@ -1,0 +1,51 @@
+{
+  "chapter": "HV_HIGH_VOLTAGE",
+  "description": "To get your grubby hands on some Titanium, §aRutile§r must first be reduced to §aTitanium Tetrachloride§r in an §3HV Chemical Reactor§r, then reduced again in an §3EBF§r with §dMagnesium§r to finally arrive at Titanium.
+
+The §dCarbon§r, §dChlorine§r, §dOxygen§r, and §dMagnesium§r used in the process can be §6perfectly recovered§r from the byproduct §dCarbon Monoxide§r and §dMagnesium Chloride§r with no loss. If you set up a system to recover them, §athe only material§r that you'll need to provide for Titanium is §dRutile§r!
+
+---
+
+
+§aTitanium Tetrachloride§r also acts as a catalyst in the production of plastics. A touch of §aTiCl₄§r in the polymerisation process can increase the polymer yield to §6133%§r§r. Naturally, this is completely optional.",
+  "icon_item": "gtceu:titanium_tetrachloride_bucket",
+  "id": "almost_titanium_7270",
+  "parent": "none",
+  "positionX": 716,
+  "positionY": 458,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "high_voltage_chemistry",
+      "required": 1b
+    },
+    {
+      "id": "almost_titanium",
+      "required": 1b
+    },
+    {
+      "id": "kanthal_coils",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Nope, still not Titanium",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"titanium tetrachloride bucket"}',
+      "item_id": "gtceu:titanium_tetrachloride_bucket",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:almost_titanium_7270_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Almost Titanium²",
+  "visibility": "NORMAL"
+}

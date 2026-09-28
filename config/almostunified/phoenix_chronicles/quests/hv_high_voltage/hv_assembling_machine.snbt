@@ -1,0 +1,39 @@
+{
+  "chapter": "HV_HIGH_VOLTAGE",
+  "description": "The §3HV Assembling Machine§r is the next step in progression, but also unlocks a handful of useful utilities - snoop around this quest for more.",
+  "icon_item": "gtceu:hv_assembler",
+  "id": "hv_assembling_machine",
+  "parent": "none",
+  "positionX": 446,
+  "positionY": 728,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "first_hv_circuits",
+      "required": 1b
+    },
+    {
+      "id": "link_306a",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"§6Advanced Assembler II§r"}',
+      "item_id": "gtceu:hv_assembler",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:hv_assembling_machine_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "HV Assembling Machine",
+  "visibility": "NORMAL"
+}

@@ -1,0 +1,45 @@
+{
+  "chapter": "IV_INSANE_VOLTAGE",
+  "description": "§l§9I Believe I can touch the sky§r§r! At last, §aCreative Flight§r is within your grasp! You might wonder why this ultimate freedom took so long to achieve. The Angel Ring demands considerable effort, specifically requiring §cNether Stars§r – truly an §4IV tier material§r.
+
+Beyond that, you needed to craft the Diamond Ring. This calls for a significant choice: either embark on a challenging journey to §dfind an Elytra§r, or utilize the slightly more §eexpensive Assembler recipe§r for its creation.",
+  "icon_item": "angelring:angel_ring",
+  "id": "q_3c7d927ba16e2e19",
+  "parent": "none",
+  "positionX": 774,
+  "positionY": 581,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "nether_stars",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 4,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "I Believe I Can Fly!",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Angel Ring"}',
+      "item_id": "angelring:angel_ring",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_3c7d927ba16e2e19_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Obtain Angel Ring",
+  "visibility": "NORMAL"
+}

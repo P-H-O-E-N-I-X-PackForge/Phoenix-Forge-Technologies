@@ -1,0 +1,37 @@
+{
+  "chapter": "RENEWABILITY_AND_YOU",
+  "description": "By collecting Air with a §6Gas Collector§r and cooling it to Liquid state with a §3Vacuum Freezer§r, you can then distill the liquid Air for a plethora of valuable resources.
+
+You thought that was all? Air collection isn't limited to the §2Overworld§r - whilst you'll require a higher-tier Distillation Tower to distill the \"higher\" tiers of liquid Air, you can also process air from the §4Nether§r and the §5End§r. This process is mostly optional, but you'll definitely find it to be a rewarding one.",
+  "icon_item": "gtceu:distillation_tower",
+  "id": "all_kinds_of_air_distillation",
+  "parent": "none",
+  "positionX": 416,
+  "positionY": 410,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "promoting_a_sustainable_playthrough",
+      "required": 1b
+    },
+    {
+      "id": "distillation_tower",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "CIRCLE",
+  "subtitle": "Things are up in the air right now...",
+  "tasks": [
+    {
+      "description": '{"text":"Air truly is wonderful."}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:all_kinds_of_air_distillation_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "All Kinds Of Air (Distillation)",
+  "visibility": "NORMAL"
+}

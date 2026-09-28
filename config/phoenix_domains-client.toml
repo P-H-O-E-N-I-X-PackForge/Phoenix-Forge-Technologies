@@ -1,0 +1,5 @@
+
+[hud]
+	#Show the top-of-screen line naming whoever owns the chunk you're standing in. Can also be toggled in-game with the keybind (default unbound).
+	showHud = true
+

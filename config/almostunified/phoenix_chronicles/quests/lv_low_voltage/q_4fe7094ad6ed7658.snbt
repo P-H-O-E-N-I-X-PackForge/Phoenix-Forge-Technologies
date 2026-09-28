@@ -1,0 +1,48 @@
+{
+  "chapter": "LV_LOW_VOLTAGE",
+  "description": "The chemical §9bath§r is a crucial machine throughout your journey, initially with §6§lthree main uses§r.
+
+§aOre Processing§r: Using sodium persulfate or mercury to bathe ores (also known as fluid washing) yields additional byproducts. This is the most efficient way to obtain §5gallium§r once your sulfuric acid production is set up.
+
+
+---
+
+
+
+§aCooling Down Hot Ingots§r: Soaking hot ingots in §1water§r or §bdistilled water§r cools them into a usable form. However, this function becomes obsolete once you unlock the vacuum freezer in the EV tier.
+
+§eCreating Colored Lenses§r: Bathing white lenses in specific liquid dyes creates colored lenses used for wafer engraving in advanced circuits. Note that recipes for certain lenses are locked behind higher-tier machines.",
+  "icon_item": "gtceu:lv_chemical_bath",
+  "id": "q_4fe7094ad6ed7658",
+  "optional": 1b,
+  "parent": "none",
+  "positionX": 446,
+  "positionY": 464,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "ore_processing_part_two",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "CIRCLE",
+  "subtitle": "Bath Time",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Basic Chemical Bath §r"}',
+      "item_id": "gtceu:lv_chemical_bath",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_4fe7094ad6ed7658_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Obtain Basic Chemical Bath §r",
+  "visibility": "NORMAL"
+}

@@ -1,0 +1,38 @@
+{
+  "chapter": "BEES",
+  "description": "A dark and heavy mineral, holding the promise of powerful alloys!
+
+This §8Ilmenite Bee§r hums with a robust energy, a true workhorse of the earth's crust.
+
+To obtain this §7dense§r friend, you'll need §84 blocks of raw ilmenite§r. Its strength is undeniable!",
+  "id": "q_4cc8bc726d4dc5ea",
+  "parent": "none",
+  "positionX": 456,
+  "positionY": 736,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "q_074cefeb53853464",
+      "required": 1b
+    },
+    {
+      "id": "q_06df13f808e9d5a6",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Ill menite? Sounds sick.",
+  "tasks": [
+    {
+      "description": '{"text":"Ilmenite Bee"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:q_4cc8bc726d4dc5ea_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Quest 4cc8bc",
+  "visibility": "NORMAL"
+}

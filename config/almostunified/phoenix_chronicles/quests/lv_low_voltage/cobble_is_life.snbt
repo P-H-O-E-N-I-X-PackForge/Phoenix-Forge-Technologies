@@ -1,0 +1,48 @@
+{
+  "chapter": "LV_LOW_VOLTAGE",
+  "description": "§o§7This quest's subject is optional, but may still be of interest to you. We've put it here in the name of completeness.§r
+
+The §3Rock Breaker§r generates different types of igneous Rocks. In order to operate, §9Water§r and §cLava§r (doesn't need to be source blocks) must both be adjacent to it. Those rocks might be pulverized and electrolyzed into certain materials.
+
+Furthermore, it is very useful to use in some early processing lines in early game such as the clay line and Flaming Prediction Matrix line.",
+  "hide_dep_line": 1b,
+  "icon_item": "gtceu:lv_rock_crusher",
+  "id": "cobble_is_life",
+  "parent": "none",
+  "positionX": 789,
+  "positionY": 176,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "progressing_through_lv",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 1,
+      "item_id": "minecraft:cobblestone",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "What is this, Skyblock?",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Rock Crusher"}',
+      "item_id": "gtceu:lv_rock_crusher",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:cobble_is_life_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Cobble is Life",
+  "visibility": "NORMAL"
+}

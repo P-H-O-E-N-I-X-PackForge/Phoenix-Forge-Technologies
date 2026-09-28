@@ -1,0 +1,60 @@
+{
+  "chapter": "MV_MEDIUM_VOLTAGE",
+  "description": "Using a Ruby Lens, engrave a Silicon Wafer into an ILC Wafer.
+
+This can be processed in a Cutter for IC Chips, which are important components that will be precious when improving upon your circuit crafting capabilities.",
+  "icon_item": "gtceu:ilc_chip",
+  "id": "ic_chips",
+  "parent": "none",
+  "positionX": 896,
+  "positionY": 769,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "laser_engraving",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "I C U",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"ruby lens"}',
+      "item_id": "gtceu:ruby_lens",
+      "optional": 1b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:ic_chips_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"ILC Wafer"}',
+      "item_id": "gtceu:ilc_wafer",
+      "optional": 1b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:ic_chips_task_1",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"IC Chip"}',
+      "item_id": "gtceu:ilc_chip",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:ic_chips_task_2",
+      "type": "item_check"
+    }
+  ],
+  "title": "IC Chips",
+  "visibility": "NORMAL"
+}

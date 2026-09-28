@@ -1,0 +1,57 @@
+{
+  "chapter": "MV_MEDIUM_VOLTAGE",
+  "description": 'You may notice that some fluids say they are "§aAcidic§r", with §9Sulfuric Acid§r being one of them.
+
+This means that many fluid pipes will not be able to transport them safely!
+
+At §bMV§r, the cheapest pipes for acid transportation are probably §aGold§r, with the more expensive §aVanadium Steel§r or §aChrome§r pipes taking second and third place.
+
+§aStainless Steel§r or §aPolytetrafluoroethylene§r (try saying that fast) will be valid options once you are in §6HV§r.
+
+---
+
+
+You have three options for acid storage at around this point: §dGlass Vials§r, §dGold Drums§r, or §dSuper Tanks§r. Glass Vials are like §9Fluid Cells§r, and are made to store acids. Gold Drums are self-explanatory. Super Tanks will be unlocked after §9Polyethylene§r, and can store any fluid without restriction.
+
+§cWARNING:§r Acids in the wrong pipes will cause §cvoiding§r, §cpipe burning§r, and high chance of §cdeath§r! Be careful!
+
+§l§3Lore:§r§o The acid transportation and storage mechanics originate from GregTech 6.',
+  "icon_item": "gtceu:acid_hazard_sign_block",
+  "id": "it_will_melt_your_flesh",
+  "parent": "none",
+  "positionX": 626,
+  "positionY": 229,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "sulfuric_acid",
+      "required": 1b
+    },
+    {
+      "id": "hydrochloric_acid",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 8,
+      "item_id": "gtceu:glass_vial",
+      "type": "item"
+    }
+  ],
+  "shape": "CIRCLE",
+  "subtitle": "...if you don't read this quest.",
+  "tasks": [
+    {
+      "description": '{"text":"I\'m an acid professional, don\'t worry"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:it_will_melt_your_flesh_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "It will Melt Your Flesh",
+  "visibility": "NORMAL"
+}

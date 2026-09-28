@@ -1,0 +1,69 @@
+{
+  "chapter": "HV_HIGH_VOLTAGE",
+  "description": "The §eSMD§r (surface-mount device) §aComponents§r are CEu-exclusive components that are required for the next tier of circuits (§5Nano§r). They can also be used in place of their non-SMD counterparts in most Circuit recipes.
+
+Of course they're more complicated to make, this is GregTech! What did you expect?
+
+Invest in automation for these - you won't stop needing them.",
+  "icon_item": "gtceu:smd_transistor",
+  "id": "smd_components",
+  "parent": "none",
+  "positionX": 536,
+  "positionY": 818,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "hv_assembling_machine",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 1,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Alternate components!",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"SMD Transistor"}',
+      "item_id": "gtceu:smd_transistor",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:smd_components_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"SMD Resistor"}',
+      "item_id": "gtceu:smd_resistor",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:smd_components_task_1",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"SMD Capacitor"}',
+      "item_id": "gtceu:smd_capacitor",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:smd_components_task_2",
+      "type": "item_check"
+    }
+  ],
+  "title": "SMD Components",
+  "visibility": "NORMAL"
+}

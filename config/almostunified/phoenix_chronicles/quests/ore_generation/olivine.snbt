@@ -1,0 +1,71 @@
+{
+  "chapter": "ORE_GENERATION",
+  "description": "This vein starts to become notable for its Magnesium output starting in the midgame.
+
+Olivine also has various uses, as it can substitute §aEmerald§r in a couple of recipes.",
+  "icon_item": "gtceu:olivine_ore",
+  "id": "olivine",
+  "parent": "none",
+  "positionX": 656,
+  "positionY": 736,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "ore_generation",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Source of Magnesium",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"raw bentonite"}',
+      "item_id": "gtceu:raw_bentonite",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:olivine_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"raw magnesite"}',
+      "item_id": "gtceu:raw_magnesite",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:olivine_task_1",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"raw olivine"}',
+      "item_id": "gtceu:raw_olivine",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:olivine_task_2",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"raw glauconite sand"}',
+      "item_id": "gtceu:raw_glauconite_sand",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:olivine_task_3",
+      "type": "item_check"
+    }
+  ],
+  "title": "Olivine",
+  "visibility": "NORMAL"
+}

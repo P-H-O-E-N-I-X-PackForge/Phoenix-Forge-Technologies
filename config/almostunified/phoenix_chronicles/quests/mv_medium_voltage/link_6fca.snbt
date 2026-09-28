@@ -1,0 +1,26 @@
+{
+  "chapter": "MV_MEDIUM_VOLTAGE",
+  "description": "",
+  "id": "link_6fca",
+  "link_target": "phoenix_chronicles:q_7567e885b7166603",
+  "parent": "none",
+  "positionX": 446,
+  "positionY": 589,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "q_1e9be8d3f8a602dc",
+      "required": 1b
+    },
+    {
+      "id": "aluminfrost_dust",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "STAR",
+  "title": "",
+  "visibility": "NORMAL"
+}

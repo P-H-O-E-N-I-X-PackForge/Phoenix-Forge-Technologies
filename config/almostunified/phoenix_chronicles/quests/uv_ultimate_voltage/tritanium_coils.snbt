@@ -1,0 +1,46 @@
+{
+  "chapter": "UV_ULTIMATE_VOLTAGE",
+  "description": "§aTritanium Coils§r bring the Heat Capacity to §d10,800K§r.
+
+These coils aren't needed for much, but they'll provide another perfect overclock for most recipes!",
+  "icon_item": "gtceu:tritanium_coil_block",
+  "id": "tritanium_coils",
+  "parent": "none",
+  "positionX": 356,
+  "positionY": 446,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "link_194e",
+      "required": 1b
+    },
+    {
+      "id": "trinium_coils",
+      "required": 1b
+    },
+    {
+      "id": "tritanium",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Why would you even need something this hot?!",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 16,
+      "description": '{"text":"Tritanium Coil Block"}',
+      "item_id": "gtceu:tritanium_coil_block",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:tritanium_coils_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Tritanium Coils",
+  "visibility": "NORMAL"
+}

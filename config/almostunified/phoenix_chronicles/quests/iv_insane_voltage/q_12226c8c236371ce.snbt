@@ -1,0 +1,118 @@
+{
+  "chapter": "IV_INSANE_VOLTAGE",
+  "description": "Forget traditional breeding; you §6transform§r bees using matching materials and ores!
+
+§c(A word of advice, the name on the bee cages have to be §9§l§o§nEXACTLY§r §cwhat they say for the recipes/the name of the bee in emi, so if you want to make a bee check the bee name in emi and anvil rename to match)§r§r
+
+You ready to take them on? If so, click here!
+
+
+This is the most complex phase of the Bee Line, requiring you to find §aSpecial Nests§r in specific biomes. Lure the bees with §bHoney Treats§r (or specialized catalysts for rare nests) to initiate the moving-in process.
+
+Once caged, transform them to begin the §dBee Line§r proper! Remember to check §6EMI§r for catalyst items and required biomes.",
+  "icon_item": "phoenixcore:apis_progenitor",
+  "id": "q_12226c8c236371ce",
+  "parent": "none",
+  "positionX": 880,
+  "positionY": 229,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "q_3ea4c57a5fa7c276",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 6,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "PENTAGON",
+  "subtitle": "Time to breed.",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Apis Progenitor"}',
+      "item_id": "phoenixcore:apis_progenitor",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_12226c8c236371ce_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 12,
+      "description": '{"text":"tungsten steel frame"}',
+      "item_id": "gtceu:tungsten_steel_frame",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_12226c8c236371ce_task_1",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 12,
+      "description": '{"text":"treated wood frame"}',
+      "item_id": "gtceu:treated_wood_frame",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_12226c8c236371ce_task_2",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 36,
+      "description": '{"text":"Tempered Glass"}',
+      "item_id": "gtceu:tempered_glass",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_12226c8c236371ce_task_3",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 20,
+      "description": '{"text":"Robust Tungstensteel Machine Casing"}',
+      "item_id": "gtceu:robust_machine_casing",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_12226c8c236371ce_task_4",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 4,
+      "description": '{"text":"dirt"}',
+      "item_id": "minecraft:dirt",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_12226c8c236371ce_task_5",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 9,
+      "description": '{"text":"poppy"}',
+      "item_id": "minecraft:poppy",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_12226c8c236371ce_task_6",
+      "type": "item_check"
+    }
+  ],
+  "title": "Obtain Apis Progenitor",
+  "visibility": "NORMAL"
+}

@@ -1,0 +1,81 @@
+{
+  "chapter": "MV_MEDIUM_VOLTAGE",
+  "description": "Before we start, here's some important information if you're aiming to make Ethylene:
+
+Taking the §aOil§r route will require §oat least§r a §3LV Distillery§r.
+
+With the §aBiomass§r route, you will §lneed§r a §3MV Distillery§r.
+
+Get §eeither§r to complete this quest.
+
+---
+
+
+Got all that? §6Alright§r! Let's discuss a complex topic: §9Distillation§r. We'll try to help you understand how and why the §aEMI§r recipes are the way they are, so stick with us.
+
+Nearly all the §3Distillery§r recipes are duplicates from the §3Distillation Tower§r, except that they only have one Fluid output, and void everything else.
+
+In other words, you could argue the §3Distillery§r is an §dinferior§r §3Distillation Tower§r.
+
+---
+
+
+This doesn't mean that the §3Distillery§r is the worse of the two. It is unlocked earlier, and it is §dsmaller§r, §dcheaper§r, and §dmore energy efficient§r per recipe.
+
+Hell, in many cases, you won't even mind losing the other Fluids.
+
+§3Distilleries§r are an essential component for power generation, whether you pick §aDiesel§r or §aBenzene§r.
+
+You'll probably want many of them at as low-tier as possible to avoid the energy losses from Overclocking.",
+  "icon_item": "gtceu:mv_distillery",
+  "id": "distillery",
+  "optional_prereq_min_count": 2,
+  "parent": "none",
+  "positionX": 356,
+  "positionY": 409,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "pyrolyse_oven",
+      "required": 1b
+    },
+    {
+      "id": "biomass",
+      "required": 1b
+    },
+    {
+      "id": "us_simulator",
+      "required": 1b
+    },
+    {
+      "id": "america_simulator",
+      "required": 1b
+    },
+    {
+      "id": "fluid_drilling_rigs",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 0b,
+  "rewards": [
+    {
+      "count": 1,
+      "item_id": "gtceu:basic_electronic_circuit",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "The Illusion of Free Choice",
+  "tasks": [
+    {
+      "description": '{"text":"Distill"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:distillery_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Distillery",
+  "visibility": "NORMAL"
+}

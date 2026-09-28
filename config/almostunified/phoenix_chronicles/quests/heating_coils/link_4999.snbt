@@ -1,0 +1,30 @@
+{
+  "chapter": "HEATING_COILS",
+  "description": "",
+  "id": "link_4999",
+  "link_target": "phoenix_chronicles:kanthal_coils",
+  "parent": "none",
+  "positionX": 296,
+  "positionY": 176,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "link_709f",
+      "required": 1b
+    },
+    {
+      "id": "upgrade_your_ebf",
+      "required": 1b
+    },
+    {
+      "id": "q_66805bb78a828c00",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "title": "",
+  "visibility": "NORMAL"
+}

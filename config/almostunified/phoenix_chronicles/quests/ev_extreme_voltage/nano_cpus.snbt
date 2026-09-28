@@ -1,0 +1,70 @@
+{
+  "chapter": "EV_EXTREME_VOLTAGE",
+  "description": "§aNano CPU Wafers§r are made by infusing regular §aCPU Wafers§r with §dGlowstone§r and §9Raw Carbon Fibers§r.
+
+They will be needed in large quantities when making the §5Nano§r line of Circuits.
+
+Higher-tier polymers will increase your yield of §9Raw Carbon Fibers§r. One §dEpoxy§r is enough for a full stack.
+
+§9Tip:§r Don't like mining §dGlowstone§r? Check out Redstone ore processing.",
+  "icon_item": "gtceu:nano_cpu_wafer",
+  "id": "nano_cpus",
+  "parent": "none",
+  "positionX": 716,
+  "positionY": 806,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "extreme_chemical_reactions",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 1,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 16,
+      "description": '{"text":"Raw Carbon Fibers"}',
+      "item_id": "gtceu:carbon_fibers",
+      "optional": 1b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:nano_cpus_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Nano CPU Wafer"}',
+      "item_id": "gtceu:nano_cpu_wafer",
+      "optional": 1b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:nano_cpus_task_1",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Nano CPU Chip"}',
+      "item_id": "gtceu:nano_cpu_chip",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:nano_cpus_task_2",
+      "type": "item_check"
+    }
+  ],
+  "title": "Nano CPUs",
+  "visibility": "NORMAL"
+}

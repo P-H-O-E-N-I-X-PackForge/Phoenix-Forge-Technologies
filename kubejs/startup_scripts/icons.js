@@ -8,4 +8,3 @@ StartupEvents.registry("item", (event) => {
 
 Platform.mods.kubejs.name = "GT:PFT";
 Platform.mods.minecraft.name = "Vintage Story";
-Platform.mods.productivebees.name = "GT:Bees";

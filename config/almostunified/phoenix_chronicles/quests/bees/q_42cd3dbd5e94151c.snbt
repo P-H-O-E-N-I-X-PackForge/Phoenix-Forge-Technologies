@@ -1,0 +1,34 @@
+{
+  "chapter": "BEES",
+  "description": "They say envy is the §2green eyed monster§r.
+
+This is §9§oeasily§r§r seen towards all who make this bee!
+
+To obtain it you need 4 blocks of §aemerald§r.",
+  "id": "q_42cd3dbd5e94151c",
+  "parent": "none",
+  "positionX": 456,
+  "positionY": 576,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "q_397edaefd995a733",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Keep the Berryl up!",
+  "tasks": [
+    {
+      "description": '{"text":"Emerald Bee"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:q_42cd3dbd5e94151c_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Quest 42cd3d",
+  "visibility": "NORMAL"
+}

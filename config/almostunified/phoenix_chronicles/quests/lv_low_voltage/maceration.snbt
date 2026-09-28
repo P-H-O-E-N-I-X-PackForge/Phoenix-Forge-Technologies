@@ -1,0 +1,34 @@
+{
+  "chapter": "LV_LOW_VOLTAGE",
+  "description": "The standard macerator processes raw ore at a 1:2 ratio, yielding two crushed ores for every raw ore. Currently, it produces no additional byproducts. However, the §bHV macerator§r gains the ability to generate byproducts once you reach §6High Voltage (HV)§r tier.
+
+Despite this, you should prioritize using the §aSteam Grinder§r over the basic macerator. This is why the completion of this objective is marked with a §2checkmark§r rather than requiring an item.",
+  "icon_item": "gtceu:lv_macerator",
+  "id": "maceration",
+  "optional": 1b,
+  "parent": "none",
+  "positionX": 398,
+  "positionY": 512,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "ore_processing_part_two",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "CIRCLE",
+  "subtitle": "Crushing",
+  "tasks": [
+    {
+      "description": '{"text":"Crush"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:maceration_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Maceration",
+  "visibility": "NORMAL"
+}

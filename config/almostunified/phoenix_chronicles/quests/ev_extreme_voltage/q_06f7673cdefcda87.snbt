@@ -1,0 +1,119 @@
+{
+  "chapter": "EV_EXTREME_VOLTAGE",
+  "description": "The §3Dimensional Anchor§r harnesses the power of §bparallel dimensions§r to extract §evaluable ores§r, requiring some §cBlazing Drilling Fluid§r as a cost. You'll need at least the corresponding §6drilling kit§r for each dimension you wish to tap. Hopefully, you'll also use the §aEarthbound Mining Module§r to significantly increase your yields. While this system can be §cexpensive§r to establish, its worth becomes §aevident over time§r.
+
+Remember, the Dimensional Anchor must be built and operated within the §fOverworld, Nether, or End§r to process its associated recipes. For its space-capable counterpart, you'll need the §bAetherial Fabricator§r.
+
+
+
+---
+
+
+
+§6Unveiling Imaginary Materials§r
+Learning of §cPhoenixForge Technologies§r has taught you many things, but one of the innumerable you've yet to learn is how they had so many seemingly §5imaginary materials§r. Thinking of this, you decide to wander around the remnants of §cPhoenixForge Technologies§r and discover they were harnessing the power of §bdimensions§r and the §binfinite void of space§r to pull resources from their deposits without being in the area. (it doesn't drain resources, it §a**generates**§r it!) Whilst you learn, you discover it's not one but §e**two machines**§r that did this: the §3Dimensional Anchor§r and the §3Aetherial Fabricator§r.",
+  "id": "q_06f7673cdefcda87",
+  "parent": "none",
+  "positionX": 536,
+  "positionY": 236,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "q_533a98a019b5df9f",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 4,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Dimensional Mining Begins!",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"§9Dimensional Anchor"}',
+      "item_id": "minecraft:air",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_06f7673cdefcda87_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 41,
+      "description": '{"text":"titanium frame"}',
+      "item_id": "gtceu:titanium_frame",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_06f7673cdefcda87_task_1",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 3,
+      "description": '{"text":"Titanium Firebox Casing"}',
+      "item_id": "gtceu:titanium_firebox_casing",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_06f7673cdefcda87_task_2",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 5,
+      "description": '{"text":"Nichrome Coil Block"}',
+      "item_id": "gtceu:nichrome_coil_block",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_06f7673cdefcda87_task_3",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 8,
+      "description": '{"text":"Titanium Gearbox Casing"}',
+      "item_id": "gtceu:titanium_gearbox",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_06f7673cdefcda87_task_4",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"High Temperature Smelting Casing"}',
+      "item_id": "gtceu:high_temperature_smelting_casing",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_06f7673cdefcda87_task_5",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 12,
+      "description": '{"text":"Stable Titanium Machine Casing"}',
+      "item_id": "gtceu:stable_machine_casing",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_06f7673cdefcda87_task_6",
+      "type": "item_check"
+    }
+  ],
+  "title": "Obtain §9Dimensional Anchor",
+  "visibility": "NORMAL"
+}

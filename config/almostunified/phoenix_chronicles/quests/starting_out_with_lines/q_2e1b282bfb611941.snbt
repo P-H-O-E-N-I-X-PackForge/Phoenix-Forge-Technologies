@@ -1,0 +1,29 @@
+{
+  "chapter": "STARTING_OUT_WITH_LINES",
+  "description": "§bTungsten§r is a foundational heavy metal, crucial for high-tier industrial construction. Your primary source for this dense element is §eTungstic Acid§r, processed through a dedicated refinery chain.
+
+§bTungsten§r is indispensable for a multitude of §dmultiblock machine alloys§r used in casings. It forms the basis for resilient composites such as §aTungsten Carbide§r and §aTungsten Steel§r. While §aTungsten Steel§r is highly versatile, its advanced variant, §dVoid Touched Tungsten Steel§r, is specifically designated as the casing material for §bIV-tier machines§r. Additionally, §bTungsten§r is a key ingredient for §dIV-tier cables§r.
+
+Given its pervasive use across critical infrastructure and high-tier components, establishing a robust §6Tungsten production line§r is paramount for your industrial advancement.",
+  "icon_item": "gtceu:tungsten_dust",
+  "id": "q_2e1b282bfb611941",
+  "parent": "none",
+  "positionX": 376,
+  "positionY": 736,
+  "position_is_center": 1b,
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Your Gateway to the Strength of the Future",
+  "tasks": [
+    {
+      "description": '{"text":"Tungsten"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:q_2e1b282bfb611941_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Quest 2e1b28",
+  "visibility": "NORMAL"
+}

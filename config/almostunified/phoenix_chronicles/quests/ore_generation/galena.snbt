@@ -1,0 +1,58 @@
+{
+  "chapter": "ORE_GENERATION",
+  "description": "The most consistent source of Lead and Silver.",
+  "icon_item": "gtceu:galena_ore",
+  "id": "galena",
+  "parent": "none",
+  "positionX": 176,
+  "positionY": 416,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "ore_generation",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Source of Lead, Silver",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"raw galena"}',
+      "item_id": "gtceu:raw_galena",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:galena_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"raw silver"}',
+      "item_id": "gtceu:raw_silver",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:galena_task_1",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"raw lead"}',
+      "item_id": "gtceu:raw_lead",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:galena_task_2",
+      "type": "item_check"
+    }
+  ],
+  "title": "Galena",
+  "visibility": "NORMAL"
+}

@@ -1,0 +1,27 @@
+{
+  "chapter": "GENESIS",
+  "description": "§bShift Right-Click§r a machine to §aCOPY§r its settings (like program and outputs). Then, simply §aRight-Click§r another machine to §2PASTE§r those settings.
+
+This is incredibly useful for setting up complex systems quickly without manual configuration!",
+  "icon_item": "gtceu:machine_memory_card",
+  "id": "machine_memory_card",
+  "parent": "none",
+  "positionX": 1184,
+  "positionY": 536,
+  "position_is_center": 1b,
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Making passive lines easier",
+  "tasks": [
+    {
+      "description": '{"text":"Machine Card"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:machine_memory_card_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Machine Memory Card",
+  "visibility": "NORMAL"
+}

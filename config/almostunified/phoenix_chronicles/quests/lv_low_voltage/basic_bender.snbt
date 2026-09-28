@@ -1,0 +1,45 @@
+{
+  "chapter": "LV_LOW_VOLTAGE",
+  "description": "Arguably the second best §7LV§r machine to craft, but we're down if you want to argue otherwise.
+
+This unlocks the ability to convert one §6Ingot into one Plate§r, which is a better ratio than the Forge Hammer.",
+  "icon_item": "gtceu:lv_bender",
+  "id": "basic_bender",
+  "parent": "none",
+  "positionX": 806,
+  "positionY": 266,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "basic_wiremill",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 4,
+      "item_id": "gtceu:steel_plate",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "The Bender bends!",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Basic Bender §r"}',
+      "item_id": "gtceu:lv_bender",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:basic_bender_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Basic Bender",
+  "visibility": "NORMAL"
+}

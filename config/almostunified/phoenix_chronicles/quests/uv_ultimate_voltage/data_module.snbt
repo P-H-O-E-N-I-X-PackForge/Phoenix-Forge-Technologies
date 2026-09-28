@@ -1,0 +1,40 @@
+{
+  "chapter": "UV_ULTIMATE_VOLTAGE",
+  "description": "The §3Data Module§r is required for Endgame Research. §aAssembly Lines§r cannot read from it using §aData Access Hatches§r directly, and instead require the §9Data Bank§r.",
+  "icon_item": "gtceu:data_module",
+  "id": "data_module",
+  "parent": "none",
+  "positionX": 266,
+  "positionY": 356,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "network_switch",
+      "required": 1b
+    },
+    {
+      "id": "link_395b",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Data storage sure is expensive...",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Data Module"}',
+      "item_id": "gtceu:data_module",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:data_module_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Data Module",
+  "visibility": "NORMAL"
+}

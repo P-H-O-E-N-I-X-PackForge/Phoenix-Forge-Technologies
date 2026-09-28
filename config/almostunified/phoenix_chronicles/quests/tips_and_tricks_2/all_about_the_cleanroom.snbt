@@ -1,0 +1,76 @@
+{
+  "chapter": "TIPS_AND_TRICKS_2",
+  "description": "First off, be sure to check the §9tooltip§r - there's a lot of information in there!
+
+Don't forget the §3Maintenance Hatch§r. If the structure refuses to form, rotate or replace the Controller, it can be a bit finicky. Don't worry - it doesn't have to be cube-shaped.
+
+The Controller always has to be in the center. The rest of the top layer has to be §dFilter Casings§r.
+
+All edges have to be §dPlascrete§r, and the sides can be §dCleanroom Glass§r.
+
+Placing §3Generators§r or §3Mufflers§r inside is §cnot allowed§r. They're too dirty, so the Cleanroom will unform.
+
+---
+
+
+Upon assembly, the Cleanroom starts §4contaminated§r. While contamined, contained machines will not be able to operate.
+
+The Cleanroom will drain 30 EU/t and slowly increase the cleanliness until its cleanliness is at 100%.
+
+Once §9Clean§r, recipes can run. At that point it will only draw 4EU/t. Keep it powered at all times or it will get dirty again!
+
+The bigger the Cleanroom, the longer it takes to become Clean.
+
+§9Note§r: When the time comes, Multiblocks must also be put into Cleanrooms in order to run cleanroom recipes!
+
+---
+
+
+Need to transfer EU? Try using §3Hulls§r or §3Diodes§r.
+
+Item and Fluid transfer can be done using §3Passthrough Hatches§r.
+
+§3Machine Hulls§r can also \"double\" as §6ME Cables§r to extend your ME Network inside your Cleanroom.
+
+If you used any §dDoor(s)§r in the structure, they can remain open. Not very realistic, but convenient!
+
+---
+
+
+§9§eConfigs:§r If you dislike the Cleanroom mechanics, it can be toggled off in the config file with §5\"B:enableCleanroom\"§r. Multiblocks can be made to ignore cleanroom requirements with §5\"B:cleanMultiblocks\"§r. We encourage you to try it out before deciding.
+
+---
+
+
+In the real world, a Cleanroom is a well-isolated room which maintains a very low concentration of dust and airborne particles. They're normally used for scientific research, and in real-life semiconductor manufacturing. Clean rooms are specifically designed to keep out as many airborne particulates as can be.
+
+Clean rooms are also sometimes used with the purpose of preventing materials from escaping! This is often the primary aim in fields such as pharmaceutics, nuclear work, and hazardous biology.
+
+The more you know!",
+  "icon_item": "gtceu:cleanroom",
+  "id": "all_about_the_cleanroom",
+  "parent": "none",
+  "positionX": 202,
+  "positionY": 387,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "the_cleanroom",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "tasks": [
+    {
+      "description": '{"text":"The Cleanroom"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:all_about_the_cleanroom_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "All About the Cleanroom",
+  "visibility": "NORMAL"
+}

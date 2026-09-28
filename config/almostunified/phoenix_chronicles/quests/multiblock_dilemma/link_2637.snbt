@@ -1,0 +1,26 @@
+{
+  "chapter": "MULTIBLOCK_DILEMMA",
+  "description": "",
+  "id": "link_2637",
+  "link_target": "phoenix_chronicles:pyrolyse_oven",
+  "parent": "none",
+  "positionX": 296,
+  "positionY": 296,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "first_mv_circuit",
+      "required": 1b
+    },
+    {
+      "id": "q_7567e885b7166603",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "title": "",
+  "visibility": "NORMAL"
+}

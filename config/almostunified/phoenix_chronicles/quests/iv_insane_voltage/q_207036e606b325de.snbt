@@ -1,0 +1,49 @@
+{
+  "chapter": "IV_INSANE_VOLTAGE",
+  "description": "Now that you have everything else to make the matrix, you need §l§968 of these frames§r.
+
+You place a §3skeleton of a 7 cubed area§r with the frames, then you fill in the faces with either §9assembler matrix glass§r or §9walls§r.
+
+Inside the assembler matrix is where your §bcores§r are and it needs to be completely full without any air gaps. Once it's built, you connect it to your §aAE2 network§r and you are good to go!
+
+(A slight note here: you can make the matrix bigger than 7 cubed, you just will not have to do so in pretty much all cases. However, it is an option to keep in mind for later.)",
+  "icon_item": "expatternprovider:assembler_matrix_frame",
+  "id": "q_207036e606b325de",
+  "parent": "none",
+  "positionX": 626,
+  "positionY": 709,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "assembly_line",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 2,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "STAR",
+  "subtitle": "The frame of the matrix.",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Assembler Matrix Frame"}',
+      "item_id": "expatternprovider:assembler_matrix_frame",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_207036e606b325de_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Obtain Assembler Matrix Frame",
+  "visibility": "NORMAL"
+}

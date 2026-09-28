@@ -1,0 +1,35 @@
+{
+  "chapter": "GENESIS",
+  "description": "The §7Wrought Iron Furnace§r smelts in §a160 ticks§r.
+
+That's roughly §b9 seconds§r, a noticeable §22-second§r improvement over a vanilla furnace!
+
+Plus, it's quite cheap to craft, requiring just 8 §fwrought iron ingots§r around a standard furnace.",
+  "icon_item": "ironfurnaces:iron_furnace",
+  "id": "furnace_mk1",
+  "parent": "none",
+  "positionX": 464,
+  "positionY": 736,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "irons_furnaces",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Start of Speed",
+  "tasks": [
+    {
+      "description": '{"text":"Speed?"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:furnace_mk1_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Furnace Mk1",
+  "visibility": "NORMAL"
+}

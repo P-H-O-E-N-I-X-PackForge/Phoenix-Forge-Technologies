@@ -1,0 +1,157 @@
+{
+  "chapter": "IV_INSANE_VOLTAGE",
+  "description": "Prepare for a true engineering feat! Your §b§lHigh-Performance Breeder Reactor§r is indeed the cornerstone of §1§lIV§r§r and §d§lLUV§r power, but a single unit won't suffice.
+
+You must construct and operate §6§lseparate High-Performance Breeder Reactors§r for each of your vital breeding chains: one dedicated to the §c§lU-235 line,§r and another for the §9§lU-233 line.§r
+
+Can you build the parallel infrastructure to sustain both critical power paths? Your ultimate energy future depends on it!",
+  "icon_item": "phoenixcore:high_performance_breeder_reactor",
+  "id": "q_7025b4400dbd6617",
+  "parent": "none",
+  "positionX": 358,
+  "positionY": 261,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "hssg_coils",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 10,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "You are telling me I can breed power?!",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"§bHigh Performance Breeder Reactor"}',
+      "item_id": "phoenixcore:high_performance_breeder_reactor",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_7025b4400dbd6617_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 16,
+      "description": '{"text":"Cooler Basic"}',
+      "item_id": "phoenixcore:cooler_basic",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_7025b4400dbd6617_task_1",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 120,
+      "description": '{"text":"§bFissile Reaction Safe Casing"}',
+      "item_id": "phoenixcore:fissile_reaction_safe_casing",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_7025b4400dbd6617_task_2",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 42,
+      "description": '{"text":"§bFissile Heat Safe Casing"}',
+      "item_id": "phoenixcore:fissile_heat_safe_casing",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_7025b4400dbd6617_task_3",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 56,
+      "description": '{"text":"Graphite Moderator"}',
+      "item_id": "phoenixcore:graphite_moderator",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_7025b4400dbd6617_task_4",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 22,
+      "description": '{"text":"HSS-G Coil Block"}',
+      "item_id": "gtceu:hssg_coil_block",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_7025b4400dbd6617_task_5",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 49,
+      "description": '{"text":"PTFE Pipe Casing"}',
+      "item_id": "gtceu:ptfe_pipe_casing",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_7025b4400dbd6617_task_6",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 16,
+      "description": '{"text":"Tungstensteel Pipe Casing"}',
+      "item_id": "gtceu:tungstensteel_pipe_casing",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_7025b4400dbd6617_task_7",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 28,
+      "description": '{"text":"Heat Vent"}',
+      "item_id": "gtceu:heat_vent",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_7025b4400dbd6617_task_8",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 48,
+      "description": '{"text":"High Temperature Smelting Casing"}',
+      "item_id": "gtceu:high_temperature_smelting_casing",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_7025b4400dbd6617_task_9",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 36,
+      "description": '{"text":"tinted glass"}',
+      "item_id": "minecraft:tinted_glass",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_7025b4400dbd6617_task_10",
+      "type": "item_check"
+    }
+  ],
+  "title": "Obtain §bHigh Performance Breeder Reactor",
+  "visibility": "NORMAL"
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": "PROGRESSION",
+  "description": "",
+  "id": "link_1c04",
+  "link_target": "phoenix_chronicles:more_luv_circuits",
+  "parent": "none",
+  "positionX": 576,
+  "positionY": 736,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "link_3469",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "title": "",
+  "visibility": "NORMAL"
+}

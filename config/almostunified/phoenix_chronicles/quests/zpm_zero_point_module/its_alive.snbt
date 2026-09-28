@@ -1,0 +1,36 @@
+{
+  "chapter": "ZPM_ZERO_POINT_MODULE",
+  "description": "The §aNeuro Processing Unit§r serves as the CPU for §4Wetware§r. It also takes a circuit board in its recipe, but don't let that scare you.",
+  "icon_item": "gtceu:neuro_processing_unit",
+  "id": "its_alive",
+  "parent": "none",
+  "positionX": 716,
+  "positionY": 176,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "wetware_printed_circuit_board",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Neurons for computation",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Neuro Processing Unit"}',
+      "item_id": "gtceu:neuro_processing_unit",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:its_alive_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "It's Alive!",
+  "visibility": "NORMAL"
+}

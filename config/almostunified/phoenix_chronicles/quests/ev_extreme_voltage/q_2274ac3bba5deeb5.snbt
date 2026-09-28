@@ -1,0 +1,49 @@
+{
+  "chapter": "EV_EXTREME_VOLTAGE",
+  "description": "With your §eNASA Workbench§r now complete, the true preparations for your journey to the stars begin! It's time to gather critical supplies: secure plenty of §arocket fuel§r and forge ample §espace grade steel§r.
+
+For each new destination, a dedicated §claunch pad§r is essential. Furthermore, you'll need vital §boxygen gear§r, including a §bspace suit§r and §bgas tanks§r. (A word of advice: securing these is highly recommended if you intend to return from your travels!)",
+  "icon_item": "ad_astra:tier_1_rocket",
+  "id": "q_2274ac3bba5deeb5",
+  "parent": "none",
+  "positionX": 566,
+  "positionY": 296,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "q_2a7eb67677b93c2a",
+      "required": 1b
+    },
+    {
+      "id": "q_689182d74cd2b0da",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 2,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Off To Space",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"R-Aluminosteel Rocket"}',
+      "item_id": "ad_astra:tier_1_rocket",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_2274ac3bba5deeb5_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Obtain R-Aluminosteel Rocket",
+  "visibility": "NORMAL"
+}

@@ -1,0 +1,42 @@
+{
+  "chapter": "IV_INSANE_VOLTAGE",
+  "description": "Welcome to the age of automation!
+
+Ore Processing is now at your fingertips.
+
+§6This quest unlocks a definitive tutorial on Ore Processing in the §lTips and Tricks§r§6 tab - check it out to learn more!§r",
+  "icon_item": "gtceu:refined_almandine_ore",
+  "id": "setting_up_ore_processing",
+  "parent": "none",
+  "positionX": 446,
+  "positionY": 709,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "shredding_your_ores_with_further_more_byproducts",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 2,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "CIRCLE",
+  "subtitle": "I've been waiting for this!",
+  "tasks": [
+    {
+      "description": '{"text":"Complete Checkmark"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:setting_up_ore_processing_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Setting up Ore Processing",
+  "visibility": "NORMAL"
+}

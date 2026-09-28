@@ -1,0 +1,45 @@
+{
+  "chapter": "LUV_LUDICROUS_VOLTAGE",
+  "description": "§cZPM§r Circuits that aren't mainframes!
+
+Don't lie - §bCrystal Supercomputers§r sound really cool, right?",
+  "icon_item": "gtceu:crystal_processor_computer",
+  "id": "more_zpm_circuits",
+  "parent": "none",
+  "positionX": 806,
+  "positionY": 656,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "even_more_luv_circuits",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 3,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "...wait, why'd things end here?",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Crystal Processor Supercomputer"}',
+      "item_id": "gtceu:crystal_processor_computer",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:more_zpm_circuits_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "More ZPM Circuits",
+  "visibility": "NORMAL"
+}

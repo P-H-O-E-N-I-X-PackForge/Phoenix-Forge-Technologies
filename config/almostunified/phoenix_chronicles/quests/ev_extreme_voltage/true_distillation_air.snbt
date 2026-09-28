@@ -1,0 +1,83 @@
+{
+  "chapter": "EV_EXTREME_VOLTAGE",
+  "description": "§aLiquid Air§r is a great way to get large amounts of §aNitrogen§r and §aOxygen§r at the cost of using more energy than §3LV Centrifuges§r.
+
+However, this will also give you both §6Helium§r and §6Argon§r - which are great to boost smelting in the §3Electric Blast Furnace§r.
+
+§cNote:§r You will need at least §3HV Input and Output Hatches§r to be able to run this recipe.",
+  "icon_item": "gtceu:air_bucket",
+  "id": "true_distillation_air",
+  "parent": "none",
+  "positionX": 356,
+  "positionY": 1166,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "this_isnt_cryotheum",
+      "required": 1b
+    },
+    {
+      "id": "distillation_tower",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 2,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"oxygen bucket"}',
+      "item_id": "gtceu:oxygen_bucket",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:true_distillation_air_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"nitrogen bucket"}',
+      "item_id": "gtceu:nitrogen_bucket",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:true_distillation_air_task_1",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"helium bucket"}',
+      "item_id": "gtceu:helium_bucket",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:true_distillation_air_task_2",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"argon bucket"}',
+      "item_id": "gtceu:argon_bucket",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:true_distillation_air_task_3",
+      "type": "item_check"
+    }
+  ],
+  "title": "True Distillation: Air",
+  "visibility": "NORMAL"
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": "EV_EXTREME_VOLTAGE",
+  "description": "",
+  "id": "link_01e8",
+  "link_target": "phoenix_chronicles:polyvinyl_chloride",
+  "parent": "none",
+  "positionX": 536,
+  "positionY": 806,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "polyethylene",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "title": "",
+  "visibility": "NORMAL"
+}

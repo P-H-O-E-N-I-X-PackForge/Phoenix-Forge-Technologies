@@ -1,0 +1,34 @@
+{
+  "chapter": "PROGRESSION",
+  "description": "",
+  "id": "link_6abf",
+  "link_target": "phoenix_chronicles:best_hv_circuits",
+  "parent": "none",
+  "positionX": 496,
+  "positionY": 496,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "advanced_circuit_boards",
+      "required": 1b
+    },
+    {
+      "id": "ev_circuit_assembling",
+      "required": 1b
+    },
+    {
+      "id": "nano_cpus",
+      "required": 1b
+    },
+    {
+      "id": "smd_components",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "title": "",
+  "visibility": "NORMAL"
+}

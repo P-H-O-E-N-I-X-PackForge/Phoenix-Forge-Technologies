@@ -1,0 +1,60 @@
+{
+  "chapter": "MV_MEDIUM_VOLTAGE",
+  "description": "At this point, you have all the tools available to start making Plastic Boards. Higher-tier polymers in future will increase your PCB yields substantially.
+
+The recipe chains are starting to get pretty long, so we recommend processing large batches in two dedicated §3Chemical Reactors§r.",
+  "icon_item": "gtceu:plastic_printed_circuit_board",
+  "id": "plastic_boards",
+  "parent": "none",
+  "positionX": 1076,
+  "positionY": 319,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "sodium_persulfate_iron_iii_chloride",
+      "required": 1b
+    },
+    {
+      "id": "polyethylene",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 1,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "It's a Casio on a Plastic Board",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Ceramic Circuit Board"}',
+      "item_id": "gtceu:plastic_circuit_board",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:plastic_boards_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Ceramic Printed Circuit Board"}',
+      "item_id": "gtceu:plastic_printed_circuit_board",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:plastic_boards_task_1",
+      "type": "item_check"
+    }
+  ],
+  "title": "Plastic Boards",
+  "visibility": "NORMAL"
+}

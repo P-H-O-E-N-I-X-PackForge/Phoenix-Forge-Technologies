@@ -1,0 +1,51 @@
+{
+  "chapter": "HV_HIGH_VOLTAGE",
+  "description": "The §3HV Chemical Reactor§r unlocks a ton of new recipes. Ah, who doesn't love the ever-growing demand on more advanced Chemistry?
+
+§9Note:§r We've actually unlocked a ton of new content by reaching §6HV§r. However, not every processing line or item is crucial right now. It'd make the §6HV§r chapter far too dense if we included everything!
+
+You could still check out the §5EV§r Chapter if you want to push yourself.",
+  "icon_item": "gtceu:hv_chemical_reactor",
+  "id": "high_voltage_chemistry",
+  "parent": "none",
+  "positionX": 716,
+  "positionY": 638,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "first_hv_circuits",
+      "required": 1b
+    },
+    {
+      "id": "link_306a",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 1,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Chemistry-heads rejoice!",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"§6Advanced Chemical Reactor II§r"}',
+      "item_id": "gtceu:hv_chemical_reactor",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:high_voltage_chemistry_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "High Voltage Chemistry",
+  "visibility": "NORMAL"
+}

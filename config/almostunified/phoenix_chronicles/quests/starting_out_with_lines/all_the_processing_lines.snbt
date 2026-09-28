@@ -1,0 +1,29 @@
+{
+  "chapter": "STARTING_OUT_WITH_LINES",
+  "description": "The core of GregTech progression lies in mastering intricate §bProcessing Lines§r. These are the industrial arteries of your base, transforming raw resources into advanced components.
+
+This comprehensive section serves as your §aintegrated guide§r, focusing solely on the most §bcritical production chains§r. It provides essential information and starting points to help you navigate each major process.
+
+§l§6It is time to process your world, and make it truly yours.§r§r",
+  "icon_item": "gtceu:ruthenium_dust",
+  "id": "all_the_processing_lines",
+  "parent": "none",
+  "positionX": 376,
+  "positionY": 456,
+  "position_is_center": 1b,
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Process the world",
+  "tasks": [
+    {
+      "description": '{"text":"Process"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:all_the_processing_lines_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "All The Processing Lines",
+  "visibility": "NORMAL"
+}

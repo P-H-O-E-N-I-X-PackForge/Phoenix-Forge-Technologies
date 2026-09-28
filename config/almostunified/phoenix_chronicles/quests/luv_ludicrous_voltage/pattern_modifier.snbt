@@ -1,0 +1,82 @@
+{
+  "chapter": "LUV_LUDICROUS_VOLTAGE",
+  "description": "Let's go over some uses!
+
+§2Blank Pattern Storage:§r
+
+Right-clicking with the tool in your hand will open a GUI where you can insert §9Blank Patterns§r. There's a considerable amount of storage space for transport of Patterns!
+
+---
+
+
+§2Bulk Pattern Modification:§r
+
+Inserting §9Encoded Patterns§r instead of blank ones will allow you to multiply/divide them all at once in bulk. This is particularly useful when multiplying up your Patterns for parallel on-demand machinery.
+
+Patterns can also be cleared in bulk with the \"Clear\" button. There isn't any confirmation after clicking it, so use with caution.
+
+---
+
+
+§2Item Search and Replace:§r
+
+Right-clicking the tool and clicking the §aChange Mode button§r will bring up a new GUI. This GUI will allow you to replace all occurances of one item with another for the §9Encoded Patterns§r stored within the tool.
+
+This is particularly useful for §eupgrading GT circuits§r, such as transitioning from Nano to Quantum §5EV§r circuits.
+
+---
+
+
+§2Easy Pattern Transfer:§r
+
+Shift-left-clicking Patterns will move them between the Player Inventory and the Modifier where possible. This means you can easily move Patterns around between Interfaces and Terminals without clogging your inventory.
+
+---
+
+
+§bLore§r: Neeve, the author of the NAE2 mod suggested tiering this item at §eUXV§r tier, because it \"gives the player way too much power.\" For reference, §eUXV§r is 4 tiers past §3UV§r tier - two tiers before §c§lMAX§r voltage.",
+  "icon_item": "expatternprovider:pattern_modifier",
+  "id": "pattern_modifier",
+  "parent": "none",
+  "positionX": 572,
+  "positionY": 681,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "link_4e99",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 64,
+      "item_id": "ae2:blank_pattern",
+      "type": "item"
+    },
+    {
+      "count": 1,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "The §aPattern Modifier§r does A LOT!",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Pattern Modifier"}',
+      "item_id": "expatternprovider:pattern_modifier",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:pattern_modifier_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Pattern Modifier",
+  "visibility": "NORMAL"
+}

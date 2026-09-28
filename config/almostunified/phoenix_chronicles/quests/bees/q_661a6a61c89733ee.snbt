@@ -1,0 +1,26 @@
+{
+  "chapter": "BEES",
+  "description": "Who knew a humble piece of §8dirt§r could become a home?
+
+To craft this §9basic§r but essential nest, you'll just need a §8piece of dirt§r and a §6wooden sword§r. Simple, right?",
+  "id": "q_661a6a61c89733ee",
+  "parent": "none",
+  "positionX": 896,
+  "positionY": 976,
+  "position_is_center": 1b,
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "HEXAGON",
+  "subtitle": "You want to live in dirt?",
+  "tasks": [
+    {
+      "description": '{"text":"Dirt Nest"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:q_661a6a61c89733ee_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Quest 661a6a",
+  "visibility": "NORMAL"
+}

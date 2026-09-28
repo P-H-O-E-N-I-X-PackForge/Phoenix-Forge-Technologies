@@ -1,0 +1,55 @@
+{
+  "chapter": "IV_INSANE_VOLTAGE",
+  "description": "Better Ore Processing for §6chanced Byproducts§r, only at the cost of this §3Macerator§r! A must have.
+
+And now, it's finally time for mass ore processing automation.
+
+The next Quest will kick things off!",
+  "icon_item": "gtceu:iv_macerator",
+  "id": "shredding_your_ores_with_further_more_byproducts",
+  "parent": "none",
+  "positionX": 446,
+  "positionY": 619,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "polytetrafluoroethylene",
+      "required": 1b
+    },
+    {
+      "id": "link_0502",
+      "required": 1b
+    },
+    {
+      "id": "mainframes_first_iv_circuits",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 4,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "No more being Ore-poor!",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"§9Elite Macerator §r"}',
+      "item_id": "gtceu:iv_macerator",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:shredding_your_ores_with_further_more_byproducts_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Shredding your Ores with further more Byproducts",
+  "visibility": "NORMAL"
+}

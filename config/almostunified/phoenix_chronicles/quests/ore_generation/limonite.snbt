@@ -1,0 +1,69 @@
+{
+  "chapter": "ORE_GENERATION",
+  "description": "A standard Iron vein. It's a good target when you need to replenish your supply.",
+  "icon_item": "gtceu:yellow_limonite_ore",
+  "id": "limonite",
+  "parent": "none",
+  "positionX": 416,
+  "positionY": 216,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "ore_generation",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Source of Iron, Copper",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"raw yellow limonite"}',
+      "item_id": "gtceu:raw_yellow_limonite",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:limonite_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"raw malachite"}',
+      "item_id": "gtceu:raw_malachite",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:limonite_task_1",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"raw goethite"}',
+      "item_id": "gtceu:raw_goethite",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:limonite_task_2",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"raw hematite"}',
+      "item_id": "gtceu:raw_hematite",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:limonite_task_3",
+      "type": "item_check"
+    }
+  ],
+  "title": "Limonite",
+  "visibility": "NORMAL"
+}

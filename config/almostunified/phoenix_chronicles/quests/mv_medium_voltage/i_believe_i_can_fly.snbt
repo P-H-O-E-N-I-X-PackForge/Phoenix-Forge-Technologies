@@ -1,0 +1,44 @@
+{
+  "chapter": "MV_MEDIUM_VOLTAGE",
+  "description": "This Jetpack takes most §aCombustion Fuels§r (excluding oils) to enable a primitive form of flight.
+
+Fill it like you would fill a Drum, or with a §3Canning Machine§r.
+
+Press §4H§r (default) to enable Hover Mode.",
+  "icon_item": "gtceu:liquid_fuel_jetpack",
+  "id": "i_believe_i_can_fly",
+  "parent": "none",
+  "positionX": 399,
+  "positionY": 176,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "naphtha",
+      "required": 1b
+    },
+    {
+      "id": "fuel_cracking",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 0b,
+  "shape": "SQUARE",
+  "subtitle": "...well, almost Fly",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Liquid Fuel Jetpack"}',
+      "item_id": "gtceu:liquid_fuel_jetpack",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:i_believe_i_can_fly_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "I Believe I Can Fly",
+  "visibility": "NORMAL"
+}

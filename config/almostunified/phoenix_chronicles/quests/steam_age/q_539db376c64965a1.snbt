@@ -1,0 +1,69 @@
+{
+  "chapter": "STEAM_AGE",
+  "description": "§a§lCongratulations!!§r§r Your first true circuit has been acheived.
+
+Now you can begin making all those wonderful machines that require electricity. This is quite the journey and so begs the question.
+
+§5§lAre you ready?§r§r",
+  "icon_item": "gtceu:basic_electronic_circuit",
+  "id": "q_539db376c64965a1",
+  "parent": "none",
+  "positionX": 1216,
+  "positionY": 576,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "q_5aad01b2636e58ee",
+      "required": 1b
+    },
+    {
+      "id": "q_2bc72a5c72232a0e",
+      "required": 1b
+    },
+    {
+      "id": "q_17c5b5a14018620c",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "levels": 14,
+      "type": "xp"
+    },
+    {
+      "count": 2,
+      "item_id": "gtceu:basic_electronic_circuit",
+      "type": "item"
+    },
+    {
+      "count": 1,
+      "item_id": "gtceu:lv_machine_hull",
+      "type": "item"
+    },
+    {
+      "count": 12,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "STAR",
+  "subtitle": "Your First Circuit!!!",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 8,
+      "description": '{"text":"Basic Electronic Circuit"}',
+      "item_id": "gtceu:basic_electronic_circuit",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_539db376c64965a1_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Obtain Basic Electronic Circuit",
+  "visibility": "NORMAL"
+}

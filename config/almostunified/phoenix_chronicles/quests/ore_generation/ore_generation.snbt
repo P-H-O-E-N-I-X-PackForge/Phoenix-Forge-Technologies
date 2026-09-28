@@ -1,0 +1,51 @@
+{
+  "chapter": "ORE_GENERATION",
+  "description": 'Some of the details are repeated from the introduction quest, but we feel like we needed to expand on the explanation if you want to know all the details!
+
+Ready for some "light" reading?
+
+---
+
+
+Each vein can contain up to four different ores.
+
+Ore veins generate in a §4Grid§r. Every vein is spaced by 3 chunks from one to another in a cardinal direction.
+
+They spawn at the §4Center§r of the Chunks which have both their X and Z coordinates be at §b1 plus a multiple of 3§r (-8, -5, -2, 1, 4, 7, ...). You will typically find two veins in the selected chunk - one will be in the Stone layer, and the other vein lays deeper in the Deepslate layer.
+
+However, Ore veins may be deleted by caves, Oil deposits, or from trying to generate above the ground.
+
+---
+
+
+It\'s a good practice to make §dWaypoints§r to every vein you find, and to label their type. You may want to come back to it several times.
+
+A typical Ore vein is §d7 blocks§r tall, and ores generate in 4 different patterns:
+- The §9Top Ore§r generates in the higher 4 layers of the vein.
+- The §9Bottom Ore§r generates in the lower 3 layers of the vein.
+- The §9Between Ore§r generates in the middle 3 layers of the vein.
+- The §9Sporadic Ore§r generates anywhere in the vein. There will be the least amount of this ore in a vein.
+
+The same ore type can be in 2 different generation patterns, such as in Cassiterite veins.',
+  "icon_item": "gtceu:cobalt_ore",
+  "id": "ore_generation",
+  "parent": "none",
+  "positionX": 456,
+  "positionY": 496,
+  "position_is_center": 1b,
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "You'll be an expert by the time you finish reading this!",
+  "tasks": [
+    {
+      "description": '{"text":"Complete Checkmark"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:ore_generation_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Ore Generation",
+  "visibility": "NORMAL"
+}

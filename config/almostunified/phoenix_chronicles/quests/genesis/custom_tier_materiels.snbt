@@ -1,0 +1,29 @@
+{
+  "chapter": "GENESIS",
+  "description": "We've tweaked the tier materials as to make things more interesting.
+
+The §6Steam Age§r now uses §cFiery Bronze§r, §2Low Voltage (LV)§r uses §eAurum Steel§r, §bMedium Voltage (MV)§r uses §3Aluminfrost§r, §7High Voltage (HV)§r uses §bFrost Reinforced Stained Steel§r, §dExtreme Voltage (EV)§r uses §5Source Imbued Titanium§r, §9Insane Voltage (IV)§r uses §5Void Touched Tungsten Steel§r, §dLudicrous Voltage (LuV)§r uses §dResonant Rhodium Alloy§r, and §l§8Zero Point Module (ZPM)§r§r uses §8Advanced Quin-Naquadian Alloy.§r
+
+Check the quest page for each progression tier to find the crafting recipes!",
+  "icon_item": "phoenixcore:aluminfrost_ingot",
+  "id": "custom_tier_materiels",
+  "parent": "none",
+  "positionX": 1184,
+  "positionY": 616,
+  "position_is_center": 1b,
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Getting creative",
+  "tasks": [
+    {
+      "description": '{"text":"More complicated"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:custom_tier_materiels_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Custom Tier Materiels",
+  "visibility": "NORMAL"
+}

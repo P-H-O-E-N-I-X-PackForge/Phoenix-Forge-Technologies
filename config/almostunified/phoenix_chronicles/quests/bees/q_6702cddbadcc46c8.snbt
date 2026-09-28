@@ -1,0 +1,32 @@
+{
+  "chapter": "BEES",
+  "description": "Powering up! This §4energetic§r bee is the key to all your automated dreams.
+
+To obtain this §creddy§r friend, you'll need a §eGlowstone§r bee and a §6Chocolate Mining Bee§r. Get ready to activate some serious fun!",
+  "id": "q_6702cddbadcc46c8",
+  "parent": "none",
+  "positionX": 816,
+  "positionY": 816,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "q_381080e73aa21eb3",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": 'Minecraft power, before modded "Ruined It".',
+  "tasks": [
+    {
+      "description": '{"text":"Redstone Bee"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:q_6702cddbadcc46c8_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Quest 6702cd",
+  "visibility": "NORMAL"
+}

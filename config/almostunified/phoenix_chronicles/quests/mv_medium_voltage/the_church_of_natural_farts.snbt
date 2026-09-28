@@ -1,0 +1,69 @@
+{
+  "chapter": "MV_MEDIUM_VOLTAGE",
+  "description": "§aRefinery Gas§r, §aLPG§r and §aMethane§r are §9Gas Fuels§r. LPG (Liquid Petroleum Gas) is a mix of hydrocarbons typically used in heating appliances.
+
+Refinery Gas is obtained either through §dNatural Gas§r or §dLight Oil§r, the latter yielding more, yet requiring an extra step of distillation.
+
+Use of a §3Centrifuge§r to separate into §aLPG§r and §aMethane§r should always be done, as it's practically free.
+
+---
+
+
+§a§aLPG§r and §aMethane§r are burned in a §3Gas Turbine§r. Among the other fuel options, they are the easier to set up which makes them excellent to get started. Their drawback is that they cannot be refined further, so upgrading the §3Fluid Drilling Rig§r may be a top priority if you stick to this fuel source.
+
+§aMethane§r can also be obtained from a few §anatural sources§r. §eBetween us§r, they're memes, but you can explore them if you wish. Ultimately, your power source is your choice.",
+  "icon_item": "gtceu:natural_gas_bucket",
+  "id": "the_church_of_natural_farts",
+  "parent": "none",
+  "positionX": 266,
+  "positionY": 589,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "fluid_drilling_rigs",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Whoever smelt it...",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"refinery gas bucket"}',
+      "item_id": "gtceu:refinery_gas_bucket",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:the_church_of_natural_farts_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"methane bucket"}',
+      "item_id": "gtceu:methane_bucket",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:the_church_of_natural_farts_task_1",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"lpg bucket"}',
+      "item_id": "gtceu:lpg_bucket",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:the_church_of_natural_farts_task_2",
+      "type": "item_check"
+    }
+  ],
+  "title": "The Church of Natural Farts",
+  "visibility": "NORMAL"
+}

@@ -1,0 +1,45 @@
+{
+  "chapter": "EV_EXTREME_VOLTAGE",
+  "description": "Oh, Ok. This §o§3is§r rocket science, but don't fret; it's quite manageable! This component is absolutely vital for constructing your §afirst rocket§r, and every one thereafter.
+
+The recipe itself is straightforward: a few §bHV material plates§r combined with some §eEV components§r. However, the true challenge lies ahead, as you must now prepare to build your §crocket§r itself...",
+  "icon_item": "ad_astra:nasa_workbench",
+  "id": "q_2a7eb67677b93c2a",
+  "parent": "none",
+  "positionX": 536,
+  "positionY": 356,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "ev_assembler",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 3,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "This Isn't Rocket Science",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Nasa Workbench"}',
+      "item_id": "ad_astra:nasa_workbench",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_2a7eb67677b93c2a_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Obtain Nasa Workbench",
+  "visibility": "NORMAL"
+}

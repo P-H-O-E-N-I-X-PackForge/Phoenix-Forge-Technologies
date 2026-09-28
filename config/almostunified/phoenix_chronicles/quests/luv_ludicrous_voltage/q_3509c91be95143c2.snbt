@@ -1,0 +1,43 @@
+{
+  "chapter": "LUV_LUDICROUS_VOLTAGE",
+  "description": "Behold the §d§lPlutonium-241 Fuel Driver§r, the §l§4beating heart§r of the ultimate reactor! This pellet represents a §b§lquantum leap§r in energy generation, providing an immense surge of power far beyond any previous fuel line. It is the §l§cengine§r that supercharges the §9§lUranium-236 blanket§r, allowing for a torrent of power and valuable byproducts to be created.",
+  "icon_item": "phoenixcore:plutonium_241_fuel_pellet",
+  "id": "q_3509c91be95143c2",
+  "parent": "none",
+  "positionX": 783,
+  "positionY": 232,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "plutonium241",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 1,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "It's not a red hot candy, trust me",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"§cPlutonium-241 Fuel Pellet"}',
+      "item_id": "phoenixcore:plutonium_241_fuel_pellet",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_3509c91be95143c2_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Obtain §cPlutonium-241 Fuel Pellet",
+  "visibility": "NORMAL"
+}

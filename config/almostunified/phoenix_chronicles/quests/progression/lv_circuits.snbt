@@ -1,0 +1,33 @@
+{
+  "chapter": "PROGRESSION",
+  "description": 'Circuits along this line are §7LV§r, and are interchangeable in recipes.
+
+§cElectronic Circuits§r are the "worst" in terms of cost and effort required to produce, but you have to start somewhere.
+
+§eBasic Integrated Processors§r act as a middle layer between §cElectronic Circuits§r and §2Microchip Processors.§r
+
+Finally, §2Microchip Processors§r will be the best option for the rest of the playthrough.',
+  "hide_dep_line": 1b,
+  "icon_item": "gtceu:lv_machine_casing",
+  "id": "lv_circuits",
+  "parent": "none",
+  "positionX": 176,
+  "positionY": 336,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "link_513a",
+      "required": 1b
+    },
+    {
+      "id": "link_0074",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "title": "§7LV§r Circuits",
+  "visibility": "NORMAL"
+}

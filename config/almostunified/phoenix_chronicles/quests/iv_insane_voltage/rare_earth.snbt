@@ -1,0 +1,61 @@
+{
+  "chapter": "IV_INSANE_VOLTAGE",
+  "description": "If you already made and centrifuged §aRare Earth§r, that's great! If you haven't, you can obtain it as a §9Byproduct§r from various ores, or from centrifuging §dMonazite§r.
+
+
+---
+
+
+The elements you can obtain are:
+
+§9-§r §aLanthanum§r is used in §3Fusion§r§r - you will eventually want a lot of it!
+§9-§r §aYttrium§r is used in §dYttrium-Barium-Cuprate-Oxide§r (YBCO), a wire material for §3UV§r.
+§9-§r §aCerium§r is not particularly useful.
+§9-§r §aSamarium§r is used for §dIV Superconductors§r and §dMagnetic Rods§r for §dLuV§r+ Motors.
+§9-§r §aNeodymium§r normally makes the strongest magnets, but gameplay balance... y'know.
+§9-§r §aCadmium§r is not particularly useful.
+
+---
+
+
+§l§3Lore:§r§o Rare Earth Elements (REE) contain a lot more metals than these, but we're struggling as is to give them use.",
+  "icon_item": "gtceu:rare_earth_dust",
+  "id": "rare_earth",
+  "parent": "none",
+  "positionX": 176,
+  "positionY": 349,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "source_imbued_titanium",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 3,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "It's got \"rare\" in the name... oh no.",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 64,
+      "description": '{"text":"Rare Earth"}',
+      "item_id": "gtceu:rare_earth_dust",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:rare_earth_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Rare Earth",
+  "visibility": "NORMAL"
+}

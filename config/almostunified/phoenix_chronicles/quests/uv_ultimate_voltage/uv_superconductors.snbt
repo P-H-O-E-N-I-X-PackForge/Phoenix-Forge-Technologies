@@ -1,0 +1,37 @@
+{
+  "chapter": "UV_ULTIMATE_VOLTAGE",
+  "description": "§aUV Superconductors§r show up a lot in recipes when making a §9Fusion Reactor Mk3§r. Better get ready to make a boatload...
+
+You can also use them to cheapen §9Superconducting Coils§r even further.",
+  "icon_item": "gtceu:enriched_naquadah_trinium_europium_duranide_single_wire",
+  "id": "uv_superconductors",
+  "parent": "none",
+  "positionX": 176,
+  "positionY": 446,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "tritanium_coils",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"enriched naquadah trinium europium duranide single wire"}',
+      "item_id": "gtceu:enriched_naquadah_trinium_europium_duranide_single_wire",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:uv_superconductors_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "UV Superconductors",
+  "visibility": "NORMAL"
+}

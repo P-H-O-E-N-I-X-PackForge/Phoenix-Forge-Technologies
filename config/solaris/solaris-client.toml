@@ -1,0 +1,193 @@
+
+[minimap]
+	#On-screen size, in pixels, of the corner minimap.
+	#Range: 32 ~ 512
+	size = 96
+	#How many chunks in each direction the minimap's backing texture covers — this is the real lever for how far "zoomed out" the minimap can go; minimapZoom only crops into a smaller portion of whatever this already sampled, it can't show more than this. Higher values cost more to rebuild each time you cross a chunk boundary (or surface/go underground), so this is capped well below what the texture format could technically support.
+	#Range: 1 ~ 24
+	radiusChunks = 4
+	#Rotate the minimap so it always faces the direction you're looking (player arrow fixed pointing up), instead of the default fixed north-up orientation.
+	rotate = false
+	#Outline shape of the corner minimap. Square or circle. Cycled together with minimap size by the "cycle minimap style" keybind.
+	#Allowed Values: SQUARE, CIRCLE, DIAMOND, HEXAGON
+	shape = "SQUARE"
+	#How magnified the minimap view is. 1.0 shows the full sampled radius around you (minimapRadiusChunks); higher values crop that down to a smaller, more zoomed-in area. Can't zoom out past 1.0. There's no more sampled terrain beyond the radius to show.
+	#Range: 1.0 ~ 8.0
+	zoom = 1.0
+	#Show the current in-world time of day on the minimap.
+	showTime = false
+	#Show your current X/Y/Z coordinates on the minimap.
+	showCoords = false
+	#Draw the minimap's outline/frame (square panel border, circle ring, or polygon outline depending on minimapShape). On by default, matching prior behavior.
+	showBorder = true
+	#Show the current biome name under the minimap, below the time/coords lines if those are also enabled.
+	showBiome = false
+	#Show waypoint markers on the minimap itself, within its current view radius. On by default, matching prior behavior — previously always on with no way to disable it.
+	showWaypoints = true
+	#Maximum number of waypoint markers drawn on the minimap at once, nearest first, so a waypoint-heavy world doesn't clutter it. No effect on the fullscreen map, which always shows every visible waypoint.
+	#Range: 1 ~ 64
+	maxWaypoints = 16
+	#For waypoints outside the minimap's current view radius, draw a small arrow at the minimap's edge pointing toward them instead of showing nothing.
+	showWaypointDirections = true
+	#Automatically switch the minimap (and globe view) to cave/underground rendering when you can't see the sky from where you're standing (caves, mines, under a roof), same as it already does unconditionally in ceilinged dimensions like the Nether. Turn off to keep the minimap on the surface render even while underground.
+	autoUnderground = true
+	#Prefix the minimap's time/coords lines with their labels ("Time: 20:13", "x: -219, y: 116, z: -488") instead of showing just the bare values ("20:13", "-219, 116, -488"). Independent of whether time/coords are shown at all (showTime/showCoords) — this only controls how they're formatted once visible.
+	showTextLabels = true
+	#Show land-claim boundary overlays (e.g. from Phoenix Domains) on the corner minimap. Independent of the fullscreen map's own claims toggle. On by default, matching prior behavior.
+	showClaims = true
+
+[map]
+	#How many chunks in each direction the fullscreen map's backing texture covers.
+	#Range: 4 ~ 64
+	radiusChunks = 24
+	#Minimum zoom factor on the fullscreen map.
+	#Range: 0.05 ~ 1.0
+	zoomMin = 0.25
+	#Maximum zoom factor on the fullscreen map.
+	#Range: 1.0 ~ 48.0
+	zoomMax = 32.0
+	#Draw thin lines along chunk boundaries on the fullscreen map.
+	showChunkGrid = false
+	#Clip the fullscreen map's visible terrain into this outline shape instead of a plain rectangle. The same shape options the corner minimap already offers, applied to the big map too. The clip is fixed to the panel's own frame; terrain still pans/zooms underneath it exactly as before.
+	#Allowed Values: SQUARE, CIRCLE, DIAMOND, HEXAGON
+	mapShape = "SQUARE"
+	#Show land-claim boundary overlays (e.g. from Phoenix Domains) on the fullscreen map. Independent of the corner minimap's own claims toggle. On by default, matching prior behavior.
+	showClaims = true
+
+[display]
+	#Saturation multiplier applied to sampled map colors. 1.0 = unchanged, 0.0 = grayscale, above 1.0 = more vivid. Default lowered from a flat 1.0 per community feedback comparing side-by-side against JourneyMap/Xaero. Full vanilla-biome saturation read as noticeably more vivid than either of those, and a value roughly halfway toward their look was the preferred middle ground.
+	#Range: 0.0 ~ 2.0
+	saturation = 0.85
+	#Contrast multiplier applied to sampled map colors, around a mid-gray pivot. 1.0 = unchanged, above 1.0 = more contrast (dark areas darker, light areas lighter). Added alongside lowering the saturation default. Per the same community comparison, Solaris's biggest gap next to JourneyMap/Xaero wasn't color intensity but flatness; a little extra contrast is what actually closes that gap.
+	#Range: 0.0 ~ 3.0
+	contrast = 1.3
+	#Flat brightness multiplier applied to every sampled map color, on top of saturation/contrast. 1.0 = unchanged, below 1.0 = darker. Contrast alone (a mid-gray pivot) makes bright areas brighter along with dark areas darker, so it can't uniformly darken the whole map on its own. This does that directly. Went 0.8 (too dark) -> 1.04 (still reported too dark outside of foliage) -> 1.2, a more decisive jump since two small increments in a row both landed short. See foliageBrightness below for why foliage specifically doesn't just inherit this same increase.
+	#Range: 0.0 ~ 2.0
+	brightness = 1.2
+	#Extra brightness multiplier applied only to foliage/tree-canopy pixels, on top of the flat brightness above. 1.0 = no extra adjustment beyond that. Exists because raising brightness reads fine on ordinary terrain but makes foliage specifically look washed out/unnaturally light, so this cancels the flat increase back out for foliage only. Was 0.67 (net brightness*foliageBrightness ~0.8), but foliage was reported as still reading too bright next to darkened terrain at night — dropped to 0.45 (net ~0.54) for a decisively darker canopy, since the ~0.8 target from the previous round apparently undershot what actually reads right in practice.
+	#Range: 0.0 ~ 2.0
+	foliageBrightness = 0.45
+	#Per-channel red multiplier applied to every sampled map color, on top of everything else above (saturation/contrast/brightness/foliageBrightness). 1.0 = unchanged. Unlike those, this and tintGreen/tintBlue let the whole map be pushed toward a custom hue (warm/cool/sepia/etc.), not just intensity. File-only for now (no slider), since per-channel tuning is fiddly and better suited to hand-editing this file directly.
+	#Range: 0.0 ~ 2.0
+	tintRed = 1.0
+	#Per-channel green multiplier. See tintRed's comment.
+	#Range: 0.0 ~ 2.0
+	tintGreen = 1.0
+	#Per-channel blue multiplier. See tintRed's comment.
+	#Range: 0.0 ~ 2.0
+	tintBlue = 1.0
+	#Darken the map toward its edges, like a photo vignette. A purely stylistic effect, independent of saturation/contrast/brightness/tint (stacks with any combination of them), same as Hillshading/Night Mode are already independent toggles.
+	vignette = false
+	#How strongly the vignette darkens the corners/edges. 0.0 = no effect even if vignette is on, 1.0 = strongest.
+	#Range: 0.0 ~ 1.0
+	vignetteStrength = 0.5
+	#Render the whole fullscreen/minimap in grayscale. A full luminance-only conversion, applied last (after every other color/lighting effect), independent of the Saturation slider (that just partially desaturates; this forces it all the way).
+	blackAndWhite = false
+	#How never-explored chunks render on the fullscreen map (and the underground cave view). FOG = flat theme fog color (default). STARFIELD = a deterministic per-position star pattern colored from the active theme's accent/dim/faint colors. PHOENIX = a deterministic ember pattern in fixed warm fire colors. CLOUD = soft semi-transparent fog-of-war cloud blobs with real gaps between them. IMAGE = tile unexploredImagePath seamlessly instead (falls back to FOG if that's unset or fails to load). All patterns are stable across rebuilds and get pushed back by real terrain as you explore. Purely cosmetic.
+	#Allowed Values: FOG, STARFIELD, PHOENIX, CLOUD, IMAGE
+	unexploredStyle = "FOG"
+	#Multiplier on how many stars/embers appear for the starfield/phoenix unexploredStyle. 1.0 = default, higher = denser, lower = sparser. No effect when unexploredStyle is FOG.
+	#Range: 0.25 ~ 4.0
+	unexploredDensity = 1.0
+	#Multiplier on star/ember brightness for the starfield/phoenix unexploredStyle. 1.0 = default. No effect when unexploredStyle is FOG.
+	#Range: 0.25 ~ 2.5
+	unexploredBrightness = 1.0
+	#Image file to tile across unexplored areas when unexploredStyle is IMAGE, as a path relative to config/solaris/ (e.g. "unexplored.png"). Tiles seamlessly by wrapping world coordinates against the image's own pixel size. A seamless/tileable source image looks best. Empty or unreadable falls back to FOG.
+	unexploredImagePath = ""
+	#How unexploredImagePath is applied. false (default) = tiled seamlessly across unexplored areas at world scale, like the other unexploredStyles. true = the image is instead stretched once to cover the whole visible map as a static backdrop (unexplored areas become transparent so it shows through). No effect unless unexploredStyle is IMAGE.
+	unexploredImageCover = false
+	#Show the block you're hovering over on the fullscreen map as a tooltip. Reveals block info you may not have discovered in-world yet, so it's off by default.
+	showBlockTooltip = false
+	#How strongly water tints the real floor block color underneath it (a railway, ruins, etc. still show through as their own shape, just tinted. This isn't a flat water color painted over everything). 0.0 = mostly see-through the floor, 1.0 = strong blue tint. Scales up with depth regardless of this setting, so deep water still reads as properly filled even at low values.
+	#Range: 0.0 ~ 1.0
+	waterOpacity = 0.0
+	#Radius (in blocks) for sampling and averaging water biome colors. Snaps to increments of 4 (0, 4, 8, 12, 16). 0 = OFF, 8 = default (5x5 grid).
+	#Range: 0 ~ 16
+	waterBlendRadius = 8
+	#If enabled, water at or above waterDeepYThreshold is pinned to the lightest tint regardless of actual depth (e.g. rivers/lakes at normal sea level show the floor clearly). Only water whose surface is below that Y gets the full depth-based tint curve. An alternative to the continuous depth curve above, not a replacement for it.
+	waterDeepOnly = false
+	#Y level below which water still tints when waterDeepOnly is enabled.
+	#Range: -64 ~ 320
+	waterDeepYThreshold = 50
+	#Size multiplier for waypoint icons on the fullscreen map and waypoint list (the corner minimap keeps its own small fixed dots regardless. Too little screen space there for a real icon to read).
+	#Range: 0.5 ~ 3.0
+	waypointIconScale = 1.0
+	#Show GTCEu ore veins you've already had revealed to you (prospecting, surface indicators, etc.) as markers on the fullscreen map. No effect if GTCEu isn't installed. Not a cheat/X-ray. Only shows veins GTCEu itself already revealed.
+	showGtOreVeins = true
+	#Show nearby living mobs (hostile and passive) as markers on the fullscreen map and globe, same way other players already show up.
+	showMobs = true
+	#Replace the flat map's simple north-neighbor relief shading with real cartographic hillshading. A smooth slope-based light/dark gradient computed from each pixel's full surrounding neighborhood, applied to every pixel including water, not just the current single-comparison approximation. Noticeably more textured/alive looking, at the cost of a full-map post-process pass on every rebuild. Off by default since it's meaningfully more expensive than the default shading.
+	hillshading = false
+	#How strong the hillshading light/dark gradient is. 0 = no effect (flat), 1 = full strength. Defaults below full strength. Most of the effect reads clearly well under 100%, and full strength tends to look overdone/noisy rather than more detailed.
+	#Range: 0.0 ~ 1.0
+	hillshadingStrength = 0.7
+	#How dark the map gets at full night (except light-emitting blocks like lava, which stay bright regardless of time of day). Always applied, no heavier than the normal day-mode render. 0 = no effect, 1 = fully black. Was 0.55 (full night = 45% brightness), reported as making the map too dark to read at night by default — dropped to 0.35 (full night = 65% brightness) for a milder night effect. No settings-screen slider for this yet. Edit the config directly to tune it.
+	#Range: 0.0 ~ 1.0
+	nightModeStrength = 0.35
+	#Which side of a marker (waypoint or GT ore vein) its name label draws on. With a lot of markers on screen at once, a label fixed to one side can run off the map's edge or overlap a neighboring icon. Pick whichever side fits your layout.
+	#Allowed Values: RIGHT, LEFT, TOP, BOTTOM
+	labelSide = "RIGHT"
+	#Draw connected rail track as a clean line overlay (like a transit map), instead of just the flat per-pixel rail color already baked into the terrain.
+	showRailNetwork = true
+	#The rail-line overlay only renders within this many blocks of the player, to avoid scanning/drawing across the whole loaded area every frame.
+	#Range: 16 ~ 2048
+	railNetworkRange = 256
+
+[waypoints]
+	#Show a thin vertical beam in the 3D world at each visible waypoint's location, not just on the map. Makes a waypoint findable by looking around, not just by opening the map.
+	beams = true
+	#Beams only render for waypoints within this many blocks, to avoid drawing dozens of beams across the whole loaded area at once.
+	#Range: 16 ~ 2048
+	beamRange = 384
+	#Show a small HUD arrow + distance pointing toward the tracked waypoint (or the nearest one, if none is explicitly tracked). Lets you navigate toward it without opening the map.
+	compass = true
+	#Automatically add a waypoint at your position whenever you die, so you can find your way back to lost items.
+	deathMarkers = true
+	#Automatically add a waypoint the first time you set foot in a generated structure (village, mineshaft, stronghold, etc.). One waypoint per structure instance — wandering back through the same one later won't add another.
+	autoStructureWaypoints = true
+
+[planning]
+	#Show planned build shapes (drawn on the map) as in-world wireframe outlinesSee a build's footprint/height before placing a single real block.
+	showPlanShapes = true
+	#Plan shapes only render in-world within this many blocks, to avoid drawing dozens of wireframes across the whole loaded area at once.
+	#Range: 16 ~ 2048
+	planShapeRange = 256
+	#How often (in seconds) currently-loaded chunks near the player get re-sampled from the world, so recent block edits show up on the map without needing to leave and re-enter render distance. Only touches a small radius around the player each pass (see liveRefreshRadiusChunks), so this stays cheap even at a short interval.
+	#Range: 10 ~ 600
+	liveRefreshIntervalSeconds = 60
+	#How many chunks around the player get re-sampled on each live refresh pass.
+	#Range: 2 ~ 32
+	liveRefreshRadiusChunks = 8
+
+[featureRanges]
+	#Server-owner safety ceiling on the minimap's radius (minimapRadiusChunks), independent of any per-player/team feature-state toggle. A static cap, not something an event/progression system grants per player. Raised alongside minimapRadiusChunks's own max (16 -> 24) so that range is actually reachable without also editing this.
+	#Range: 1 ~ 32
+	maxMinimapRangeChunks = 24
+	#Server-owner safety ceiling (in chunks, from the player) on how far the world map is allowed to actively sample/write new chunk data, when the per-player/team world-map feature state is ENABLED. Browsing already-cached data beyond this range is unaffected This only caps new writes.
+	#Range: 2 ~ 128
+	worldMapWriteRangeChunks = 32
+
+[cache]
+	#Maximum number of sampled chunk color arrays kept in memory (LRU-evicted beyond this), shared across every open map/minimap. A single fullscreen map at the default 24-chunk radius alone needs ~2401 chunks in view at once. The old default of 4096 left barely any headroom once the always-on minimap and normal panning/exploring were sharing the same bound, so already-explored chunks kept aging out and re-painting as unexplored fog the moment the view moved on. Raised well past the largest default single-view working set.
+	#Range: 256 ~ 65536
+	maxCachedChunks = 16384
+
+[performance]
+	#Log a warning whenever a Solaris operation (texture rebuild, chunk sampling, water blur, etc.) takes longer than perfLogThresholdMs, plus a periodic summary. A map mod's cost is easy to miss otherwise, since a single slow rebuild just looks like a generic frame hitch with nothing pointing back at what caused it.
+	perfLogging = false
+	#An individual operation slower than this (in milliseconds) gets logged immediately.
+	#Range: 1 ~ 5000
+	perfLogThresholdMs = 50
+	#How often (in seconds) a count/average/max summary per operation gets logged. Catches a cost that's individually too small to trip perfLogThresholdMs but adds up from running very often (e.g. every chunk load).
+	#Range: 30 ~ 3600
+	perfSummaryIntervalSeconds = 300
+
+[persistence]
+	#Explored chunks are remembered to disk so they still show on the map after leaving render distance or restarting. But capped per dimension, oldest-visited-first, so this can never grow without bound the way some other map mods' saved data does. At the default, ~50000 chunks is roughly 30-60MB on disk (compressed). Comfortably covers a large, actively-explored world while staying a known, fixed size rather than an ever-growing one.
+	#Range: 1000 ~ 500000
+	maxPersistedChunksPerDimension = 50000
+
+[experimental]
+	#EXPERIMENTAl. The 3D globe map view. Off by default and file-only (no in-game toggle): the Globe View button on the fullscreen map only appears at all when this is set to true here. Not exposed as a normal display setting because it isn't considered stable/finished yet.
+	globeViewEnabled = false
+

@@ -1,0 +1,49 @@
+{
+  "chapter": "MV_MEDIUM_VOLTAGE",
+  "description": 'Obtain §9Hydrochloric Acid§r by mixing §aHydrogen§r and §aChlorine§r.
+
+This acid is also obtained as waste from a lot of reactions involving §aChlorine§r. Depending on your setups, you may never need to produce it directly.
+
+---
+
+
+§cNote:§r We have a $medicine command on our Discord:
+
+"§b§oDo not attempt this in real life - it is not only illegal, but also stupidly dangerous§r".
+
+This applies to toying with chemicals. Please don\'t do it.
+
+Side note - we can guarantee you have a sample of this with you right now! It\'s in your stomach as a part of gastric acid.',
+  "icon_item": "gtceu:hydrochloric_acid_bucket",
+  "id": "hydrochloric_acid",
+  "parent": "none",
+  "positionX": 716,
+  "positionY": 229,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "basic_electrolyzer",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "You'll need a lot of this!",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"hydrochloric acid bucket"}',
+      "item_id": "gtceu:hydrochloric_acid_bucket",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:hydrochloric_acid_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Hydrochloric Acid",
+  "visibility": "NORMAL"
+}

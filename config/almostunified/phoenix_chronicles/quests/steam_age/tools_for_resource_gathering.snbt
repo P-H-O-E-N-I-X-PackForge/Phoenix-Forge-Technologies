@@ -1,0 +1,67 @@
+{
+  "chapter": "STEAM_AGE",
+  "description": "Your first task is to read this, then go mine all those tasty resources to start. §aAre you ready to begin?§r
+
+Now, you don't want to continue §cwhacking trees by hand§r do you? Your journey should start with the free §2greg mining hammers, axe, and shovel§r, and §2hv prospector§r you obtain from the starting quest page. §9However§r, if these decide to break you can make more in your crafting table.
+
+Just be sure to make the §8mining§r hammer and not the §1normal§r hammer okay?
+
+§oMade that mistake more than I would like to admit§r.
+
+(also here, have enough enderpearls for a magnet upgrade, shh)
+
+
+
+---
+
+
+
+You might be wondering why I did not talk about §evanilla minecraft tools§r, aren't you? Well, §2greg tools§r might be more expensive in the initial investment but they are §afaster§r, have §amore durability§r, and have §bcool effects§r that vanilla minecraft tools simply, don't.
+
+For example, the §2greg axe§r has §aTreefeller§r which takes the durability from the tool to mine an entire tree, which is nice to get those logs that always float above your head.
+
+Eventually, you will make §3electric tools§r to make mining and resource gathering even §aeasier§r but that is a bit §olater§r.",
+  "icon_item": "gtceu:diamond_mining_hammer",
+  "id": "tools_for_resource_gathering",
+  "parent": "none",
+  "positionX": 256,
+  "positionY": 576,
+  "position_is_center": 1b,
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 8,
+      "item_id": "minecraft:cooked_beef",
+      "type": "item"
+    },
+    {
+      "count": 4,
+      "item_id": "minecraft:iron_ingot",
+      "type": "item"
+    },
+    {
+      "count": 3,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    },
+    {
+      "count": 2,
+      "item_id": "minecraft:ender_pearl",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Being Effceint",
+  "tasks": [
+    {
+      "description": '{"text":"start"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:tools_for_resource_gathering_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Tools For Resource Gathering",
+  "visibility": "NORMAL"
+}

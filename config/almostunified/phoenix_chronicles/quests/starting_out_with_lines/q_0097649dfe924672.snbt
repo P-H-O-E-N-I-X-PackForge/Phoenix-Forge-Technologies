@@ -1,0 +1,29 @@
+{
+  "chapter": "STARTING_OUT_WITH_LINES",
+  "description": "Enter the intricate world of §bPetrochemistry§r! This vast field transforms §oCarbon Compounds§r (like §eOil§r and §eWood Byproducts§r) into precise §aChemicals§r. These are vital for crafting everything from advanced §dPlastics§r to durable §dEpoxy Resins§r.
+
+Your first breakthrough: producing §aEthylene§r. This essential building block will allow you to synthesize your first plastic: §aPolyethylene§r!
+
+§r§l§6Pro Tip:§r Petrochemistry can feel overwhelming. Instead of exploring every oil's uses, §r§o§6focus on the recipes for the product you NEED.§r§o §6Build by demand!§r",
+  "icon_item": "gtceu:oil_heavy_bucket",
+  "id": "q_0097649dfe924672",
+  "parent": "none",
+  "positionX": 256,
+  "positionY": 376,
+  "position_is_center": 1b,
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Petrochem!",
+  "tasks": [
+    {
+      "description": '{"text":"Oily"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:q_0097649dfe924672_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Quest 009764",
+  "visibility": "NORMAL"
+}

@@ -1,0 +1,46 @@
+{
+  "chapter": "RENEWABILITY_AND_YOU",
+  "description": "§5Ender Air§r is probably the most interesting of the three airs to distill. Requiring an §9IV Distillation Tower§r and distilling in batches of 200,000L, you'll need to outfit your DT with at least an §9IV§r Input Hatch (or an §5ME Hatch§r if you're inclined).
+
+You're getting a ton of Nitrogen, Oxygen, Helium, and Deuterium - the latter of which is commonly used in §aFusion§r. Tritium is used to make §6Helium Plasma§r, which is commonly agreed to be the best plasma for §2power generation§r.
+
+---
+
+
+Krypton and Xenon are your run-of-the-mill §aEBF-boosting§r Noble gases. At this point, you should consider running most (if not all) of your EBF recipes on §bCircuit 2§r to benefit from the faster durations.
+
+Would you look at that - you get §dRadon§r as well! It's a slow process, especially when you consider that your old setup (did you set it up?) already loops on itself, but §dmore Radon§r is nice.
+
+Last but not least, you're getting a low chance of §3Ender Pearl Dust§r. The chances are low enough that you shouldn't give up on the Mixer recipe just yet... but once again, more §3Ender Pearls§r are nice!",
+  "icon_item": "gtceu:liquid_ender_air_bucket",
+  "id": "liquid_ender_air",
+  "parent": "none",
+  "positionX": 176,
+  "positionY": 410,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "all_kinds_of_air_distillation",
+      "required": 1b
+    },
+    {
+      "id": "upgrading_your_ebf_iii",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Nitrogen, Oxygen, Helium, Krypton, Xenon, Radon, Ender Pearls...",
+  "tasks": [
+    {
+      "description": '{"text":"I\'m surprised I can breathe in the End."}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:liquid_ender_air_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Liquid Ender Air",
+  "visibility": "NORMAL"
+}

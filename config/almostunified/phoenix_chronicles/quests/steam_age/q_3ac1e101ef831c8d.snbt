@@ -1,0 +1,96 @@
+{
+  "chapter": "STEAM_AGE",
+  "description": 'The §bSteam Foundry§r is a machine that uses the §dpressure of steam§r to alloy useful materials into more complex forms. With the high need for steel, this machine will make that process much less painful.
+
+Furthermore, with the innate §aparallel processing§r that all steam-using multiblocks have, it is §afaster than 12 LV alloy smelters§r.
+
+
+---
+
+
+"Needing a way to create alloys on a more industrial scale you decide to continue this trend of steam. You create a method of §b§lsuperheating§r steam, then using that steam to superheat alloys through heat transference and melt them allowing them to merge and form a new material. A §a§lstronger§r more §d§ldurable§r alloy.
+
+Using an bronze base you make the steam transfer into a chamber outputting heat on the bronze base that is designed to withstand temperatures upwards of §425,000 Kelvin§r. This base allows the metals to melt and fuse to make alloys."',
+  "icon_item": "steamadditions:steam_foundry",
+  "id": "q_3ac1e101ef831c8d",
+  "optional": 1b,
+  "parent": "none",
+  "positionX": 496,
+  "positionY": 776,
+  "position_is_center": 1b,
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Alloying",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Steam Foundry"}',
+      "item_id": "steamadditions:steam_foundry",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_3ac1e101ef831c8d_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 14,
+      "description": '{"text":"Steam Machine Casing"}',
+      "item_id": "gtceu:steam_machine_casing",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_3ac1e101ef831c8d_task_1",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 8,
+      "description": '{"text":"Bronze Firebox Casing"}',
+      "item_id": "gtceu:bronze_firebox_casing",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_3ac1e101ef831c8d_task_2",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Steam Input Bus"}',
+      "item_id": "gtceu:steam_input_bus",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_3ac1e101ef831c8d_task_3",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Steam Output Bus"}',
+      "item_id": "gtceu:steam_output_bus",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_3ac1e101ef831c8d_task_4",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Steam Input Hatch"}',
+      "item_id": "gtceu:steam_input_hatch",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_3ac1e101ef831c8d_task_5",
+      "type": "item_check"
+    }
+  ],
+  "title": "Obtain Steam Foundry",
+  "visibility": "NORMAL"
+}

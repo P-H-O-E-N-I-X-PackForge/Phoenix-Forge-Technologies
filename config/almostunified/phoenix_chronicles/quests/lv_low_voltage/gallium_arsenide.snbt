@@ -1,0 +1,53 @@
+{
+  "chapter": "LV_LOW_VOLTAGE",
+  "description": "Many materials going forward cannot be smelted directly from any Ores! They are instead obtained as byproducts from processing of other ores. Gallium and Arsenic are §4among§r these materials.
+
+---
+
+
+For §dGallium§r, you may, ranged from worst to best (compromising difficulty and yields):
+
+§9- §3Electrolyze §aSphalerite§r for a low chance of dust. Note that you lose out on direct smelting value.
+
+§9-§r Put §aCrushed Bauxite§r in the §3Chemical Bath§r. Note that this requires §9Sodium Persulfate§r.
+
+§9-§r Obtain it as a Byproduct of §aSphalerite§r Ore Processing in the §3Thermal Centrifuge§r or §3Centrifuge§r.
+
+For §dArsenic§r, you will have to mine and §3centrifuge§r §aRealgar§r.",
+  "icon_item": "gtceu:gallium_arsenide_dust",
+  "id": "gallium_arsenide",
+  "parent": "none",
+  "positionX": 566,
+  "positionY": 806,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "basic_centrifuge",
+      "required": 1b
+    },
+    {
+      "id": "basic_mixer",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "I hate byproducts, they're awesome",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"gallium arsenide dust"}',
+      "item_id": "gtceu:gallium_arsenide_dust",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:gallium_arsenide_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Gallium Arsenide",
+  "visibility": "NORMAL"
+}

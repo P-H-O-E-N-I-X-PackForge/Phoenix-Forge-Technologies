@@ -1,0 +1,48 @@
+{
+  "chapter": "MV_MEDIUM_VOLTAGE",
+  "description": "The §3Laser Engraver§r engraves patterns into §9Silicon Wafers§r based on the type of §9Lens§r it is given. After the wafers are engraved, they must be passed through a §3Cutting Machine§r to turn them into components ready to be put into Circuits.
+
+Higher tier Engravers can etch more complex wafers for more efficient Circuits.",
+  "icon_item": "gtceu:mv_laser_engraver",
+  "id": "laser_engraving",
+  "parent": "none",
+  "positionX": 806,
+  "positionY": 769,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "advanced_cutter",
+      "required": 1b
+    },
+    {
+      "id": "silicon_lottery",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 2,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"§bAdvanced Laser Engraver §r"}',
+      "item_id": "gtceu:mv_laser_engraver",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:laser_engraving_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Laser Engraving",
+  "visibility": "NORMAL"
+}

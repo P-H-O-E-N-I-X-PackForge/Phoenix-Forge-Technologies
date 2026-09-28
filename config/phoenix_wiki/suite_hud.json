@@ -1,0 +1,23 @@
+{
+  "disabled": [],
+  "globalScale": 0.74590164,
+  "buttonScale": {},
+  "buttonAnchor": {},
+  "hideCount": {},
+  "hoverCount": {
+    "phoenix_essentials.weather": 6,
+    "phoenix_essentials.gamemode": 17,
+    "phoenix_essentials.trash": 5,
+    "phoenix_chronicles": 9,
+    "phoenix_essentials.settings": 6,
+    "phoenix_domains": 11,
+    "phantasia": 25,
+    "phoenix_guilds": 16,
+    "phoenix_essentials.time": 8,
+    "phoenix_excavate": 10,
+    "phoenix_archive": 27,
+    "solaris": 7
+  },
+  "gravityMode": false,
+  "gravityPlaced": []
+}

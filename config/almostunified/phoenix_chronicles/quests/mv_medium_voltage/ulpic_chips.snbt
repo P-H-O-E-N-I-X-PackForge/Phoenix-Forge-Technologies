@@ -1,0 +1,67 @@
+{
+  "chapter": "MV_MEDIUM_VOLTAGE",
+  "description": "Using a Sapphire Lens, engrave a Silicon Wafer into an ULPIC Wafer.
+
+This can be processed in a Cutter for ULPIC Chips, which are important for some multiblock components!",
+  "icon_item": "gtceu:ulpic_chip",
+  "id": "ulpic_chips",
+  "parent": "none",
+  "positionX": 806,
+  "positionY": 589,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "laser_engraving",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 1,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Pickin' up Chips",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"sapphire lens"}',
+      "item_id": "gtceu:sapphire_lens",
+      "optional": 1b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:ulpic_chips_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"ULPIC Wafer"}',
+      "item_id": "gtceu:ulpic_wafer",
+      "optional": 1b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:ulpic_chips_task_1",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"ULPIC Chip"}',
+      "item_id": "gtceu:ulpic_chip",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:ulpic_chips_task_2",
+      "type": "item_check"
+    }
+  ],
+  "title": "ULPIC Chips",
+  "visibility": "NORMAL"
+}

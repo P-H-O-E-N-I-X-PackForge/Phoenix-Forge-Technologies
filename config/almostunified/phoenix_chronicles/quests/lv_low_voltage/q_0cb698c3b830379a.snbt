@@ -1,0 +1,36 @@
+{
+  "chapter": "LV_LOW_VOLTAGE",
+  "description": "",
+  "icon_item": "functionalstorage:gold_upgrade",
+  "id": "q_0cb698c3b830379a",
+  "parent": "none",
+  "positionX": 1046,
+  "positionY": 176,
+  "position_is_center": 1b,
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 2,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Steel Upgrade"}',
+      "item_id": "functionalstorage:gold_upgrade",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_0cb698c3b830379a_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Obtain Steel Upgrade",
+  "visibility": "NORMAL"
+}

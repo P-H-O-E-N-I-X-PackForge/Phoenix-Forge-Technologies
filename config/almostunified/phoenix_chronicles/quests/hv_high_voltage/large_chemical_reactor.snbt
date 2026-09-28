@@ -1,0 +1,104 @@
+{
+  "chapter": "HV_HIGH_VOLTAGE",
+  "description": "The §3Large Chemical Reactor (LCR)§r is a multiblock §3Chemical Reactor§r with more input/output slots. Its Teflon casings allow it to process extra recipes.
+
+The §3LCR§r can perform some exclusive reactions which allow you to combine multiple normal §3Chemical Reactor§r steps into a §6single step§r. Examples below:
+
+§9-§r §aNitrogen Dioxide§r (for Nitric Acid and Dinitrogen Tetroxide)
+§9-§r §aSulfuric Acid§r
+§9-§r §aPhenol§r
+§9-§r §aEpichlorohydrin§r (you need it for Epoxy!)
+§9-§r §aEpoxy§r
+
+---
+
+
+There are also §3LCR§r exclusive recipes. For example, §dRadon§r can only be made in the LCR right now.
+
+All §dOverclocks§r in the §3LCR§r are §6100% efficient§r (known as Perfect overclocks); each overclock will §5quadruple the speed§r, as opposed to doubling it.
+
+The §3LCR§r has yet another §6advantage§r. You can use §32 Energy Hatches§r to allow it to run recipes of the §5next tier§r, similar to the §3Electric Blast Furnace§r.
+
+---
+
+
+§9Tip:§r Given the amount of LCRs you may end up using, why not try utilising §dwallsharing§r to its full potential?
+
+You could share one 2A (standard) §3Energy Hatch§r between 2 LCRs.
+
+You might want to share §3Input/Output Hatches§r, but make sure each LCR is running the correct recipe.
+
+Keep in mind Maintenance hatches cannot wallshare.",
+  "icon_item": "gtceu:large_chemical_reactor",
+  "id": "large_chemical_reactor",
+  "parent": "none",
+  "positionX": 716,
+  "positionY": 908,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "polytetrafluoroethylene",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 1,
+      "item_id": "gtceu:stainless_steel_fluid_cell",
+      "nbt": {
+        "Fluid": {
+          "Amount": 64000,
+          "FluidName": "gtceu:sulfuric_acid"
+        }
+      },
+      "type": "item"
+    },
+    {
+      "count": 4,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "STAR",
+  "subtitle": "The Magic Box to end all Magic Boxes",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Large Chemical Reactor"}',
+      "item_id": "gtceu:large_chemical_reactor",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:large_chemical_reactor_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 10,
+      "description": '{"text":"Chemically Inert PTFE Machine Casing"}',
+      "item_id": "gtceu:inert_machine_casing",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:large_chemical_reactor_task_1",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"PTFE Pipe Casing"}',
+      "item_id": "gtceu:ptfe_pipe_casing",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:large_chemical_reactor_task_2",
+      "type": "item_check"
+    }
+  ],
+  "title": "Large Chemical Reactor",
+  "visibility": "NORMAL"
+}

@@ -1,0 +1,55 @@
+{
+  "chapter": "LV_LOW_VOLTAGE",
+  "description": "The Lathe is an important machine to help shape metals. Thanks to it, you can turn §6one Ingot into two Rods§r, and §6one Bolt into one screw§r. That's twice the efficiency on those recipes as opposed to crafting by hand.
+
+---
+
+
+§l§3Lore:§r§o The GregTech 5 Lathe produces one Rod and 2 small piles of Dust per Ingot. We also have a setting for this in GTCEu, but it's turned off by default.
+
+§oThe GT6 Lathe acts like GT5's, but Bolts lathe into one Screw and 1/72 of a pile of Dust. Disgusting!",
+  "icon_item": "gtceu:lv_lathe",
+  "id": "basic_lathe",
+  "parent": "none",
+  "positionX": 716,
+  "positionY": 266,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "basic_wiremill",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 4,
+      "item_id": "gtceu:steel_rod",
+      "type": "item"
+    },
+    {
+      "count": 1,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "The Lathe lathes!",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Basic Lathe §r"}',
+      "item_id": "gtceu:lv_lathe",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:basic_lathe_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Basic Lathe",
+  "visibility": "NORMAL"
+}

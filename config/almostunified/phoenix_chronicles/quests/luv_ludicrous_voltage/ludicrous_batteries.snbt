@@ -1,0 +1,67 @@
+{
+  "chapter": "LUV_LUDICROUS_VOLTAGE",
+  "description": "The §aLuV Lapotronic Orb§r is even better than the §1IV§r one! Of course, such power comes at a steep cost...
+
+---
+
+
+§l§3Lore:§r§o In older versions of GT, such as GTNH in the past or in GCYL, these orbs were ludicrously expensive! They required 8 orbs of the previous tier! Thankfully, those days are long past.",
+  "icon_item": "gtceu:lapotronic_energy_orb_cluster",
+  "id": "ludicrous_batteries",
+  "parent": "none",
+  "positionX": 716,
+  "positionY": 566,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "europium",
+      "required": 1b
+    },
+    {
+      "id": "link_2172",
+      "required": 1b
+    },
+    {
+      "id": "insane_batteries",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 3,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Even more power!",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Lapotronic Energy Orb Cluster"}',
+      "item_id": "gtceu:lapotronic_energy_orb_cluster",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:ludicrous_batteries_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"LuV Lapotronic Capacitor"}',
+      "item_id": "gtceu:luv_lapotronic_battery",
+      "optional": 1b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:ludicrous_batteries_task_1",
+      "type": "item_check"
+    }
+  ],
+  "title": "Ludicrous Batteries",
+  "visibility": "NORMAL"
+}

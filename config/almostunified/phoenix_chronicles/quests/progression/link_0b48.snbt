@@ -1,0 +1,26 @@
+{
+  "chapter": "PROGRESSION",
+  "description": "",
+  "id": "link_0b48",
+  "link_target": "phoenix_chronicles:wetware_mainframe_the_uhv_circuit",
+  "parent": "none",
+  "positionX": 736,
+  "positionY": 976,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "data_module",
+      "required": 1b
+    },
+    {
+      "id": "link_5197",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "title": "",
+  "visibility": "NORMAL"
+}

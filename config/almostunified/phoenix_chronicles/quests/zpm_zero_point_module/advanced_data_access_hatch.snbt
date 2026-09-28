@@ -1,0 +1,38 @@
+{
+  "chapter": "ZPM_ZERO_POINT_MODULE",
+  "description": "This hatch allows you to store more §aData Storage Items§r than the basic one.
+
+Don't forget that this hatch requires a §9Data Orb§r for research.",
+  "icon_item": "gtceu:advanced_data_access_hatch",
+  "id": "advanced_data_access_hatch",
+  "parent": "none",
+  "positionX": 446,
+  "positionY": 356,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "hpca",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Increased storage density!",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Advanced Data Access Hatch"}',
+      "item_id": "gtceu:advanced_data_access_hatch",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:advanced_data_access_hatch_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Advanced Data Access Hatch",
+  "visibility": "NORMAL"
+}

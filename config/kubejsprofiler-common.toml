@@ -1,0 +1,16 @@
+#Whether profiling is enabled
+enabled = true
+#Emit per-function spans into the trace JSON
+traceSpans = false
+#Record script load durations
+traceScriptLoads = true
+#Min function span duration in ns (traceSpans only)
+#Range: 0 ~ 9223372036854775807
+minFunctionDurationNs = 5000000
+#Max events buffered before new ones are dropped
+#Range: > 0
+maxTraceEvents = 25000
+#Max functions in the summary (0 = all)
+#Range: > 0
+topNFunctions = 200
+

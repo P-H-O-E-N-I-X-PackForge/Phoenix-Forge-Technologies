@@ -1,0 +1,51 @@
+{
+  "chapter": "IV_INSANE_VOLTAGE",
+  "description": "This Quest will be completed with §eeither§r an §3IV Energy Hatch§r§r... or an §3IV Dynamo Hatch§r for your Multiblock Generators.
+
+Don't forget that §d4 Amp§r variants exist! However they require §aNiobium-Titanium Cables§r, which need §9Polyphenylene Sulfide§r.
+
+Look down in the §dLuV§r Chapter for that (don't worry... it's easy to obtain).",
+  "icon_item": "gtceu:iv_energy_input_hatch",
+  "id": "upgrading_your_ebf_for_the_millionth_time",
+  "parent": "none",
+  "positionX": 627,
+  "positionY": 530,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "iridium_and_osmium",
+      "required": 1b
+    },
+    {
+      "id": "high_power_integrated_circuit",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 2,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "This is second nature at this point",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"IV Dynamo/Energy Hatch"}',
+      "item_id": "gtceu:iv_energy_input_hatch",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:upgrading_your_ebf_for_the_millionth_time_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Upgrading your EBF for the millionth time",
+  "visibility": "NORMAL"
+}

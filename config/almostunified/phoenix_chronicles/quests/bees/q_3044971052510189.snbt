@@ -1,0 +1,36 @@
+{
+  "chapter": "BEES",
+  "description": "You might ask about the meaning of pitchblende.
+
+Hmm, §blet's see§r, §o§amaybe§r§r it means to §cpitch a tent§r and §ablende up a smoothie§r.
+
+Wait, it §oprobably§r means a §bblende§r of §2earth§r (§m§aOh well§r§r).
+
+To obtain it you need 4 raw blocks of pitchblende.",
+  "id": "q_3044971052510189",
+  "parent": "none",
+  "positionX": 536,
+  "positionY": 496,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "q_397edaefd995a733",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Blende it all!",
+  "tasks": [
+    {
+      "description": '{"text":"Pitchblende Bee"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:q_3044971052510189_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Quest 304497",
+  "visibility": "NORMAL"
+}

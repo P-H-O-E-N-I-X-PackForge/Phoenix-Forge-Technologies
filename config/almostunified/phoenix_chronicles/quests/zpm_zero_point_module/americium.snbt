@@ -1,0 +1,43 @@
+{
+  "chapter": "ZPM_ZERO_POINT_MODULE",
+  "description": "§aAmericium§r is a Fusion Mk2 material, used in large quantities in CEu progression!
+
+It requires 2 Fusion steps to obtain - Lanthanum and Silicon will make §bLutetium§r, and combining this §bLutetium§r with Chrome will give you §aAmericium§r.
+
+---
+
+
+§l§3Lore:§r§o In Gregicality Legacy, Americium was replaced with Dubnium. Americium is a material only obtained from nuclear reactors, so GCYL changed it to the synthetic element Dubnium instead.",
+  "icon_item": "gtceu:americium_ingot",
+  "id": "americium",
+  "parent": "none",
+  "positionX": 536,
+  "positionY": 536,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "fusion_reactor_ii",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "It'd be nice if we could make this in a nuclear reactor...",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"americium ingot"}',
+      "item_id": "gtceu:americium_ingot",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:americium_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Americium",
+  "visibility": "NORMAL"
+}

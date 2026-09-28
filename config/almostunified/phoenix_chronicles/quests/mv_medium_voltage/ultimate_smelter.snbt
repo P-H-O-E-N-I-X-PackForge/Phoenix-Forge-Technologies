@@ -1,0 +1,52 @@
+{
+  "chapter": "MV_MEDIUM_VOLTAGE",
+  "description": "At its lowest power (Cupronickel coils and §7LV§r Voltage), the §dMulti Smelter§r smelts 32 items in just 12 seconds - equivalent to §926.7 Furnaces§r, or 3.3 Steam Ovens!
+
+If that wasn't already enough to convince you, standard §aoverclocks§r can be applied with sufficient voltage.
+
+And even better - higher tier §3Coils§r increase the amount of items it can smelt in §dparallel§r!",
+  "icon_item": "gtceu:multi_smelter",
+  "id": "ultimate_smelter",
+  "parent": "none",
+  "positionX": 896,
+  "positionY": 589,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "first_hv_circuits",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 1,
+      "item_id": "gtceu:advanced_integrated_circuit",
+      "type": "item"
+    },
+    {
+      "count": 3,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Possibly the most powerful furnace you've seen",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Multi Smelter"}',
+      "item_id": "gtceu:multi_smelter",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:ultimate_smelter_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Ultimate Smelter",
+  "visibility": "NORMAL"
+}

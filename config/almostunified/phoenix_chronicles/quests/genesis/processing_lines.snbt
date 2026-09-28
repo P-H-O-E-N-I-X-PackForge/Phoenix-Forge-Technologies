@@ -1,0 +1,29 @@
+{
+  "chapter": "GENESIS",
+  "description": "Certain §6items§r and §9fluids§r will require you to manage §aentire processing lines§r with multiple machines.
+
+You can figure these out using §a§lEMI§r, but we've also prepared a §2quest page§r to guide you through the exact steps.
+
+Processing lines quest page",
+  "icon_item": "hostilenetworks:prediction_matrix",
+  "id": "processing_lines",
+  "parent": "none",
+  "positionX": 1264,
+  "positionY": 456,
+  "position_is_center": 1b,
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Efficent",
+  "tasks": [
+    {
+      "description": '{"text":"Processing lines"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:processing_lines_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Processing Lines",
+  "visibility": "NORMAL"
+}

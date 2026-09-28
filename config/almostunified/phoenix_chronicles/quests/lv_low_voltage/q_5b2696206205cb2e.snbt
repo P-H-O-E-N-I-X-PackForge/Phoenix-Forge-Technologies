@@ -1,0 +1,52 @@
+{
+  "chapter": "LV_LOW_VOLTAGE",
+  "description": "§8Wait, we're not in the Steam Age anymore!
+
+The reason we didn't present §7LV§r versions of §6Steam§r machines is because they are §4NOT§r required. You might not want to invest into an upgrade that does next to nothing. Except for §othis one§r specifically, because it's a big improvement over the §6Steam Age§r.
+
+The §3Basic Extractor§r gains Fluid capabilities, which enables §aFluid Extraction§r. Use it to melt Rubber that you previously solidified, to §dmelt Soldering Alloy§r for your circuits, and to §dmelt Red Alloy§r for the §6best Vacuum Tube recipe§r in the §3Assembler§r!
+
+---
+
+
+§l§3Lore:§r§o Did you notice this machine doubles as both an Extractor and a Fluid Extractor? The two of them were separate machines in previous versions of GregTech.",
+  "icon_item": "gtceu:lv_extractor",
+  "id": "q_5b2696206205cb2e",
+  "parent": "none",
+  "positionX": 986,
+  "positionY": 716,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "q_63cd0236b337eaad",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 1,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "The Steam Extractor extracts...",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Basic Extractor §r"}',
+      "item_id": "gtceu:lv_extractor",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_5b2696206205cb2e_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Obtain Basic Extractor §r",
+  "visibility": "NORMAL"
+}

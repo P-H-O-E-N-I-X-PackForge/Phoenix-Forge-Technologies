@@ -1,0 +1,45 @@
+{
+  "chapter": "EV_EXTREME_VOLTAGE",
+  "description": "A NOR gate takes two input signals, and outputs a high signal only if both input signals are low.
+
+This doesn't matter for now though, and it's simply a more complex wafer.
+It is used for the §aData Orb§r (a key component for when you get into §3Research§r), and in §5Nano§r Circuit production.",
+  "icon_item": "gtceu:nor_memory_chip",
+  "id": "nor_gates",
+  "parent": "none",
+  "positionX": 716,
+  "positionY": 1076,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "link_1562",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 2,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"NOR Memory Chip"}',
+      "item_id": "gtceu:nor_memory_chip",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:nor_gates_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "NOR Gates",
+  "visibility": "NORMAL"
+}

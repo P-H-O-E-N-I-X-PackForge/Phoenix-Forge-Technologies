@@ -1,0 +1,41 @@
+{
+  "chapter": "PROGRESSION",
+  "description": "Circuits along this line are §dLuV§r, and are interchangeable in recipes.
+
+The pattern stays the same: the rightmost circuit comes in §dlarger quantities§r and is overall §aeasier§r to produce.
+
+Make sure to set up §3wetware board production§r as soon as possible! These take a §6very long time§r to make.
+
+It's §dLuV§r, not §4LUV§r.",
+  "hide_dep_line": 1b,
+  "icon_item": "gtceu:luv_machine_casing",
+  "id": "luv_circuits",
+  "parent": "none",
+  "positionX": 176,
+  "positionY": 736,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "link_384f",
+      "required": 1b
+    },
+    {
+      "id": "link_54f1",
+      "required": 1b
+    },
+    {
+      "id": "link_1c04",
+      "required": 1b
+    },
+    {
+      "id": "link_42da",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "title": "§dLuV§r Circuits",
+  "visibility": "NORMAL"
+}

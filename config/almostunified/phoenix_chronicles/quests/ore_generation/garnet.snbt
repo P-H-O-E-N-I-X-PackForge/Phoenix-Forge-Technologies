@@ -1,0 +1,71 @@
+{
+  "chapter": "ORE_GENERATION",
+  "description": "It's shiny! That's about it!
+
+Yeah, you wish you could make jewelry out of it.",
+  "icon_item": "gtceu:red_garnet_ore",
+  "id": "garnet",
+  "parent": "none",
+  "positionX": 576,
+  "positionY": 776,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "ore_generation",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Source of Necklaces",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"raw red garnet"}',
+      "item_id": "gtceu:raw_red_garnet",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:garnet_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"raw yellow garnet"}',
+      "item_id": "gtceu:raw_yellow_garnet",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:garnet_task_1",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"raw amethyst"}',
+      "item_id": "gtceu:raw_amethyst",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:garnet_task_2",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"raw opal"}',
+      "item_id": "gtceu:raw_opal",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:garnet_task_3",
+      "type": "item_check"
+    }
+  ],
+  "title": "Garnet",
+  "visibility": "NORMAL"
+}

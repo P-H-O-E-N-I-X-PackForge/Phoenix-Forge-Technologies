@@ -1,0 +1,37 @@
+{
+  "chapter": "PROGRESSION",
+  "description": "Circuits along this line are §1IV§r, and are interchangeable in recipes.
+
+The pattern stays the same: the rightmost circuit comes in §dlarger quantities§r and is overall §aeasier§r to produce.",
+  "hide_dep_line": 1b,
+  "icon_item": "gtceu:iv_machine_casing",
+  "id": "iv_circuits",
+  "parent": "none",
+  "positionX": 176,
+  "positionY": 656,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "link_025c",
+      "required": 1b
+    },
+    {
+      "id": "link_3469",
+      "required": 1b
+    },
+    {
+      "id": "link_2b8f",
+      "required": 1b
+    },
+    {
+      "id": "link_5956",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "title": "§1IV§r Circuits",
+  "visibility": "NORMAL"
+}

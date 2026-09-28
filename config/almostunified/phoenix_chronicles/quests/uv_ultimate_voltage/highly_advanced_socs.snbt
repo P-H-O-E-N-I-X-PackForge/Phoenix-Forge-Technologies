@@ -1,0 +1,38 @@
+{
+  "chapter": "UV_ULTIMATE_VOLTAGE",
+  "description": "§aHighly Advanced SoC§rs will make crafting §4wetware circuits§r much easier.
+
+The drawback is that the recipe requires UV power, but that's no problem to you, right?",
+  "icon_item": "gtceu:highly_advanced_soc",
+  "id": "highly_advanced_socs",
+  "parent": "none",
+  "positionX": 536,
+  "positionY": 356,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "neutroniumdoped_silicon_boule",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Can we get much higher?",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"HASoC"}',
+      "item_id": "gtceu:highly_advanced_soc",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:highly_advanced_socs_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Highly Advanced SoCs",
+  "visibility": "NORMAL"
+}

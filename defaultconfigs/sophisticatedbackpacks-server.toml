@@ -20,61 +20,61 @@
 	#Determines if backpacks can be placed in container items (those that check for return value of canFitInsideContainerItems)
 	canBePlacedInContainerItems = false
 	#Maximum number of upgrades of type per backpack in format of "UpgradeRegistryName[or UpgradeGroup]|MaxNumber"
-	maxUpgradesPerStorage = ["jukebox_upgrade|1", "stack_upgrades|3", "furnace_upgrades|1"]
+	maxUpgradesPerStorage = ["jukebox_upgrade|1", "stack_upgrades|4", "furnace_upgrades|1"]
 
 	#Leather Backpack Settings
 	[server.leatherBackpack]
 		#Number of inventory slots in the backpack
 		#Range: 1 ~ 144
-		inventorySlotCount = 27
+		inventorySlotCount = 36
 		#Number of upgrade slots in the backpack
 		#Range: 0 ~ 10
-		upgradeSlotCount = 1
+		upgradeSlotCount = 2
 
 	#Copper Backpack Settings
 	[server.copperBackpack]
 		#Number of inventory slots in the backpack
 		#Range: 1 ~ 144
-		inventorySlotCount = 36
+		inventorySlotCount = 45
 		#Number of upgrade slots in the backpack
 		#Range: 0 ~ 10
-		upgradeSlotCount = 1
+		upgradeSlotCount = 2
 
 	#Iron Backpack Settings
 	[server.ironBackpack]
 		#Number of inventory slots in the backpack
 		#Range: 1 ~ 144
-		inventorySlotCount = 54
+		inventorySlotCount = 63
 		#Number of upgrade slots in the backpack
 		#Range: 0 ~ 10
-		upgradeSlotCount = 1
+		upgradeSlotCount = 3
 
 	#Gold Backpack Settings
 	[server.goldBackpack]
 		#Number of inventory slots in the backpack
 		#Range: 1 ~ 144
-		inventorySlotCount = 72
+		inventorySlotCount = 81
 		#Number of upgrade slots in the backpack
 		#Range: 0 ~ 10
-		upgradeSlotCount = 2
+		upgradeSlotCount = 3
 
 	#Diamond Backpack Settings
 	[server.diamondBackpack]
 		#Number of inventory slots in the backpack
 		#Range: 1 ~ 144
-		inventorySlotCount = 90
+		inventorySlotCount = 99
 		#Number of upgrade slots in the backpack
 		#Range: 0 ~ 10
-		upgradeSlotCount = 2
+		upgradeSlotCount = 4
 
 	#Netherite Backpack Settings
 	[server.netheriteBackpack]
 		#Number of inventory slots in the backpack
 		#Range: 1 ~ 144
-		inventorySlotCount = 108
+		inventorySlotCount = 144
 		#Number of upgrade slots in the backpack
 		#Range: 0 ~ 10
-		upgradeSlotCount = 3
+		upgradeSlotCount = 5
 
 	#Compacting Upgrade Settings
 	[server.compactingUpgrade]

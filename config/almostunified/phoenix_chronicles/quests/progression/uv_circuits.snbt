@@ -1,0 +1,27 @@
+{
+  "chapter": "PROGRESSION",
+  "description": "Circuits along this line are §3UV§r, and are interchangeable for each other.",
+  "hide_dep_line": 1b,
+  "icon_item": "gtceu:uv_machine_casing",
+  "id": "uv_circuits",
+  "parent": "none",
+  "positionX": 176,
+  "positionY": 896,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "link_607e",
+      "required": 1b
+    },
+    {
+      "id": "link_5197",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "title": "§3UV§r Circuits",
+  "visibility": "NORMAL"
+}

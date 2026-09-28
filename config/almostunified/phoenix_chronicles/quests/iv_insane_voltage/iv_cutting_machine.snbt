@@ -1,0 +1,55 @@
+{
+  "chapter": "IV_INSANE_VOLTAGE",
+  "description": "The §3IV Cutting Machine§r is required to unlock §3IV Energy and Dynamo Hatches§r.
+
+Upgrading this to its §2GCYM§r variant isn't a bad idea.",
+  "icon_item": "gtceu:iv_cutter",
+  "id": "iv_cutting_machine",
+  "parent": "none",
+  "positionX": 446,
+  "positionY": 529,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "laminated_glass",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 4,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"§9Elite Cutter §r"}',
+      "item_id": "gtceu:iv_cutter",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:iv_cutting_machine_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Large Cutting Saw"}',
+      "item_id": "gtceu:large_cutter",
+      "optional": 1b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:iv_cutting_machine_task_1",
+      "type": "item_check"
+    }
+  ],
+  "title": "IV Cutting Machine",
+  "visibility": "NORMAL"
+}

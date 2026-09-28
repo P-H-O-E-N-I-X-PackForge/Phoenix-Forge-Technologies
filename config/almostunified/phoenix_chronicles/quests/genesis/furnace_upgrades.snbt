@@ -1,0 +1,29 @@
+{
+  "chapter": "GENESIS",
+  "description": "§aSpeed Upgrade§r: Doubles smelting speed, but doubles fuel consumption. Personally, I find this trade-off worthwhile.
+
+§eFuel Upgrade§r: Reduces fuel consumption, but slows down smelting. Not my favorite.
+
+§bFactory Upgrade§r: Now THIS is where it's at! Uses §2Forge Energy (FE)§r for power, smelts 5 items in parallel, and doesn't consume fuel. Combine with a §aSpeed Upgrade§r for §oreal speed§r.",
+  "icon_item": "ironfurnaces:augment_speed",
+  "id": "furnace_upgrades",
+  "parent": "none",
+  "positionX": 704,
+  "positionY": 816,
+  "position_is_center": 1b,
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Upgrades, People, Upgrades",
+  "tasks": [
+    {
+      "description": '{"text":"Upgrades"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:furnace_upgrades_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Furnace Upgrades",
+  "visibility": "NORMAL"
+}

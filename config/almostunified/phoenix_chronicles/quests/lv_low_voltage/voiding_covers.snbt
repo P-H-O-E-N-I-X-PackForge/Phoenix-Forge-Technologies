@@ -1,0 +1,60 @@
+{
+  "chapter": "LV_LOW_VOLTAGE",
+  "description": "§3Voiding Covers§r can be attached to GregTech Machines, Crates or Drums. They will void stuff you don't want. How fancy!
+
+For machines, it will only void items in the Output slots. The Input slots are ignored.
+
+You can attach a §aFilter§r for more precise voiding.
+
+---
+
+
+An advanced version also exists, which requires a §dMV Circuit§r. It enables voiding above a set threshold - great for overflow control.
+
+§9Note:§r They default to being switched off, to prevent accidental voiding. Right-click them with a §5Soft Mallet§r to activate them.
+
+Obtaining §eany§r Voiding Cover will complete this Quest.",
+  "icon_item": "gtceu:item_voiding_cover",
+  "id": "voiding_covers",
+  "parent": "none",
+  "positionX": 896,
+  "positionY": 716,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "q_63cd0236b337eaad",
+      "required": 1b
+    },
+    {
+      "id": "q_5b2696206205cb2e",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 32,
+      "item_id": "minecraft:cactus",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "The best mechanic - making an item or fluid disappear!",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Voiding Covers"}',
+      "item_id": "gtceu:fluid_voiding_cover",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:voiding_covers_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Voiding Covers",
+  "visibility": "NORMAL"
+}

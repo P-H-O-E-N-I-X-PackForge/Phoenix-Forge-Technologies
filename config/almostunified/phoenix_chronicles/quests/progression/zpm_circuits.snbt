@@ -1,0 +1,31 @@
+{
+  "chapter": "PROGRESSION",
+  "description": "Circuits along this line are §cZPM§r, and are interchangeable in recipes.",
+  "hide_dep_line": 1b,
+  "icon_item": "gtceu:zpm_machine_casing",
+  "id": "zpm_circuits",
+  "parent": "none",
+  "positionX": 176,
+  "positionY": 816,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "link_3dd1",
+      "required": 1b
+    },
+    {
+      "id": "link_20bc",
+      "required": 1b
+    },
+    {
+      "id": "link_4eab",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "title": "§cZPM§r Circuits",
+  "visibility": "NORMAL"
+}

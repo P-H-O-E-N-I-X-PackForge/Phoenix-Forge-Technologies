@@ -1,0 +1,50 @@
+{
+  "chapter": "UV_ULTIMATE_VOLTAGE",
+  "description": "Build the structure displayed with Fusion Glass in §aEMI§r.
+
+To save on Fusion Casings, fit Input + Output Hatches wherever you can (as displayed in the structure).
+
+The §aFusion Reactor Mk3§r is even more expensive than the Mk2! The key difference is that it has a higher §6Energy To Start§r than the Mk2, allowing you to run new recipes.
+
+It can also overclock lower voltage recipes, such as those in the Mk1 or Mk2 reactor. See the Mk1's quest for how these mechanics work.",
+  "icon_item": "gtceu:uv_fusion_reactor",
+  "id": "fusion_reactor_iii",
+  "parent": "none",
+  "positionX": 356,
+  "positionY": 266,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "wetware_mainframe_the_uhv_circuit",
+      "required": 1b
+    },
+    {
+      "id": "upgrading_your_assembly_line_iii",
+      "required": 1b
+    },
+    {
+      "id": "link_194e",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "The most expensive form of Fusion",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Fusion Reactor Computer MK III"}',
+      "item_id": "gtceu:uv_fusion_reactor",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:fusion_reactor_iii_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Fusion Reactor III",
+  "visibility": "NORMAL"
+}

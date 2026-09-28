@@ -1,0 +1,34 @@
+{
+  "chapter": "BEES",
+  "description": "A foundational metal, essential for conductivity and crafting!
+
+This §6Copper Bee§r hums with a warm, §c earthy glow§r, a diligent worker in the mines.
+
+To obtain this §6versatile§r friend, you'll need §64 blocks of copper§r. Its conductive nature is truly electrifying!",
+  "id": "q_41a2c12d60c43b1e",
+  "parent": "none",
+  "positionX": 456,
+  "positionY": 656,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "q_06df13f808e9d5a6",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Police bee?",
+  "tasks": [
+    {
+      "description": '{"text":"Copper Bee"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:q_41a2c12d60c43b1e_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Quest 41a2c1",
+  "visibility": "NORMAL"
+}

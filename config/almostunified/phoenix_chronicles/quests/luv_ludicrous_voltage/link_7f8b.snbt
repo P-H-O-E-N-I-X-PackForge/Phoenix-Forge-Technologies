@@ -1,0 +1,31 @@
+{
+  "chapter": "LUV_LUDICROUS_VOLTAGE",
+  "description": "",
+  "id": "link_7f8b",
+  "link_target": "phoenix_chronicles:large_turbine_mechanics",
+  "optional_prereq_min_count": 1,
+  "parent": "none",
+  "positionX": 716,
+  "positionY": 206,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "large_gas_turbine",
+      "required": 1b
+    },
+    {
+      "id": "large_steam_turbine",
+      "required": 1b
+    },
+    {
+      "id": "large_plasma_turbine",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 0b,
+  "shape": "SQUARE",
+  "title": "",
+  "visibility": "NORMAL"
+}

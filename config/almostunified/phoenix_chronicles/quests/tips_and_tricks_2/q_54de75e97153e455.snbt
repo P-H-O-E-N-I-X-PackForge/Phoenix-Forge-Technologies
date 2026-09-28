@@ -1,0 +1,52 @@
+{
+  "chapter": "TIPS_AND_TRICKS_2",
+  "description": "Why does every machine have a million variants across each tier? We'll let you in on an industry secret - overclocking is one of the main reasons.
+
+Overclocking is a mechanic that happens when you try to run a recipe in a machine §dthat is higher tier than the recipe itself.§r The recipe will use an increased amount of energy, but the recipe time will be cut based on how many tiers you're overclocking by.
+
+§l§3Lore:§r§o GTCE overclocking was extremely awkward. If the recipe consumed 16EU/t or below, it would do a classic 2.0x overclock. However if the recipe consumed more than 16EU/t, every Overclock would be 2.8x faster! GTCEu has a config to select the Overclock speed bonus.
+
+---
+
+
+A pro tip - for automated setups, overclock as little as possible!
+
+Machines have a side menu to set the maximum voltage tier it will overclock to. Click on it to cycle through all the available Voltages and choose a limit.
+
+---
+
+
+Each tier above the recipe tier allows one overclock. Each overclock implies:
+
+§9-§r §a2x§r recipe speed
+§9-§r §a4x§r power consumption
+§9->§r §c2x§r total energy cost
+
+As you can see, there are upsides and downsides. It is a game of balance: ask yourself if you want faster recipes at the cost of greater power consumption.",
+  "icon_item": "minecraft:clock",
+  "id": "q_54de75e97153e455",
+  "parent": "none",
+  "positionX": 493,
+  "positionY": 229,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "mv_components",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "tasks": [
+    {
+      "description": '{"text":"Overclocking"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:q_54de75e97153e455_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Quest 54de75",
+  "visibility": "NORMAL"
+}

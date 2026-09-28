@@ -1,0 +1,37 @@
+{
+  "chapter": "RENEWABILITY_AND_YOU",
+  "description": "Ah, the Rock Crusher - such an unassuming machine that initially appears to only really be a builder's best friend. Who could look past infinite Cobblestone, Deepslate, or Obsidian?
+
+Don't be fooled, though, as this little machine might just shock you with the array of materials it makes renewable when you macerate its rocks down to dust form. The surrounding quests will clue you in.",
+  "icon_item": "gtceu:lv_rock_crusher",
+  "id": "q_55d8e30978cbbc0d",
+  "parent": "none",
+  "positionX": 588,
+  "positionY": 346,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "promoting_a_sustainable_playthrough",
+      "required": 1b
+    },
+    {
+      "id": "cobble_is_life",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "CIRCLE",
+  "subtitle": "More like game breaking, am I right?",
+  "tasks": [
+    {
+      "description": '{"text":"Rock Breaking"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:q_55d8e30978cbbc0d_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Quest 55d8e3",
+  "visibility": "NORMAL"
+}

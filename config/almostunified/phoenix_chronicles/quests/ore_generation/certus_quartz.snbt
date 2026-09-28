@@ -1,0 +1,54 @@
+{
+  "chapter": "ORE_GENERATION",
+  "description": "Your ticket into §bApplied Energistics 2§r is nestled deep within a Certus Quartz vein.
+
+Alongside this, note that Barite electrolyses into Barium, which you will eventually need to make some higher tier Superconductors.",
+  "icon_item": "gtceu:netherrack_certus_quartz_ore",
+  "id": "certus_quartz",
+  "parent": "none",
+  "positionX": 1136,
+  "positionY": 256,
+  "position_is_center": 1b,
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Source of AE2, Barium",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"raw quartzite"}',
+      "item_id": "gtceu:raw_quartzite",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:certus_quartz_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"raw certus quartz"}',
+      "item_id": "gtceu:raw_certus_quartz",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:certus_quartz_task_1",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"raw barite"}',
+      "item_id": "gtceu:raw_barite",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:certus_quartz_task_2",
+      "type": "item_check"
+    }
+  ],
+  "title": "Certus Quartz",
+  "visibility": "NORMAL"
+}

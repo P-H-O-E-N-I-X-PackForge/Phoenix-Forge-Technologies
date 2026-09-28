@@ -1,0 +1,49 @@
+{
+  "chapter": "MV_MEDIUM_VOLTAGE",
+  "description": "Better §6HV§r Circuits - much §dcheaper§r and easier to make than before.
+
+You should now be §aready to move on§r to the HV Chapter, unless you're yet to scale up your Power Production.",
+  "icon_item": "gtceu:micro_processor_assembly",
+  "id": "more_hv_circuits",
+  "parent": "none",
+  "positionX": 1076,
+  "positionY": 769,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "best_mv_circuits",
+      "required": 1b
+    },
+    {
+      "id": "inductors",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 2,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "On that HV grind",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Microprocessor Assembly"}',
+      "item_id": "gtceu:micro_processor_assembly",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:more_hv_circuits_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "More HV Circuits",
+  "visibility": "NORMAL"
+}

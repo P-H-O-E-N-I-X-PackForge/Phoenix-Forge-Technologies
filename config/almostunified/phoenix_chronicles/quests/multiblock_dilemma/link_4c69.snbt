@@ -1,0 +1,30 @@
+{
+  "chapter": "MULTIBLOCK_DILEMMA",
+  "description": "",
+  "id": "link_4c69",
+  "link_target": "phoenix_chronicles:mass_data_storage",
+  "parent": "none",
+  "positionX": 896,
+  "positionY": 416,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "link_2206",
+      "required": 1b
+    },
+    {
+      "id": "luv_superconductors",
+      "required": 1b
+    },
+    {
+      "id": "iv_superconductors",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "title": "",
+  "visibility": "NORMAL"
+}

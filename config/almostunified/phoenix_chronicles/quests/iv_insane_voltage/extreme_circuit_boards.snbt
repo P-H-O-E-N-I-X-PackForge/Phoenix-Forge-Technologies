@@ -1,0 +1,48 @@
+{
+  "chapter": "IV_INSANE_VOLTAGE",
+  "description": "The next Board for the §1Quantum§r Circuit line.
+
+§9Tips:§r For efficient and fast board production, you should use two §3Large Chemical Reactors§r, both supplied with §6HV§r power or higher (make them both share the same §3Energy Hatch§r):
+
+§9-§r One §3LCR§r should be dedicated to §aIron III Chloride§r. The §dHydrogen§r is loopable, so reproduce §dHydrochloric Acid§r locally - that way, you'd only need to passively input §aIron Dusts§r and §aChlorine§r.
+
+§9-§r One §3LCR§r should be making both the §acoated Boards§r and the §aempty Circuit Boards§r to make future §ecrafting requests§r with AE2 extremely easy. Keeping an Input Hatch full of Sulfuric Acid shouldn't be a problem, either.",
+  "icon_item": "gtceu:fiber_reinforced_printed_circuit_board",
+  "id": "extreme_circuit_boards",
+  "parent": "none",
+  "positionX": 896,
+  "positionY": 439,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "fiberreinforced_epoxy",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 4,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Fiber-Reinforced Printed Circuit Board"}',
+      "item_id": "gtceu:fiber_reinforced_printed_circuit_board",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:extreme_circuit_boards_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Extreme Circuit Boards",
+  "visibility": "NORMAL"
+}

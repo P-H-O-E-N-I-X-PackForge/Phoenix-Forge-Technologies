@@ -1,0 +1,47 @@
+{
+  "chapter": "LV_LOW_VOLTAGE",
+  "description": "A fancy tool to help with base building. The gadget has different modes that you can view by holding the relevant hotkey - it defaults to §eG§r.
+
+Be sure to check out the §3Destruction Gadget§r and the §3Copy Paste Gadget§r.
+
+You §acan§r charge this in the charger slot of any §bGregTech machine§r.",
+  "icon_item": "buildinggadgets2:gadget_building",
+  "id": "q_0dad0a6360448b39",
+  "parent": "none",
+  "positionX": 266,
+  "positionY": 716,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "basic_cutter",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 64,
+      "item_id": "minecraft:bricks",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "A familiar face in the land of Greg",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Building Gadget"}',
+      "item_id": "buildinggadgets2:gadget_building",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_0dad0a6360448b39_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Obtain Building Gadget",
+  "visibility": "NORMAL"
+}

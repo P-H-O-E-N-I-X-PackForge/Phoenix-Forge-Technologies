@@ -1,0 +1,47 @@
+{
+  "chapter": "MV_MEDIUM_VOLTAGE",
+  "description": "Don't panic! We'll mostly be doing this to get hydrocarbons.
+
+There are many ways to acquire §dEthylene§r from Oil processing. It's easy to get lost in all the options and recipes!
+
+The best way is to steam-crack §aNaphtha§r in a §3Chemical Reactor§r. Be sure to make the §aSeverely Steam-Cracked§r version for a higher yield of Ethylene.
+
+---
+
+
+Once in §6HV§r, you'll have the option to do this recipe in the §3Cracking Unit§r at 100% efficiency. Unfortunately, the recipes you are doing with the Chemical Reactor have a loss of §450%§r.
+
+§9Note:§r All of this looks and feels terribly inefficient - we hope that's strong motivation to tier up! The §3Distillation Tower§r will be a huge upgrade for petrochem, but you're not quite there... yet. Right now, you'll have to use a §3Distillery§r to get §dEthylene§r.",
+  "icon_item": "gtceu:severely_steam_cracked_naphtha_bucket",
+  "id": "fuel_cracking",
+  "parent": "none",
+  "positionX": 446,
+  "positionY": 229,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "naphtha",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Fuel and oil cracking can get complicated...",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"severely steam cracked naphtha bucket"}',
+      "item_id": "gtceu:severely_steam_cracked_naphtha_bucket",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:fuel_cracking_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Fuel Cracking",
+  "visibility": "NORMAL"
+}

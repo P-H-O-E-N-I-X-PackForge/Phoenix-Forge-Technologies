@@ -1,0 +1,71 @@
+{
+  "chapter": "ORE_GENERATION",
+  "description": "Your one-stop-shop for sources of Chlorine.
+
+If you're pining after Lithium, note that it can be obtained from Lepidolite Ore Processing.",
+  "icon_item": "gtceu:salt_ore",
+  "id": "gamer_rage",
+  "parent": "none",
+  "positionX": 696,
+  "positionY": 656,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "ore_generation",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Source of Salt, Chlorine, Lithium, Fluorine",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"raw salt"}',
+      "item_id": "gtceu:raw_salt",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:gamer_rage_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"raw rock salt"}',
+      "item_id": "gtceu:raw_rock_salt",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:gamer_rage_task_1",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"raw lepidolite"}',
+      "item_id": "gtceu:raw_lepidolite",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:gamer_rage_task_2",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"raw spodumene"}',
+      "item_id": "gtceu:raw_spodumene",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:gamer_rage_task_3",
+      "type": "item_check"
+    }
+  ],
+  "title": "Gamer Rage",
+  "visibility": "NORMAL"
+}

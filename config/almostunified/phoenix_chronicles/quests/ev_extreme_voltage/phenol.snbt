@@ -1,0 +1,62 @@
+{
+  "chapter": "EV_EXTREME_VOLTAGE",
+  "description": "Obtain §aPhenol§r from:
+
+§91 -§r §aWood Tar§r distillation.
+
+§92 -§r Reacting §aBenzene§r with §dChlorine§r and §dSodium Hydroxide§r This should be performed in an §3LCR§r, and the Chlorine is perfectly looped.
+
+§93 -§r Shortcutting the above recipe by ignoring the §dSodium Hydroxide§r. This is net negative on §dChlorine§r.
+
+§94 -§r Reacting §aBenzene§r, §dPropene§r and §dOxygen§r using a small amount of §4Phosphoric Acid§r - normally a catalyst, but consumed here in small quantities. This is called the Cumene process.
+
+---
+
+
+If you're having trouble deciding between the options presented, here's the appeal of each route:
+
+§91 -§r Great if you're willing to set up a §3Pyrolyse Oven§r + §3Distillation Tower§r combo.
+
+§92 -§r This one's our preference! You can use the §dSalt§r to make more §dSalt Water§r, then electrolyze to create a loop.
+
+§93 -§r Very appealing if you have an infinite supply of §dChlorine§r. You could achieve this by setting up a §3Fluid Drilling Rig§r on a Salt Water vein.
+
+§94 -§r ...§4Phosphoric Acid§r is a pain to produce. You'd be mad to consider this.
+
+---
+
+
+§l§3Lore:§r§o The Benzene + Oxygen recipe was added in GTCE with the intent of fixing missing chemical recipes, as the Large Chemical Reactor didn't exist. Now that CEu provides more realistic options, we may remove the recipe in future.",
+  "icon_item": "gtceu:phenol_bucket",
+  "id": "phenol",
+  "parent": "none",
+  "positionX": 356,
+  "positionY": 806,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "link_567a",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "But that's just how I Phenol",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"phenol bucket"}',
+      "item_id": "gtceu:phenol_bucket",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:phenol_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Phenol",
+  "visibility": "NORMAL"
+}

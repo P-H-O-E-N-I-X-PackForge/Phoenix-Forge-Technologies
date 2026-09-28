@@ -1,0 +1,65 @@
+{
+  "chapter": "HV_HIGH_VOLTAGE",
+  "description": "Titanium requires a slightly more §binvolved§r process than the previous materials to process. To get started, you'll need §aRutile§r, which can be obtained by processing §aBauxite§r.
+
+Once you've gotten enough §5Rutile§r, your journey to §6Titanium§r continues in the next quest. There's no need to rush things.
+
+---
+
+
+You may have already noticed that Bauxite is also an §6excellent source of Aluminium§r.
+
+Visiting §dThe End§r allows you to access a richer Bauxite vein, as well as §9Ilmenite§r - an even better source of Rutile.
+
+§9Tip:§r Ore processing for §aBauxite§r is ridiculously good! Including the §3Thermal Centrifuge§r step easily §6triples§r your §aRutile§r yield.",
+  "icon_item": "gtceu:rutile_dust",
+  "id": "almost_titanium",
+  "parent": "none",
+  "positionX": 716,
+  "positionY": 548,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "advanced_electrolyser",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 8,
+      "item_id": "gtceu:bauxite_ore",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "...means it WASN'T Titanium!",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 15,
+      "description": '{"text":"bauxite dust"}',
+      "item_id": "gtceu:bauxite_dust",
+      "optional": 1b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:almost_titanium_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"rutile dust"}',
+      "item_id": "gtceu:rutile_dust",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:almost_titanium_task_1",
+      "type": "item_check"
+    }
+  ],
+  "title": "Almost Titanium",
+  "visibility": "NORMAL"
+}

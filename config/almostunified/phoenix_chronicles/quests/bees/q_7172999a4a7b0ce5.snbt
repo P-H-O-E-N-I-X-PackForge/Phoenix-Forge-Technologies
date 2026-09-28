@@ -1,0 +1,32 @@
+{
+  "chapter": "BEES",
+  "description": "This §8metallic§r bee has a surprisingly §7silvery sheen§r, hinting at the treasures it holds within!
+
+To obtain this §f lustrous§r friend, you'll need §84 stibnite blocks§r. It's a heavy find!",
+  "id": "q_7172999a4a7b0ce5",
+  "parent": "none",
+  "positionX": 1016,
+  "positionY": 496,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "q_7fb5b4cc869d8094",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "We stib all nite. Hopefully this doesn't blow up in our face.",
+  "tasks": [
+    {
+      "description": '{"text":"Stibnite Bee"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:q_7172999a4a7b0ce5_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Quest 717299",
+  "visibility": "NORMAL"
+}

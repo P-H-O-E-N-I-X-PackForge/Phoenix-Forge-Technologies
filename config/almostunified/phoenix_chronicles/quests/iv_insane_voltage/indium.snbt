@@ -1,0 +1,52 @@
+{
+  "chapter": "IV_INSANE_VOLTAGE",
+  "description": "Getting §aIndium§r requires a lot of §dSulfuric Acid§r, and two different ores: Galena and Sphalerite.
+
+§dSulfuric Acid§r can be produced in large scale in the §3Large Chemical Reactor§r, or obtained as a waste from the §9Platinum Group Sludge§r process.
+
+In §dLuV§r, the mandatory §9Naquadah chain§r will grant §aIndium§r too, which means this setup will have a limited life.
+
+---
+
+
+§l§3Lore:§r§o This is another small chain inherited from GregTech 5. However, this used to yield one tiny Dust instead, which was... interesting.",
+  "icon_item": "gtceu:indium_dust",
+  "id": "indium",
+  "parent": "none",
+  "positionX": 536,
+  "positionY": 439,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "extreme_chemical_reactions",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 2,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Superconductor Supreme",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"indium dust"}',
+      "item_id": "gtceu:indium_dust",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:indium_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Indium",
+  "visibility": "NORMAL"
+}

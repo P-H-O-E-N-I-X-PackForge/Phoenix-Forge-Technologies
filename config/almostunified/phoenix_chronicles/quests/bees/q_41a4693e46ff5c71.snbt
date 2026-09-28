@@ -1,0 +1,34 @@
+{
+  "chapter": "BEES",
+  "description": "A gleaming symbol of purity and elegance!
+
+This §7Silver Bee§r hums with a §f cool radiance§r, a true embodiment of refinement.
+
+To obtain this §blustrous§r friend, you'll need §f4 blocks of silver§r. Its brilliance is truly captivating!",
+  "id": "q_41a4693e46ff5c71",
+  "parent": "none",
+  "positionX": 616,
+  "positionY": 736,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "q_06df13f808e9d5a6",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "You know what they say about a silvery tongue.",
+  "tasks": [
+    {
+      "description": '{"text":"Silver Bee"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:q_41a4693e46ff5c71_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Quest 41a469",
+  "visibility": "NORMAL"
+}

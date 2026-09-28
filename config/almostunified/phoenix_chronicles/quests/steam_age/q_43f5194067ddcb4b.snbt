@@ -1,0 +1,48 @@
+{
+  "chapter": "STEAM_AGE",
+  "description": "This is one of the two big reasons you needed to make that §aSnad setup§r. The §bresistor§r needs some §epaper§r to craft, so this passive sugarcane will be very useful to help you get through these early tiers.",
+  "icon_item": "minecraft:paper",
+  "id": "q_43f5194067ddcb4b",
+  "parent": "none",
+  "positionX": 1216,
+  "positionY": 256,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "q_614a47c0fd24887d",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 2,
+      "item_id": "minecraft:paper",
+      "type": "item"
+    },
+    {
+      "count": 1,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "The Start of Written Language",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 8,
+      "description": '{"text":"paper"}',
+      "item_id": "minecraft:paper",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_43f5194067ddcb4b_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Obtain paper",
+  "visibility": "NORMAL"
+}

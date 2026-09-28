@@ -1,0 +1,41 @@
+{
+  "chapter": "ZPM_ZERO_POINT_MODULE",
+  "description": "§aDuranium§r is a material from Star Trek, and is used for a few things in GT. It makes some pretty awesome pipes, but otherwise you won't need much of this quite yet.
+
+---
+
+
+§l§3Lore:§r§o In some versions of GT5u, this material was entirely white. In fact, most fusion materials and later were like this. Boring!",
+  "icon_item": "gtceu:duranium_ingot",
+  "id": "duranium",
+  "parent": "none",
+  "positionX": 626,
+  "positionY": 626,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "fusion_reactor_i",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Who needs Stargate, anyway?",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"duranium ingot"}',
+      "item_id": "gtceu:duranium_ingot",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:duranium_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Duranium",
+  "visibility": "NORMAL"
+}

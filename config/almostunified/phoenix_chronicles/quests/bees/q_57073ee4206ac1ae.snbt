@@ -1,0 +1,36 @@
+{
+  "chapter": "BEES",
+  "description": "A refined form of the sturdy cobalt, this bee represents a step up in metallic mastery!
+
+To obtain this §8enhanced§r friend, you'll need a §9Cobalt Bee§r and §b4 blocks of raw cobalite§r.",
+  "id": "q_57073ee4206ac1ae",
+  "parent": "none",
+  "positionX": 1256,
+  "positionY": 496,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "q_397edaefd995a733",
+      "required": 1b
+    },
+    {
+      "id": "q_478ba07594c3f733",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Are you so weak you need it lite?",
+  "tasks": [
+    {
+      "description": '{"text":"Cobaltite Bee"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:q_57073ee4206ac1ae_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Quest 57073e",
+  "visibility": "NORMAL"
+}

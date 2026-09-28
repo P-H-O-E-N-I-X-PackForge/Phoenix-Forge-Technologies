@@ -1,0 +1,106 @@
+{
+  "chapter": "IV_INSANE_VOLTAGE",
+  "description": "It is time to upgrade your mob processing! §6Ambering§r is the direct replacement for slow Hostile Neural Networks.
+
+Utilizing the §aSwarm Nurturer§r, you can solidify mob drops using an §bAmber Bee§r.
+
+While these ambered mobs cannot be used until §9LUV§r tier in the Melliferous Matrix, it is wise to start producing them now!",
+  "icon_item": "phoenixcore:swarm_nurturer",
+  "id": "q_33bf15657aba1ada",
+  "parent": "none",
+  "positionX": 933,
+  "positionY": 176,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "q_12226c8c236371ce",
+      "required": 1b
+    },
+    {
+      "id": "q_1ac7c1c845550c9c",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 4,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Nurture the Swarm",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Swarm Nurturer"}',
+      "item_id": "phoenixcore:swarm_nurturer",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_33bf15657aba1ada_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 12,
+      "description": '{"text":"steel frame"}',
+      "item_id": "gtceu:steel_frame",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_33bf15657aba1ada_task_1",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 29,
+      "description": '{"text":"stainless steel frame"}',
+      "item_id": "gtceu:stainless_steel_frame",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_33bf15657aba1ada_task_2",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 6,
+      "description": '{"text":"Stainless Steel Gearbox Casing"}',
+      "item_id": "gtceu:stainless_steel_gearbox",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_33bf15657aba1ada_task_3",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 18,
+      "description": '{"text":"Molybdenum Disilicide Coil Block"}',
+      "item_id": "gtceu:molybdenum_disilicide_coil_block",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_33bf15657aba1ada_task_4",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 21,
+      "description": '{"text":"Clean Stainless Steel Casing"}',
+      "item_id": "gtceu:clean_machine_casing",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_33bf15657aba1ada_task_5",
+      "type": "item_check"
+    }
+  ],
+  "title": "Obtain Swarm Nurturer",
+  "visibility": "NORMAL"
+}

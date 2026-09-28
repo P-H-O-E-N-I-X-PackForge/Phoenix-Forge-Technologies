@@ -1,0 +1,38 @@
+{
+  "chapter": "PROGRESSION",
+  "description": "This is the §9Wetware§r Circuit line.
+
+It will be the biggest automation challenge to face in this modpack. Best of luck.",
+  "hide_dep_line": 1b,
+  "icon_item": "gtceu:zpm_machine_hull",
+  "id": "craftable_in_zpm",
+  "parent": "none",
+  "positionX": 736,
+  "positionY": 176,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "link_384f",
+      "required": 1b
+    },
+    {
+      "id": "link_0b48",
+      "required": 1b
+    },
+    {
+      "id": "link_3dd1",
+      "required": 1b
+    },
+    {
+      "id": "link_5197",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Soft and Wetware",
+  "title": "Craftable in §cZPM§r",
+  "visibility": "NORMAL"
+}

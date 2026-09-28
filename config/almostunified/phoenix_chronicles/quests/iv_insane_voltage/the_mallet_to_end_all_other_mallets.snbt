@@ -1,0 +1,51 @@
+{
+  "chapter": "IV_INSANE_VOLTAGE",
+  "description": "§bPolybenzimidazole§r is the best material for §6Soft Mallets§r in vanilla GTCEu. Show us that you're on top of your PBI supply by spending some of it on a §dsuperfluous tool upgrade§r.",
+  "icon_item": "gtceu:polybenzimidazole_mallet",
+  "id": "the_mallet_to_end_all_other_mallets",
+  "parent": "none",
+  "positionX": 194,
+  "positionY": 529,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "polybenzimidazole",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 3,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "CIRCLE",
+  "subtitle": "Life would be boring without silly quests...",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"polybenzimidazole mallet"}',
+      "item_id": "gtceu:polybenzimidazole_mallet",
+      "nbt_filter": {
+        "DisallowContainerItem": 0b,
+        "GT.Behaviours": {},
+        "GT.Tool": {
+          "MaxDamage": 1023
+        },
+        "HideFlags": 2
+      },
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:the_mallet_to_end_all_other_mallets_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "The Mallet to End All Other Mallets",
+  "visibility": "NORMAL"
+}

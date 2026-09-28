@@ -1,0 +1,93 @@
+{
+  "chapter": "TIPS_AND_TRICKS_2",
+  "description": "§lWhy process ore?
+
+The main purpose of GregTech Ore Processing is to provide §abyproducts§r on top of the initial outcome. At Steam Age, none of the byproducts are obtainable, but this will become relevant soon.
+
+---
+
+
+§lHow should I start?
+
+The steps available in the Steam Age go as follows:
+
+One Ore (block) §9->§r Two Crushed Ores (Macerator)
+
+One Crushed Ore §9->§r One Impure Dust (Hammer)
+
+One Impure Dust §9->§r One Dust (In world crafting)
+
+One Dust §9->§r One Ingot (Furnace, you should know this one)
+
+---
+
+
+A pickaxe or mining hammer enchanted with Hammering, or a GregTech Hammer directly, gives Crushed Ores from breaking Ore blocks, but only at a 1:1 ratio.
+
+Silk Touch is essential to obtain an ore block - this pack includes a recipe for the book.
+
+---
+
+
+The rule bends for ores giving more than two dusts (such as §cRedstone§r), and for dusts that cannot be smelted (§cRedstone§r... again!).
+
+However, you can still smelt the ore directly to get §9half the amount§r you would from the full processing.
+
+---
+
+
+§dEMI does not indicate Impure Dust to Clean Dust conversion§r, so keep that in mind that you can §athrow them into filled cauldrons§r.
+
+---
+
+
+Take this reward for listening to us waffle on WITHOUT nodding off!",
+  "icon_item": "gtceu:crushed_redstone_ore",
+  "id": "beginner_ore_processing",
+  "parent": "none",
+  "positionX": 572,
+  "positionY": 229,
+  "position_is_center": 1b,
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 16,
+      "item_id": "gtceu:iron_ore",
+      "type": "item"
+    },
+    {
+      "count": 32,
+      "item_id": "gtceu:chalcopyrite_ore",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"crushed redstone ore"}',
+      "item_id": "gtceu:crushed_redstone_ore",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:beginner_ore_processing_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"pure redstone dust"}',
+      "item_id": "gtceu:pure_redstone_dust",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:beginner_ore_processing_task_1",
+      "type": "item_check"
+    }
+  ],
+  "title": "Beginner Ore Processing",
+  "visibility": "NORMAL"
+}

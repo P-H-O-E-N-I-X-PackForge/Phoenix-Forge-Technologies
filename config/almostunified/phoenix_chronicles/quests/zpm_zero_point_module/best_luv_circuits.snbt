@@ -1,0 +1,38 @@
+{
+  "chapter": "ZPM_ZERO_POINT_MODULE",
+  "description": "The first Circuit of the §4Wetware§r line.
+
+§6Congrats§r!",
+  "icon_item": "gtceu:wetware_processor",
+  "id": "best_luv_circuits",
+  "parent": "none",
+  "positionX": 716,
+  "positionY": 266,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "its_alive",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Eek, it's alive!",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Wetware Processor"}',
+      "item_id": "gtceu:wetware_processor",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:best_luv_circuits_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Best LuV Circuits!",
+  "visibility": "NORMAL"
+}

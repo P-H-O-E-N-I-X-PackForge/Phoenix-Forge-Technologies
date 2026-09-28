@@ -1,0 +1,36 @@
+{
+  "chapter": "BEES",
+  "description": "They §c§okeep§r§r saying they will pay me in §aexperience§r.
+
+§6However§r, I want the §2money§r.
+
+§5Justice for unpaid interns!§r
+
+To obtain this bee you need 64 §axp shards§r from §bCrazy Ae2 addons§r.",
+  "id": "q_2600fdf12c248833",
+  "parent": "none",
+  "positionX": 536,
+  "positionY": 576,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "q_397edaefd995a733",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "In it for the Experience and the Exsposure.",
+  "tasks": [
+    {
+      "description": '{"text":"Experience Bee"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:q_2600fdf12c248833_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Quest 2600fd",
+  "visibility": "NORMAL"
+}

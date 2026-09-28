@@ -1,0 +1,49 @@
+{
+  "chapter": "MV_MEDIUM_VOLTAGE",
+  "description": "Our warmest congratulations on making it here.
+
+The way you should obtain §aEthylene§r was described in the previous Quest, depending on the route you chose.
+
+§aEthylene§r will shortly be used in polymer production. It's also useful in a few other reactions.",
+  "icon_item": "gtceu:ethylene_bucket",
+  "id": "ethylene",
+  "optional_prereq_min_count": 1,
+  "parent": "none",
+  "positionX": 536,
+  "positionY": 319,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "fuel_cracking",
+      "required": 1b
+    },
+    {
+      "id": "ethanol",
+      "required": 1b
+    },
+    {
+      "id": "sulfuric_acid",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 0b,
+  "shape": "SQUARE",
+  "subtitle": "One of many hydrocarbons",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"ethylene bucket"}',
+      "item_id": "gtceu:ethylene_bucket",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:ethylene_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Ethylene",
+  "visibility": "NORMAL"
+}

@@ -1,0 +1,47 @@
+{
+  "chapter": "LV_LOW_VOLTAGE",
+  "description": "Get some §3aluminium§r dust from the clay line or from looking at the previous §1sapphire§r quest to begin your mv journey.
+
+Next, you'll need to acquire §bpermafrost§r ore and extract its dust. Creating §3Aluminfrost§r for MV processing by combining permafrost and aluminum dust to make §9Unrefined Aluminfrost§r dust, and then smelting it with cobalt dust in an EBF, can be considered complicated.
+
+(Alternatively, you could process the §bpermafrost§r to get §3frost§r, which might speed up the recipe if that interests you.)\"",
+  "icon_item": "phoenixcore:unrefined_aluminfrost_dust",
+  "id": "aluminfrost_dust",
+  "parent": "none",
+  "positionX": 176,
+  "positionY": 716,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "sapphire",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 4,
+      "item_id": "phoenixcore:unrefined_aluminfrost_dust",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Aluminfrost, not aluminium",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"unrefined aluminfrost dust"}',
+      "item_id": "phoenixcore:unrefined_aluminfrost_dust",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:aluminfrost_dust_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "AluminFrost Dust",
+  "visibility": "NORMAL"
+}

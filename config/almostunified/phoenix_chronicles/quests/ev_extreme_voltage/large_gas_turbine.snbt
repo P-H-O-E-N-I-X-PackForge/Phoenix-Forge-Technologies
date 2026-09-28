@@ -1,0 +1,52 @@
+{
+  "chapter": "EV_EXTREME_VOLTAGE",
+  "description": "The §3Large Gas Turbine§r may not impress you in §5EV§r, but it can scale to §9better production§r than the base 4096 EU/t, and boasts §9higher efficiency§r than those pesky singleblock generators.
+
+Each Large Turbine will require a §aTurbine Rotor§r and a §3Rotor Holder§r. More on the Turbine mechanics in the §lnext§r Quest.
+
+---
+
+
+§9Note:§r This Quest §eonly§r requires the Controller, but obviously you still need all the multiblock parts to construct the Turbine.
+
+Turbines §cvoid§r energy if they're unable to output. If you plan on using this with HV power, use a Rotor with close to 100% Power stat.",
+  "icon_item": "gtceu:gas_large_turbine",
+  "id": "large_gas_turbine",
+  "parent": "none",
+  "positionX": 356,
+  "positionY": 536,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "power_integrated_circuit",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 2,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Gassed Up",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Large Gas Turbine"}',
+      "item_id": "gtceu:gas_large_turbine",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:large_gas_turbine_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Large Gas Turbine",
+  "visibility": "NORMAL"
+}

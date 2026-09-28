@@ -1,0 +1,57 @@
+{
+  "chapter": "EV_EXTREME_VOLTAGE",
+  "description": "Yeah, we admit it... this Multiblock is entirely §doptional§r. Many playtesters kept using their §6HV§r singleblock miners and didn't run into any issues with regards to throughput.
+
+However, the §3Large Miner§r will further boost your returns when collecting ores from veins. Ores are mined as if they were §amacerated§r, but they yield §6three times§r as many §dCrushed ores§r.
+
+You'll need to automate §aDrilling Fluid§r before you run this. You might also want to use a §3Quantum Tunnel§r from AE2 and §3GTEU P2P Tunnels§r to transfer items and provide power.
+
+---
+
+
+§l§3Lore:§r§o There were some interesting side effects when we ported this over from Gregicality, as the multiblock actually originated from GregTech 5.
+
+§oIts current implementation isn't perfect, as you don't really get much of a benefit by upgrading this miner to the advanced versions. We were considering a rebalance of energy consumption and yield per tier.",
+  "icon_item": "gtceu:ev_large_miner",
+  "id": "multiblock_miner",
+  "parent": "none",
+  "positionX": 626,
+  "positionY": 536,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "tungsten",
+      "required": 1b
+    },
+    {
+      "id": "ev_assembler",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 4,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"§5Advanced Large Miner III§r"}',
+      "item_id": "gtceu:ev_large_miner",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:multiblock_miner_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Multiblock Miner",
+  "visibility": "NORMAL"
+}

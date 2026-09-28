@@ -1,0 +1,107 @@
+{
+  "chapter": "STEAM_AGE",
+  "description": 'The §bSteam Grinder§r is a machine that uses §osteam§r to crush your ores, typically at a §b1:2 ratio.§r Pretty neat!
+
+It crushes 16 ores in parallel. That effectively makes the Steam Grinder faster than 16 LV macerators (or 8 MV macerators).
+
+The catch: much like the LV and MV macerators, this machine §cdoes not provide byproducts§r (like gold dust from macerating magnetite, for instance).
+
+
+
+---
+
+
+"Using primitive methods had become too... §cimpractical§r for your needs.
+
+You begin brainstorming, think, searching for a way to §aspeed up§r the breaking down of resources. You think about what you have, it comes to you. A §3steam powered grinder§r.
+
+Using the §3steam§r you design a machine to rotate gears attached to thick hard grinding heads to break down and §apulverize§r resources. It vents the §3steam§r after use allowing it to continue rotating, but this costs you §ca quite a bit of steam§r."',
+  "icon_item": "gtceu:steam_grinder",
+  "id": "q_66dbde53985f90f1",
+  "parent": "none",
+  "positionX": 1056,
+  "positionY": 496,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "steam_production",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 8,
+      "item_id": "gtceu:iron_ore",
+      "type": "item"
+    },
+    {
+      "count": 4,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Baby's first ore processing!",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Steam Grinder"}',
+      "item_id": "gtceu:steam_grinder",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_66dbde53985f90f1_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Steam Input Hatch"}',
+      "item_id": "gtceu:steam_input_hatch",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_66dbde53985f90f1_task_1",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Steam Output Bus"}',
+      "item_id": "gtceu:steam_output_bus",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_66dbde53985f90f1_task_2",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Steam Input Bus"}',
+      "item_id": "gtceu:steam_input_bus",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_66dbde53985f90f1_task_3",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 22,
+      "description": '{"text":"Steam Machine Casing"}',
+      "item_id": "gtceu:steam_machine_casing",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_66dbde53985f90f1_task_4",
+      "type": "item_check"
+    }
+  ],
+  "title": "Obtain Steam Grinder",
+  "visibility": "NORMAL"
+}

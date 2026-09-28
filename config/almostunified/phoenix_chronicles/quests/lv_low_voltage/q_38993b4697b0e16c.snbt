@@ -1,0 +1,39 @@
+{
+  "chapter": "LV_LOW_VOLTAGE",
+  "description": "A specialized motor needed to make certain machines.
+
+One of the more intricate crafting components, as it's made using a motor.",
+  "icon_item": "gtceu:lv_electric_piston",
+  "id": "q_38993b4697b0e16c",
+  "parent": "none",
+  "positionX": 536,
+  "positionY": 176,
+  "position_is_center": 1b,
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 4,
+      "item_id": "gtceu:small_steel_gear",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "A crafting component - did you expect anything fancier?",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"LV Electric Piston"}',
+      "item_id": "gtceu:lv_electric_piston",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_38993b4697b0e16c_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Obtain LV Electric Piston",
+  "visibility": "NORMAL"
+}

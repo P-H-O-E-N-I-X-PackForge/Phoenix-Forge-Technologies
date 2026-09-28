@@ -1,0 +1,30 @@
+{
+  "chapter": "EV_EXTREME_VOLTAGE",
+  "description": "",
+  "id": "link",
+  "link_target": "phoenix_chronicles:source_imbued_titanium",
+  "parent": "none",
+  "positionX": 536,
+  "positionY": 716,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "ice_cold",
+      "required": 1b
+    },
+    {
+      "id": "almost_titanium_7270",
+      "required": 1b
+    },
+    {
+      "id": "q_76681efd9b76f401",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "STAR",
+  "title": "",
+  "visibility": "NORMAL"
+}

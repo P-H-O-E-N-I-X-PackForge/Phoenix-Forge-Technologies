@@ -1,0 +1,49 @@
+{
+  "chapter": "LV_LOW_VOLTAGE",
+  "description": "This machine can either use §1water§r, §9distilled water§r, or §6lubricant§r (lube being the fastest) to cut materials into other §auseable§r forms.
+
+It is used to make §egem§r plates, your cheaper §8bolts§r for now, and your §7wafers§r for circuits. I would suggest you use §9§lwater§r, and go for distilled water/lubricant §olater§r.",
+  "icon_item": "gtceu:lv_cutter",
+  "id": "basic_cutter",
+  "parent": "none",
+  "positionX": 356,
+  "positionY": 716,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "basic_centrifuge",
+      "required": 1b
+    },
+    {
+      "id": "sapphire",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 2,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "The Cutter... cuts...",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Basic Cutter §r"}',
+      "item_id": "gtceu:lv_cutter",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:basic_cutter_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Basic Cutter",
+  "visibility": "NORMAL"
+}

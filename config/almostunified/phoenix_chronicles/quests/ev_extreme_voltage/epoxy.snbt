@@ -1,0 +1,77 @@
+{
+  "chapter": "EV_EXTREME_VOLTAGE",
+  "description": "§aEpoxy§r is the foundation for all future Circuit Boards in the game. Get ready to make a lot of this stuff.
+
+§9§lNote:§r This questline is quite complicated, so tackle everything else before trying to make Epoxy. You'll need all the help you can get!
+
+---
+
+
+There are several ways to obtain the ingredients for §aEpoxy§r.
+
+We'll ignore recipes related to Glycerol, as they're never worth it unless modpack devs tweak things around. §mHint hint, if you're making your own pack!§r
+
+Try and use §3Large Chemical Reactors§r to shortcut recipes.
+
+---
+
+
+§dChlorine§r is only partially recycled, so you'll need a constant supply. Feeding it manually should be sufficient at first.
+
+Recipes involving §dSodium Hydroxide§r could be looped by electrolyzing the §9Salt Water§r co-product.
+
+Doing this will probably require you to make some Quadruple Pipes, Pump Covers, Fluid Filters... or route everything using AE2.
+
+In general, closed loop setups are nice to prevent overproduction or overconsumption, but go for whatever's more fun for you.",
+  "icon_item": "gtceu:epoxy_plate",
+  "id": "epoxy",
+  "parent": "none",
+  "positionX": 446,
+  "positionY": 896,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "link_567a",
+      "required": 1b
+    },
+    {
+      "id": "phenol",
+      "required": 1b
+    },
+    {
+      "id": "epichlorohydrin",
+      "required": 1b
+    },
+    {
+      "id": "acetone",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 1,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "STAR",
+  "subtitle": "Prime circuit board material",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"epoxy plate"}',
+      "item_id": "gtceu:epoxy_plate",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:epoxy_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Epoxy",
+  "visibility": "NORMAL"
+}

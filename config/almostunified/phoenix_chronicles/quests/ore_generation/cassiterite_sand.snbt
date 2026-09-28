@@ -1,0 +1,71 @@
+{
+  "chapter": "ORE_GENERATION",
+  "description": "A decent alternative to the pure Tin vein if you haven't found one yet.
+
+The other ores are as good as decoration.",
+  "icon_item": "gtceu:cassiterite_sand_ore",
+  "id": "cassiterite_sand",
+  "parent": "none",
+  "positionX": 736,
+  "positionY": 416,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "ore_generation",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Source of Tin",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"raw cassiterite sand"}',
+      "item_id": "gtceu:raw_cassiterite_sand",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:cassiterite_sand_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"raw garnet sand"}',
+      "item_id": "gtceu:raw_garnet_sand",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:cassiterite_sand_task_1",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"raw asbestos"}',
+      "item_id": "gtceu:raw_asbestos",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:cassiterite_sand_task_2",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"raw diatomite"}',
+      "item_id": "gtceu:raw_diatomite",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:cassiterite_sand_task_3",
+      "type": "item_check"
+    }
+  ],
+  "title": "Cassiterite Sand",
+  "visibility": "NORMAL"
+}

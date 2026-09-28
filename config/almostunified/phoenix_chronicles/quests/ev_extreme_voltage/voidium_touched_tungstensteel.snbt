@@ -1,0 +1,58 @@
+{
+  "chapter": "EV_EXTREME_VOLTAGE",
+  "description": "This advanced alloy, §bVoidium Touched Tungsten Steel§r, commands respect with its complex composition. You'll produce its dust by mixing §5liquid ender air§r, §32 Vanadium Steel Dust§r, §34 Tungsten Dust§r, and §34 Voidglass Shard Dust§r. Once mixed, this dust will need to be smelted into its final form.
+
+Right now, it's a crucial ingredient for §3Energy§r or §3Dynamo Hatches§r, bringing you one step closer to moving beyond those pesky single-block Generators!
+
+Boosting the §eElectric Blast Furnace§r smelting of this dust will require §eHelium§r. You can get an initial supply from §aextracting Monazite§r or §acentrifuging Endstone§r. In the long term, you will want to get Helium via §aLiquid Air Distillation§r.",
+  "icon_item": "phoenixcore:void_touched_tungsten_steel_ingot",
+  "id": "voidium_touched_tungstensteel",
+  "parent": "none",
+  "positionX": 716,
+  "positionY": 446,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "extreme_mixing",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 7,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "STAR",
+  "subtitle": "The main §9IV§r Material!",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"void touched tungsten steel ingot"}',
+      "item_id": "phoenixcore:void_touched_tungsten_steel_ingot",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:voidium_touched_tungstensteel_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"void touched tungsten steel dust"}',
+      "item_id": "phoenixcore:void_touched_tungsten_steel_dust",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:voidium_touched_tungstensteel_task_1",
+      "type": "item_check"
+    }
+  ],
+  "title": "Voidium Touched Tungstensteel",
+  "visibility": "NORMAL"
+}

@@ -1,0 +1,62 @@
+{
+  "chapter": "LUV_LUDICROUS_VOLTAGE",
+  "description": "The §3Data Bank§r is a multiblock capable of storing huge amounts of data. You can fill it with §aData Access Hatches§r, and fill those with §aData Storage Items§r.
+
+After that, you'll need power, and then a way to connect it to your Assembly Line! This is done through §3Optical Fiber Cables§r, which can be used to link §3Optical Data Hatches together§r.
+
+---
+
+
+An §9Optical Transmission Hatch§r is used to send data (like an output), and an §9Optical Reception Hatch§r to recieve the data (like an input).
+
+Optical cables have some restrictions however. They can only connect §eone input to one output§r. The Data Bank is your answer to this, since you can place many hatches on them to route your data anywhere.
+
+You can use this behavior to §echain§r Data Banks as well. Connecting one Data Bank to another, and then one of them to an Assembly Line will provide the data of both banks!
+
+---
+
+
+§eNote: §rThis multiblock will be required later on in progression, but is very useful to set up early.
+
+§l§3Lore:§r§o This multiblock also originates from TecTech, but part of its mechanics required optical cables to be painted as well. You don't have to do that here, but it looks really nice if you do!",
+  "icon_item": "gtceu:data_bank",
+  "id": "mass_data_storage",
+  "parent": "none",
+  "positionX": 446,
+  "positionY": 206,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "link_4e99",
+      "required": 1b
+    },
+    {
+      "id": "luv_superconductors",
+      "required": 1b
+    },
+    {
+      "id": "iv_superconductors",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Time for a server room",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Data Bank"}',
+      "item_id": "gtceu:data_bank",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:mass_data_storage_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Mass Data Storage",
+  "visibility": "NORMAL"
+}

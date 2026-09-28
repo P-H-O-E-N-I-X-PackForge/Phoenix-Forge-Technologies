@@ -1,0 +1,47 @@
+{
+  "chapter": "MV_MEDIUM_VOLTAGE",
+  "description": "§aPatterns§r are used for AE2 autocrafting. Using §aPolyvinyl Chloride§r increases the yield by §64 times§r, and higher-tier plastics have even greater yields.
+
+§3Molecular Assemblers§r aren't available for a little while more, but you can still automate machines with §9ME Interfaces§r.
+
+A sub-note for autocrafting... whilst it's possible to perform chemical chains on-demand with AE2, doing so can build some bad habits that'll come back around to bite you in higher tiers. We urge you to passive things wherever you can.",
+  "icon_item": "ae2:blank_pattern",
+  "id": "patterns",
+  "parent": "none",
+  "positionX": 896,
+  "positionY": 229,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "polyethylene",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 1,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Autocrafting at last!",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Blank Pattern"}',
+      "item_id": "ae2:blank_pattern",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:patterns_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Patterns",
+  "visibility": "NORMAL"
+}

@@ -1,0 +1,34 @@
+{
+  "chapter": "BEES",
+  "description": 'Wait, I §o§bmeant§r§r to say, "§3Nickel for your thoughts?§r".
+
+Oh well, since we §6Greggers§r use a lot of nickel, this §6bee§r wanted to provide some §5assistance§r!
+
+To obtain it you need a sweat bee and 4 blocks of nickel.',
+  "id": "q_2110351b7b1ba6fd",
+  "parent": "none",
+  "positionX": 656,
+  "positionY": 816,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "q_77f46d844a1449b7",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Penny for your thoughts?",
+  "tasks": [
+    {
+      "description": '{"text":"Nickel Bee"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:q_2110351b7b1ba6fd_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Quest 211035",
+  "visibility": "NORMAL"
+}

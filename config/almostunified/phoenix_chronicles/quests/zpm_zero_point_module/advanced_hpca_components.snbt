@@ -1,0 +1,38 @@
+{
+  "chapter": "ZPM_ZERO_POINT_MODULE",
+  "description": "§3Advanced HPCA Components§r are improved versions of their regular counterparts, and allow for increasing the computation you can produce from an HPCA.
+
+The §3HPCA Advanced Computation Component§r produces §a4x§r the computation for only §a2x§r the Cooling!",
+  "icon_item": "gtceu:hpca_advanced_computation_component",
+  "id": "advanced_hpca_components",
+  "parent": "none",
+  "positionX": 266,
+  "positionY": 536,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "first_uv_circuits",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Time for some computational advancement!",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"HPCA Advanced Computation Component"}',
+      "item_id": "gtceu:hpca_advanced_computation_component",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:advanced_hpca_components_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Advanced HPCA Components",
+  "visibility": "NORMAL"
+}

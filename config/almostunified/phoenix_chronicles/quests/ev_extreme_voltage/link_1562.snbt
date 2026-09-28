@@ -1,0 +1,22 @@
+{
+  "chapter": "EV_EXTREME_VOLTAGE",
+  "description": "",
+  "id": "link_1562",
+  "link_target": "phoenix_chronicles:phosphorus_boules",
+  "parent": "none",
+  "positionX": 626,
+  "positionY": 1076,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "the_cleanroom",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "title": "",
+  "visibility": "NORMAL"
+}

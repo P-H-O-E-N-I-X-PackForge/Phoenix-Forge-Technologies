@@ -1,0 +1,38 @@
+{
+  "chapter": "HV_HIGH_VOLTAGE",
+  "description": "§aCetane-Boosted Diesel§r is §650% more energy dense§r than regular §aDiesel§r, and only requires 1 part §dTetranitromethane (TNM)§r for every 50 parts §aDiesel§r. What a steal, right?
+
+The catch comes in the complexity of making §dTNM§r. In order to concoct it, you must react §aNitric Acid§r with either §dEthenone§r or §aMethyl Acetate§r, both of which have quite an involved process themselves!",
+  "icon_item": "gtceu:fluid_cell",
+  "id": "cetaneboosted_diesel",
+  "parent": "none",
+  "positionX": 896,
+  "positionY": 908,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "nitric_acid",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "This is to go further beyond",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"cetane boosted diesel bucket"}',
+      "item_id": "gtceu:cetane_boosted_diesel_bucket",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:cetaneboosted_diesel_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Cetane-boosted Diesel",
+  "visibility": "NORMAL"
+}

@@ -1,0 +1,55 @@
+{
+  "chapter": "MV_MEDIUM_VOLTAGE",
+  "description": "§6The best LV Circuits§r! You can start to churn these guys out, as you'll be making them for the rest of the game.
+
+Try to keep a stockpile of these crafted at all times - making these on-demand can take a while.
+
+Reaching §5EV§r will unlock methods to make them even cheaper.",
+  "icon_item": "gtceu:microchip_processor",
+  "id": "best_lv_circuits",
+  "parent": "none",
+  "positionX": 1076,
+  "positionY": 499,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "plastic_boards",
+      "required": 1b
+    },
+    {
+      "id": "capacitors",
+      "required": 1b
+    },
+    {
+      "id": "advanced_circuit_assembler",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 1,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "It Feels Good to be the Best",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Microchip Processor"}',
+      "item_id": "gtceu:microchip_processor",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:best_lv_circuits_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Best LV Circuits",
+  "visibility": "NORMAL"
+}

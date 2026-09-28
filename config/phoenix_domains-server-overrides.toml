@@ -1,0 +1,46 @@
+# phoenix_domains-server-overrides.toml
+#
+# Every value below is currently set to its shipped DEFAULT. This file is auto-generated the
+# first time it's missing, purely so it reads like a normal, complete config you can browse
+# and edit in place — not an empty stub you have to fill in from documentation.
+#
+# Editing a value here and saving is what makes it an ACTIVE override: on every subsequent
+# world/server load or config reload, any key whose value here differs from phoenix_domains's
+# current built-in default for that key is force-applied on top of that world's own
+# serverconfig. A key left untouched (still equal to the default) has no effect — that
+# world's own serverconfig (or the built-in default) applies normally.
+
+
+[restrictions]
+	#Maximum distance, in chunks, a player can be from a chunk to claim it — the Solaris-backed claim map lets you pan around and see chunks far past where you're actually standing, so without a limit here players could claim land anywhere they've simply looked at, not just land they've traveled to. 0 = no limit.
+	#Range: > 0
+	maxClaimDistanceChunks = 32
+	#Flat hard ceiling on how many chunks a single owner token (guild or solo player) may have claimed at once, independent of the claim-power economy — a config admins can use even if they don't want to touch the power-pool system at all. 0 = no limit.
+	#Range: > 0
+	maxClaimedChunksPerOwner = 0
+	#Flat hard ceiling on how many of an owner token's claimed chunks may be forceloaded at once, independent of the chunkload-power economy. 0 = no limit.
+	#Range: > 0
+	maxForceloadedChunksPerOwner = 0
+
+[claim_power]
+	#Cap on passively-accrued claim blocks (does not cap base or admin-granted blocks).
+	#Range: 0.0 ~ 1.7976931348623157E308
+	maxAccrual = 500.0
+	#Claim blocks passively accrued per hour, for every hour at least one member of the owner token is online.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	perHour = 4.0
+	#Claim blocks every owner token (guild or solo player) starts with, before accrual or grants.
+	#Range: > 0
+	base = 500
+
+[chunkload_power]
+	#Cap on passively-accrued chunkload blocks (does not cap base or admin-granted blocks).
+	#Range: 0.0 ~ 1.7976931348623157E308
+	maxAccrual = 50.0
+	#Chunkload blocks passively accrued per hour, for every hour at least one member of the owner token is online.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	perHour = 0.5
+	#Chunkload blocks every owner token starts with, before accrual or grants.
+	#Range: > 0
+	base = 100
+

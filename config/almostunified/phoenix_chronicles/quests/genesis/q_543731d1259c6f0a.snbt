@@ -1,0 +1,31 @@
+{
+  "chapter": "GENESIS",
+  "description": "I'll be consistently working on this pack on GitHub, so if any of you would like to pop over there and help/take a look would be greatly appreciated!
+
+https://github.com/Phoenixvine32908/Phoenix-Forge-Technologies
+
+If you want to collaborate just make a pull request and there is a very high chance I will approve it.
+
+I mainly work with §bKubeJS§r while I am also trying to learn java.",
+  "icon_item": "minecraft:dragon_head",
+  "id": "q_543731d1259c6f0a",
+  "parent": "none",
+  "positionX": 704,
+  "positionY": 176,
+  "position_is_center": 1b,
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Github very nice, yes",
+  "tasks": [
+    {
+      "description": '{"text":"Updates"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:q_543731d1259c6f0a_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Quest 543731",
+  "visibility": "NORMAL"
+}

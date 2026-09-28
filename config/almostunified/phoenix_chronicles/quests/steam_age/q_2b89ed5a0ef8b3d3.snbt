@@ -1,0 +1,58 @@
+{
+  "chapter": "STEAM_AGE",
+  "description": "§7Steel§r, ah yes, §7steel§r. A delightful alloy that changed how humanity used machines. It is stronger than §7iron§r, more flexible, and more resistant to oxidization.
+
+Normally, it is quite hard to obtain because of the high purity necessary from the coke.
+
+However, I decided to make it easier, so now you can just craft any of the §7iron dusts§r with any of the §8coal dusts§r to make §7steel dust§r easily!
+
+Once you have a little bit of steel, you can also make an §5Alloy Smelter§r and do the same to save you some tool durability. I suggest making a stack or so of §7steel§r for now and then making more later as you need it.",
+  "icon_item": "gtceu:steel_ingot",
+  "id": "q_2b89ed5a0ef8b3d3",
+  "parent": "none",
+  "positionX": 1336,
+  "positionY": 456,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "q_2a2de8c29634494e",
+      "required": 1b
+    },
+    {
+      "id": "iron_for_steel",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 4,
+      "item_id": "gtceu:steel_ingot",
+      "type": "item"
+    },
+    {
+      "count": 3,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Steel, The Alloy that Starts True Automation",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 32,
+      "description": '{"text":"steel ingot"}',
+      "item_id": "gtceu:steel_ingot",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_2b89ed5a0ef8b3d3_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Obtain steel ingot",
+  "visibility": "NORMAL"
+}

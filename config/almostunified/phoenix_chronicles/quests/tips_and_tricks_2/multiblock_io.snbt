@@ -1,0 +1,48 @@
+{
+  "chapter": "TIPS_AND_TRICKS_2",
+  "description": "Similarly to the Steam Multiblocks - hopefully, you made these! - you're going to need some §3Buses§r if you want to move items in and out.
+
+For fluids, you'll instead need §3Hatches§r. Higher tiers of §3Hatches/Buses§r have more slots.",
+  "icon_item": "gtceu:lv_input_bus",
+  "id": "multiblock_io",
+  "parent": "none",
+  "positionX": 656,
+  "positionY": 309,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "multiblock_techniques",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"§7LV Input Bus"}',
+      "item_id": "gtceu:lv_input_bus",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:multiblock_io_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"§7LV Output Bus"}',
+      "item_id": "gtceu:lv_output_bus",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:multiblock_io_task_1",
+      "type": "item_check"
+    }
+  ],
+  "title": "Multiblock I/O",
+  "visibility": "NORMAL"
+}

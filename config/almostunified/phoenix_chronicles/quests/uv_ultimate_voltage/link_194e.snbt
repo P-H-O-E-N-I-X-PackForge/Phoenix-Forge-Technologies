@@ -1,0 +1,22 @@
+{
+  "chapter": "UV_ULTIMATE_VOLTAGE",
+  "description": "",
+  "id": "link_194e",
+  "link_target": "phoenix_chronicles:americium",
+  "parent": "none",
+  "positionX": 356,
+  "positionY": 536,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "fusion_reactor_ii",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "title": "",
+  "visibility": "NORMAL"
+}

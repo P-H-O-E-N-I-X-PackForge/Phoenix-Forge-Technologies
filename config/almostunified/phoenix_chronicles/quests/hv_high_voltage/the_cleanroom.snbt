@@ -1,0 +1,84 @@
+{
+  "chapter": "HV_HIGH_VOLTAGE",
+  "description": "The §3Cleanroom§r is a hollow multiblock free of contaminants. Going forward, most new §acircuit-related recipes§r, as well as some unique blocks like §3Fusion Casings§r, will need to be run in machines inside a Cleanroom.
+
+Creating it will put your §aPolyethylene§r automation to the test for all the §dPlascrete§r and/or §dCleanroom Glass§r you will make.
+
+We'll start you off with a 5x5x5 Cleanroom, but you should upgrade its size when you start feeling cramped.
+
+§6This quest unlocks a new tutorial on the Cleanroom in the §lTips and Tricks§r§6 tab - check it out to learn more!§r
+
+---
+
+
+§l§3Lore:§r§o The Cleanroom comes from GregTech 5, but as is often the case, the GT5 implementation is much more punishing. The recipes would run without regard to cleanliness, but had a % chance of completion equal to the cleanliness of the Cleanroom. This caused a lot of accidental voiding.
+
+§oFurthermore, if the Cleanroom had a maintenance issue, the cleanliness would cap out at 90%, which means 10% of items would be voided.
+
+§oThe GTCEu Cleanroom will §6never void§f recipe outputs.",
+  "icon_item": "gtceu:cleanroom",
+  "id": "the_cleanroom",
+  "parent": "none",
+  "positionX": 806,
+  "positionY": 548,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "polyethylene",
+      "required": 1b
+    },
+    {
+      "id": "advanced_circuit_assembler",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 4,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "STAR",
+  "subtitle": "They put me in a room... a clean room",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Cleanroom"}',
+      "item_id": "gtceu:cleanroom",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:the_cleanroom_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 8,
+      "description": '{"text":"Filter Casing"}',
+      "item_id": "gtceu:filter_casing",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:the_cleanroom_task_1",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 50,
+      "description": '{"text":"Plascrete or Cleanroom Glass"}',
+      "item_id": "gtceu:cleanroom_glass",
+      "optional": 1b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:the_cleanroom_task_2",
+      "type": "item_check"
+    }
+  ],
+  "title": "The Cleanroom",
+  "visibility": "NORMAL"
+}

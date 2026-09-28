@@ -1,0 +1,44 @@
+{
+  "chapter": "TIPS_AND_TRICKS_2",
+  "description": "§9-§r If the recipe isn't happening, check if the Multiblock is properly plugged in (we all make these mistakes!).
+
+§9-§r Remember to always perform the initial Maintenance \"routine\" at the appropriate hatch.
+
+§9-§r Verify the recipe's EU/t usage - the max EU/t provided to the multiblock has to be greater than that of the recipe.
+
+---
+
+
+§9- §rCheck the special requirements the recipe may have (EMI always has some kind of indication if this is the case). Do you need to be in a Cleanroom, for example?
+
+§9-§r Make sure the correct items are input into the buses/hatches. This is less obvious than in a regular machine, because you have to juggle between the Input Bus and Input Hatch.
+
+§9-§r Make sure there is space for an output. Maybe the multiblock formed, but you forgot a Hatch. The other biggest offender is the Output Hatches being too low tier and thus having too little capacity - this trips people up with the Greenhouse!",
+  "icon_item": "gtceu:robust_machine_casing",
+  "id": "troubleshooting_multiblocks",
+  "parent": "none",
+  "positionX": 255,
+  "positionY": 308,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "multiblock_techniques",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "It's not forming? We've all been there before.",
+  "tasks": [
+    {
+      "description": '{"text":"Checkmark"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:troubleshooting_multiblocks_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Troubleshooting Multiblocks",
+  "visibility": "NORMAL"
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": "MULTIBLOCK_DILEMMA",
+  "description": "",
+  "id": "link_7e75",
+  "link_target": "phoenix_chronicles:multiblock_miner_ii",
+  "parent": "none",
+  "positionX": 776,
+  "positionY": 296,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "iridium_and_osmium",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "title": "",
+  "visibility": "NORMAL"
+}

@@ -1,0 +1,29 @@
+{
+  "chapter": "STARTING_OUT_WITH_LINES",
+  "description": "§aStyrene Butadiene Rubber§r (SBR) represents the §dstrongest form of synthetic rubber§r available, crucial for §dhigh-performance applications§r. Its production is more involved than other rubber types, requiring two §eprimary precursors§r: §eStyrene§r (derived from §eEthylene§r and §eBenzene§r) and §eButadiene§r.
+
+The intricate steps for manufacturing these components are extensive and best explored through in-game resources. For a complete overview of the §bStyrene Butadiene Rubber production chain§r, §r§o§6consult EMI/JEI for detailed recipes and processes.§r
+
+While §aStyrene Butadiene Rubber§r isn't §6technically required§r for any progression gate (as §7silicon rubber§r §oalso§r works), its §dsuperior properties for cables§r and §dspecific uses§r mean its production can significantly §6reduce material consumption in demanding builds.§r",
+  "icon_item": "gtceu:styrene_butadiene_rubber_ingot",
+  "id": "styrene_butadiene_rubber",
+  "parent": "none",
+  "positionX": 576,
+  "positionY": 336,
+  "position_is_center": 1b,
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Rubbery V3",
+  "tasks": [
+    {
+      "description": '{"text":"Rubber V3"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:styrene_butadiene_rubber_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Styrene Butadiene Rubber",
+  "visibility": "NORMAL"
+}

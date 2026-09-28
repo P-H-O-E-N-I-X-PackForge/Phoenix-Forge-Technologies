@@ -1,0 +1,36 @@
+{
+  "chapter": "LUV_LUDICROUS_VOLTAGE",
+  "description": "The §3Pyrolyse Oven§r is an stronger variant to the §3Cracker§r. It can produce §9Coal Coke§r, §9Charcoal§r with a §9Creosote§r byproduct, and just as before, §6Organic Byproducts§r faster. With it's ability to use a §o§l§6Parallel Control Hatch§r§r§r, this wonderful upgrade to your wood processing will have you rip and raring. I hope you are ready to §c§lBring The Heat!§r",
+  "icon_item": "phoenixcore:superheated_pyrolysing_oven",
+  "id": "q_6254ef241b1f3ccf",
+  "parent": "none",
+  "positionX": 566,
+  "positionY": 236,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "luv_superconductors",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Ouch, hot wood, careful!",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Superheated Pyrolysing Oven"}',
+      "item_id": "phoenixcore:superheated_pyrolysing_oven",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_6254ef241b1f3ccf_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Obtain Superheated Pyrolysing Oven",
+  "visibility": "NORMAL"
+}

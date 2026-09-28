@@ -1,0 +1,46 @@
+{
+  "chapter": "MV_MEDIUM_VOLTAGE",
+  "description": "Put your previously made §aBiomass§r into a §3MV Distillery§r to make §aEthanol§r.
+
+You will need this for §dEthylene§r by reacting it with §aSulfuric Acid§r in a §3MV Chemical Reactor§r... unless you chose to go down the Oil path.
+
+Once you have a hefty starting stock of Ethanol, consider making and distilling §9Fermented Biomass§r in a §3Distillation Tower§r (when you get there!) for extra chemicals.
+
+§cDo not try§r to use Ethanol as a Power source... it's quite possibly its worst use. If it's organic §9Power§r that you want, we suggest taking a look at §dBenzene§r instead!",
+  "icon_item": "gtceu:ethanol_bucket",
+  "id": "ethanol",
+  "parent": "none",
+  "positionX": 446,
+  "positionY": 319,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "biomass",
+      "required": 1b
+    },
+    {
+      "id": "distillery",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Yo, wait - that's alcohol!",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"ethanol bucket"}',
+      "item_id": "gtceu:ethanol_bucket",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:ethanol_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Ethanol",
+  "visibility": "NORMAL"
+}

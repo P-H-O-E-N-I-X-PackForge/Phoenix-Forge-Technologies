@@ -1,0 +1,48 @@
+{
+  "chapter": "RENEWABILITY_AND_YOU",
+  "description": "This was touched upon in the §5EV§r chapter, but we'll focus on what this distillation gets you here.
+
+The Nitrogen output is §bsubstantial§r, and can help you keep any §ePyrolyse Ovens§r running. You should buffer some of the Nitrogen so you can §aboost your EBFs§r - faster recipe times save your sanity and energy in equal measures.
+
+---
+
+
+Helium and Argon yields are low, but ideally you can run the Air Distillation as a §dpassive process§r every so often to keep your supplies topped up. Both are used to §aboost EBF speeds§r.
+
+§bCrushed Ice§r is... well, §bCrushed Ice§r. Maybe you could open a cocktail bar?",
+  "icon_item": "gtceu:liquid_air_bucket",
+  "id": "liquid_air",
+  "parent": "none",
+  "positionX": 336,
+  "positionY": 410,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "all_kinds_of_air_distillation",
+      "required": 1b
+    },
+    {
+      "id": "upgrade_your_ebf",
+      "required": 1b
+    },
+    {
+      "id": "ice_cold",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Nitrogen, Helium, Argon....",
+  "tasks": [
+    {
+      "description": '{"text":"I promise I won\'t sell my air as a commodity!"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:liquid_air_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Liquid Air",
+  "visibility": "NORMAL"
+}

@@ -1,0 +1,108 @@
+{
+  "chapter": "ZPM_ZERO_POINT_MODULE",
+  "description": "§cZPM§r Components thankfully aren't too much harder than §dLuV§r.
+
+They use lots of §9Osmiridium§r, so make sure your platinum refining process is up to the task.",
+  "icon_item": "gtceu:zpm_electric_motor",
+  "id": "absolute_elation",
+  "parent": "none",
+  "positionX": 176,
+  "positionY": 356,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "europium",
+      "required": 1b
+    },
+    {
+      "id": "link_21a3",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Prepare your platline!",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"ZPM Electric Motor"}',
+      "item_id": "gtceu:zpm_electric_motor",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:absolute_elation_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"ZPM Electric Piston"}',
+      "item_id": "gtceu:zpm_electric_piston",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:absolute_elation_task_1",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"ZPM Electric Pump"}',
+      "item_id": "gtceu:zpm_electric_pump",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:absolute_elation_task_2",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"ZPM Conveyor Module"}',
+      "item_id": "gtceu:zpm_conveyor_module",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:absolute_elation_task_3",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"ZPM Robot Arm"}',
+      "item_id": "gtceu:zpm_robot_arm",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:absolute_elation_task_4",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"ZPM Sensor"}',
+      "item_id": "gtceu:zpm_sensor",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:absolute_elation_task_5",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"ZPM Emitter"}',
+      "item_id": "gtceu:zpm_emitter",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:absolute_elation_task_6",
+      "type": "item_check"
+    }
+  ],
+  "title": "Absolute Elation",
+  "visibility": "NORMAL"
+}

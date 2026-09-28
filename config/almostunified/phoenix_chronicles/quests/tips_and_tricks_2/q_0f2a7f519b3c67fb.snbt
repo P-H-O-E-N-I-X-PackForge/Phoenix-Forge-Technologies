@@ -1,0 +1,58 @@
+{
+  "chapter": "TIPS_AND_TRICKS_2",
+  "description": "Transporting EU is done via direct connection, using §aWires§r or §aCables§r.
+
+Wires are the inferior option as they will §celectrocute§r you and §close more energy§r as the electricity travels through the wire, so you want to use insulated Cables. Keep in mind that you can't combine cables into thicker variants, so make sure you insulate the right thickness to avoid any headaches.
+
+§cCable loss§r means you will have to stick your Machines close to your Generators, but that will only be a problem in earlygame. If you peek through the quest book, you will eventually be able to obtain §6Superconductors§r, sidestepping this issue!
+
+---
+
+
+Keep in mind that GregTech cables suffer from \"cable loss\". Every block of cable that an EU packet travels will decrease its stored EU.
+
+For instance, transferring §7LV§r current along 6 cables each with a loss of 5 EU/t will result in the packets arriving at their destination with a meagre 2 EU/t (32 - [6*5]). For this reason, you will want to keep your cables short until you can start to consider better alternatives.
+
+---
+
+
+§6Superconductors§r are special Wires available for each Voltage tier. They don't have any Cable counterpart, but that isn't necessary, as they have absolutely §6zero cable loss§r! They also don't damage you when you touch them.
+
+They are the best choice for wiring at any tier, if not a little expensive in comparison to the other wires.
+
+---
+
+
+GT6-style Cables are §denabled§r. It means that placing Cables will only connect them to the block they were placed against. To open more connections, use your §5Wire Cutter§r on the grid.
+
+---
+
+
+§2GTCEu§r Cables now have §6native RF support§r! You can plug any RF appliance into an EU source and it will automatically convert. The ratio is §a4 : 1§r (RF : EU). Not that you can produce RF in this pack - but it's a thought if you wanted to make your own!",
+  "icon_item": "gtceu:copper_double_cable",
+  "id": "q_0f2a7f519b3c67fb",
+  "parent": "none",
+  "positionX": 334,
+  "positionY": 229,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "electricity_generation",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "tasks": [
+    {
+      "description": '{"text":"Cables"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:q_0f2a7f519b3c67fb_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Quest 0f2a7f",
+  "visibility": "NORMAL"
+}

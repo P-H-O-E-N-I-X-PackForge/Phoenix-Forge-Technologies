@@ -1,0 +1,49 @@
+{
+  "chapter": "MV_MEDIUM_VOLTAGE",
+  "description": "If you're wanting to dive into §bMV§r, start here.
+
+The dusts created in an §3MV Mixer§r have great utility.",
+  "icon_item": "gtceu:mv_mixer",
+  "id": "advanced_mixer",
+  "parent": "none",
+  "positionX": 536,
+  "positionY": 679,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "link_6fca",
+      "required": 1b
+    },
+    {
+      "id": "first_mv_circuit",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 1,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Mixing more complex alloys",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"§bAdvanced Mixer §r"}',
+      "item_id": "gtceu:mv_mixer",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:advanced_mixer_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Advanced Mixer",
+  "visibility": "NORMAL"
+}

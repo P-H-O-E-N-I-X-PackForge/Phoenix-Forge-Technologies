@@ -1,0 +1,45 @@
+{
+  "chapter": "STEAM_AGE",
+  "description": "§6Bronze§r, one of the first alloys humans made. Now infused with the embers of a once great fire
+
+§cFiery Bronze§r: 4:1:1: Copper Dust, Tin Dust, Dormant Ember Dust= 5 Fiery bronze dust.
+Don't worry, we won't make you jump through hoops here. Just smelt it in a furnace.",
+  "icon_item": "phoenixcore:fiery_bronze_ingot",
+  "id": "fiery_bronze",
+  "parent": "none",
+  "positionX": 496,
+  "positionY": 336,
+  "position_is_center": 1b,
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 4,
+      "item_id": "phoenixcore:fiery_bronze_ingot",
+      "type": "item"
+    },
+    {
+      "count": 2,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Hot Bronze",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 16,
+      "description": '{"text":"fiery bronze ingot"}',
+      "item_id": "phoenixcore:fiery_bronze_ingot",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:fiery_bronze_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Fiery Bronze",
+  "visibility": "NORMAL"
+}

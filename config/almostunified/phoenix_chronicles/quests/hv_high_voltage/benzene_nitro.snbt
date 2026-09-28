@@ -1,0 +1,38 @@
+{
+  "chapter": "HV_HIGH_VOLTAGE",
+  "description": "Making §aNitrobenzene§r will boost the energy efficiency of §aBenzene§r roughly §6fourfold§r. You love to see it.
+
+The catch here is that it takes §dDistilled Water§r, and consumes a bit of §dSulfur§r with every step.",
+  "icon_item": "gtceu:fluid_cell",
+  "id": "benzene_nitro",
+  "parent": "none",
+  "positionX": 986,
+  "positionY": 908,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "nitric_acid",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Click this link for free Nitro",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"nitrobenzene bucket"}',
+      "item_id": "gtceu:nitrobenzene_bucket",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:benzene_nitro_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Benzene Nitro",
+  "visibility": "NORMAL"
+}

@@ -1,0 +1,58 @@
+{
+  "chapter": "LV_LOW_VOLTAGE",
+  "description": "Well... gotten any AluminFrost Ingots yet?
+
+Each Electric Age has Circuits corresponding to its tier. The Good Electronic Circuit is the §dfirst MV Circuit§r you can make out of the three tiers of §bMV§r Circuitry.
+
+Always be on the lookout for a cheaper way to make your circuits - new sets of recipes become available each time you make a new tier of §2Circuit Assembler§r. Conveniently, this tier of Circuit unlocks one now! Its recipes are far, far cheaper than hand-crafting Circuits.
+
+§6Having this and AluminFrost will grant access to MV Machines.§r",
+  "icon_item": "gtceu:good_electronic_circuit",
+  "id": "first_mv_circuit",
+  "parent": "none",
+  "positionX": 1076,
+  "positionY": 806,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "q_3647b1b964a15e4e",
+      "required": 1b
+    },
+    {
+      "id": "q_7be7de4c0109d788",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 4,
+      "item_id": "gtceu:basic_electronic_circuit",
+      "type": "item"
+    },
+    {
+      "count": 4,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "STAR",
+  "subtitle": "Does that mean we're at MV yet?",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Good Electronic Circuit"}',
+      "item_id": "gtceu:good_electronic_circuit",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:first_mv_circuit_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "First MV Circuit!",
+  "visibility": "NORMAL"
+}

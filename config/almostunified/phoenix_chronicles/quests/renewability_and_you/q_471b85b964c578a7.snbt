@@ -1,0 +1,38 @@
+{
+  "chapter": "RENEWABILITY_AND_YOU",
+  "description": "Yup - §brenewable§r Glass.
+
+Glass'll always be useful throughout your playthrough in a variety of recipes.",
+  "icon_item": "minecraft:glass",
+  "id": "q_471b85b964c578a7",
+  "parent": "none",
+  "positionX": 428,
+  "positionY": 176,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "q_10fd7c65fc83add6",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Glass Hurts, doesn't it...",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"glass"}',
+      "item_id": "minecraft:glass",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_471b85b964c578a7_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Obtain glass",
+  "visibility": "NORMAL"
+}

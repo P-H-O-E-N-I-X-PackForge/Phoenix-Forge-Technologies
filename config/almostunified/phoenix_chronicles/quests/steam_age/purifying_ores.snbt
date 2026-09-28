@@ -1,0 +1,38 @@
+{
+  "chapter": "STEAM_AGE",
+  "description": "Sometimes when you have some crushed ores, you want to crush them again. The product of this process is §4impure dust§r. Now, you will want to put those in an §bOre Washer§r or a §5Centrifuge§r to get you §auseable dusts§r. With how slow ore washing is, I would suggest using the §6Steam Separator§r.",
+  "icon_item": "gtceu:cobaltite_dust",
+  "id": "purifying_ores",
+  "parent": "none",
+  "positionX": 936,
+  "positionY": 776,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "q_7290d7d95a946cee",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 4,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Spin or Wash",
+  "tasks": [
+    {
+      "description": '{"text":"Spin"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:purifying_ores_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Purifying Ores",
+  "visibility": "NORMAL"
+}

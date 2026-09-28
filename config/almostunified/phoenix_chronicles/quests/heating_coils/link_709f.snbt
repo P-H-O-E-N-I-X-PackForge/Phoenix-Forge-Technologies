@@ -1,0 +1,22 @@
+{
+  "chapter": "HEATING_COILS",
+  "description": "",
+  "id": "link_709f",
+  "link_target": "phoenix_chronicles:cupronickel_coils",
+  "parent": "none",
+  "positionX": 176,
+  "positionY": 176,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "q_5b2696206205cb2e",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "title": "",
+  "visibility": "NORMAL"
+}

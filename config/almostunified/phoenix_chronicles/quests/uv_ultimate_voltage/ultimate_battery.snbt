@@ -1,0 +1,60 @@
+{
+  "chapter": "UV_ULTIMATE_VOLTAGE",
+  "description": "The §aUV Lapotronic Orb§r is even better than the §cZPM§r one! It of course comes at a price...
+
+---
+
+
+§l§3Lore:§r§o Imagine making 512 §1IV§f Orbs, or 64 §dLuV§f Orbs... or 8 §cZPM§f Orbs.... for just one of these! See the Lore for the LuV orb for details.",
+  "icon_item": "gtceu:energy_cluster",
+  "id": "ultimate_battery",
+  "parent": "none",
+  "positionX": 626,
+  "positionY": 536,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "wetware_printed_circuit_board",
+      "required": 1b
+    },
+    {
+      "id": "mega_batteries",
+      "required": 1b
+    },
+    {
+      "id": "link_194e",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "It holds way too much power!",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Energy Cluster"}',
+      "item_id": "gtceu:energy_cluster",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:ultimate_battery_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"UV Lapotronic Capacitor"}',
+      "item_id": "gtceu:uv_lapotronic_battery",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:ultimate_battery_task_1",
+      "type": "item_check"
+    }
+  ],
+  "title": "Ultimate Battery?",
+  "visibility": "NORMAL"
+}

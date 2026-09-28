@@ -1,0 +1,40 @@
+{
+  "chapter": "LV_LOW_VOLTAGE",
+  "description": "While steam and other Thermal Expansion dynamos produce FE, this energy cannot directly power GregTech machines.
+
+The solution is to employ §l§aconverters§r, which can convert your §2FE into EU§r. To configure a converter to output EU, simply right-click it with a soft mallet to change its mode from §aEU to FE§r to §2FE to EU§r.
+
+Keep in mind, however, that these converters are still subject to §avoltage/amperage rules§r, so §l§4be careful!§r",
+  "icon_item": "gtceu:lv_16a_energy_converter",
+  "id": "q_21db0d65009b1ccd",
+  "parent": "none",
+  "positionX": 626,
+  "positionY": 356,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "progressing_through_lv",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Conversion",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"§7LV§r 16§eA§r Energy Converter"}',
+      "item_id": "gtceu:lv_16a_energy_converter",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_21db0d65009b1ccd_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Obtain §7LV§r 16§eA§r Energy Converter",
+  "visibility": "NORMAL"
+}

@@ -1,0 +1,104 @@
+{
+  "chapter": "MV_MEDIUM_VOLTAGE",
+  "description": "Here's a list of the components you will need in §bMV§r. To alleviate the pain, be sure to autocraft or §dbulk-craft§r these parts, especially §aMotors§r.
+
+Familiar with the §aEmitter§r? This tier's Emitter requires a §dFlawless Emerald§r in its recipe, which'll be only attainable with the §3Sifting Machine§r for now.
+
+Conveyors, Pumps and Robot Arms are objective upgrades to §7LV§r versions if you use them as covers.
+
+§6This quest unlocks a new tutorial on Overclocking in the §lTips and Tricks§r§6 tab - check it out to learn more!§r",
+  "icon_item": "gtceu:mv_electric_motor",
+  "id": "mv_components",
+  "parent": "none",
+  "positionX": 446,
+  "positionY": 679,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "link_6fca",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 2,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Hated crafting these in the previous tier?",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"MV Electric Motor"}',
+      "item_id": "gtceu:mv_electric_motor",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:mv_components_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"MV Electric Piston"}',
+      "item_id": "gtceu:mv_electric_piston",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:mv_components_task_1",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"MV Electric Pump"}',
+      "item_id": "gtceu:mv_electric_pump",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:mv_components_task_2",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"MV Conveyor Module"}',
+      "item_id": "gtceu:mv_conveyor_module",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:mv_components_task_3",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"MV Robot Arm"}',
+      "item_id": "gtceu:mv_robot_arm",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:mv_components_task_4",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"MV Emitter"}',
+      "item_id": "gtceu:mv_emitter",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:mv_components_task_5",
+      "type": "item_check"
+    }
+  ],
+  "title": "MV Components",
+  "visibility": "NORMAL"
+}

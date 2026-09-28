@@ -1,0 +1,32 @@
+{
+  "chapter": "BEES",
+  "description": "Some say the Niter Bee is a bit of a §bfirecracker§r, always ready to §4explode§r with energy!
+
+To obtain this §8sparky§r little friend, you'll need §f4 blocks of coal§r and a §eCreeper§r bee.",
+  "id": "q_6b3de2209192566a",
+  "parent": "none",
+  "positionX": 1456,
+  "positionY": 896,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "q_7b0e5576d3ce9a85",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Ig-Nite(r)?",
+  "tasks": [
+    {
+      "description": '{"text":"Niter Bee"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:q_6b3de2209192566a_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Quest 6b3de2",
+  "visibility": "NORMAL"
+}

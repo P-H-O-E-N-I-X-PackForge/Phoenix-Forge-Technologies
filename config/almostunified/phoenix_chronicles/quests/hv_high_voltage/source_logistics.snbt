@@ -1,0 +1,34 @@
+{
+  "chapter": "HV_HIGH_VOLTAGE",
+  "description": "Your way of using §dArs Nouveau§r §5Source§r in GregTech multiblocks. To move §5Source§r long distances you will want to use §5Source§r jars and §5Source§r relays, with the source hatches acting as §aendpoints§r. The distance that jars can be seen by a §5Source§r hatch is by default §a12 blocks§r, anything longer than that will require your §dWand Of Dominion§r.
+
+§5Source§r Input: Used by the Alchemical Imbuer and §5Source§r Reactor to transform §2mundane§r resources into more §dmagical§r variants.
+
+§5Source§r Output: Used by the Alchemical Imbuer's §5Source§r Extraction Mode to provide you source through carbon based materials.",
+  "icon_item": "phoenixcore:hv_source_input_hatch",
+  "id": "source_logistics",
+  "parent": "none",
+  "positionX": 662,
+  "positionY": 176,
+  "position_is_center": 1b,
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Heard ya wanted to learn magic.",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"§6HV Source Input Hatch"}',
+      "item_id": "phoenixcore:hv_source_input_hatch",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:source_logistics_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Source Logistics",
+  "visibility": "NORMAL"
+}

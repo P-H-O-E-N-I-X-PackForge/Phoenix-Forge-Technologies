@@ -1,0 +1,39 @@
+{
+  "chapter": "BEES",
+  "description": "A vibrant splash of color from the forest floor!
+
+This §cRed Shroom Bee§r hums with a §4bold energy§r, standing out amongst the greenery.
+
+To obtain this §f striking§r friend, you'll find it §2naturally flying around§r in forested areas, often near its brown counterpart. Keep an eye out for its distinctive cap!",
+  "id": "red_shroombee",
+  "parent": "none",
+  "positionX": 176,
+  "positionY": 896,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "brown_shroombee",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "INFINITE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Yummy red mushrooms.",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 32,
+      "description": '{"text":"red mushroom"}',
+      "item_id": "minecraft:red_mushroom",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:red_shroombee_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Red Shroombee",
+  "visibility": "NORMAL"
+}

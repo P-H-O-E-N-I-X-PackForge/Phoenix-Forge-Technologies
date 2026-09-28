@@ -1,0 +1,45 @@
+{
+  "chapter": "LUV_LUDICROUS_VOLTAGE",
+  "description": "New in the §a1.4 update§r, Dual Hatches will greatly help with automation with Multiblocks.
+
+They can contain both §6Fluids and Items simultaneously§r, meaning you can simply connect a §bPattern Provider§r and be off to the races. No more faffing around with P2P or Buffers!",
+  "icon_item": "gtceu:luv_dual_input_hatch",
+  "id": "two_hatches_for_the_price_of_one",
+  "parent": "none",
+  "positionX": 355,
+  "positionY": 657,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "link_6205",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 1,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "CIRCLE",
+  "subtitle": "Compact and Useful",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Dual I/O Hatch"}',
+      "item_id": "gtceu:luv_dual_input_hatch",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:two_hatches_for_the_price_of_one_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Two Hatches for the Price of One",
+  "visibility": "NORMAL"
+}

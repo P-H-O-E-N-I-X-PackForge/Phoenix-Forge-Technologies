@@ -1,0 +1,69 @@
+{
+  "chapter": "LUV_LUDICROUS_VOLTAGE",
+  "description": "The chances you are having TPS issues playing this modpack are slim - this Quest is more suited for late game bases with GregTech and AE2.
+
+If you run the command §9/forge tps§r, you will be given the current §4TPS§r and the §4tick time§r in milliseconds.
+
+If the tick time exceeds 50ms, the server is under too much load, and won't be able to keep up with a steady 20 TPS.
+
+Any machine will add up to the tick time, but don't be too scared of adding machines. Most of the lag usually comes from things that are unoptimized.
+
+---
+
+
+Things to §cavoid§r in general:
+
+§9-§r Entities are pretty bad. Ground items or mob entities should be kept as low as possible at any given time. Thankfully, this shouldn't be an issue in this modpack.
+
+§9-§r Building everything packed together in a small space. Note that this does §onot§r affect TPS, but you will suffer FPS drops instead.
+
+§9-§r Huge walls of drawers, as iterating through every single one of them for insertion and extraction can be pretty taxing.
+
+---
+
+
+Things to§c avoid§r with AE2:
+
+§9-§r ME Import and Export Buses on large networks. Use ME Interfaces instead.
+
+§9-§r Crafting Cards to passively do large requests.
+
+§9-§r Recursive insertion and/or extraction through sub-networks. If you use sub-networks, make them do very specific things rather than interacting with another AE2 network.
+
+---
+
+
+Things to §cavoid§r with GregTech (GTCEu has received a lot of improvements over GTCE, but it is possible to destroy your TPS, as with any mod):
+
+§9-§r Many EU Producers connected to many EU Consumers in the same line. Instead, use a Diode or Battery Buffer to separate your line of generators to your line of machines.
+
+§9-§r Large amounts of Fluid Pipes. They are §onot§r laggy individually, but they can add up if you have thousands of them.
+
+§9-§r Big Item Pipe networks. Small networks are better, to reduce the number of iterations over inventories.",
+  "icon_item": "minecraft:mud",
+  "id": "combatting_lag",
+  "parent": "none",
+  "positionX": 356,
+  "positionY": 476,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "link_6205",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 3,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "CIRCLE",
+  "subtitle": "They call me 007 - 0 Naquadah, 0 EU/t, 7 TPS",
+  "title": "Combatting Lag",
+  "visibility": "NORMAL"
+}

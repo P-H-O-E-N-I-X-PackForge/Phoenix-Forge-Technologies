@@ -1,0 +1,53 @@
+{
+  "chapter": "LV_LOW_VOLTAGE",
+  "description": "§o§7This quest's subject is optional, but may still be of interest to you. We've put it here in the name of completeness.§r
+
+The §3World Accelerator§r... well, accelerates the world. Placing it down and powering it will cause it to tick-accelerate any Tile Entities around it. Using a Screwdriver, you can also toggle it to tick-accelerate random blocks in its area, such as farmland.
+
+Keep in mind that GregTech machines are blacklisted from tick acceleration - this is for the better, as tick-accelerating a GregTech machine can lead to it consuming many Amps at once and nuking your power system.",
+  "icon_item": "gtceu:lv_world_accelerator",
+  "id": "at_the_speed_of_light",
+  "optional": 1b,
+  "parent": "none",
+  "positionX": 1076,
+  "positionY": 266,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "lv_superconductor",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 1,
+      "item_id": "minecraft:clock",
+      "type": "item"
+    },
+    {
+      "count": 3,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "I Have Become Chronos",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"World Accelerators"}',
+      "item_id": "gtceu:lv_world_accelerator",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:at_the_speed_of_light_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "At The Speed Of Light",
+  "visibility": "NORMAL"
+}

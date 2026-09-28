@@ -1,0 +1,40 @@
+{
+  "chapter": "RENEWABILITY_AND_YOU",
+  "description": "Just Forge Hammer that Cobblestone and you'll get some §dGravel§r.
+
+Gravel macerates into §6Stone Dust§r, but with a low chance of Flint when the recipe is performed in a §6HV Macerator§r or above. You probably want to sift for Flint, anyway!
+
+Flint Dust centrifuges into §aSilicon Dioxide§r, which is then electrolysed for Silicon and Oxygen.",
+  "icon_item": "minecraft:gravel",
+  "id": "q_52868f643f0a1007",
+  "parent": "none",
+  "positionX": 428,
+  "positionY": 282,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "the_joy_of_cobblestone",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "cp_gravelpit",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"gravel"}',
+      "item_id": "minecraft:gravel",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_52868f643f0a1007_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Obtain gravel",
+  "visibility": "NORMAL"
+}

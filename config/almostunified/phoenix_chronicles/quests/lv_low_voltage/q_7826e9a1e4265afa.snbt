@@ -1,0 +1,60 @@
+{
+  "chapter": "LV_LOW_VOLTAGE",
+  "description": "The §3Simulation Chamber§r acts as your digital mob grinder. By inserting your §5models§r and a §4Flaming Matrix§r, it generates §emob predictions§r. These predictions can then be redeemed for mob drops at the §bLoot Fabricator§r.
+
+Upgrading your §5models§r directly improves their ability to produce accurate and useful predictions. Once a prediction is successful, take it to the §bLoot Fabricator§r to select your desired mob drop.
+
+
+---
+
+
+Here are a couple of useful features:
+
+Efficiency: One §bLoot Fabricator§r can use mob predictions from up to four §3Simulation Chambers§r at once.
+
+Memory: The §bLoot Fabricator§r remembers your preferred mob drop, even if the active predictions change.",
+  "icon_item": "hostilenetworks:sim_chamber",
+  "id": "q_7826e9a1e4265afa",
+  "parent": "none",
+  "positionX": 710,
+  "positionY": 546,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "progressing_through_lv",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 3,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    },
+    {
+      "count": 8,
+      "item_id": "minecraft:netherite_scrap",
+      "type": "item"
+    }
+  ],
+  "shape": "CIRCLE",
+  "subtitle": "Fabrication And Simulation",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Simulation Chamber"}',
+      "item_id": "hostilenetworks:sim_chamber",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_7826e9a1e4265afa_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Obtain Simulation Chamber",
+  "visibility": "NORMAL"
+}

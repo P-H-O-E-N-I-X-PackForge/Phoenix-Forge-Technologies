@@ -1,0 +1,119 @@
+{
+  "chapter": "EV_EXTREME_VOLTAGE",
+  "description": "A lot of §dKanthal§r will be required for the §aEV Motors§r. This may feel painful when you're on the edge of §5EV§r, but it won't be a problem later - trust us.
+
+§dNeodymium§r is the metal used for §aMagnetic Rods§r.
+
+§aAluminium Cables§r require §dPVC§r to be insulated.
+
+Lastly, you will need §4Radon§r for the §dQuantum Eyes§r in the §aEmitter§r recipe.",
+  "icon_item": "gtceu:ev_electric_motor",
+  "id": "the_fun_will_never_stop",
+  "parent": "none",
+  "positionX": 446,
+  "positionY": 806,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "link_01e8",
+      "required": 1b
+    },
+    {
+      "id": "link",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 3,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Wait, no, don't leave!",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"EV Electric Motor"}',
+      "item_id": "gtceu:ev_electric_motor",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:the_fun_will_never_stop_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"EV Electric Piston"}',
+      "item_id": "gtceu:ev_electric_piston",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:the_fun_will_never_stop_task_1",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"EV Electric Pump"}',
+      "item_id": "gtceu:ev_electric_pump",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:the_fun_will_never_stop_task_2",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"EV Conveyor Module"}',
+      "item_id": "gtceu:ev_conveyor_module",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:the_fun_will_never_stop_task_3",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"EV Robot Arm"}',
+      "item_id": "gtceu:ev_robot_arm",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:the_fun_will_never_stop_task_4",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"EV Emitter"}',
+      "item_id": "gtceu:ev_emitter",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:the_fun_will_never_stop_task_5",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"EV Sensor"}',
+      "item_id": "gtceu:ev_sensor",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:the_fun_will_never_stop_task_6",
+      "type": "item_check"
+    }
+  ],
+  "title": 'The "Fun" will never stop',
+  "visibility": "NORMAL"
+}

@@ -1,0 +1,43 @@
+{
+  "chapter": "UV_ULTIMATE_VOLTAGE",
+  "description": "§6Neutronium§r is a hyper-dense material normally found in the hearts of neutron stars: the collapsed cores of stars between ten and thirty times the size of the sun. It is the final primary material in GTCEu.
+
+---
+
+
+§l§3Lore:§r§o In GCYL, Neutronium is unlocked at UMV-tier (called UXV in CEu). There is also Cosmic Neutronium, which is equivalent to Avaritia's Neutronium in GT5u, which was unlocked even later in GCYL!
+
+§l§3More Lore:§r§o Fun Fact: a single Neutronium block is approximately 2884 million metric tons and somewhere around 600000K, yet you're somehow capable of holding one with your bare hands. Don't think about it too much.",
+  "icon_item": "gtceu:neutronium_ingot",
+  "id": "neutronium",
+  "parent": "none",
+  "positionX": 446,
+  "positionY": 266,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "fusion_reactor_iii",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Pure Neutrons",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"neutronium ingot"}',
+      "item_id": "gtceu:neutronium_ingot",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:neutronium_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Neutronium",
+  "visibility": "NORMAL"
+}

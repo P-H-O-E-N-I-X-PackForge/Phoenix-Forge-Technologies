@@ -1,0 +1,40 @@
+{
+  "chapter": "GENESIS",
+  "description": "EMI: Allows you to look through all the possible recipes for items/fluids. If you don't know something, this is the first thing to check.
+
+Quests: We try very hard to make quests interesting and tell you what needs done, so if you are confused about the methods of doing something, look through quests, there is (probably) a quest for it.
+
+Multiblocks: Check out the Tips and Tricks quest page for more in-depth guides.",
+  "icon_item": "minecraft:book",
+  "id": "q_1bc893748cb03bef",
+  "parent": "none",
+  "positionX": 1024,
+  "positionY": 576,
+  "position_is_center": 1b,
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 4,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    },
+    {
+      "levels": 2,
+      "type": "xp"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Please, look!",
+  "tasks": [
+    {
+      "description": '{"text":"Tips and Tricks"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:q_1bc893748cb03bef_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Quest 1bc893",
+  "visibility": "NORMAL"
+}

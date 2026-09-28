@@ -1,0 +1,40 @@
+{
+  "chapter": "HV_HIGH_VOLTAGE",
+  "description": "If you're looking for a change of scene, the §5Void Dimension§r is a perfectly empty area for you to build your factory.
+
+It wouldn't be unwise to procure some manner of §aflight§r before venturing here - maybe look around and see if this pack has §6any options§r.",
+  "icon_item": "javd:portal_block",
+  "id": "void_dimension_portal",
+  "optional": 1b,
+  "parent": "none",
+  "positionX": 266,
+  "positionY": 709,
+  "position_is_center": 1b,
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 2,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Goodbye, cruel Overworld",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Void Portal"}',
+      "item_id": "javd:portal_block",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:void_dimension_portal_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Void Dimension Portal",
+  "visibility": "NORMAL"
+}

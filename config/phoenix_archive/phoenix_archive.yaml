@@ -1,0 +1,7 @@
+general:
+  # The name shown in the main menu. Default Phoenix Archives
+  mainMenuName: Phoenix Archives
+
+  # The name shown in the Lore Tablet's tooltip. Default Phoenix Archives
+  loreTabletTooltipName: Phoenix Archives
+

@@ -88,6 +88,12 @@ ServerEvents.recipes(event => {
         .duration(650)
         .EUt(GTValues.VA[GTValues.MV] / 2)
 
+    event.recipes.gtceu.centrifuge("electrotine_dust")
+        .itemInputs("3x gtceu:electrotine_dust")
+        .itemOutputs("1x minecraft:redstone", "1x gtceu:electrum_dust")
+        .duration(80)
+        .EUt(GTValues.VA[GTValues.LV] / 2)
+
 
     event.recipes.gtceu.centrifuge("oil_sands_light")
         .itemInputs("gtceu:oilsands_dust")

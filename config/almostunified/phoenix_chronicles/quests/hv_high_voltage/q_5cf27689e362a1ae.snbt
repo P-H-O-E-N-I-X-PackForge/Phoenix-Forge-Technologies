@@ -1,0 +1,36 @@
+{
+  "chapter": "HV_HIGH_VOLTAGE",
+  "description": "This is your §atool§r to control long-distance §5Source§r lines, it handles connection between one source transmitter and one source receiver.
+
+§5Source§r Jar to §5Source§r Relay: Right click on the jar to set it as the §atransmitter§r, and right click on the relay to set it as the §6receiver§r.
+
+§5Source§r Relay to §5Source§r Jar: Right click on the relay to set it as the §atransmitter§r, and right click on the jar to set it as the §6receiver§r.
+
+After you mess around with it for a bit, try setting up a real set of §5Source§r §alogistics§r linking up all your §dmagical§r infrastructure.",
+  "icon_item": "ars_nouveau:dominion_wand",
+  "id": "q_5cf27689e362a1ae",
+  "parent": "none",
+  "positionX": 770,
+  "positionY": 176,
+  "position_is_center": 1b,
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Telling your magic what to do.",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Dominion Wand"}',
+      "item_id": "ars_nouveau:dominion_wand",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_5cf27689e362a1ae_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Obtain Dominion Wand",
+  "visibility": "NORMAL"
+}

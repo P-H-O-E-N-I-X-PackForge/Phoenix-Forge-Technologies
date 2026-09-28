@@ -1,0 +1,47 @@
+{
+  "chapter": "EV_EXTREME_VOLTAGE",
+  "description": "You probably have some old machines lying around, right?
+
+You most likely know by now that Arc Furnaces can recycle machines, so use them to get some materiels back!
+
+§eNote§r: This quest accepts either an §5EV§r or §9IV§r Arc Furnace. You don't have to make both.",
+  "icon_item": "gtceu:iv_arc_furnace",
+  "id": "getting_rid_of_those_old_machines",
+  "parent": "none",
+  "positionX": 812,
+  "positionY": 715,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "gregicality_multiblocks",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 1,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "I never liked them anyway...",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Arc Furnace"}',
+      "item_id": "gtceu:ev_arc_furnace",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:getting_rid_of_those_old_machines_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Getting Rid of Those Old Machines",
+  "visibility": "NORMAL"
+}

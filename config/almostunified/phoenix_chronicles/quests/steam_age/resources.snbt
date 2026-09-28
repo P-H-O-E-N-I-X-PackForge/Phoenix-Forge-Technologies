@@ -1,0 +1,168 @@
+{
+  "chapter": "STEAM_AGE",
+  "description": "These ores are just a start. GregTech veins are huge, so §2resource scarcity isn't a worry§r. Use your starting §9hv prospector§r to §9find veins§r with a simple right-click and its §5search function§r.
+
+
+---
+
+
+
+§6Gold§r: Common in surface magnetite veins. Crucial for progression (currency, electronics). You'll need a lot.
+
+§7Iron§r: Found in iron veins or basaltic/granitic mineral sand. Essential for early progression (plates, tools, etc.).
+
+
+---
+
+
+
+§fTin§r: Best yield from surface Cassiterite veins. Key for many necessary alloys, so you'll revisit these often.
+
+§4Redstone§r: Only in deep ruby veins in the otherworld (deepslate layer, more dangerous). Vital for automation; also yields rare earths and mercury.",
+  "icon_item": "minecraft:iron_ingot",
+  "id": "resources",
+  "parent": "none",
+  "positionX": 376,
+  "positionY": 576,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "tools_for_resource_gathering",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 4,
+      "item_id": "minecraft:iron_ingot",
+      "type": "item"
+    },
+    {
+      "count": 32,
+      "item_id": "minecraft:redstone",
+      "type": "item"
+    },
+    {
+      "count": 4,
+      "item_id": "minecraft:gold_ingot",
+      "type": "item"
+    },
+    {
+      "count": 4,
+      "item_id": "phoenixcore:raw_dormant_ember",
+      "type": "item"
+    },
+    {
+      "count": 12,
+      "item_id": "minecraft:coal",
+      "type": "item"
+    },
+    {
+      "count": 8,
+      "item_id": "minecraft:copper_ingot",
+      "type": "item"
+    },
+    {
+      "count": 3,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Resources To Get Started",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 8,
+      "description": '{"text":"Cast Iron Ingot"}',
+      "item_id": "minecraft:iron_ingot",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:resources_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 32,
+      "description": '{"text":"redstone"}',
+      "item_id": "minecraft:redstone",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:resources_task_1",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 32,
+      "description": '{"text":"tin ingot"}',
+      "item_id": "gtceu:tin_ingot",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:resources_task_2",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 4,
+      "description": '{"text":"gold ingot"}',
+      "item_id": "minecraft:gold_ingot",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:resources_task_3",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 16,
+      "description": '{"text":"raw dormant ember"}',
+      "item_id": "phoenixcore:raw_dormant_ember",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:resources_task_4",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 16,
+      "description": '{"text":"red alloy ingot"}',
+      "item_id": "gtceu:red_alloy_ingot",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:resources_task_5",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 16,
+      "description": '{"text":"coal"}',
+      "item_id": "minecraft:coal",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:resources_task_6",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 16,
+      "description": '{"text":"copper ingot"}',
+      "item_id": "minecraft:copper_ingot",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:resources_task_7",
+      "type": "item_check"
+    }
+  ],
+  "title": "Resources",
+  "visibility": "NORMAL"
+}

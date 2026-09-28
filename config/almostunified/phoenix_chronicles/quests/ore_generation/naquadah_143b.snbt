@@ -1,0 +1,45 @@
+{
+  "chapter": "ORE_GENERATION",
+  "description": "Seasoned sci-fi fans might recognise §2Naquadah§r from the series §dStargate§r! You'll find this becomes an essential material from §dLuV§r onwards.
+
+Naquadah can be processed in §dLuV§r for Titanium, Trinium, Barium, Gallium, Indium, Phosphorus, Enriched Naquadah, and Naquadria. Versatile!
+
+Moving the spotlight to the other ore, §cPlutonium§r is used to start the Radon loop, required in §9IV§r.",
+  "icon_item": "gtceu:endstone_naquadah_ore",
+  "id": "naquadah_143b",
+  "parent": "none",
+  "positionX": 1096,
+  "positionY": 616,
+  "position_is_center": 1b,
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Source of... a lot.",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"raw naquadah"}',
+      "item_id": "gtceu:raw_naquadah",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:naquadah_143b_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"raw plutonium"}',
+      "item_id": "gtceu:raw_plutonium",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:naquadah_143b_task_1",
+      "type": "item_check"
+    }
+  ],
+  "title": "Naquadah",
+  "visibility": "NORMAL"
+}

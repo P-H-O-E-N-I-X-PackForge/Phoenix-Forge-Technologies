@@ -1,0 +1,32 @@
+{
+  "chapter": "BEES",
+  "description": "This §bdeep blue§r bee shimmers with the essence of the earth's hidden gems!
+
+To obtain this §9mystical§r friend, you'll need §b4 blocks of sodalite§r and a §7Stone§r bee. It's a truly precious find!",
+  "id": "q_2c14b73744e43d31",
+  "parent": "none",
+  "positionX": 1096,
+  "positionY": 576,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "q_397edaefd995a733",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "This is for those who can't handle soda, and instead needs it lite.",
+  "tasks": [
+    {
+      "description": '{"text":"Sodalite Bee"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:q_2c14b73744e43d31_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Quest 2c14b7",
+  "visibility": "NORMAL"
+}

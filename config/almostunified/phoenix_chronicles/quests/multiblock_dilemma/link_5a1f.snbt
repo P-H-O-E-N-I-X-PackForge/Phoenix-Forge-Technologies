@@ -1,0 +1,26 @@
+{
+  "chapter": "MULTIBLOCK_DILEMMA",
+  "description": "",
+  "id": "link_5a1f",
+  "link_target": "phoenix_chronicles:the_cleanroom",
+  "parent": "none",
+  "positionX": 536,
+  "positionY": 176,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "polyethylene",
+      "required": 1b
+    },
+    {
+      "id": "advanced_circuit_assembler",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "title": "",
+  "visibility": "NORMAL"
+}

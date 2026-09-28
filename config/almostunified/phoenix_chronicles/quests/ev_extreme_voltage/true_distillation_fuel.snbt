@@ -1,0 +1,76 @@
+{
+  "chapter": "EV_EXTREME_VOLTAGE",
+  "description": "Here are the four most relevant §dHydrocarbons§r you will be obtaining from distilling Steam-Cracked Fuels.
+
+You will want to set this up §lbefore§r moving to §1IV§r.
+
+§aSteam-Cracked Light Fuel§r as input is probably the most favorable, but you are free to experiment.
+
+We know what you're thinking - something along the lines of \"§7§oThat Carbon output is just SO infuriating! It's ruining my automation!§r\".
+
+Enable Item Voiding (in the controller GUI) if you don't want to build an Output Bus.",
+  "icon_item": "gtceu:oil_bucket",
+  "id": "true_distillation_fuel",
+  "parent": "none",
+  "positionX": 356,
+  "positionY": 1076,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "distillation_tower",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"benzene bucket"}',
+      "item_id": "gtceu:benzene_bucket",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:true_distillation_fuel_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"butadiene bucket"}',
+      "item_id": "gtceu:butadiene_bucket",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:true_distillation_fuel_task_1",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"ethylene bucket"}',
+      "item_id": "gtceu:ethylene_bucket",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:true_distillation_fuel_task_2",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"methane bucket"}',
+      "item_id": "gtceu:methane_bucket",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:true_distillation_fuel_task_3",
+      "type": "item_check"
+    }
+  ],
+  "title": "True Distillation: Fuel",
+  "visibility": "NORMAL"
+}

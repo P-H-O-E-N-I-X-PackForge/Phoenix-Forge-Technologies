@@ -1,0 +1,38 @@
+{
+  "chapter": "LV_LOW_VOLTAGE",
+  "description": "§aSoldering Alloy§r is used solely as a §9Fluid§r, and in most cases is §dinterchangeable§r in circuit recipes as a cheaper alternative to Tin§r.
+
+The choice is yours. Save more materials? Make Soldering Alloy. Spend less time crafting materials? Tin is the way to go.",
+  "icon_item": "gtceu:soldering_alloy_ingot",
+  "id": "soldering_alloy",
+  "parent": "none",
+  "positionX": 1076,
+  "positionY": 626,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "q_199361b5fec959ea",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "I got soul but I'm not a solder",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"soldering alloy dust"}',
+      "item_id": "gtceu:soldering_alloy_dust",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:soldering_alloy_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Soldering Alloy",
+  "visibility": "NORMAL"
+}

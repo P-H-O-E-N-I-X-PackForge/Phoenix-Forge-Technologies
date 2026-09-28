@@ -1,0 +1,24 @@
+{
+  "chapter": "BEES",
+  "description": "You need to turn the §7skeletal bee§r into a §cZomBee§r with §4256 rotten flesh§r to obtain this one.",
+  "id": "q_79fed71ff23984e1",
+  "parent": "none",
+  "positionX": 1376,
+  "positionY": 896,
+  "position_is_center": 1b,
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Braiiiiinssss!!!",
+  "tasks": [
+    {
+      "description": '{"text":"Zombie Bee"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:q_79fed71ff23984e1_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Quest 79fed7",
+  "visibility": "NORMAL"
+}

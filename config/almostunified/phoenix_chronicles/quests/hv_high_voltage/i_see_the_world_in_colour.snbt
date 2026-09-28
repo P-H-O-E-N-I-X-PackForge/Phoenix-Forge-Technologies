@@ -1,0 +1,47 @@
+{
+  "chapter": "HV_HIGH_VOLTAGE",
+  "description": "The §aSimple System on Chip§r will be used for the best §dULV Circuit§r recipe.
+
+We'd also recommend going out of your way to make all the other useful colored Lenses ahead of time. They are listed here in an §eoptional§r task.",
+  "icon_item": "gtceu:cyan_glass_lens",
+  "id": "i_see_the_world_in_colour",
+  "parent": "none",
+  "positionX": 626,
+  "positionY": 818,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "high_voltage_bathing",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "...and it's beautiful",
+  "tasks": [
+    {
+      "description": '{"text":"Any #forge:lenses"}',
+      "optional": 1b,
+      "required": 20,
+      "sticky": 1b,
+      "tag": "forge:lenses",
+      "task_id": "phoenix_chronicles:i_see_the_world_in_colour_task_0",
+      "type": "tag_item"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Simple SoC"}',
+      "item_id": "gtceu:simple_soc",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:i_see_the_world_in_colour_task_1",
+      "type": "item_check"
+    }
+  ],
+  "title": "I see the world in colour",
+  "visibility": "NORMAL"
+}

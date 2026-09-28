@@ -1,0 +1,60 @@
+{
+  "chapter": "EV_EXTREME_VOLTAGE",
+  "description": "The Advanced Nano Chestplate combines protection, a personal battery and an §6enhanced Jetpack§r, all in one.
+
+To §denable charging§r, sneak right-click with it in your hand, then equip it (There may be an occasional bug where it refuses to charge, but you'll forgive us, right?).
+
+Note that this stores §oa lot§r of energy, and uses it fairly fast. You may want to invest in a §3HV Turbo Charger§r.",
+  "icon_item": "gtceu:advanced_nanomuscle_chestplate",
+  "id": "better_flight",
+  "optional_prereq_min_count": 1,
+  "parent": "none",
+  "positionX": 435,
+  "positionY": 593,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "platinum",
+      "required": 1b
+    },
+    {
+      "id": "super_batteries",
+      "required": 1b
+    },
+    {
+      "id": "mainframes_first_iv_circuits",
+      "required": 1b
+    },
+    {
+      "id": "high_voltage_bathing",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 0b,
+  "rewards": [
+    {
+      "count": 2,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Quite the microcrafting project... but worth it",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Advanced NanoMuscle™ Suite Chestplate"}',
+      "item_id": "gtceu:advanced_nanomuscle_chestplate",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:better_flight_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Better Flight!",
+  "visibility": "NORMAL"
+}

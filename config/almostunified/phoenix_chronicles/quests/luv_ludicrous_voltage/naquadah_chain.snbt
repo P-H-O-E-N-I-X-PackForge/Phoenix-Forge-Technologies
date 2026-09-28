@@ -1,0 +1,80 @@
+{
+  "chapter": "LUV_LUDICROUS_VOLTAGE",
+  "description": 'Refining §9Naquadah§r into further products will be your next automation challenge. The primary outputs of this line are §aEnriched Naquadah§r, §aNaquadria§r, and §aTrinium§r.
+
+This processing line - affectionately known as the "Naqline" - also produces many useful byproducts, such as Titanium and Indium.
+
+---
+
+
+§aEnriched Naquadah§r currently isn\'t used for much, but will be integral to power generation in the future.
+
+§aNaquadria§r is a lategame material that you\'ll want to stockpile for your §3UV§r components.
+
+§aTrinium§r is the material you\'ll be wanting most right now. You\'ll use a lot of it to build your first Fusion Reactor, is used for the next set of Coils, and sees heavy usage in most §cZPM§r recipes.
+
+---
+
+
+§eNote§r: This processing chain presents more of a challenge than any chemistry you\'ve dealt with so far.
+
+As usual, outputs in later steps can be sent back into previous processes... with the caveat that they lose a small amount of fluid with each loop.
+
+This can be challenging to automate. Good luck!
+
+---
+
+
+§l§3Lore:§r§o Many GregTech iterations have Naquadah processing.
+
+§oThe first was likely Impact, with its own original Naquadah fuel process.
+
+§oGregicality Legacy was hot on its heels with processes for making the Naquadah material (and variants) as well as Fuel.
+
+§oAfter that, GTNH added their own Naquadah processes for the material and fuel.
+
+§oLastly, GTCEu added the process you\'re about to set up!',
+  "icon_item": "gtceu:naquadah_dust",
+  "id": "naquadah_chain",
+  "parent": "none",
+  "positionX": 266,
+  "positionY": 386,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "naquadah",
+      "required": 1b
+    },
+    {
+      "id": "upgrading_your_ebf_for_the_millionth_time",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 3,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Do not touch the acid",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"fluoroantimonic acid bucket"}',
+      "item_id": "gtceu:fluoroantimonic_acid_bucket",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:naquadah_chain_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Naquadah Chain",
+  "visibility": "NORMAL"
+}

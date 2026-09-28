@@ -1,0 +1,32 @@
+{
+  "chapter": "HV_HIGH_VOLTAGE",
+  "description": "You will need a lot of §dAmethyst§r for your §9Source Gems§r as you go on. Not to worry though! You can use the §aAE2 Growth Accelerators§r on §5Budding Amethyst§r to grow it quite quickly.
+
+If you are worried about being able to get Budding Amethyst, don't worry! You can take §316 Amethyst Blocks§r and then compress them into a §5Budding Amethyst§r version. This ensures a steady supply for your progression.",
+  "icon_item": "minecraft:amethyst_shard",
+  "id": "q_2892d18ffd789666",
+  "parent": "none",
+  "positionX": 768,
+  "positionY": 234,
+  "position_is_center": 1b,
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Pretty",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 32,
+      "description": '{"text":"amethyst shard"}',
+      "item_id": "minecraft:amethyst_shard",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_2892d18ffd789666_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Obtain amethyst shard",
+  "visibility": "NORMAL"
+}

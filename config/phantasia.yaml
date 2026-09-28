@@ -1,0 +1,61 @@
+phantasiaUI:
+  # TOOLTIP_ONLY: Displays the UI element purely as an item tooltip.
+  # JADE_ONLY: Integrates the display exclusively into Jade/WTHIT overlays.
+  # HOTBAR_ONLY: Shows the display only above the hotbar.
+  # TOOLTIP_JADE: Enables both the item tooltip and Jade overlay displays.
+  # TOOLTIP_HOTBAR: Enables both the item tooltip and hotbar displays.
+  # Allowed values:
+  # - TOOLTIP_ONLY
+  # - JADE_ONLY
+  # - HOTBAR_ONLY
+  # - TOOLTIP_JADE
+  # - TOOLTIP_HOTBAR
+  displayMode: TOOLTIP_HOTBAR
+
+  # Ticks required to hold the key to open the menu (20 ticks = 1 second).
+  activationTicks: 20
+
+  # Controls default camera behaviour in the scene and script viewers.
+  # true (default) - Steps/scripts drive the camera; the player is locked out.
+  #                  The player can toggle the lock button in the viewer at any time.
+  # false           - Camera is always free; steps/scripts never move it.
+  scriptLockCamera: true
+
+  # When true, scripts begin playing automatically when the viewer opens.
+  autoPlayScripts: true
+
+  # When true, a floor baseplate is rendered under the machine preview in scene viewers.
+  showBaseplate: true
+
+  # Multiplier for camera orbit (drag) speed. 1.0 = default, 2.0 = twice as fast.
+  cameraSensitivity: 1.0
+
+  # Multiplier for scroll zoom speed. 1.0 = default, 2.0 = twice as fast.
+  scrollZoomSpeed: 1.0
+
+  # Controls when async streaming baking kicks in for large scenes.
+  # PERFORMANCE: streams at 500 blocks — lowest GPU spike, best for weak hardware.
+  # BALANCED: streams at 4 000 blocks — default.
+  # QUALITY: streams at 20 000 blocks — bakes more before displaying, higher GPU spike.
+  # Allowed values:
+  # - PERFORMANCE
+  # - BALANCED
+  # - QUALITY
+  streamingMode: BALANCED
+
+  # Maximum number of animation ticks processed per render frame.
+  # Lower values reduce frame time spikes when opening large animated scenes.
+  # Default: 2048.
+  animateTickBudget: 2048
+
+  # When true, the Phantasia guidebook is given to each player on their first join.
+  giveBookOnFirstJoin: true
+
+  # When true, a toast notification is shown the first time a player joins each world,
+  # pointing them to the Phantasia getting-started guide.
+  showWelcomeToast: true
+
+  # How long the welcome toast stays on screen, in ticks (20 ticks = 1 second).
+  # Default: 280 (14 seconds). Set to 0 to use showWelcomeToast = false instead.
+  welcomeToastDuration: 200
+

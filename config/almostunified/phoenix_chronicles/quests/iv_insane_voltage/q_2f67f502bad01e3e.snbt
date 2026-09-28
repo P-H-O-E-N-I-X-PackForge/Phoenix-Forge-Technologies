@@ -1,0 +1,46 @@
+{
+  "chapter": "IV_INSANE_VOLTAGE",
+  "description": "These provide no benefit beyond just replacing the walls, allowing you to §9see in§r.
+
+They are not any cheaper, but they are §apretty§r!",
+  "icon_item": "expatternprovider:assembler_matrix_glass",
+  "id": "q_2f67f502bad01e3e",
+  "optional": 1b,
+  "parent": "none",
+  "positionX": 686,
+  "positionY": 769,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "q_207036e606b325de",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 2,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Seeing into the matrix.",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Assembler Matrix Glass"}',
+      "item_id": "expatternprovider:assembler_matrix_glass",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_2f67f502bad01e3e_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Obtain Assembler Matrix Glass",
+  "visibility": "NORMAL"
+}

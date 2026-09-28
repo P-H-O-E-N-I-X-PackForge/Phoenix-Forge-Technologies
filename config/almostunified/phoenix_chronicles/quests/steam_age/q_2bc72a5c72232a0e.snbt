@@ -1,0 +1,45 @@
+{
+  "chapter": "STEAM_AGE",
+  "description": "Use this little baby to control the flow of electricity in your circuit. The recipe gives you 2 of them, which are needed to make each §aLV Circuit§r.
+
+I highly suggest making a system to provide everything to make these simpler. In my opinion, these are one of the easier parts of the §aLV Circuit§r but it can't hurt to plan ahead.",
+  "icon_item": "gtceu:resistor",
+  "id": "q_2bc72a5c72232a0e",
+  "parent": "none",
+  "positionX": 1216,
+  "positionY": 456,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "copper_wire",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 4,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Controlling power",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 8,
+      "description": '{"text":"Resistor"}',
+      "item_id": "gtceu:resistor",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_2bc72a5c72232a0e_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Obtain Resistor",
+  "visibility": "NORMAL"
+}

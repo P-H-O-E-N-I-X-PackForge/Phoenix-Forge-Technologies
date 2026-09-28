@@ -1,0 +1,72 @@
+{
+  "chapter": "LV_LOW_VOLTAGE",
+  "description": "While this is an extremely §9important§r machine for progression, this will §9§lnot help you immediately§r as it is §cexpensive.§r Most of the recipes you will want to pursue require §cfluids§r. Set up a little bit more infrastructure before rushing this.
+
+With that out of the way, the §3Assembler§r is crucial to gameplay. Consider it as important as a Crafting Table, except... well, it's a machine, duh.
+
+We as \"modpack developers\" also love to use this to include all sorts of custom recipes - and speaking of custom recipes, the Assembler now unlocks §dApplied Energistics 2§r!
+
+---
+
+
+Once you have enough infrastructure you will be able to make use of better recipes for:
+
+§9-§r §6Vacuum Tubes§r, giving over double the previous yield
+
+§9-§r §6Resistors§r, granting 4 resistors per craft!
+
+§9-§r §6Circuit Boards§r, greatly reducing copper used
+
+Wahoo!
+
+§l§3Lore:§r§o Back in the days of GregTech 2, the Assembling Machine only had two slots, and was only really used for alternate Circuit and Hull recipes.",
+  "icon_item": "gtceu:lv_assembler",
+  "id": "q_63cd0236b337eaad",
+  "parent": "none",
+  "positionX": 806,
+  "positionY": 716,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "progressing_through_lv",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 4,
+      "item_id": "gtceu:basic_electronic_circuit",
+      "type": "item"
+    },
+    {
+      "count": 1,
+      "item_id": "gtceu:lv_machine_hull",
+      "type": "item"
+    },
+    {
+      "count": 5,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "STAR",
+  "subtitle": "Assemblers, Avenge!",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Basic Assembler §r"}',
+      "item_id": "gtceu:lv_assembler",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_63cd0236b337eaad_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Obtain Basic Assembler §r",
+  "visibility": "NORMAL"
+}

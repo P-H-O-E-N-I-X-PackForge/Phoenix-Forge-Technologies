@@ -1,0 +1,29 @@
+{
+  "chapter": "STARTING_OUT_WITH_LINES",
+  "description": "§bAir Processing§r is a distinct industrial pathway focused on extracting valuable gases directly from the atmosphere. Your initial use of §eAir§r involves centrifuging it to separate vital §aOxygen§r and §aNitrogen§r. §aNitrogen§r is crucial for significantly reducing §bElectric Blast Furnace§r processing times, enhancing your overall material efficiency.
+
+To fully exploit this process, you'll first transform §eAir§r into §aLiquid Air§r using a §bVacuum Freezer§r. This §aLiquid Air§r is then further separated into its constituent gases through distillation in §bDistillation Towers§r.
+
+You will also process §5Ender§r and §4Nether§r air later at iv as well.",
+  "icon_item": "gtceu:air_bucket",
+  "id": "q_6260eba9b691cf7f",
+  "parent": "none",
+  "positionX": 576,
+  "positionY": 576,
+  "position_is_center": 1b,
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Air Processing",
+  "tasks": [
+    {
+      "description": '{"text":"Airy"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:q_6260eba9b691cf7f_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Quest 6260eb",
+  "visibility": "NORMAL"
+}

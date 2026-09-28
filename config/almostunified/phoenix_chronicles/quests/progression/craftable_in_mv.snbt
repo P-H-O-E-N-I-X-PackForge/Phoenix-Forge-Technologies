@@ -1,0 +1,39 @@
+{
+  "chapter": "PROGRESSION",
+  "description": "The §9Integrated§r Circuit line may not be a strict upgrade in terms of cost, but will tide you over as a stepping stone towards the next tier.
+
+They will require a MV §3Laser Engraver§r and a MV §3Cutting Machine§r.
+
+---
+
+
+§l§3Lore:§r§o In Omnifactory, and in previous Gregicality, this circuit line was called §9Refined§f and was standardized like further tiers.",
+  "hide_dep_line": 1b,
+  "icon_item": "gtceu:mv_machine_hull",
+  "id": "craftable_in_mv",
+  "parent": "none",
+  "positionX": 336,
+  "positionY": 176,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "link_1c05",
+      "required": 1b
+    },
+    {
+      "id": "link_513a",
+      "required": 1b
+    },
+    {
+      "id": "link_7508",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Integrated Dynamics",
+  "title": "Craftable in §bMV§r",
+  "visibility": "NORMAL"
+}

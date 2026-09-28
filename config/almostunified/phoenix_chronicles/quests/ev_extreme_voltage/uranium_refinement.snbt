@@ -1,0 +1,72 @@
+{
+  "chapter": "EV_EXTREME_VOLTAGE",
+  "description": "Make §dUranium Hexafluoride§r from §aUraninite§r. This will allow you to seperate the isotopes between U-238 and U-235.
+
+---
+
+
+§9Fluorine§r is fully recycled in the reaction, but you will need around maybe 40 buckets to bootstrap.
+
+§9Hydrogen§r is consumed, so you will need quite a lot of it. Either electrolyze a lot of water using several §3LV Electrolyzers§r for the best energy efficiency, or recycle any unused §dhydrocarbons§r such as Methane.
+
+§9Tip:§r You can make this setup compact by having one single §3Centrifuge§r and using a §6Fluid Regulator§r set to §dSupply Exact 1,000§r.",
+  "icon_item": "gtceu:uranium_dust",
+  "id": "uranium_refinement",
+  "parent": "none",
+  "positionX": 536,
+  "positionY": 1166,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "fluorine",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 3,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Let's hope this quest doesn't put you on a list",
+  "tasks": [
+    {
+      "description": '{"text":"Uraninite Dust"}',
+      "optional": 1b,
+      "required": 3,
+      "sticky": 1b,
+      "tag": "forge:dusts/uraninite",
+      "task_id": "phoenix_chronicles:uranium_refinement_task_0",
+      "type": "tag_item"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"uranium hexafluoride bucket"}',
+      "item_id": "gtceu:uranium_hexafluoride_bucket",
+      "optional": 1b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:uranium_refinement_task_1",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"uranium dust"}',
+      "item_id": "gtceu:uranium_dust",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:uranium_refinement_task_2",
+      "type": "item_check"
+    }
+  ],
+  "title": "Uranium Refinement",
+  "visibility": "NORMAL"
+}

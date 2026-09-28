@@ -1,0 +1,42 @@
+{
+  "chapter": "TIPS_AND_TRICKS_2",
+  "description": "Multiblocks do not look at the voltage of recipes when trying to craft. Instead, they simply check if they are being provided with enough Power.
+
+§9Note:§r Be wary of Cable §closses§r bringing the actual power input below the recipe requirement! We §lhighly§r recommend either placing your §3Battery Buffer§r next to the §3Energy Hatches§r for the minimum cable length, or looking around this questbook to see if there are better alternatives to Cables.
+
+---
+
+
+The EBF needs a minimum of §4120EU/t§r power input to run its recipes. This can be achieved with §3two LV Energy Hatches§r. Each one takes 2 Amps of LV, so that's 4 Amps of LV for 128EU/t maximum power.",
+  "icon_item": "gtceu:lv_energy_input_hatch",
+  "id": "powering_multiblocks",
+  "parent": "none",
+  "positionX": 576,
+  "positionY": 309,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "multiblock_techniques",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 2,
+      "description": '{"text":"§7LV Energy Hatch"}',
+      "item_id": "gtceu:lv_energy_input_hatch",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:powering_multiblocks_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Powering Multiblocks",
+  "visibility": "NORMAL"
+}

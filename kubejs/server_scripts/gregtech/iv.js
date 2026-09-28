@@ -153,6 +153,144 @@ ServerEvents.recipes(event => {
         .duration(60)
         .EUt(GTValues.VA[GTValues.IV] / 2)
 
+    // Production of Naquadatite process line
+    greg.large_chemical_reactor("naquadatite_acidic")
+        .inputFluids("gtceu:sulfuric_acid 1000")
+        .itemInputs("6x phoenixcore:naquadatite_dust")
+        .itemOutputs("6x phoenixcore:naquadatite_acidic_dust")
+        .duration(300)
+        .EUt(GTValues.VA[GTValues.LuV])
+
+    greg.chemical_bath("heavily_fluorine_contamined_naquadatite_dust")
+        .inputFluids("gtceu:chlorine 4000")
+        .itemInputs("6x phoenixcore:naquadatite_acidic_dust")
+        .outputFluids("gtceu:hydrochloric_acid 4000")
+        .itemOutputs("6x phoenixcore:heavily_fluorine_contaminated_naquadatite_dust")
+        .duration(300)
+        .EUt(GTValues.VA[GTValues.EV] / 2)
+
+    greg.mixer("radioactive_and_heavy_metal_contamined_naquadatite_dust")
+        .itemInputs(
+            "6x phoenixcore:heavily_fluorine_contaminated_naquadatite_dust",
+            "10x gtceu:calcite_dust",
+            "4x gtceu:carbon_dust"
+        )
+        .inputFluids("gtceu:distilled_water 1000")
+        .itemOutputs("6x phoenixcore:radioactive_and_heavy_metal_contaminated_naquadatite_dust")
+        .outputFluids("gtceu:dissolved_calcium_acetate 2000")
+        .duration(200)
+        .EUt(GTValues.VA[GTValues.HV]);
+
+    greg.centrifuge("radioactive_contamined_naquadatite_dust")
+        .itemInputs("6x phoenixcore:radioactive_and_heavy_metal_contaminated_naquadatite_dust")
+        .itemOutputs("6x phoenixcore:radioactive_contaminated_naquadatite_dust", "4x phoenixcore:heavy_metal_sludge_dust")
+        .outputFluids("gtceu:sulfuric_acid 1000")
+        .duration(100)
+        .EUt(GTValues.VA[GTValues.IV] / 2)
+
+    greg.chemical_bath("heavily_acidic_naquadatite_dust")
+        .inputFluids("gtceu:distilled_water 2000")
+        .itemInputs("6x phoenixcore:radioactive_contaminated_naquadatite_dust")
+        .outputFluids("gtceu:hydrogen 4000")
+        .itemOutputs("6x phoenixcore:heavily_acidic_naquadatite_dust", "7x phoenixcore:acidic_waste_sludge_dust")
+        .duration(300)
+        .EUt(GTValues.VA[GTValues.EV] / 2)
+
+    greg.chemical_reactor("radioactive_naquadacid_dust")
+        .inputFluids("gtceu:hydrofluoric_acid 4000")
+        .itemInputs("6x phoenixcore:heavily_acidic_naquadatite_dust", "4x gtceu:calcium_dust")
+        .itemOutputs("6x phoenixcore:radioactive_naquadacid_dust", "4x phoenixcore:calcium_fluorine_dust")
+        .duration(100)
+        .EUt(GTValues.VA[GTValues.IV] / 2);
+
+    greg.arc_furnace("hydrofluoric_acid")
+        .inputFluids("gtceu:hydrogen 4000")
+        .itemInputs("4x phoenixcore:calcium_fluorine_dust")
+        .itemOutputs("4x gtceu:calcium_dust")
+        .outputFluids("gtceu:hydrofluoric_acid 4000")
+        .duration(60)
+        .EUt(GTValues.VA[GTValues.HV] / 2)
+
+    greg.canner("chlorine_waste_naquadatia_astatine_dust")
+        .inputFluids("gtceu:chlorine 2000")
+        .itemInputs("6x phoenixcore:radioactive_naquadacid_dust", "2x gtceu:aluminium_dust")
+        .itemOutputs("6x phoenixcore:chlorine_waste_naquadatia_astatine_dust")
+        .duration(300)
+        .EUt(GTValues.VA[GTValues.EV] / 2)
+
+    greg.centrifuge("naquadatia_astatine_dust")
+        .itemInputs("6x phoenixcore:chlorine_waste_naquadatia_astatine_dust")
+        .itemOutputs("6x phoenixcore:naquadatia_astatine_dust", "6x phoenixcore:aluminium_caesium_chloride_dust")
+        .duration(120)
+        .EUt(GTValues.VA[GTValues.EV] / 2)
+
+    greg.large_chemical_reactor("naquadah_dust")
+        .itemInputs("6x phoenixcore:naquadatia_astatine_dust", "2x gtceu:sodium_bisulfate_dust")
+        .inputFluids("gtceu:hydrofluoric_acid 4000")
+        .itemOutputs("6x gtceu:naquadah_dust", "16x phoenixcore:sodium_astatine_bisulfate_dust", "4x phoenixcore:calcium_fluorine_dust")
+        .outputFluids("gtceu:hydrogen 4000")
+        .duration(100)
+        .EUt(GTValues.VA[GTValues.IV] / 2)
+
+    greg.centrifuge("heavy_metal_sludge")
+        .itemInputs("4x phoenixcore:heavy_metal_sludge_dust")
+        .outputFluids("gtceu:mercury 250")
+        .itemOutputs("gtceu:chromium_trioxide_dust", "gtceu:arsenic_trioxide_dust", "gtceu:antimony_trioxide_dust", "gtceu:small_galena_dust", "gtceu:cobaltite_dust", "gtceu:tetrahedrite_dust")
+        .duration(20)
+        .EUt(GTValues.VA[GTValues.MV] / 2)
+
+    greg.centrifuge("acidic_waste_sludge")
+        .itemInputs("7x phoenixcore:acidic_waste_sludge_dust")
+        .itemOutputs("gtceu:stibnite_dust", "gtceu:phosphorus_pentoxide_dust", "2x gtceu:aluminium_sulfite_dust", "gtceu:sodium_hydroxide_dust", "gtceu:calcium_hydroxide_dust", "gtceu:tetrahedrite_dust")
+        .duration(20)
+        .EUt(GTValues.VA[GTValues.MV] / 2)
+
+    greg.centrifuge("aluminium_caesium_chloride_dust")
+        .itemInputs("6x phoenixcore:aluminium_caesium_chloride_dust")
+        .outputFluids("gtceu:hydrochloric_acid 2000")
+        .itemOutputs("2x gtceu:aluminium_dust", "2x gtceu:caesium_dust", "5x phoenixcore:low_level_radioactive_waste_dust")
+        .duration(20)
+        .EUt(GTValues.VA[GTValues.MV] / 2)
+
+// --- Graphene production line
+// cleanroom recipes
+
+    greg.forming_press("graphite_pressed_cupronickel_foil")
+        .itemInputs("4x gtceu:cupronickel_foil", "4x gtceu:graphite_dust")
+        .itemOutputs("phoenixcore:graphite_pressed_cupronickel_foil")
+        .duration(20)
+        .EUt(GTValues.VA[GTValues.EV])
+
+    greg.vacuum_freezer("graphite_welded_cupronickel_foil")
+        .inputFluids("gtceu:methane 1000", "gtceu:hydrogen 2000")
+        .itemInputs("phoenixcore:graphite_pressed_cupronickel_foil")
+        .itemOutputs("phoenixcore:graphite_welded_cupronickel_foil")
+        .duration(200)
+        .EUt(GTValues.VA[GTValues.EV])
+
+    greg.chemical_reactor("oxygen_free_graphite_welded_cupronickel_foil")
+        .chancedFluidInput("gtceu:argon 1000", 1000, 0)
+        .itemInputs("phoenixcore:graphite_welded_cupronickel_foil")
+        .itemOutputs("phoenixcore:oxygen_free_graphite_welded_cupronickel_foil")
+        .cleanroom(CleanroomType.CLEANROOM)
+        .duration(100)
+        .EUt(GTValues.VA[GTValues.EV])
+
+    greg.chemical_bath("graphene_sludge")
+        .inputFluids("gtceu:iron_iii_chloride 100")
+        .itemInputs("phoenixcore:oxygen_free_graphite_welded_cupronickel_foil")
+        .itemOutputs("8x phoenixcore:graphene_sludge_dust")
+        .cleanroom(CleanroomType.CLEANROOM)
+        .duration(100)
+        .EUt(GTValues.VA[GTValues.EV])
+
+    greg.centrifuge("graphene_foil")
+        .itemInputs("phoenixcore:graphene_sludge_dust")
+        .itemOutputs("gtceu:graphene_foil", "gtceu:cupronickel_dust", "gtceu:iron_dust")
+        .cleanroom(CleanroomType.CLEANROOM)
+        .duration(60)
+        .EUt(GTValues.VA[GTValues.EV])
+
     // --- Polymerization & Advanced Materials ---
     // Advanced PMMA Polymerization in Large Chemical Reactor
     greg.large_chemical_reactor("advanced_pmma_polymerization")
@@ -733,6 +871,7 @@ ServerEvents.recipes(event => {
         .itemOutputs("phoenixcore:high_performance_breeder_reactor")
         .duration(800)
         .EUt(GTValues.VA[GTValues.IV])
+
     // IV Confectionery Fabricator in Assembler
     greg.assembler("iv_confectionery_fabricator")
         .itemInputs("4x phoenixcore:void_touched_tungsten_steel_rotor", "1x minecraft:honeycomb", "2x #gtceu:circuits/iv", "gtceu:iv_machine_hull", "1x gtceu:iv_sensor")

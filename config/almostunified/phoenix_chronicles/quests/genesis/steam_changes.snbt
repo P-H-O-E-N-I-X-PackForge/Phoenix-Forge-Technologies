@@ -1,0 +1,48 @@
+{
+  "chapter": "GENESIS",
+  "description": "The Steam Age progression has been simplified with easier recipes, and steam power has been significantly buffed!
+
+All steam machines that generate steam now provide an additional §aboost to the millibuckets§r per process.
+
+Introducing three new steam-powered machines: the §6Steam Foundry§r, the §6Steam Compressor§r, and the §6Steam Separator§r! These are perfect for powerful automation leveraging this enhanced steam output.
+
+
+---
+
+
+
+The new Steam Age tier material is §cFiery Bronze§r, crafted from a §e3:1:1§r ratio of §ecopper dust§r, §etin dust§r, and §cdormant ember dust§r to yield 4 §cFiery Bronze Dust§r, which can then be smelted into ingots.",
+  "icon_item": "phoenixcore:fiery_bronze_ingot",
+  "id": "steam_changes",
+  "parent": "none",
+  "positionX": 548,
+  "positionY": 412,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "phoenix_forge_technologies",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "levels": 14,
+      "type": "xp"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Let's Get Steamy",
+  "tasks": [
+    {
+      "description": '{"text":"Fire"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:steam_changes_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Steam Changes",
+  "visibility": "NORMAL"
+}

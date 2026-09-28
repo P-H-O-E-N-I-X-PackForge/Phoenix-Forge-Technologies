@@ -1,0 +1,26 @@
+{
+  "chapter": "PROGRESSION",
+  "description": "Early game Circuits are hand craftable.
+
+Pick up the §3Circuit Assembler§r to make them a lot more efficient.",
+  "hide_dep_line": 1b,
+  "icon_item": "gtceu:bronze_machine_casing",
+  "id": "craftable_in_steam_age_and_lv",
+  "parent": "none",
+  "positionX": 256,
+  "positionY": 176,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "link_77a0",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Hand crafted and artisanal",
+  "title": "Craftable in §6Steam Age§r and §7LV§r",
+  "visibility": "NORMAL"
+}

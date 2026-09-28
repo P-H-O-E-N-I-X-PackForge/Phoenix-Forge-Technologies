@@ -1,0 +1,86 @@
+{
+  "chapter": "IV_INSANE_VOLTAGE",
+  "description": "This armor provides more QoL compared to the Nano suit.
+
+§9Helmet:§r Provides §dNight vision§r (default keybind §4M§r but check for conflicts), prevents harmful potion effects, and automatically eats for you!
+
+§9Chestplate:§r Nullifies burning, but can be further upgraded into the §aAdvanced§r version at the very end of §dLuV§r. Note that this does NOT include a jetpack without the advanced upgrade.
+
+§9Leggings:§r Provides the speed boost which the Nano leggings did not.
+
+§9Boots:§r Provides §dStep Assist§r, nullifies fall damage, and increases jump height!
+
+§9Full Set:§r Provides §dSpace Immunity§r: allowing you to breathe easy!",
+  "icon_item": "gtceu:quarktech_chestplate",
+  "id": "quarktech",
+  "parent": "none",
+  "positionX": 266,
+  "positionY": 259,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "iv_superconductors",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 1,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "No, we didn't trademark this one",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"QuarkTech™ Suite Helmet"}',
+      "item_id": "gtceu:quarktech_helmet",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:quarktech_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"QuarkTech™ Suite Chestplate"}',
+      "item_id": "gtceu:quarktech_chestplate",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:quarktech_task_1",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"QuarkTech™ Suite Leggings"}',
+      "item_id": "gtceu:quarktech_leggings",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:quarktech_task_2",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"QuarkTech™ Suite Boots"}',
+      "item_id": "gtceu:quarktech_boots",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:quarktech_task_3",
+      "type": "item_check"
+    }
+  ],
+  "title": "QuarkTech",
+  "visibility": "NORMAL"
+}

@@ -1,0 +1,35 @@
+{
+  "chapter": "GENESIS",
+  "description": "Upgrading your §esilver furnace§r will reward you with this §6golden furnace§r, straight from Midas himself!
+
+It now smelts at §a120 ticks§r, or §b6 seconds§r – now you're gaining some serious speed!
+
+Grab some §egold§r from a magnetite vein and upgrade that bad boy. It takes 8 §egold ingots§r and a §esilver furnace§r.",
+  "icon_item": "ironfurnaces:gold_furnace",
+  "id": "furnace_mk3",
+  "parent": "none",
+  "positionX": 624,
+  "positionY": 736,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "irons_furnaces",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Midas Touch",
+  "tasks": [
+    {
+      "description": '{"text":"Midas"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:furnace_mk3_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Furnace Mk3",
+  "visibility": "NORMAL"
+}

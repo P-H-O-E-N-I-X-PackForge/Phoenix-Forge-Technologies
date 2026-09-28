@@ -1,0 +1,78 @@
+{
+  "chapter": "HV_HIGH_VOLTAGE",
+  "description": "§aPolytetrafluoroethylene (PTFE)§r is a §7Carbon§r-§bFluorine§r polymer. Similarly to PVC, PTFE can be used to increase the yield of Plastic Circuit Boards and other crafts. Presently, it is used to make the walls of §3Large Chemical Reactors§r.
+
+§3Chlorine§r is required in the process, which is fully recycled if you electrolyze the §aHydrochloric Acid§r waste.
+
+§bFluorine§r will also be used in the §aUranium§r and §7Naquadah§r refinement processes.",
+  "icon_item": "gtceu:polytetrafluoroethylene_plate",
+  "id": "polytetrafluoroethylene",
+  "parent": "none",
+  "positionX": 716,
+  "positionY": 818,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "high_voltage_chemistry",
+      "required": 1b
+    },
+    {
+      "id": "fluorine",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 24,
+      "item_id": "gtceu:netherrack_topaz_ore",
+      "type": "item"
+    },
+    {
+      "count": 1,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "A.K.A - Teflon",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"hydrofluoric acid bucket"}',
+      "item_id": "gtceu:hydrofluoric_acid_bucket",
+      "optional": 1b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:polytetrafluoroethylene_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"chloroform bucket"}',
+      "item_id": "gtceu:chloroform_bucket",
+      "optional": 1b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:polytetrafluoroethylene_task_1",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"polytetrafluoroethylene plate"}',
+      "item_id": "gtceu:polytetrafluoroethylene_plate",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:polytetrafluoroethylene_task_2",
+      "type": "item_check"
+    }
+  ],
+  "title": "Polytetrafluoroethylene",
+  "visibility": "NORMAL"
+}

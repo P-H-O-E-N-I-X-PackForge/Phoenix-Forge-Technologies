@@ -1,0 +1,59 @@
+{
+  "chapter": "EV_EXTREME_VOLTAGE",
+  "description": "Silicone Rubber has its uses in Cable insulation, Conveyor recipes, and more.
+
+You may want to shelve this quest for now, as tackling Silicone Rubber can be a pretty severe §dChlorine§r sink.
+
+---
+
+
+§9Note:§r Rubber will eventually be usurped by either §aSilicone Rubber§r or §aStyrene-Butadienne Rubber§r for §1IV§r Cables.
+
+Both these rubbers will be required once you make it to §dLuV§r.",
+  "icon_item": "gtceu:silicone_rubber_plate",
+  "id": "silicone_rubber",
+  "parent": "none",
+  "positionX": 266,
+  "positionY": 806,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "link_567a",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 3,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "An alternate rubber",
+  "tasks": [
+    {
+      "description": '{"text":"Silicone Rubber Ingot"}',
+      "optional": 1b,
+      "required": 1,
+      "sticky": 1b,
+      "tag": "forge:ingots/silicone_rubber",
+      "task_id": "phoenix_chronicles:silicone_rubber_task_0",
+      "type": "tag_item"
+    },
+    {
+      "description": '{"text":"Silicone Rubber Plate"}',
+      "optional": 0b,
+      "required": 1,
+      "sticky": 1b,
+      "tag": "forge:plates/silicone_rubber",
+      "task_id": "phoenix_chronicles:silicone_rubber_task_1",
+      "type": "tag_item"
+    }
+  ],
+  "title": "Silicone Rubber",
+  "visibility": "NORMAL"
+}

@@ -1,0 +1,58 @@
+{
+  "chapter": "LV_LOW_VOLTAGE",
+  "description": 'Mine some §dSulfur§r from the Nether.
+
+If Lava is "too hot to handle", we\'ve included a §6direct crafting recipe§r for §aPotions of Fire Resistance§r. EMI might look a little confusing, but don\'t worry - you can use §bWater Bottles§r in the potion recipe.
+
+§l§3Lore:§r§o With the existence of §6Small Sulfur Ores§f scattered in GregTech 5 ore veins, you could mine enough Sulfur in the Overworld to skip having to visit the Nether. Sounds broken, but it was still as much of a grind as Nether travel!',
+  "icon_item": "gtceu:sulfur_dust",
+  "id": "s_is_for_sulfur",
+  "parent": "none",
+  "positionX": 816,
+  "positionY": 625,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "progressing_through_lv",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 1,
+      "item_id": "minecraft:potion",
+      "nbt": {
+        "Potion": "minecraft:long_fire_resistance"
+      },
+      "type": "item"
+    },
+    {
+      "count": 1,
+      "item_id": "minecraft:potion",
+      "nbt": {
+        "Potion": "minecraft:long_fire_resistance"
+      },
+      "type": "item"
+    }
+  ],
+  "shape": "CIRCLE",
+  "subtitle": "A little bit of exploring never hurt anyone",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 16,
+      "description": '{"text":"sulfur dust"}',
+      "item_id": "gtceu:sulfur_dust",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:s_is_for_sulfur_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "S is for Sulfur",
+  "visibility": "NORMAL"
+}

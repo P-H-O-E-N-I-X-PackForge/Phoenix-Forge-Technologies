@@ -1,0 +1,42 @@
+{
+  "chapter": "EV_EXTREME_VOLTAGE",
+  "description": "The §aPattern P2P Tunnel§r is an upgraded version of §9Item/Fluid P2P Tunnels§r.
+
+The input side is placed on an Pattern Provider containing patterns. It can have multiple outputs, which should connect to inventories.
+
+When multiple crafts of a single pattern are requested, the P2P Tunnel will evenly distribute the crafts between all of the connected outputs.
+
+The Pattern P2P Tunnel also respects §eBlocking Mode§r, which is set in the interface containing the patterns.",
+  "icon_item": "mae2:pattern_p2p_tunnel",
+  "id": "pattern_p2p_tunnels",
+  "parent": "none",
+  "positionX": 850,
+  "positionY": 600,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "p2p_tunnels",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Pattern 2 Pattern",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Pattern P2P Tunnel"}',
+      "item_id": "mae2:pattern_p2p_tunnel",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:pattern_p2p_tunnels_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Pattern P2P Tunnels",
+  "visibility": "NORMAL"
+}

@@ -1,0 +1,36 @@
+{
+  "chapter": "MV_MEDIUM_VOLTAGE",
+  "description": "The §bMV§r Circuit for the Integrated Tier.",
+  "icon_item": "gtceu:good_integrated_circuit",
+  "id": "more_mv_circuits",
+  "parent": "none",
+  "positionX": 986,
+  "positionY": 679,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "more_lv_circuits",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "More... I demand more!",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Good Integrated Circuit"}',
+      "item_id": "gtceu:good_integrated_circuit",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:more_mv_circuits_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "More MV Circuits",
+  "visibility": "NORMAL"
+}

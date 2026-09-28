@@ -1,0 +1,36 @@
+{
+  "chapter": "HEATING_COILS",
+  "description": "Nichrome will require your §aElectric Blast Furnace§r to be at least §6EV§r, with §bKanthal§r coils to boot.",
+  "icon_item": "gtceu:nichrome_ingot",
+  "id": "nichrome",
+  "parent": "none",
+  "positionX": 416,
+  "positionY": 256,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "ice_cold",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Operation Nichrome Dome",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"nichrome ingot"}',
+      "item_id": "gtceu:nichrome_ingot",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:nichrome_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Nichrome",
+  "visibility": "NORMAL"
+}

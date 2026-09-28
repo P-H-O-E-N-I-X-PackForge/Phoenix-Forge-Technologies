@@ -58,6 +58,8 @@
     "chiseled_bookshelf": true
   },
   "gtmutils": {
+    "me_expanded_pattern_buffer_proxy_info": true,
+    "me_expanded_pattern_buffer_info": true,
     "enlarged_me_stocking_bus_info": true,
     "pterb_info": true
   },
@@ -69,6 +71,11 @@
     "phantasia_jade": true,
     "plasma_furnace_info": true,
     "source_tank_info": true
+  },
+  "avaritia": {
+    "extreme_smithing": true,
+    "crafting_table": true,
+    "compressor": true
   },
   "gtceu": {
     "primitive_pump": true,
@@ -106,6 +113,11 @@
   "expatternprovider": {
     "jade_chamber": true,
     "jade_wireless": true
+  },
+  "apotheosis": {
+    "adventure": true,
+    "ench": true,
+    "spawner": true
   },
   "telepastries": {
     "bites": true

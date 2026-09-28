@@ -1,0 +1,56 @@
+{
+  "chapter": "ZPM_ZERO_POINT_MODULE",
+  "description": "The §aZPM Lapotronic Orb§r is even better than the §dLuV§r one! It of course comes at a price...
+
+---
+
+
+§l§3Lore:§r§o Imagine making 64 §1IV§f or 8 §dLuV§f Orbs for just one of these! See the Lore for the §dLuV§f orb for details.",
+  "icon_item": "gtceu:energy_module",
+  "id": "mega_batteries",
+  "parent": "none",
+  "positionX": 536,
+  "positionY": 356,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "upgrading_your_assembly_line_ii",
+      "required": 1b
+    },
+    {
+      "id": "ludicrous_batteries",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "A power singularity!",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Energy Module"}',
+      "item_id": "gtceu:energy_module",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:mega_batteries_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"ZPM Lapotronic Capacitor"}',
+      "item_id": "gtceu:zpm_lapotronic_battery",
+      "optional": 1b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:mega_batteries_task_1",
+      "type": "item_check"
+    }
+  ],
+  "title": "Mega Batteries",
+  "visibility": "NORMAL"
+}

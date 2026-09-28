@@ -1,0 +1,58 @@
+{
+  "chapter": "EV_EXTREME_VOLTAGE",
+  "description": "These modules significantly enhance your yields, providing §amore (and sometimes unique ores)§r than when doing the recipes without them. What more can one really say?
+
+§aEarthbound Mining Module:§r Used to boost the recipes of the §3Dimensional Anchor§r multiblock.
+
+§bSpace Mining Module:§r Used to boost the recipes of the §bAetherial Fabricator§r multiblock. You will §cneed this to progress to IV§r.",
+  "icon_item": "phoenixcore:space_miner_module",
+  "id": "mining_modules",
+  "parent": "none",
+  "positionX": 536,
+  "positionY": 176,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "q_06f7673cdefcda87",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 4,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Better Dimensional Mining!",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"§eEarth Bound Miner Module"}',
+      "item_id": "phoenixcore:earthbound_miner_module",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:mining_modules_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"§dSpace Miner Module"}',
+      "item_id": "phoenixcore:space_miner_module",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:mining_modules_task_1",
+      "type": "item_check"
+    }
+  ],
+  "title": "Mining Modules",
+  "visibility": "NORMAL"
+}

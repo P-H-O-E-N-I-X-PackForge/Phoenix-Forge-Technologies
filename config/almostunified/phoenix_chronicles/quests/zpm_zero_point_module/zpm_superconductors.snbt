@@ -1,0 +1,38 @@
+{
+  "chapter": "ZPM_ZERO_POINT_MODULE",
+  "description": "§aZPM Superconductors§r are a major gate between you and a §9Fusion Reactor Mk2§r, which uses copious amounts for its structure blocks.
+
+You can also use them to make §9Superconducting Coils§r for cheaper.",
+  "icon_item": "gtceu:uranium_rhodium_dinaquadide_single_wire",
+  "id": "zpm_superconductors",
+  "parent": "none",
+  "positionX": 266,
+  "positionY": 356,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "trinium_coils",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Getting tired of all these pitch-black ingots yet?",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"uranium rhodium dinaquadide single wire"}',
+      "item_id": "gtceu:uranium_rhodium_dinaquadide_single_wire",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:zpm_superconductors_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "ZPM Superconductors",
+  "visibility": "NORMAL"
+}

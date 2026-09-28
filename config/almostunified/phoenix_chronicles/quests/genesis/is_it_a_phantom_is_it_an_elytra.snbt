@@ -1,0 +1,53 @@
+{
+  "chapter": "GENESIS",
+  "description": "Once you have steel, you can make a Hang Glider. This might be a good item to grab before you hit up the §cNether§r.
+
+If you don't have enough Leather yet, make a §9Butchering Knife§r and employ its inherent Looting III to hunt some cows.
+
+---
+
+
+§l§3Lore:§r§o The Hang Glider originally came from a mod known as OpenBlocks. As its utility was too great to be left on earlier versions, it was ported all the way up to modern versions.",
+  "icon_item": "hangglider:hang_glider",
+  "id": "is_it_a_phantom_is_it_an_elytra",
+  "parent": "none",
+  "positionX": 224,
+  "positionY": 416,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "q_4dc49ae1e9c61334",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 8,
+      "item_id": "minecraft:leather",
+      "type": "item"
+    },
+    {
+      "count": 1,
+      "item_id": "hangglider:hang_glider",
+      "nbt": {
+        "Damage": 0
+      },
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "No, it's Steve with a glider!",
+  "tasks": [
+    {
+      "description": '{"text":"Gliding"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:is_it_a_phantom_is_it_an_elytra_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Is it a Phantom? Is it an Elytra?",
+  "visibility": "NORMAL"
+}

@@ -1,0 +1,66 @@
+{
+  "chapter": "ZPM_ZERO_POINT_MODULE",
+  "description": "This Quest will be completed with §eeither§r a §3ZPM Energy Hatch§r§r... or a §3ZPM Dynamo Hatch§r for your Multiblock Generators.
+
+Don't forget that §d16 Amp§r variants exist!
+
+Don't forget that these hatches require a §9Data Orb§r for research.",
+  "icon_item": "gtceu:zpm_energy_input_hatch",
+  "id": "upgrading_your_assembly_line_ii",
+  "parent": "none",
+  "positionX": 446,
+  "positionY": 446,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "hpca",
+      "required": 1b
+    },
+    {
+      "id": "link_6be7",
+      "required": 1b
+    },
+    {
+      "id": "europium",
+      "required": 1b
+    },
+    {
+      "id": "research_station",
+      "required": 1b
+    },
+    {
+      "id": "link_21a3",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"§cZPM Energy Hatch"}',
+      "item_id": "gtceu:zpm_energy_input_hatch",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:upgrading_your_assembly_line_ii_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"§cZPM Dynamo Hatch"}',
+      "item_id": "gtceu:zpm_energy_output_hatch",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:upgrading_your_assembly_line_ii_task_1",
+      "type": "item_check"
+    }
+  ],
+  "title": "Upgrading your Assembly Line II",
+  "visibility": "NORMAL"
+}

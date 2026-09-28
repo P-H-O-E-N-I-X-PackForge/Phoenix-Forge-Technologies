@@ -1,0 +1,83 @@
+{
+  "chapter": "TIPS_AND_TRICKS_2",
+  "description": "You have likely realised by now that the Energy system in §2GregTech§r is §cnowhere near as simple§r as the §1RF§r you may be used to using in modded Minecraft.
+
+The energy unit of GregTech is the EU.
+
+§1EU§r mechanics have a certain flair to them, and are not dissimilar to real-world electricity. They can also be §4dangerous and punishing§r if mishandled. However, the power system gives GregTech players a lot of §6satisfaction§r when harnessed well.
+
+§l§3Lore:§r§o The Amperage bug, exploit or feature (call it whatever you want!) from 1.12.2 GTCE has been §lfixed§r§o in GTCEu. The Energy network now works as intended.
+
+---
+
+
+Let's go over some basic physics:
+
+° §9Power§r = §2Voltage§r * §dAmperage§r
+° §1Energy§r = §9Power§r * §6Time§r
+
+§8Resistance§r is an excluded concept in GregTech, instead being partially simulated as cable loss.
+
+The units are defined as such:
+
+- §1EU§r is the unit of §1Energy§r.
+- §9EU/t§r is the §9Power§r.
+- §dA§r or §dAmp§r is the §dAmperage§r.
+- §2V§r §owould§r be the §2Voltage§r, but we prefer referring to it as §7LV§r, §bMV§r, §6HV§r... as those are the relevant values for gameplay (technically: §7LV§r = 32V = 32EU/t/A).
+
+---
+
+
+Electricity in GregTech travels in \"packets\". The size of each packet is equivalent to the voltage of its tier.
+
+Taking an LV packet as an example, this \"packet\" would carry 32EU. Multiple blocks are capable of producing these EU packets, and packets are only produced if they are able to access a destination.
+
+---
+
+
+Every §6tick§r, §1EU§r §apackets§r attempt to transfer themselves from Energy Producers to Consumers. These §apackets§r have two parameters: a §2Voltage§r tier determined by the tier of the Producer, and §dAmperage§r. This determines how much §9Power§r can actually be transferred.
+
+There are no partial Amps, meaning Energy is transferred only if the full Amp §apacket§r can be received. You might notice this from your machines sitting just below full EU capacity - they will only accept EU when they are missing at least 1A of their input voltage.
+
+---
+
+
+If a §3Machine§r receives a §2higher Voltage§r than its Tier, it'll §cexplode§r. Kaboom! Any excess §dAmperage§r won't have an adverse affect, as machines only consume as they need.
+
+The machine explosion would usually also damage terrain, but we have disabled that feature in this pack.
+
+---
+
+
+In summary, Energy is transported in §apackets§r of §132EU§r for §7LV§r, §1128EU§r for §bMV§r... so on and so forth. The amount of energy that is actually received by a machine can end up being lower than energy sent, due to cable loss.
+
+Machine Energy Input is limited by §2Voltage§r (too high and, well, §6boom§r!), and by §dAmperage§r. Thus, a §bMV§r Machine with §d2A§r Input connected to a §7LV§r line will never accept more than §964EU/t§r.
+
+It is still possible to run §bMV§r Machines on §7LV§r lines, but only if the recipes are low enough §9Power§r, or if you have a §3MV Battery§r in the charging slot. The machine will only accept §d1A§r when idle, and so the §3Battery§r will recharge at a maximum rate of §932EU/t§r.",
+  "icon_item": "gtceu:lv_battery_hull",
+  "id": "electricity",
+  "parent": "none",
+  "positionX": 255,
+  "positionY": 229,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "electricity_generation",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "tasks": [
+    {
+      "description": '{"text":"Complete Checkmark"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:electricity_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Electricity",
+  "visibility": "NORMAL"
+}

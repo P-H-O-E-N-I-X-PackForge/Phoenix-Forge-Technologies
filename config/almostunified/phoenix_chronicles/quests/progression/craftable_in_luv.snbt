@@ -1,0 +1,38 @@
+{
+  "chapter": "PROGRESSION",
+  "description": "This is the §9Crystal§r Circuit line.
+
+It's locked behind §3Fusion§r.",
+  "hide_dep_line": 1b,
+  "icon_item": "gtceu:luv_machine_hull",
+  "id": "craftable_in_luv",
+  "parent": "none",
+  "positionX": 656,
+  "positionY": 176,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "link_025c",
+      "required": 1b
+    },
+    {
+      "id": "link_607e",
+      "required": 1b
+    },
+    {
+      "id": "link_54f1",
+      "required": 1b
+    },
+    {
+      "id": "link_4eab",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Crystallisation",
+  "title": "Craftable in §dLuV§r",
+  "visibility": "NORMAL"
+}

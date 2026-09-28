@@ -1,0 +1,51 @@
+{
+  "chapter": "EV_EXTREME_VOLTAGE",
+  "description": "Amperage goes up - we're now at a whopping §e6A§r per Superconductor (12 if using §5Source Titanium Fillament§r).",
+  "icon_item": "gtceu:uranium_triplatinum_double_wire",
+  "id": "ev_superconductors",
+  "parent": "none",
+  "positionX": 896,
+  "positionY": 1166,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "uranium_refinement",
+      "required": 1b
+    },
+    {
+      "id": "rtm_alloy_coils",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Power Creep",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"uranium triplatinum double wire"}',
+      "item_id": "gtceu:uranium_triplatinum_double_wire",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:ev_superconductors_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"source titanium filament single wire"}',
+      "item_id": "phoenixcore:source_titanium_filament_single_wire",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:ev_superconductors_task_1",
+      "type": "item_check"
+    }
+  ],
+  "title": "EV Superconductors",
+  "visibility": "NORMAL"
+}

@@ -1,0 +1,47 @@
+{
+  "chapter": "LUV_LUDICROUS_VOLTAGE",
+  "description": "The §aLuV Electric Prospector§r is a major upgrade from the §eHV§r one. With its huge range, it'll make finding Fluid and Ore veins very easy.",
+  "icon_item": "gtceu:prospector.luv",
+  "id": "luv_prospector",
+  "parent": "none",
+  "positionX": 536,
+  "positionY": 476,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "link_4e99",
+      "required": 1b
+    },
+    {
+      "id": "link_0bd7",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 3,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "If you're yet to strike gold, you will now",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Super Prospector (LuV)"}',
+      "item_id": "gtceu:prospector.luv",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:luv_prospector_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "LuV Prospector",
+  "visibility": "NORMAL"
+}

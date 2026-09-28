@@ -1,0 +1,29 @@
+{
+  "chapter": "STARTING_OUT_WITH_LINES",
+  "description": "§bPTFE§r (Polytetrafluoroethylene), an indispensable polymer for advanced industrial infrastructure, is synthesized by reacting §eChloroform§r with §eHydrofluoric Acid§r in a §bChemical Reactor§r.
+
+This material is crucial for crafting the §bLarge Chemical Reactor§r itself, is extensively used in §dEV-tier machines§r, and provides §6increased output yields§r in various recipes.
+
+Establishing a robust §6PTFE production line§r is vital for expanding your high-tier chemical processing and maximizing material returns.",
+  "icon_item": "gtceu:polytetrafluoroethylene_ingot",
+  "id": "polytetrafluoroethylene_2ff0",
+  "parent": "none",
+  "positionX": 496,
+  "positionY": 256,
+  "position_is_center": 1b,
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Teflon, Oh My Beloved",
+  "tasks": [
+    {
+      "description": '{"text":"PTFE"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:polytetrafluoroethylene_2ff0_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Polytetrafluoroethylene",
+  "visibility": "NORMAL"
+}

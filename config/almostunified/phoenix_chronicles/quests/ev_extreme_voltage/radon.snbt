@@ -1,0 +1,62 @@
+{
+  "chapter": "EV_EXTREME_VOLTAGE",
+  "description": "Don't worry, this is nothing compared to running an EBF.
+
+Hopefully for you, the §3LCR§r recipe in §2EMI§r for §aRadon§r should be self explanatory on how to set it up.
+
+Input some §aUranium§r, loop back the §dPlutonium§r using a §3Electric Furnace§r, and let the magic happen.
+
+§l§3Lore:§r§o This cursed yet charming \"chain\" is inherited from GregTech 5. Plutonium 239 existing as an ore is a sort of a placeholder to avoid having to obtain it through complicated means.",
+  "icon_item": "gtceu:radon_bucket",
+  "id": "radon",
+  "parent": "none",
+  "positionX": 536,
+  "positionY": 986,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "uranium_refinement",
+      "required": 1b
+    },
+    {
+      "id": "link_33ee",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 2,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "200 seconds?! WHAT?!",
+  "tasks": [
+    {
+      "description": '{"text":"Plutonium Ingot"}',
+      "optional": 0b,
+      "required": 8,
+      "sticky": 1b,
+      "tag": "forge:ingots/plutonium",
+      "task_id": "phoenix_chronicles:radon_task_0",
+      "type": "tag_item"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"radon bucket"}',
+      "item_id": "gtceu:radon_bucket",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:radon_task_1",
+      "type": "item_check"
+    }
+  ],
+  "title": "Radon",
+  "visibility": "NORMAL"
+}

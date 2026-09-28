@@ -1,0 +1,39 @@
+{
+  "chapter": "GENESIS",
+  "description": 'Finding yourself within a vast temple dedicated to a phoenix, a familiar stirring takes hold. You discover a library and are drawn to a single book: the Flaming Records. Within its pages, schematics and plans of incredible machines awaken something within you. A section on "PhoenixWare?" reveals only, "Power beyond reality, created by P⍑𝙹ᒷリ╎ ̇/⍊╎リᒷ—once one of us, now something more." You feel like you should know who this is, but the name escapes you. With a sense of unanswered questions, you exit the temple into the blinding light.
+
+The world outside bears the marks of a vibrant community now overgrown, littered with the fascinating wreckage of broken machines and automation that sparks an unexpected excitement.
+
+This is not a story of invention, but of reclamation.
+
+This is: §4§lPhoenix Forge Technologies§r§r
+
+And you WILL get back what you lost.',
+  "icon_item": "minecraft:writable_book",
+  "id": "q_263fd1f608390bb8",
+  "parent": "none",
+  "positionX": 860,
+  "positionY": 412,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "phoenix_forge_technologies",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "You awaken on a cold, hard floor, with a blazing headache.",
+  "tasks": [
+    {
+      "description": '{"text":"Lore"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:q_263fd1f608390bb8_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Quest 263fd1",
+  "visibility": "NORMAL"
+}

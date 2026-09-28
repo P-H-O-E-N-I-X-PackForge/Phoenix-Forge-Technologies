@@ -1,0 +1,51 @@
+{
+  "chapter": "HV_HIGH_VOLTAGE",
+  "description": "§3Nichrome Heating Coils§r increase the temperature of your §3Blast Furnace§r to §d3,600K§r.
+
+Despite not being required §oyet§r, it's still a good idea to upgrade your primary §3EBF§r for those sweet, sweet §6Coil bonuses§r.
+
+---
+
+
+§l§3Lore:§r§o In the original GregTech 5, there were only three types of coils. This was the last tier.",
+  "icon_item": "gtceu:nichrome_coil_block",
+  "id": "nichrome_coils",
+  "parent": "none",
+  "positionX": 626,
+  "positionY": 368,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "kanthal_coils",
+      "required": 1b
+    },
+    {
+      "id": "ice_cold",
+      "required": 1b
+    },
+    {
+      "id": "nichrome",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "A long way to go before we beat the Sun",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 16,
+      "description": '{"text":"Nichrome Coil Block"}',
+      "item_id": "gtceu:nichrome_coil_block",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:nichrome_coils_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Nichrome Coils",
+  "visibility": "NORMAL"
+}

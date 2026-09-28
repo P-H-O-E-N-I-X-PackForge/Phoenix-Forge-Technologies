@@ -1,0 +1,52 @@
+{
+  "chapter": "MV_MEDIUM_VOLTAGE",
+  "description": "Vanadiumsteel is required in small quantities in progression. It's §6nearly four times as durable§r as Steel if used in GregTech tools. The Vanadium comes from §aVanadium Magnetite§r, which you may have encountered in Magnetite veins.
+
+Other Steel alloys include Blue Steel, Red Steel, and Black Steel!
+
+Take some Blue Steel free of charge - it's twice as durable as Steel.",
+  "icon_item": "gtceu:vanadium_steel_ingot",
+  "id": "steel_alloys",
+  "parent": "none",
+  "positionX": 536,
+  "positionY": 769,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "advanced_mixer",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 16,
+      "item_id": "gtceu:blue_steel_ingot",
+      "type": "item"
+    },
+    {
+      "count": 1,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Steel Your Heart",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 4,
+      "description": '{"text":"vanadium steel ingot"}',
+      "item_id": "gtceu:vanadium_steel_ingot",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:steel_alloys_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Steel Alloys",
+  "visibility": "NORMAL"
+}

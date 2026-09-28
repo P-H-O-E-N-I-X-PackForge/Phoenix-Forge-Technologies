@@ -1,0 +1,49 @@
+{
+  "chapter": "EV_EXTREME_VOLTAGE",
+  "description": "Need to handle §6multiple§r fluid inputs and outputs? Look no further - these §aFluid Hatches§r can handle more than one fluid at once!
+
+These cannot be used in a §bDistillation Tower§r, but may be particularly useful in §5Large Chemical Reactors§r.",
+  "icon_item": "gtceu:ev_input_hatch_4x",
+  "id": "multiple_fluid_hatches",
+  "parent": "none",
+  "positionX": 716,
+  "positionY": 716,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "first_ev_circuits",
+      "required": 1b
+    },
+    {
+      "id": "link",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 1,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "One-To-Many, Many-To-One",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Multiple Fluid Hatches"}',
+      "item_id": "gtceu:ev_input_hatch_4x",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:multiple_fluid_hatches_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Multiple Fluid Hatches",
+  "visibility": "NORMAL"
+}

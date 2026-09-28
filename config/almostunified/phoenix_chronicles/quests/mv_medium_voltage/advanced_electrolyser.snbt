@@ -1,0 +1,40 @@
+{
+  "chapter": "MV_MEDIUM_VOLTAGE",
+  "description": "The Advanced Electrolyzer allows you to decompose §6far more§r Dusts. This will make getting materials such as §aAluminium§r§o a lot§r easier!",
+  "icon_item": "gtceu:mv_electrolyzer",
+  "id": "advanced_electrolyser",
+  "parent": "none",
+  "positionX": 356,
+  "positionY": 679,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "link_6fca",
+      "required": 1b
+    },
+    {
+      "id": "first_mv_circuit",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "We made it to MV, and, well...",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"§bAdvanced Electrolyzer §r"}',
+      "item_id": "gtceu:mv_electrolyzer",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:advanced_electrolyser_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Advanced Electrolyser",
+  "visibility": "NORMAL"
+}

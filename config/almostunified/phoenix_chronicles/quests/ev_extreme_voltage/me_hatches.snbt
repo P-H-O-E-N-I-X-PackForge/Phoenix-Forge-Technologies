@@ -1,0 +1,38 @@
+{
+  "chapter": "EV_EXTREME_VOLTAGE",
+  "description": "§3ME Hatches§r directly connect to your §aAE System§r, allowing you to skip placing interfaces directly on buses and hatches.
+
+§l§3Lore:§r§o This feature originally comes from GTNH!",
+  "icon_item": "gtceu:me_input_bus",
+  "id": "me_hatches",
+  "parent": "none",
+  "positionX": 626,
+  "positionY": 626,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "link",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "No more interfaces on buses",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"ME Input Bus"}',
+      "item_id": "gtceu:me_input_bus",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:me_hatches_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "ME Hatches",
+  "visibility": "NORMAL"
+}

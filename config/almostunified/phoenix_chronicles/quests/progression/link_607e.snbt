@@ -1,0 +1,26 @@
+{
+  "chapter": "PROGRESSION",
+  "description": "",
+  "id": "link_607e",
+  "link_target": "phoenix_chronicles:first_uv_circuits",
+  "parent": "none",
+  "positionX": 656,
+  "positionY": 896,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "hpca",
+      "required": 1b
+    },
+    {
+      "id": "link_4eab",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "title": "",
+  "visibility": "NORMAL"
+}

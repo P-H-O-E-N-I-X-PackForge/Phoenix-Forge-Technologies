@@ -1,0 +1,36 @@
+{
+  "chapter": "UV_ULTIMATE_VOLTAGE",
+  "description": "The §aCreative Energy Cell§r is one of the few craftable creative items. It provides infinite energy to your AE system, so you don't have to worry about blackouts or power anymore.",
+  "icon_item": "ae2:creative_energy_cell",
+  "id": "creative_me_energy",
+  "parent": "none",
+  "positionX": 626,
+  "positionY": 176,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "gravi_star",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Ok, maybe there are Creative items.",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Creative Energy Cell"}',
+      "item_id": "ae2:creative_energy_cell",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:creative_me_energy_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Creative ME Energy",
+  "visibility": "NORMAL"
+}

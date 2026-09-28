@@ -1,0 +1,43 @@
+{
+  "chapter": "ZPM_ZERO_POINT_MODULE",
+  "description": "The final circuit board - it's been a long time coming! As you can see, this board is §cmuch§r more expensive than the other ones, but you should be alright. You're a pro now!
+
+---
+
+
+§l§3Lore:§r§o In GTNH, these circuit boards require LuV Sensors, instead of IV. This means that Wetware LuV circuits, needed other (crystal) LuV circuits!
+
+Additionally, because Wetware was so expensive, using Crystal was preferred unless UHV wetware circuits were needed. Thankfully, CEu does not have this problem, and LuV Wetware Circuits are worth making.",
+  "icon_item": "gtceu:wetware_printed_circuit_board",
+  "id": "wetware_printed_circuit_board",
+  "parent": "none",
+  "positionX": 626,
+  "positionY": 176,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "stem_cells",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "The board of life itself",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Wetware Printed Circuit Board"}',
+      "item_id": "gtceu:wetware_printed_circuit_board",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:wetware_printed_circuit_board_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Wetware Printed Circuit Board",
+  "visibility": "NORMAL"
+}

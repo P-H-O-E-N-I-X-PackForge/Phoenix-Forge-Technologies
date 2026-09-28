@@ -1,0 +1,71 @@
+{
+  "chapter": "ORE_GENERATION",
+  "description": "Both Sapphire variants serve as your primary source of Aluminium until you can unlock other electrolysis recipes in §bMV§r.
+
+The other two gems are mediocre at best.",
+  "icon_item": "gtceu:sapphire_ore",
+  "id": "sapphire_6efe",
+  "parent": "none",
+  "positionX": 336,
+  "positionY": 776,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "ore_generation",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Source of Aluminium",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"raw almandine"}',
+      "item_id": "gtceu:raw_almandine",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:sapphire_6efe_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"raw pyrope"}',
+      "item_id": "gtceu:raw_pyrope",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:sapphire_6efe_task_1",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"raw sapphire"}',
+      "item_id": "gtceu:raw_sapphire",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:sapphire_6efe_task_2",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"raw green sapphire"}',
+      "item_id": "gtceu:raw_green_sapphire",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:sapphire_6efe_task_3",
+      "type": "item_check"
+    }
+  ],
+  "title": "Sapphire",
+  "visibility": "NORMAL"
+}

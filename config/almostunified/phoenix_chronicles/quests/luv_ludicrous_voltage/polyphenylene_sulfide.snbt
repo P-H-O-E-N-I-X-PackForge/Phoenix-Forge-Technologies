@@ -1,0 +1,43 @@
+{
+  "chapter": "LUV_LUDICROUS_VOLTAGE",
+  "description": "A requirement for §dLuV§r+ cables.",
+  "icon_item": "gtceu:polyphenylene_sulfide_foil",
+  "id": "polyphenylene_sulfide",
+  "parent": "none",
+  "positionX": 176,
+  "positionY": 566,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "high_power_integrated_circuit",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 1,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Cables need better coating now",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"polyphenylene sulfide foil"}',
+      "item_id": "gtceu:polyphenylene_sulfide_foil",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:polyphenylene_sulfide_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Polyphenylene Sulfide",
+  "visibility": "NORMAL"
+}

@@ -1,0 +1,36 @@
+{
+  "chapter": "UV_ULTIMATE_VOLTAGE",
+  "description": "The §aGravi Star§r is the final upgraded Nether Star in GTCEu. It's needed for §3UV§r Sensors, Emitters, and Field Generators.",
+  "icon_item": "gtceu:gravi_star",
+  "id": "gravi_star",
+  "parent": "none",
+  "positionX": 626,
+  "positionY": 266,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "neutronium",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Unfortunately, doesn't make you float",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Gravi-Star"}',
+      "item_id": "gtceu:gravi_star",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:gravi_star_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Gravi Star",
+  "visibility": "NORMAL"
+}

@@ -1,0 +1,47 @@
+{
+  "chapter": "LV_LOW_VOLTAGE",
+  "description": "The §7electrolyzer§r has way too many uses to list here but it seperates fluids and items to provide byproducts.
+
+Because of this, its not §9exactly§r used for ore processing but the products dusts can decompose into are very useful as you go on.
+
+§4However§r, smelting the dusts straight into ingots can provide §2more value§r for the base dust. So it's up to you whether you §5electrolyze§r or just §asmelt§r the dusts.",
+  "icon_item": "gtceu:lv_electrolyzer",
+  "id": "basic_electrolyzer",
+  "parent": "none",
+  "positionX": 356,
+  "positionY": 626,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "ore_processing_part_two",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 2,
+      "item_id": "gtceu:lv_electric_motor",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Separating anything you can think of",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Basic Electrolyzer §r"}',
+      "item_id": "gtceu:lv_electrolyzer",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:basic_electrolyzer_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Basic Electrolyzer",
+  "visibility": "NORMAL"
+}

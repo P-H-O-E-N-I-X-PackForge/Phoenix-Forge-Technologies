@@ -1,0 +1,58 @@
+{
+  "chapter": "IV_INSANE_VOLTAGE",
+  "description": "Woah! It's been tough to get here. You'll appreciate not having to make a new polymer for Circuits Boards.
+
+The §3IV Circuit Assembler§r unlocks the §1Quantum§r Circuit line.
+
+This also unlocks the §6best recipe§r for §dMV Circuits§r.",
+  "icon_item": "gtceu:iv_circuit_assembler",
+  "id": "iv_circuit_assembling",
+  "parent": "none",
+  "positionX": 806,
+  "positionY": 439,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "radon",
+      "required": 1b
+    },
+    {
+      "id": "iridium_and_osmium",
+      "required": 1b
+    },
+    {
+      "id": "rtm_alloy_coils",
+      "required": 1b
+    },
+    {
+      "id": "nether_stars",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 3,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"§9Elite Circuit Assembler §r"}',
+      "item_id": "gtceu:iv_circuit_assembler",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:iv_circuit_assembling_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "IV Circuit Assembling",
+  "visibility": "NORMAL"
+}

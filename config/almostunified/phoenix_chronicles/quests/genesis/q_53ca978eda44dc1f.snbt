@@ -1,0 +1,43 @@
+{
+  "chapter": "GENESIS",
+  "description": "In base §bae2§r, there are §achannels§r. §aChannels§r are directly correlated to the amount of §5me devices§r you can have on your network. For example each terminal would be it's own §achannel§r.
+
+However, we have §bdecided§r to in favor of turning these §3channels off§r. §bWhy§r, you might ask? Well, the §6gregified ae2 componets§r are already pricey enough, where adding channels to that would be kinda mean.
+
+
+
+---
+
+
+
+If you want them back on, you can run the command /ae2 channelmode default, 2x, or 4x (infinite is the setting this pack uses.)
+
+There are some who prefer the complexity of channels. I can't really blame them, so have at ye and have fun!",
+  "icon_item": "ae2:fluix_smart_cable",
+  "id": "q_53ca978eda44dc1f",
+  "parent": "none",
+  "positionX": 704,
+  "positionY": 576,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "phoenix_forge_technologies",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "The digital age has limits?",
+  "tasks": [
+    {
+      "description": '{"text":"Channels? What are those?"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:q_53ca978eda44dc1f_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Quest 53ca97",
+  "visibility": "NORMAL"
+}

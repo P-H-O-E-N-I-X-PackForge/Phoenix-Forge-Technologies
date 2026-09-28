@@ -1,0 +1,31 @@
+{
+  "chapter": "STARTING_OUT_WITH_LINES",
+  "description": "Your initial supply of the vital §bIndium§r will be obtained by combining §epurified Galena§r and §eSphalerite Ore§r with §eSulfuric Acid§r in a mixer. This method is your primary gateway to advanced circuitry.
+
+While later stages of progression will yield §bIndium§r more efficiently from the §bNaqLine§r, that is a future goal.
+
+The core application for §bIndium§r is in the synthesis of §aIndium Gallium Phosphate§r, a critical component for §dIV and higher-tier circuits§r.
+
+§r§l§6Strategic Tip:§r Since this initial method specifically requires §o§6purified versions§r§o of these ores, consider designing your ore processing system to not use the purified ores, or create a §6dedicated system§r for them to ensure a consistent supply without disrupting other operations.",
+  "icon_item": "gtceu:indium_dust",
+  "id": "q_3328f6b1c39c3860",
+  "parent": "none",
+  "positionX": 256,
+  "positionY": 656,
+  "position_is_center": 1b,
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Soft Metal, You could bite it",
+  "tasks": [
+    {
+      "description": '{"text":"indium"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:q_3328f6b1c39c3860_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Quest 3328f6",
+  "visibility": "NORMAL"
+}

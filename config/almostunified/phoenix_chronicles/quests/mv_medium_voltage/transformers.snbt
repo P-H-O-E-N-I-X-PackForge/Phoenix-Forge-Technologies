@@ -1,0 +1,61 @@
+{
+  "chapter": "MV_MEDIUM_VOLTAGE",
+  "description": "§3Transformers§r allow you to step up and down safely between Voltage tiers. They convert the power they receive into an equivalent amount of power 1 voltage tier above or below the input voltage.
+
+Apart from running machines on different voltage tiers, Transformers come in handy for transporting power across longer distances, as cable loss has less of an effect at higher voltages. Just like real life!
+
+---
+
+
+Transformers have 5 low voltage sides, and 1 high voltage side.
+
+The §9normal§r Transformer can only do 1A <-> 4A conversion, but §9Adjustable§r Transformers can be changed between 1A <-> 4A, 2A <-> 8A, 4A <-> 16A, and 16A <-> 64A conversions.
+
+Use a §aSoft Hammer§r to change between transforming up and down, and a §aScrewdriver§r on Adjustable Transformers to change the amperage.
+
+Higher tier Transformers will require §9Coils§r.",
+  "hide_dep_line": 1b,
+  "icon_item": "gtceu:mv_transformer_1a",
+  "id": "transformers",
+  "parent": "none",
+  "positionX": 626,
+  "positionY": 709,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "link_6fca",
+      "required": 1b
+    },
+    {
+      "id": "first_mv_circuit",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 1,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "LV In Disguise",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"§7Low Voltage§r Transformer"}',
+      "item_id": "gtceu:lv_transformer_1a",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:transformers_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Transformers",
+  "visibility": "NORMAL"
+}

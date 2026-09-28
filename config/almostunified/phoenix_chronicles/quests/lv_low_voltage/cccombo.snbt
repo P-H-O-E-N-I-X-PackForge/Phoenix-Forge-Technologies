@@ -1,0 +1,63 @@
+{
+  "chapter": "LV_LOW_VOLTAGE",
+  "description": "Use both of your new machines to turn a material into a Fluid, and solidify it back to a Rotor! This combination makes Rotors far easier to craft - §6four Ingots per Rotor§r, as well.
+
+You can also do the same for §6Gears§r and §6Small Gears§r, which will then be superseded when you make a §3MV Extruder§r.
+
+§9Note:§r Some metals require higher voltages than §7LV§r for Fluid Extraction, so make sure to keep an eye on the recipe tier in EMI.",
+  "icon_item": "gtceu:rotor_casting_mold",
+  "id": "cccombo",
+  "optional": 1b,
+  "parent": "none",
+  "positionX": 896,
+  "positionY": 626,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "basic_fluid_solidifier",
+      "required": 1b
+    },
+    {
+      "id": "q_5b2696206205cb2e",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 2,
+      "item_id": "gtceu:empty_mold",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Time to end the misery of hand crafting rotors!",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Casting Mold (Rotor)"}',
+      "item_id": "gtceu:rotor_casting_mold",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:cccombo_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 8,
+      "description": '{"text":"tin rotor"}',
+      "item_id": "gtceu:tin_rotor",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:cccombo_task_1",
+      "type": "item_check"
+    }
+  ],
+  "title": "C-C-Combo!",
+  "visibility": "NORMAL"
+}

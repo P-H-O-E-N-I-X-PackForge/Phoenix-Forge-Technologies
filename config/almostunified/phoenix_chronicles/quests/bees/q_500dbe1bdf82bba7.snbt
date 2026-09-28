@@ -1,0 +1,32 @@
+{
+  "chapter": "BEES",
+  "description": "This §bwoody§r bee seems to be a bit §aextra§r when it comes to gathering resources!
+
+To obtain this §9tree-hugging§r friend, you'll need §34 menril logs§r and a §9Blue Banded§r§r.",
+  "id": "q_500dbe1bdf82bba7",
+  "parent": "none",
+  "positionX": 1216,
+  "positionY": 816,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "q_6d67d38bf87c31c0",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Could Have Just Used the Lumber Bee",
+  "tasks": [
+    {
+      "description": '{"text":"Menril Bee"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:q_500dbe1bdf82bba7_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Quest 500dbe",
+  "visibility": "NORMAL"
+}

@@ -1,0 +1,32 @@
+{
+  "chapter": "BEES",
+  "description": "Feel the heat! This §cblazing§r bee brings the warmth of the nether to your apiary!
+
+To obtain this §4fiery§r friend, you'll need a §eNomad§r bee and §616 blaze rods§r.",
+  "id": "q_4df619d2e4097aa2",
+  "parent": "none",
+  "positionX": 1056,
+  "positionY": 896,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "q_264519d0cb3c4462",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Hot like the sun!",
+  "tasks": [
+    {
+      "description": '{"text":"Blazing Bee"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:q_4df619d2e4097aa2_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Quest 4df619",
+  "visibility": "NORMAL"
+}

@@ -1,0 +1,42 @@
+{
+  "chapter": "LV_LOW_VOLTAGE",
+  "description": "Macerating §3clay§r blocks yields §3clay dust§r. This §3clay dust§r can then be processed in an electrolyzer to extract valuable resources: lithium, sodium, silicon, and aluminum dust.
+
+Be aware that this process can be quite slow in the early game, so setting up the system to passively electrolyze clay dust is highly recommended.
+
+Grr, all this useless §dWater§r you're getting keeps clogging the machine! Maybe you should deal with it by using a §3Voiding Cover§r.
+
+You should use the Sodium and/or Lithium to make some §6MV Batteries§r.",
+  "icon_item": "minecraft:clay_ball",
+  "id": "the_clay_line",
+  "parent": "none",
+  "positionX": 261,
+  "positionY": 546,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "sapphire",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "CIRCLE",
+  "subtitle": "Processing Clay",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"clay ball"}',
+      "item_id": "minecraft:clay_ball",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:the_clay_line_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "The Clay Line",
+  "visibility": "NORMAL"
+}

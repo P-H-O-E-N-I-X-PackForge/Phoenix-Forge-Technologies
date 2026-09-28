@@ -1,0 +1,43 @@
+{
+  "chapter": "ZPM_ZERO_POINT_MODULE",
+  "description": "Remember §aDarmstadtium§r tools from §3GTCE§r? Well then... guess who's back?
+
+§aDarmstadtium§r is the main material for §3UV§r hulls. It is yet again made with Fusion.
+
+---
+
+
+§bFun Fact§r: Arsenic does not exist as a liquid at standard conditions. It sublimates directly into a gas! \"Realism\", my ass.",
+  "icon_item": "gtceu:darmstadtium_ingot",
+  "id": "darmstadtium",
+  "parent": "none",
+  "positionX": 446,
+  "positionY": 626,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "fusion_reactor_ii",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "I want my particle accelerator back...",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"darmstadtium ingot"}',
+      "item_id": "gtceu:darmstadtium_ingot",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:darmstadtium_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Darmstadtium",
+  "visibility": "NORMAL"
+}

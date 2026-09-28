@@ -1,0 +1,50 @@
+{
+  "chapter": "HV_HIGH_VOLTAGE",
+  "description": "By this point, normal Cables have such insignificant loss that superconductors aren't a requirement.
+
+You can use those as a flex!
+
+Superconductors are still required to craft §aField Generators§r.",
+  "icon_item": "gtceu:mercury_barium_calcium_cuprate_double_wire",
+  "id": "hv_superconductors",
+  "parent": "none",
+  "positionX": 626,
+  "positionY": 458,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "nichrome_coils",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"mercury barium calcium cuprate single wire"}',
+      "item_id": "gtceu:mercury_barium_calcium_cuprate_single_wire",
+      "optional": 1b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:hv_superconductors_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"icy steel matrix single wire"}',
+      "item_id": "minecraft:air",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:hv_superconductors_task_1",
+      "type": "item_check"
+    }
+  ],
+  "title": "HV Superconductors",
+  "visibility": "NORMAL"
+}

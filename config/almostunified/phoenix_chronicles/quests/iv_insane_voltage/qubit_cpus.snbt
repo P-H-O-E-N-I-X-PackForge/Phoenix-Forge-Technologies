@@ -1,0 +1,53 @@
+{
+  "chapter": "IV_INSANE_VOLTAGE",
+  "description": "We know... this isn't actually gated behind §dIndium§r. However, you gotta trust us - this is the better recipe, so we don't want you wasting your time.
+
+§aQubit CPUs§r are used in the production of §1Quantum§r Processors.",
+  "icon_item": "gtceu:qbit_cpu_chip",
+  "id": "qubit_cpus",
+  "parent": "none",
+  "positionX": 716,
+  "positionY": 439,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "radon",
+      "required": 1b
+    },
+    {
+      "id": "indium",
+      "required": 1b
+    },
+    {
+      "id": "nano_cpus",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 3,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "This actually has no relation to Quantum",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Qubit CPU Chip"}',
+      "item_id": "gtceu:qbit_cpu_chip",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:qubit_cpus_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Qubit CPUs",
+  "visibility": "NORMAL"
+}

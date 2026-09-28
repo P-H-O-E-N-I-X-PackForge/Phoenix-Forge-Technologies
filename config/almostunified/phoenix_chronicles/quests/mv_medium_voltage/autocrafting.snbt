@@ -1,0 +1,51 @@
+{
+  "chapter": "MV_MEDIUM_VOLTAGE",
+  "description": "§3Molecular Assemblers§r can be used to automate Crafting Table recipes, which means you can automate just about anything now.
+
+To maximise the number of recipes a single Molecular Assembler can do, make a 3D matrix of Molecular Assemblers and ME Interfaces - where each component is surrounded on 6 sides by the other.
+
+Using higher-tier materials in crafting will yield more Molecular Assemblers.
+
+---
+
+
+§cWarning:§r Try to avoid using GT tools in AE2 autocrafting! It causes AE2 to freak out... you may or may not destroy the TPS, or even worse, end up having thousands of tools being crafted as soon as one of them breaks.
+
+If you're stubborn enough to §oreally§r want to use GT tools in AE2 autocrafting, prioritise encoding recipes that use tools with high durability, but §4do not§r setup autocrafting for the tools themselves. Instead, use the alternate §3Assembling Machine§r recipes.",
+  "icon_item": "ae2:molecular_assembler",
+  "id": "autocrafting",
+  "parent": "none",
+  "positionX": 716,
+  "positionY": 679,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "pressing_matters",
+      "required": 1b
+    },
+    {
+      "id": "frost_reinforced_stained_steel",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Autocrafting at last!",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Molecular Assembler"}',
+      "item_id": "ae2:molecular_assembler",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:autocrafting_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Autocrafting",
+  "visibility": "NORMAL"
+}

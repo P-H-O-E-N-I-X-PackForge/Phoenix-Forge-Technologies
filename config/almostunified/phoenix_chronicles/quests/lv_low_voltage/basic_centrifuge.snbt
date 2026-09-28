@@ -1,0 +1,59 @@
+{
+  "chapter": "LV_LOW_VOLTAGE",
+  "description": "The centrifuge seperates dusts into other §5materials§r, §bseperating air§r,and much §6more§r!
+
+I would highly advise you start gathering air from the §dgas collector§r in the §aoverworld§r on program 1 and centrifuge to obtain nitrogen to make the EBF §cf§4a§6s§ct§4e§6r§r.
+
+
+
+---
+
+
+I would not use the centrifuge singleblock for ore processing and to use the §6Steam Seperator§r from the early ages quests as it is much faster.
+
+The §ccatch§r with the Steam seperator however, is that steam multiblocks can §4§lNot§r§r accept §9fluid outputs/inputs§r. However, since you don't need liquids for centrifuge ore processing, it is your best bet for §bspeed§r right now.",
+  "icon_item": "gtceu:lv_centrifuge",
+  "id": "basic_centrifuge",
+  "parent": "none",
+  "positionX": 446,
+  "positionY": 716,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "ore_processing_part_two",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 1,
+      "item_id": "minecraft:cauldron",
+      "type": "item"
+    },
+    {
+      "count": 3,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Jack of Many Trades",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Basic Centrifuge §r"}',
+      "item_id": "gtceu:lv_centrifuge",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:basic_centrifuge_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Basic Centrifuge",
+  "visibility": "NORMAL"
+}

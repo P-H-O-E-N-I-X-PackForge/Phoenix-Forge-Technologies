@@ -1,0 +1,33 @@
+{
+  "chapter": "PROGRESSION",
+  "description": "Circuits along this line are §bMV§r, and are interchangeable in recipes.
+
+The pattern stays the same: the rightmost circuit comes in §dlarger quantities§r and is overall §aeasier§r to produce.",
+  "hide_dep_line": 1b,
+  "icon_item": "gtceu:mv_machine_casing",
+  "id": "mv_circuits",
+  "parent": "none",
+  "positionX": 176,
+  "positionY": 416,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "link_1c05",
+      "required": 1b
+    },
+    {
+      "id": "link_22cf",
+      "required": 1b
+    },
+    {
+      "id": "link_77a0",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "title": "§bMV§r Circuits",
+  "visibility": "NORMAL"
+}

@@ -1,0 +1,66 @@
+{
+  "chapter": "EV_EXTREME_VOLTAGE",
+  "description": "So, what's on the agenda today?
+
+New Cutting Machine? §a✓§r
+
+New Lens? §a✓§r
+
+New Power Circuit? §a✓§r
+
+New EBF Metal required? §a✓§r
+
+New Coil for Energy Hatch? §a✓§r
+
+§9Note:§r If you haven't found a Jungle yet, you can §acentrifuge Stone Dust§r for §dMetal Mixture Dust§r. This doubles as a Brown Dye.",
+  "icon_item": "gtceu:mpic_chip",
+  "id": "power_integrated_circuit",
+  "parent": "none",
+  "positionX": 446,
+  "positionY": 446,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "ev_assembler",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 4,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "No one machine should have all this power!",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"MPIC Chip"}',
+      "item_id": "gtceu:mpic_chip",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:power_integrated_circuit_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Glass Lens (Brown)"}',
+      "item_id": "gtceu:brown_glass_lens",
+      "optional": 1b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:power_integrated_circuit_task_1",
+      "type": "item_check"
+    }
+  ],
+  "title": "Power Integrated Circuit",
+  "visibility": "NORMAL"
+}

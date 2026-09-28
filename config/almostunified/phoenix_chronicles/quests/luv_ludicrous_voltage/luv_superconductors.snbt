@@ -1,0 +1,55 @@
+{
+  "chapter": "LUV_LUDICROUS_VOLTAGE",
+  "description": "§aLuV Superconductors§r are necessary if you're eyeing a §9Fusion Reactor§r.
+
+Don't ignore our warning here - you're gonna need §ea lot§r§r of them. Luckily, any §5Indium§r shortages will be solved by your Naquadah line.
+
+§6§lFret not§r§r all you who seek strong superconductors, §5Extremely Modified Space Grade Steel§r has your back, with §364 amps§r with 1x wires, you can use those §bactive transformers§r you unlocked earlier and really go ham with your §5central power§r! This stuff is also used to make certain §bspecial custom multiblocks§r this tier.",
+  "icon_item": "gtceu:indium_tin_barium_titanium_cuprate_single_wire",
+  "id": "luv_superconductors",
+  "parent": "none",
+  "positionX": 536,
+  "positionY": 296,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "indium",
+      "required": 1b
+    },
+    {
+      "id": "naquadah_coils",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Be glad these don't use pumps",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"indium tin barium titanium cuprate single wire"}',
+      "item_id": "gtceu:indium_tin_barium_titanium_cuprate_single_wire",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:luv_superconductors_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"extremely modified space grade steel single wire"}',
+      "item_id": "phoenixcore:extremely_modified_space_grade_steel_single_wire",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:luv_superconductors_task_1",
+      "type": "item_check"
+    }
+  ],
+  "title": "LuV Superconductors",
+  "visibility": "NORMAL"
+}

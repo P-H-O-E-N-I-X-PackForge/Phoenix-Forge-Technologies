@@ -1,0 +1,22 @@
+{
+  "chapter": "ZPM_ZERO_POINT_MODULE",
+  "description": "",
+  "id": "link_21a3",
+  "link_target": "phoenix_chronicles:naquadah_alloy",
+  "parent": "none",
+  "positionX": 176,
+  "positionY": 446,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "naquadah_chain",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "title": "",
+  "visibility": "NORMAL"
+}

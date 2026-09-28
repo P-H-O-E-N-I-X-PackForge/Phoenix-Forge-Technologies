@@ -1,0 +1,46 @@
+{
+  "chapter": "PROGRESSION",
+  "description": "§eMicro§r Circuits are where the §3Cleanroom§r becomes a requirement to progress.
+
+Don't get caught out by the §aMainframe§r - it requires a §3HV Circuit Assembler§r.",
+  "hide_dep_line": 1b,
+  "icon_item": "gtceu:hv_machine_hull",
+  "id": "craftable_in_mv_and_hv",
+  "parent": "none",
+  "positionX": 416,
+  "positionY": 176,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "link_0e8a",
+      "required": 1b
+    },
+    {
+      "id": "link_22cf",
+      "required": 1b
+    },
+    {
+      "id": "link_3361",
+      "required": 1b
+    },
+    {
+      "id": "link_2b8f",
+      "required": 1b
+    },
+    {
+      "id": "link_0b4d",
+      "required": 1b
+    },
+    {
+      "id": "link_0074",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Micro Miners",
+  "title": "Craftable in §bMV§r and §6HV§r",
+  "visibility": "NORMAL"
+}

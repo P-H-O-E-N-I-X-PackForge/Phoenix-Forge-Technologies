@@ -1,0 +1,49 @@
+{
+  "chapter": "IV_INSANE_VOLTAGE",
+  "description": "The §3Active Transformer§r is a multiblock used to transform energy on a much larger scale. For example, you can convert §6HV§r to §7LV§r power directly by using the appropriate energy hatches.
+
+To make it you need to make a §l§6Conductive Honey Coil§r§r block which requires you to challenge §6honey§r.
+
+In base GT: Modern, you would need to get superconductive coils which are unlocked after the NaqLine, but here, I thought we should bring this wonderful multiblock to you even earlier.
+
+---
+
+
+§l§3Lore:§r§o This is yet another feature from TecTech, which also required these cables to be painted. They do look fantastic if you paint them, but it's optional in CEu.",
+  "icon_item": "gtceu:active_transformer",
+  "id": "active_transformer",
+  "parent": "none",
+  "positionX": 806,
+  "positionY": 349,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "assembly_line",
+      "required": 1b
+    },
+    {
+      "id": "link_0502",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "More than a large transformer",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Active Transformer"}',
+      "item_id": "gtceu:active_transformer",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:active_transformer_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Active Transformer",
+  "visibility": "NORMAL"
+}

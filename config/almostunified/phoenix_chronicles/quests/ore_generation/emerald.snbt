@@ -1,0 +1,52 @@
+{
+  "chapter": "ORE_GENERATION",
+  "description": "Emerald is the useful ore here. It's used in small quantities in §bMV§r, and is a part of the Crystal process for Crystal and Wetware circuits much later on.",
+  "icon_item": "gtceu:netherrack_emerald_ore",
+  "id": "emerald",
+  "parent": "none",
+  "positionX": 976,
+  "positionY": 176,
+  "position_is_center": 1b,
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Source of Beryllium, Emerald, Thorium",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"raw beryllium"}',
+      "item_id": "gtceu:raw_beryllium",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:emerald_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"raw emerald"}',
+      "item_id": "gtceu:raw_emerald",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:emerald_task_1",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"raw thorium"}',
+      "item_id": "gtceu:raw_thorium",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:emerald_task_2",
+      "type": "item_check"
+    }
+  ],
+  "title": "Emerald",
+  "visibility": "NORMAL"
+}

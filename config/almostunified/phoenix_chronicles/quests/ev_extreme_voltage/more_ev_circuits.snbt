@@ -1,0 +1,49 @@
+{
+  "chapter": "EV_EXTREME_VOLTAGE",
+  "description": "Nothing to say here.
+
+Nice work, we suppose.",
+  "icon_item": "gtceu:nano_processor_assembly",
+  "id": "more_ev_circuits",
+  "parent": "none",
+  "positionX": 806,
+  "positionY": 986,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "best_hv_circuits",
+      "required": 1b
+    },
+    {
+      "id": "more_smd_components",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 2,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Harder, Better, Faster, Stronger",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Nanoprocessor Assembly"}',
+      "item_id": "gtceu:nano_processor_assembly",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:more_ev_circuits_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "More EV Circuits!",
+  "visibility": "NORMAL"
+}

@@ -1,0 +1,42 @@
+{
+  "chapter": "BEES",
+  "description": "From the lunar surface, a new marvel emerges!
+
+This §6Desh Bee§r hums with an §eotherworldly glow§r, bringing the essence of the moon to your apiary. Its distinctive §c orange§r hue marks it as truly unique.
+
+To obtain this §f extraterrestrial§r friend, you'll need a §8Steel Bee§r and §64 blocks of desh§r. Prepare for a journey beyond the stars!",
+  "id": "q_5cf3886bfac895be",
+  "parent": "none",
+  "positionX": 776,
+  "positionY": 736,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "q_06df13f808e9d5a6",
+      "required": 1b
+    },
+    {
+      "id": "q_074cefeb53853464",
+      "required": 1b
+    },
+    {
+      "id": "q_659e82469c9951ba",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Desh sounds like mesh. Coincidence? I think not!",
+  "tasks": [
+    {
+      "description": '{"text":"Desh Bee"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:q_5cf3886bfac895be_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Quest 5cf388",
+  "visibility": "NORMAL"
+}

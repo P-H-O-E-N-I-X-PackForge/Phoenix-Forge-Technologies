@@ -1,0 +1,43 @@
+{
+  "chapter": "EV_EXTREME_VOLTAGE",
+  "description": "The §aAdvanced Energy Detector§r is an RS-latch for Energy Control.
+
+Slap it on a §3Battery Buffer§r, set a Minimum EU near 0, and a Maximum EU near the max capacity.
+
+The Cover will output a §4Redstone§r signal until the high threshold is reached, and then it will wait until the low threshold is reached to output redstone again.
+
+This is a must to automate inertia-based power generators such as Boilers, or more importantly §3Large Turbines§r.",
+  "icon_item": "gtceu:advanced_energy_detector_cover",
+  "id": "advanced_energy_detector",
+  "parent": "none",
+  "positionX": 626,
+  "positionY": 986,
+  "position_is_center": 1b,
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 2,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Save on Redstone contraptions",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Advanced Energy Detector"}',
+      "item_id": "gtceu:advanced_energy_detector_cover",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:advanced_energy_detector_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Advanced Energy Detector",
+  "visibility": "NORMAL"
+}

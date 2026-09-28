@@ -1,0 +1,45 @@
+{
+  "chapter": "LUV_LUDICROUS_VOLTAGE",
+  "description": "§aMagnetic Samarium§r (which you'll need for your §dLuV§r components) requires an §3IV Polarizer§r.
+
+Even so, we hope you weren't running all the polarization off a single §6HV§r Polarizer. Were you?",
+  "icon_item": "gtceu:iv_polarizer",
+  "id": "iv_magnetism",
+  "parent": "none",
+  "positionX": 206,
+  "positionY": 506,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "iv_assembler",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 3,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Feeling attracted yet?",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"§9Elite Polarizer §r"}',
+      "item_id": "gtceu:iv_polarizer",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:iv_magnetism_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "IV Magnetism",
+  "visibility": "NORMAL"
+}

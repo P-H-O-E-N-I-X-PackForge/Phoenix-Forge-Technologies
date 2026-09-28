@@ -1,0 +1,44 @@
+{
+  "chapter": "EV_EXTREME_VOLTAGE",
+  "description": "If you want a big boost to your processing abilities, look no further than these powerful Multiblocks!
+
+Formerly known as §2Gregicality Multiblocks§r, the add-on has been fully integrated into GregTech CEu Modern!
+
+You'll need to make use of many new §9alloys§r to build the new Multiblocks. Yay, more content!
+
+§6This quest unlocks a new tutorial on the GCYM mechanics in the §lTips and Tricks§r§6 tab - check it out to learn more!§r",
+  "icon_item": "gtceu:vibration_safe_casing",
+  "id": "gregicality_multiblocks",
+  "parent": "none",
+  "positionX": 896,
+  "positionY": 794,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "rtm_alloy_coils",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 6,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "STAR",
+  "subtitle": "We made it so far...",
+  "tasks": [
+    {
+      "description": '{"text":"Complete Checkmark"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:gregicality_multiblocks_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Gregicality Multiblocks",
+  "visibility": "NORMAL"
+}

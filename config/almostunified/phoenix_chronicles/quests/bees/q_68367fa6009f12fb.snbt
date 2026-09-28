@@ -1,0 +1,32 @@
+{
+  "chapter": "BEES",
+  "description": "This §8sturdy§r bee is a cornerstone of modern technology, ready to power your circuits!
+
+To obtain this §7electronic§r friend, you'll need a §eNomad§r bee and §f16 blocks of silicon§r.",
+  "id": "q_68367fa6009f12fb",
+  "parent": "none",
+  "positionX": 976,
+  "positionY": 896,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "q_264519d0cb3c4462",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "The Valley could never.",
+  "tasks": [
+    {
+      "description": '{"text":"Silicon Bee"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:q_68367fa6009f12fb_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Quest 68367f",
+  "visibility": "NORMAL"
+}

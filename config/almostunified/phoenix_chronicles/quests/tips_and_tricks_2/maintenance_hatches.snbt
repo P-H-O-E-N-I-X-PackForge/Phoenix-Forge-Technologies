@@ -1,0 +1,54 @@
+{
+  "chapter": "TIPS_AND_TRICKS_2",
+  "description": "Maintenance in GregTech is not as bad as you think (promise!), and adding a Maintenance Hatch to your multiblocks makes them look pretty industrial!
+
+---
+
+
+Most Multiblocks require a §3Maintenance Hatch§r. You will need to perform Maintenance for the Multiblock to begin operating.
+
+This is done by having a §9Wrench§r, a §9Screwdriver§r, a §9Soft Mallet§r, a §9Hammer§r, a §9Wire Cutter§r, and a §9Crowbar§r in your inventory, opening the Maintenance Hatch and §eclicking the center spot once§r. §cThere's no need to move tools individually§r.
+
+---
+
+
+Alternatively, you can circumvent these problems by placing a §9Tape§r in the Maintenance Hatch, but a lot of people would jump at the chance to tell you that Tape is §o\"unethical\"§r - plus, tape is gated behind some polymers starting from §bMV§r.
+
+---
+
+
+Maintenance problems have a §d5%§r chance of occuring every §dhour of multiblock activity§r. Needless to say, they are §6very§r rare. Each maintenance problem increases the recipe duration by §c10%§r. Fixing these problems is done the same way as above.
+
+At §6HV§r, you'll unlock other Maintenance Hatches that do not require manual repairs.",
+  "icon_item": "gtceu:maintenance_hatch",
+  "id": "maintenance_hatches",
+  "parent": "none",
+  "positionX": 334,
+  "positionY": 308,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "multiblock_techniques",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Maintenance Hatch"}',
+      "item_id": "gtceu:maintenance_hatch",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:maintenance_hatches_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Maintenance Hatches",
+  "visibility": "NORMAL"
+}

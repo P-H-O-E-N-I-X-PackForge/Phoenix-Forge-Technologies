@@ -1,0 +1,70 @@
+{
+  "chapter": "HV_HIGH_VOLTAGE",
+  "description": "The §aLow Power Integrated Circuit§r requires an §3HV Cutting Machine§r inside your §3Cleanroom§r.
+
+§3HV Energy Hatches§r will be nice additions so you can run your Multiblocks (mainly your Electric Blast Furnace and Large Chemical Reactor) directly off a §6HV§r line.
+
+You'll need to upgrade your EBF with §32 Energy Hatches§r to obtain §eNichrome coils§r - fun!",
+  "icon_item": "gtceu:hv_energy_input_hatch",
+  "id": "upgrade_your_ebf_ii",
+  "parent": "none",
+  "positionX": 626,
+  "positionY": 728,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "the_cleanroom",
+      "required": 1b
+    },
+    {
+      "id": "high_voltage_bathing",
+      "required": 1b
+    },
+    {
+      "id": "hv_assembling_machine",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Noticing a pattern here?",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"LPIC Chip"}',
+      "item_id": "gtceu:lpic_chip",
+      "optional": 1b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:upgrade_your_ebf_ii_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"sodium potassium bucket"}',
+      "item_id": "gtceu:sodium_potassium_bucket",
+      "optional": 1b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:upgrade_your_ebf_ii_task_1",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"§6HV Energy Hatch"}',
+      "item_id": "gtceu:hv_energy_input_hatch",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:upgrade_your_ebf_ii_task_2",
+      "type": "item_check"
+    }
+  ],
+  "title": "Upgrade your EBF II",
+  "visibility": "NORMAL"
+}

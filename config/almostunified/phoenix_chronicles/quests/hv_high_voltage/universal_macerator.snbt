@@ -1,0 +1,56 @@
+{
+  "chapter": "HV_HIGH_VOLTAGE",
+  "description": "The §3HV Macerator§r finally unlocks more of the slots shown in EMI. With this, the first §9three§r slots are now available. This allows you to receive the §6unique ore Byproduct§r from macerating §dThermal §dCentrifuged Ore§r.
+
+Macerating Ores costs §a32 EU/t§r with §5two overclocks§r, which makes this machine able to fit in §7LV§r lines - very, very convenient.
+
+Despite the signicant improvements this machine provides, it still isn't completely worth it to set up advanced processing for every single ore. Energy and time are still things to consider, so only process the ores that produce §6Byproducts§r you care for.
+
+---
+
+
+§l§3Lore:§r§o In GregTech 5u, the §6HV§r§o Macerator only gave two slots. Urgh... we weren't planning on using that Stone Dust, anyway...",
+  "icon_item": "gtceu:hv_macerator",
+  "id": "universal_macerator",
+  "parent": "none",
+  "positionX": 176,
+  "positionY": 638,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "first_hv_circuits",
+      "required": 1b
+    },
+    {
+      "id": "link_306a",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 3,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Shredding your Ores with byproducts",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"§6Advanced Macerator II§r"}',
+      "item_id": "gtceu:hv_macerator",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:universal_macerator_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Universal Macerator",
+  "visibility": "NORMAL"
+}

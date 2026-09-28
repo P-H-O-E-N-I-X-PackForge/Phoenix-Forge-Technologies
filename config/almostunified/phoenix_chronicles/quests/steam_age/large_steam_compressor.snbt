@@ -1,0 +1,145 @@
+{
+  "chapter": "STEAM_AGE",
+  "description": "The §6Large Steam Compressor§r uses steam pressure to quickly compress weaker materials, especially §aRubber§r. It's a bit pricey on fiery bronze, but I §a§lHIGHLY§r recommend it§r. Maybe you'll find other uses!
+
+(A word to the wise, you can make dense steel plates in a singleblock compressor)
+
+
+---
+
+
+
+\"While pondering primitive compression on a found notepad, an epiphany strikes! You could use steam from your boilers to compress items, similar to §1§lHydraulics§r!\"",
+  "icon_item": "gtceu:large_steam_compressor",
+  "id": "large_steam_compressor",
+  "optional": 1b,
+  "parent": "none",
+  "positionX": 496,
+  "positionY": 696,
+  "position_is_center": 1b,
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 4,
+      "item_id": "phoenixcore:fiery_bronze_ingot",
+      "type": "item"
+    },
+    {
+      "count": 4,
+      "item_id": "gtceu:rubber_plate",
+      "type": "item"
+    },
+    {
+      "count": 2,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Under Pressure",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Large Steam Compressor"}',
+      "item_id": "gtceu:large_steam_compressor",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:large_steam_compressor_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Steam Input Bus"}',
+      "item_id": "gtceu:steam_input_bus",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:large_steam_compressor_task_1",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Steam Input Hatch"}',
+      "item_id": "gtceu:steam_input_hatch",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:large_steam_compressor_task_2",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Steam Output Bus"}',
+      "item_id": "gtceu:steam_output_bus",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:large_steam_compressor_task_3",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Bronze Firebox Casing"}',
+      "item_id": "gtceu:bronze_firebox_casing",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:large_steam_compressor_task_4",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 4,
+      "description": '{"text":"Bricked Bronze Casing"}',
+      "item_id": "gtceu:bronze_brick_casing",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:large_steam_compressor_task_5",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Bronze Machine Casing"}',
+      "item_id": "gtceu:bronze_machine_casing",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:large_steam_compressor_task_6",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 22,
+      "description": '{"text":"Industrial Steam Casing"}',
+      "item_id": "gtceu:industrial_steam_casing",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:large_steam_compressor_task_7",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 16,
+      "description": '{"text":"Steam Machine Casing"}',
+      "item_id": "gtceu:steam_machine_casing",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:large_steam_compressor_task_8",
+      "type": "item_check"
+    }
+  ],
+  "title": "Large Steam Compressor",
+  "visibility": "NORMAL"
+}

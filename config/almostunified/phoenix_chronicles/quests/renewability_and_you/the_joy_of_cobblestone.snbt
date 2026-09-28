@@ -1,0 +1,36 @@
+{
+  "chapter": "RENEWABILITY_AND_YOU",
+  "description": "Cobblestone is just the start of things. Let's make a Cobbleworks!",
+  "icon_item": "minecraft:cobblestone",
+  "id": "the_joy_of_cobblestone",
+  "parent": "none",
+  "positionX": 454,
+  "positionY": 334,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "q_55d8e30978cbbc0d",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Oh, we're only just getting started.",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 64,
+      "description": '{"text":"Cobblestone"}',
+      "item_id": "minecraft:cobblestone",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:the_joy_of_cobblestone_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "The Joy of Cobblestone",
+  "visibility": "NORMAL"
+}

@@ -1,0 +1,31 @@
+{
+  "chapter": "MULTIBLOCK_DILEMMA",
+  "description": "",
+  "id": "link_4547",
+  "link_target": "phoenix_chronicles:large_turbine_mechanics",
+  "optional_prereq_min_count": 1,
+  "parent": "none",
+  "positionX": 776,
+  "positionY": 536,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "link_2468",
+      "required": 1b
+    },
+    {
+      "id": "link_278d",
+      "required": 1b
+    },
+    {
+      "id": "link_7b33",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 0b,
+  "shape": "SQUARE",
+  "title": "",
+  "visibility": "NORMAL"
+}

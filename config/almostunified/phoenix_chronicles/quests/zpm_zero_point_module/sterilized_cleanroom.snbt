@@ -1,0 +1,44 @@
+{
+  "chapter": "ZPM_ZERO_POINT_MODULE",
+  "description": "The §aSterilized Cleanroom§r is required to produce the next tier of circuits. Nearly every step must be performed inside of one. Good luck fitting everything into such a tight space!
+
+If you only have one §3Cleanroom§r, you'll need another for §aSterilized§r recipes.
+
+§eNote§r: Normal Cleanroom recipes cannot run in the Sterilized Cleanroom, so you can't just \"upgrade\" your old Cleanrooms.",
+  "icon_item": "gtceu:sterilizing_filter_casing",
+  "id": "sterilized_cleanroom",
+  "parent": "none",
+  "positionX": 626,
+  "positionY": 446,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "tritanium",
+      "required": 1b
+    },
+    {
+      "id": "the_cleanroom",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Comes with disinfectant!",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 8,
+      "description": '{"text":"Sterilizing Filter Casing"}',
+      "item_id": "gtceu:sterilizing_filter_casing",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:sterilized_cleanroom_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Sterilized Cleanroom",
+  "visibility": "NORMAL"
+}

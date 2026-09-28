@@ -1,0 +1,34 @@
+{
+  "chapter": "BEES",
+  "description": "From the very essence of decay, a chilling new life emerges!
+
+This §0Withered Bee§r hums with a §8dark energy§r, a spectral presence that brings a touch of the void.
+
+To obtain this §4eerie§r friend, you'll need a §7Skeletal Bee§r and a §0wither rose§r. Embrace the darkness!",
+  "id": "q_13077907de99d3db",
+  "parent": "none",
+  "positionX": 1296,
+  "positionY": 896,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "q_710c43e94ebb43b1",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Scary skeletons, but a bit of wonderfully seasoned wither",
+  "tasks": [
+    {
+      "description": '{"text":"Withered Bee"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:q_13077907de99d3db_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Quest 130779",
+  "visibility": "NORMAL"
+}

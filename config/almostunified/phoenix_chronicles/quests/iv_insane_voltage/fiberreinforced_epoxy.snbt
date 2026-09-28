@@ -1,0 +1,47 @@
+{
+  "chapter": "IV_INSANE_VOLTAGE",
+  "description": "The next board material.
+
+It's as easy as using some §aEpoxy§r in the §3Chemical Bath§r.
+
+§8Anyone in favor of this getting reworked?",
+  "icon_item": "gtceu:reinforced_epoxy_resin_plate",
+  "id": "fiberreinforced_epoxy",
+  "parent": "none",
+  "positionX": 896,
+  "positionY": 529,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "epoxy",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 1,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "The biggest upgrade you've ever seen",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"reinforced epoxy resin plate"}',
+      "item_id": "gtceu:reinforced_epoxy_resin_plate",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:fiberreinforced_epoxy_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Fiber-Reinforced Epoxy",
+  "visibility": "NORMAL"
+}

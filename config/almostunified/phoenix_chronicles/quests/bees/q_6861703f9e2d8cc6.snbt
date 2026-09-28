@@ -1,0 +1,34 @@
+{
+  "chapter": "BEES",
+  "description": "A tireless worker, always ready to unearth hidden treasures!
+
+This §8Digger Bee§r hums with a §7persistent energy§r, a true master of excavation.
+
+To obtain this §f industrious§r friend, you'll find it from a §7Gravel Nest§r by using §ehoney treats§r. Get ready to dig deep!",
+  "id": "q_6861703f9e2d8cc6",
+  "parent": "none",
+  "positionX": 336,
+  "positionY": 896,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "q_166f5f4200f2a175",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Just keep digging, just keep digging. What do we do?",
+  "tasks": [
+    {
+      "description": '{"text":"Digger Bee"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:q_6861703f9e2d8cc6_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Quest 686170",
+  "visibility": "NORMAL"
+}

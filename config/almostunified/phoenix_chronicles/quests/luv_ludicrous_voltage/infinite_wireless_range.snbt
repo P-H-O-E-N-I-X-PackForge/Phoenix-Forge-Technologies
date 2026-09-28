@@ -1,0 +1,43 @@
+{
+  "chapter": "LUV_LUDICROUS_VOLTAGE",
+  "description": "The §aQuantum Bridge Card§r is an upgrade to the §9Quantum Link Tunnel§r, which gives §9Wireless Terminals§r access to your AE system with unlimited range, and from any dimension.",
+  "icon_item": "ae2wtlib:quantum_bridge_card",
+  "id": "infinite_wireless_range",
+  "parent": "none",
+  "positionX": 466,
+  "positionY": 628,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "link_4e99",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 3,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Bridge over Troubled Water",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Quantum Bridge Card"}',
+      "item_id": "ae2wtlib:quantum_bridge_card",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:infinite_wireless_range_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Infinite Wireless Range",
+  "visibility": "NORMAL"
+}

@@ -1,0 +1,51 @@
+{
+  "chapter": "MV_MEDIUM_VOLTAGE",
+  "description": "§3Long-Distance Item Pipes§r can be used to send items across great distances. Place one endpoint at each end, and connect them with pipeline blocks.
+
+These pipes instantly transfer from the input side to the output side.
+
+They also have a minimum distance between pipe endpoints, so you can't use these for short-range operations.",
+  "icon_item": "gtceu:long_distance_item_pipeline_endpoint",
+  "id": "longdistance_items",
+  "parent": "none",
+  "positionX": 176,
+  "positionY": 589,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "digital_miner",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Wondering how to move those ores around?",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 2,
+      "description": '{"text":"Long Distance Item Pipeline Endpoint"}',
+      "item_id": "gtceu:long_distance_item_pipeline_endpoint",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:longdistance_items_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Long Distance Item Pipeline"}',
+      "item_id": "gtceu:long_distance_item_pipeline",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:longdistance_items_task_1",
+      "type": "item_check"
+    }
+  ],
+  "title": "Long-Distance Items",
+  "visibility": "NORMAL"
+}

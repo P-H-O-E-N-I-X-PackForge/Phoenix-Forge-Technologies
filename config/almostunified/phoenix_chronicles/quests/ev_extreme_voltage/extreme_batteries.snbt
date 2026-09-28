@@ -1,0 +1,55 @@
+{
+  "chapter": "EV_EXTREME_VOLTAGE",
+  "description": "The best battery-like item for §5EV§r!
+
+Making a §aLapotron Crystal§r will require quite a bit of nested crafting, so craft these in large batches - or, of course, automate everything with §bAE2§r patterns.",
+  "icon_item": "gtceu:lapotron_crystal",
+  "id": "extreme_batteries",
+  "parent": "none",
+  "positionX": 446,
+  "positionY": 356,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "ev_assembler",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 2,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Lapotron Crystal"}',
+      "item_id": "gtceu:lapotron_crystal",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:extreme_batteries_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"EV Lapotronic Capacitor"}',
+      "item_id": "gtceu:ev_lapotronic_battery",
+      "optional": 1b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:extreme_batteries_task_1",
+      "type": "item_check"
+    }
+  ],
+  "title": "Extreme Batteries",
+  "visibility": "NORMAL"
+}

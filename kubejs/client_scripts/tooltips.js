@@ -172,7 +172,6 @@ ItemEvents.tooltip(event => {
     addGTCEuMaterialTooltips("dark_steel", Text.of("§0A reinforced steel from the darkness, exceptionally strong."));
     addGTCEuMaterialTooltips("soularium", Text.of("§8An alloy imbued with souls, often used in necromantic arts."));
     addGTCEuMaterialTooltips("electrical_steel", Text.of("§7Steel enhanced for electrical applications, common in circuits."));
-    addGTCEuMaterialTooltips("copper_alloy", Text.of("§6A basic alloy of copper, offering improved strength."));
     addGTCEuMaterialTooltips("voidglass_shard", Text.of("§5A physical manifestation of the Void. It boasts a tiny fraction of its power, and you can hear the Void's power pulse through it."));
     addGTCEuMaterialTooltips("uranium_233", Text.of("§aA highly efficient fissile isotope, bred from thorium. Ideal for sustainable energy generation."));
 

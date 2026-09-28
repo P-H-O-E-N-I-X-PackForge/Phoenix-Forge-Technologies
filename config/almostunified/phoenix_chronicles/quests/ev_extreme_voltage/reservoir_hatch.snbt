@@ -1,0 +1,37 @@
+{
+  "chapter": "EV_EXTREME_VOLTAGE",
+  "description": "This hatch acts like an infinite water source for multiblocks! It can make some setups much more convenient, and also has effectively infinite throughput, so it doesn't have the limitations of the §9Infinite Water Source Cover§r not being fast enough.",
+  "icon_item": "gtceu:reservoir_hatch",
+  "id": "reservoir_hatch",
+  "optional_prereq_min_count": 1,
+  "parent": "none",
+  "positionX": 480,
+  "positionY": 639,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "platinum",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 0b,
+  "shape": "SQUARE",
+  "subtitle": "Water, water, everywhere!",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Reservoir Hatch"}',
+      "item_id": "gtceu:reservoir_hatch",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:reservoir_hatch_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Reservoir Hatch",
+  "visibility": "NORMAL"
+}

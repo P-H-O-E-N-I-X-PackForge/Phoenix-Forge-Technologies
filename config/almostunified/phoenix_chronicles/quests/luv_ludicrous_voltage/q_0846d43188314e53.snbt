@@ -1,0 +1,47 @@
+{
+  "chapter": "LUV_LUDICROUS_VOLTAGE",
+  "description": "Ascend to the pinnacle of power! Your §d§lLUV U-233 Fuel§r is the key to unparalleled energy, boasting §a§lsignificantly higher efficiency§r than its U-235 counterpart. What's more, it produces a §f§l§otasty 2 §2UV§r amps§r!
+
+However, do not abandon your roots! The §c§lU-235 line§r remains indispensable: it must continue to provide the initial §9§lU-233§r to kickstart this powerful new chain, and perhaps even more critically, supply the §b§lUranium-236§r derived from its §e§ldepleted uranium waste.§r
+
+Master this intricate symbiotic relationship and secure your ultimate LUV power!",
+  "icon_item": "phoenixcore:u233_fuel_pellet",
+  "id": "q_0846d43188314e53",
+  "parent": "none",
+  "positionX": 651,
+  "positionY": 232,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "q_7025b4400dbd6617",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 3,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Now we cooking!",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"§aUranium-233 Fuel Pellet"}',
+      "item_id": "phoenixcore:u233_fuel_pellet",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_0846d43188314e53_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Obtain §aUranium-233 Fuel Pellet",
+  "visibility": "NORMAL"
+}

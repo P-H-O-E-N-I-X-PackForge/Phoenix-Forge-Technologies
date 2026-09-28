@@ -1,0 +1,34 @@
+{
+  "chapter": "BEES",
+  "description": "I guess that's why they are called §bsweat§r bees.
+
+Although, it doesn't make the most sense as one only §bsweats§r in §4heat§r.
+
+To obtain this bee you need §bsnowballs§r on a §7snowy nest§r in a §3cold§r biome. §3§lBrrrr§r§r",
+  "id": "q_77f46d844a1449b7",
+  "parent": "none",
+  "positionX": 656,
+  "positionY": 896,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "q_11a941f4dddf3b01",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Brrrr, ma i'm cold.",
+  "tasks": [
+    {
+      "description": '{"text":"Sweat Bee"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:q_77f46d844a1449b7_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Quest 77f46d",
+  "visibility": "NORMAL"
+}

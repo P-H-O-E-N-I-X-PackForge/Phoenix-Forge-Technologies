@@ -1,0 +1,32 @@
+{
+  "chapter": "BEES",
+  "description": "You can obtain this bee from them §anaturaly spawning§r in the §5outer§r end islands.
+
+However, you can also spawn them using §5popped chorus fruit§r on a §eendstone§r nest.",
+  "id": "q_5858b4717ff09c64",
+  "parent": "none",
+  "positionX": 296,
+  "positionY": 536,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "q_7e3321a610caaa83",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "STAR",
+  "subtitle": "The bee that wants to be the end.",
+  "tasks": [
+    {
+      "description": '{"text":"Ender Bee"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:q_5858b4717ff09c64_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Quest 5858b4",
+  "visibility": "NORMAL"
+}

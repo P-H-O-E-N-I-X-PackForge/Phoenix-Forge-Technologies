@@ -1,0 +1,62 @@
+{
+  "chapter": "MV_MEDIUM_VOLTAGE",
+  "description": "Underground, you may come across pure Oilsands ore veins. You can §3centrifuge§r the Dust to get §aOil§r.
+
+§9§lNote:§r§l The Oil path is one path towards §9§lEthylene§r§l. The other paths involve getting natural with some Ethanol.§r
+
+For now, Oil is §doptional§r. It becomes mandatory much later when you get to §5EV§r.
+
+Oil can also be refined in the form of §aLight Fuel§r, §aDiesel§r or even §aGasoline§r, which are excellent power options.
+
+If you chose this path, you should use it for both Power and Ethylene.
+
+Oilsands are a §6great starting point§r - they'll tide you over until you unlock Fluid Drilling Rigs.",
+  "icon_item": "gtceu:oilsands_ore",
+  "id": "america_simulator",
+  "parent": "none",
+  "positionX": 266,
+  "positionY": 499,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "progressing_through_lv",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 1,
+      "item_id": "gtceu:oilsands_ore",
+      "type": "item"
+    },
+    {
+      "count": 1,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "This quest was sponsored by the US Military",
+  "tasks": [
+    {
+      "description": '{"text":"Oilsands Ore"}',
+      "optional": 1b,
+      "required": 1,
+      "sticky": 1b,
+      "tag": "forge:ores/oilsands",
+      "task_id": "phoenix_chronicles:america_simulator_task_0",
+      "type": "tag_item"
+    },
+    {
+      "description": '{"text":"Oil"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:america_simulator_task_1",
+      "type": "checkmark"
+    }
+  ],
+  "title": "America Simulator",
+  "visibility": "NORMAL"
+}

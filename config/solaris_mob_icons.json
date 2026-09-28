@@ -1,0 +1,21 @@
+{
+  "_comment": "Custom map icons for specific mobs, no Java required. Each real entry's key is the entity's own id (e.g. minecraft:bat, or somemod:custom_mob for a modded one), mapped to a crop rectangle from any texture. u/v is the crop's top-left corner in pixels; width/height is the crop's own size; texWidth/texHeight is the FULL texture's size (needed to convert pixel coordinates into GPU texture-coordinate space). Delete the two _example entries below (their leading underscore means they're parsed but ignored) and add your own real entries in the same shape. Restart the game (or reopen the world) to pick up changes.",
+  "_exampleVanillaEntity": {
+    "texture": "minecraft:textures/entity/bat.png",
+    "u": 6,
+    "v": 6,
+    "width": 6,
+    "height": 6,
+    "texWidth": 64,
+    "texHeight": 64
+  },
+  "_exampleModdedEntity": {
+    "texture": "somemod:textures/entity/custom_mob.png",
+    "u": 0,
+    "v": 0,
+    "width": 16,
+    "height": 16,
+    "texWidth": 64,
+    "texHeight": 64
+  }
+}

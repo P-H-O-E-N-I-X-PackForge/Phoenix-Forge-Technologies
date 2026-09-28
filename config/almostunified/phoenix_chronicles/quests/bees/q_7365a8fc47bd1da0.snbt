@@ -1,0 +1,34 @@
+{
+  "chapter": "BEES",
+  "description": "A delicate touch, weaving wonders from the finest threads!
+
+This §fSilky Bee§r hums with a §7soft, gentle energy§r, a true master of fibrous creations.
+
+To obtain this §bintricate§r friend, you'll need a §aReed Bee§r and §f64 pieces of string§r. Its creations are truly exquisite!",
+  "id": "q_7365a8fc47bd1da0",
+  "parent": "none",
+  "positionX": 496,
+  "positionY": 856,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "q_38a17d0b43926cfd",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Silky smooth, like all the best things.",
+  "tasks": [
+    {
+      "description": '{"text":"Silky Bee"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:q_7365a8fc47bd1da0_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Quest 7365a8",
+  "visibility": "NORMAL"
+}

@@ -1,0 +1,130 @@
+{
+  "chapter": "IV_INSANE_VOLTAGE",
+  "description": "Time to start producing some special honeycombs!
+
+This is the first step in §6advanced comb processing§r, using the Simulated Colony multi-block.
+
+The machine requires three key inputs: a §bBee§r (created in the Apis Progenitor), a §aPollination Block§r, and a steady supply of §dSugar Water§r (to feed the bees).
+
+The comb production stage is a significant bottleneck for your processing line, so you will want to deploy numerous bees and §6Simulated Colonies§r to scale up your operation!",
+  "icon_item": "phoenixcore:simulated_colony",
+  "id": "simulated_colony",
+  "parent": "none",
+  "positionX": 942,
+  "positionY": 290,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "iv_circuits",
+      "required": 1b
+    },
+    {
+      "id": "q_3ea4c57a5fa7c276",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 4,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "STAR",
+  "subtitle": "Producing Combs",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Simulated Colony"}',
+      "item_id": "phoenixcore:simulated_colony",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:simulated_colony_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 32,
+      "description": '{"text":"treated wood frame"}',
+      "item_id": "gtceu:treated_wood_frame",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:simulated_colony_task_1",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 12,
+      "description": '{"text":"steel frame"}',
+      "item_id": "gtceu:steel_frame",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:simulated_colony_task_2",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 42,
+      "description": '{"text":"Treated Wood Planks"}',
+      "item_id": "gtceu:treated_wood_planks",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:simulated_colony_task_3",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 36,
+      "description": '{"text":"Tempered Glass"}',
+      "item_id": "gtceu:tempered_glass",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:simulated_colony_task_4",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 10,
+      "description": '{"text":"Solid Machine Casing"}',
+      "item_id": "gtceu:solid_machine_casing",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:simulated_colony_task_5",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 5,
+      "description": '{"text":"dirt"}',
+      "item_id": "minecraft:dirt",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:simulated_colony_task_6",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 5,
+      "description": '{"text":"poppy"}',
+      "item_id": "minecraft:poppy",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:simulated_colony_task_7",
+      "type": "item_check"
+    }
+  ],
+  "title": "Simulated Colony",
+  "visibility": "NORMAL"
+}

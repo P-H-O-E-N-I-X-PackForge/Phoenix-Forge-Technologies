@@ -1,0 +1,49 @@
+{
+  "chapter": "HV_HIGH_VOLTAGE",
+  "description": "The §3HV Autoclave§r - despite being optional - is a machine you'll definitively want to grab.
+
+This unlocks unique Batteries that are §6far superior§r to their standard counterparts.",
+  "icon_item": "gtceu:hv_autoclave",
+  "id": "hv_autoclave",
+  "parent": "none",
+  "positionX": 446,
+  "positionY": 548,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "first_hv_circuits",
+      "required": 1b
+    },
+    {
+      "id": "link_306a",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 2,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "The Road To Power Storage",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"§6Advanced Autoclave II§r"}',
+      "item_id": "gtceu:hv_autoclave",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:hv_autoclave_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "HV Autoclave",
+  "visibility": "NORMAL"
+}

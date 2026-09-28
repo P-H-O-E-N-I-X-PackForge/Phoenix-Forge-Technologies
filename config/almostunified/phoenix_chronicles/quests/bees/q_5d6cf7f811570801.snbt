@@ -1,0 +1,36 @@
+{
+  "chapter": "BEES",
+  "description": "This §fTricalcium Phosphate Bee§r is a vital component for strong foundations and healthy growth!
+
+To obtain this §bessential§r friend, you'll need an §aApatite Bee§r and §f4blocks of raw tricalcium phosphate§r. It's a building block for success!",
+  "id": "q_5d6cf7f811570801",
+  "parent": "none",
+  "positionX": 1416,
+  "positionY": 496,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "q_2c3b7d7754c3f0d0",
+      "required": 1b
+    },
+    {
+      "id": "q_397edaefd995a733",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "I think that's too much calcium.",
+  "tasks": [
+    {
+      "description": '{"text":"Tricalcium Phosphate Bee"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:q_5d6cf7f811570801_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Quest 5d6cf7",
+  "visibility": "NORMAL"
+}

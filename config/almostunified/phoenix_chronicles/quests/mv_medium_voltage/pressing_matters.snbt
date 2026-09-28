@@ -1,0 +1,78 @@
+{
+  "chapter": "MV_MEDIUM_VOLTAGE",
+  "description": "Making §aAE2 Presses§r will unlock all the §9Processors§r from AE2. This opens up §9ME Drives§r, §9ME Interfaces,§r §9ME Crafting CPUs§r... that's almost the rest of AE2 at your fingertips! §7(Or at least... not until you obtain Silicon Ingots.)§r
+
+AE2 §9Printed Circuits§r are now made in the §3Forming Press§r.",
+  "icon_item": "ae2:silicon_press",
+  "id": "pressing_matters",
+  "parent": "none",
+  "positionX": 716,
+  "positionY": 770,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "laser_engraving",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 3,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Who likes meteor hunting, anyway?",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Inscriber Calculation Press"}',
+      "item_id": "ae2:calculation_processor_press",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:pressing_matters_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Inscriber Engineering Press"}',
+      "item_id": "ae2:engineering_processor_press",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:pressing_matters_task_1",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Inscriber Logic Press"}',
+      "item_id": "ae2:logic_processor_press",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:pressing_matters_task_2",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Inscriber Silicon Press"}',
+      "item_id": "ae2:silicon_press",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:pressing_matters_task_3",
+      "type": "item_check"
+    }
+  ],
+  "title": "Pressing Matters",
+  "visibility": "NORMAL"
+}

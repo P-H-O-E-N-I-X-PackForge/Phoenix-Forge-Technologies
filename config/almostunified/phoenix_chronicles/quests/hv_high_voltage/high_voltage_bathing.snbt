@@ -1,0 +1,38 @@
+{
+  "chapter": "HV_HIGH_VOLTAGE",
+  "description": "The §3HV Chemical Bath§r is used to §ddye Lenses§r using §aChemical Dye§r. This will let you engrave more types of Wafers!
+
+This is also required for §aEyes of Ender§r.",
+  "icon_item": "gtceu:hv_chemical_bath",
+  "id": "high_voltage_bathing",
+  "parent": "none",
+  "positionX": 626,
+  "positionY": 638,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "link_306a",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Please don't bathe with electronics...",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"§6Advanced Chemical Bath II§r"}',
+      "item_id": "gtceu:hv_chemical_bath",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:high_voltage_bathing_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "High Voltage Bathing",
+  "visibility": "NORMAL"
+}

@@ -1,0 +1,26 @@
+{
+  "chapter": "GENESIS",
+  "description": "Buckets are a good early option until you can afford §b drums§r later. §8Wooden buckets§r are single-use but cheaper than crafting a normal §f bucket§r (remember, in GregTech, you use §firon plates§r, not ingots!).
+
+Once you progress a bit, I highly recommend making §b drums§r. They offer varying tank capacities and specific holding rules. Drums are especially useful for unclogging machines until you unlock even better §a super tanks§r.",
+  "id": "moving_fluids",
+  "parent": "none",
+  "positionX": 1184,
+  "positionY": 456,
+  "position_is_center": 1b,
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Hold Your Fluids",
+  "tasks": [
+    {
+      "description": '{"text":"Bucket"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:moving_fluids_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Moving Fluids",
+  "visibility": "NORMAL"
+}

@@ -1,0 +1,67 @@
+{
+  "chapter": "ORE_GENERATION",
+  "description": 'This vein is very rare! Congratulations on stumbling upon one.
+
+§8(Or at least... it should be rare.)§r
+
+View the contents of this vein as "§7§obasically Molybdenum, and some other stuff§r". Yeah, Molybdenum is what\'s important here.',
+  "icon_item": "gtceu:netherrack_molybdenum_ore",
+  "id": "molybdenum",
+  "parent": "none",
+  "positionX": 1056,
+  "positionY": 176,
+  "position_is_center": 1b,
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Source of Molybdenum",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"raw wulfenite"}',
+      "item_id": "gtceu:raw_wulfenite",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:molybdenum_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"raw molybdenite"}',
+      "item_id": "gtceu:raw_molybdenite",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:molybdenum_task_1",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"raw molybdenum"}',
+      "item_id": "gtceu:raw_molybdenum",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:molybdenum_task_2",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"raw powellite"}',
+      "item_id": "gtceu:raw_powellite",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:molybdenum_task_3",
+      "type": "item_check"
+    }
+  ],
+  "title": "Molybdenum",
+  "visibility": "NORMAL"
+}

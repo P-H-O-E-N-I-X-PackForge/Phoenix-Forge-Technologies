@@ -1,0 +1,42 @@
+{
+  "chapter": "HEATING_COILS",
+  "description": "§l§3Lore:§r§o You might find Kanthal around the home. Due to its excellent thermal conductivity and intermediate electric resistance, Kanthal is usually found in toasters and heaters!
+
+§oBet you didn't expect your toaster to be at §bMV§f before you!",
+  "icon_item": "gtceu:kanthal_ingot",
+  "id": "q_66805bb78a828c00",
+  "parent": "none",
+  "positionX": 296,
+  "positionY": 256,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "upgrade_your_ebf",
+      "required": 1b
+    },
+    {
+      "id": "advanced_mixer",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "That's just how I FeAlCr",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"kanthal ingot"}',
+      "item_id": "gtceu:kanthal_ingot",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_66805bb78a828c00_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Obtain kanthal ingot",
+  "visibility": "NORMAL"
+}

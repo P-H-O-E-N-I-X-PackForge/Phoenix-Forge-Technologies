@@ -1,0 +1,53 @@
+{
+  "chapter": "EV_EXTREME_VOLTAGE",
+  "description": "To turn a P2P Tunnel into an §aItem P2P Tunnel§r, right-click it in the world with a §dvanilla Chest§r.
+
+Item P2P Tunnels are useful in a more abstract way so let's start with an example.
+
+---
+
+
+§eExample:§r Making a §9HV Machine Hull§r in the §3Assembler§r also requires an §3Extractor§r for the Fluid. That is two machines, hence two inventories.
+
+You could passively fill the Assembler with Polyethylene, §lor§r you can also include it in your §dPattern§r, in the form of 2 Bars (Ingots).
+
+You may think the next step is just to dump the items in a Buffer and route the items with Pipes - however, this system will eventually §4jam§r due to the incompability with AE2 Interface blocking mode! Oh no!
+
+---
+
+
+This can be fixed by placing the input of the §aItem P2P§r on your §3ME Interface§r, placing one output on the §3Extractor§r, and another output on the §3Assembler§r.
+
+Then, use Filter covers where the outputs are connected. §dItem Tag Filters§r are better, since you can configure them to §9ingot§r. Have them on §ewhitelist§r for the §3Extractor§r, and on §eblacklist§r for the §3Assembler§r (no Assembler recipe ever requires Ingots - that's an intentional design decision in GregTech).
+
+Don't forget §dBlocking Mode§r on your Interface.
+
+Look - another reason why it's good to store polymers (Polyethylene, PTFE, PBI) as Bars!",
+  "icon_item": "ae2:item_p2p_tunnel",
+  "id": "item_p2p_tunnels",
+  "parent": "none",
+  "positionX": 788,
+  "positionY": 623,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "p2p_tunnels",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "A primer on items and P2P",
+  "tasks": [
+    {
+      "description": '{"text":"Complete Checkmark"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:item_p2p_tunnels_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Item P2P Tunnels",
+  "visibility": "NORMAL"
+}

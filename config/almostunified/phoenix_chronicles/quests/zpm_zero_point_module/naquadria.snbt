@@ -1,0 +1,51 @@
+{
+  "chapter": "ZPM_ZERO_POINT_MODULE",
+  "description": "§aNaquadria§r is an isotope of Naquadah, Nq-522. It's highly unstable, but it'll still be used for §3UV§r components, §9Fusion Mk2§r, and when fusing Neutronium.",
+  "icon_item": "gtceu:naquadria_ingot",
+  "id": "naquadria",
+  "parent": "none",
+  "positionX": 446,
+  "positionY": 266,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "naquadah_chain",
+      "required": 1b
+    },
+    {
+      "id": "trinium_coils",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Naquadah, but radioactive-er!",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"naquadria sulfate dust"}',
+      "item_id": "gtceu:naquadria_sulfate_dust",
+      "optional": 1b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:naquadria_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"naquadria ingot"}',
+      "item_id": "gtceu:naquadria_ingot",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:naquadria_task_1",
+      "type": "item_check"
+    }
+  ],
+  "title": "Naquadria",
+  "visibility": "NORMAL"
+}

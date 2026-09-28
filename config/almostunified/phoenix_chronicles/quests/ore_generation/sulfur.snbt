@@ -1,0 +1,54 @@
+{
+  "chapter": "ORE_GENERATION",
+  "description": "Your first Nether expedition should be for §eSulfur§r - which is found in this vein! Be careful, as this vein usually spawns from y-levels of 10 to 30. Bring Fire Resistance potions!
+
+Sphalerite is extremely valuable, as its ore processing gives Gallium. It also smelts directly into Zinc.",
+  "icon_item": "gtceu:netherrack_sulfur_ore",
+  "id": "sulfur",
+  "parent": "none",
+  "positionX": 896,
+  "positionY": 416,
+  "position_is_center": 1b,
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Source of Sulfur, Iron, Zinc",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"raw sulfur"}',
+      "item_id": "gtceu:raw_sulfur",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:sulfur_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"raw pyrite"}',
+      "item_id": "gtceu:raw_pyrite",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:sulfur_task_1",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"raw sphalerite"}',
+      "item_id": "gtceu:raw_sphalerite",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:sulfur_task_2",
+      "type": "item_check"
+    }
+  ],
+  "title": "Sulfur",
+  "visibility": "NORMAL"
+}

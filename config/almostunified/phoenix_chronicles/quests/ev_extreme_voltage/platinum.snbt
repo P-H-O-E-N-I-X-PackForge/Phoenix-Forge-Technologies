@@ -1,0 +1,65 @@
+{
+  "chapter": "EV_EXTREME_VOLTAGE",
+  "description": "How do you get Platinum?
+
+§9-§r As a byproduct of §aNickel Ore§r processing, either with a §3Chemical Bath§r, or a §3HV Macerator§r
+§9-§r From §aSheldonite veins§r in the End
+§9-§r From §aPlatinum Group Sludge§r, a complicated chain granting all Platinum Group metals. Highly §cunrecommended until IV§r, but eventually required.
+
+Platinum is needed in small amounts for §dSMD Diodes§r, and for a plethora of recipes starting in §5EV§r.
+
+---
+
+
+§l§3Lore:§r§o Mekanism's primary material was planned to be Platinum. However, GregoriusT didn't agree - the fact that such a rare material could be found all over the world wasn't quite to his tastes. The Mekanism devs thus opted to make the primary material Osmium.",
+  "icon_item": "gtceu:platinum_ingot",
+  "id": "platinum",
+  "parent": "none",
+  "positionX": 536,
+  "positionY": 566,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "platinum_group_processing",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 0b,
+  "rewards": [
+    {
+      "count": 1,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Diamond and Pearl",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"platinum dust"}',
+      "item_id": "gtceu:platinum_dust",
+      "optional": 1b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:platinum_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"platinum ingot"}',
+      "item_id": "gtceu:platinum_ingot",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:platinum_task_1",
+      "type": "item_check"
+    }
+  ],
+  "title": "Platinum",
+  "visibility": "NORMAL"
+}

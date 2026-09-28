@@ -1,0 +1,50 @@
+{
+  "chapter": "LUV_LUDICROUS_VOLTAGE",
+  "description": "The Advanced Quantum Chestplate combines protection, a personal battery and an §6ultimate Jetpack§r into a single powerful piece of gear.
+
+Note that this stores §oa lot§r of energy. You may want to invest in an §3LuV Turbo Charger§r.
+
+---
+
+
+§l§3Lore:§r§o This armor piece is inspired by the IndustrialCraft  Addon Gravisuite, which added the Gravitation Suit, analogous to this chestplate.",
+  "icon_item": "gtceu:advanced_quarktech_chestplate",
+  "id": "best_flight",
+  "parent": "none",
+  "positionX": 717,
+  "positionY": 656,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "ludicrous_batteries",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 5,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "I'll be seeing you in the skies!",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Advanced QuarkTech™ Suite Chestplate"}',
+      "item_id": "gtceu:advanced_quarktech_chestplate",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:best_flight_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Best Flight!",
+  "visibility": "NORMAL"
+}

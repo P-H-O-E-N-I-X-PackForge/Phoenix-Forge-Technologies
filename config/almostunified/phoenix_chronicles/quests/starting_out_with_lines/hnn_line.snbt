@@ -1,0 +1,32 @@
+{
+  "chapter": "STARTING_OUT_WITH_LINES",
+  "description": "Progress in this pack often requires specific §aMob Drops§r. The §bHostile Neural Networks§r system offers a controlled and automated solution, bypassing the need for traditional mob farms.
+
+This powerful system consumes §cFlaming Prediction Matrixes§r to operate. You can craft these by combining §eClay Balls§r with a §cpiece of Flaming Dust§r.
+
+§r§l§6Bonus Tip:§r Obtaining §ageneral predictions§r allows you to §aright-click§r them, granting valuable §aExperience Point§r!
+
+If you want a clear showing of how this custom line works go here
+Matrix Line",
+  "icon_item": "hostilenetworks:prediction_matrix",
+  "id": "hnn_line",
+  "parent": "none",
+  "positionX": 496,
+  "positionY": 536,
+  "position_is_center": 1b,
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Easy Mob Drops, What?!!!",
+  "tasks": [
+    {
+      "description": '{"text":"HNN"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:hnn_line_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "HNN Line",
+  "visibility": "NORMAL"
+}

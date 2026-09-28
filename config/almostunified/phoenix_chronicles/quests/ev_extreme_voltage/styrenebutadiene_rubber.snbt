@@ -1,0 +1,54 @@
+{
+  "chapter": "EV_EXTREME_VOLTAGE",
+  "description": "§7Styrene-Butadiene Rubber (SBR)§r is an enhanced type of Rubber.
+
+It can be used in place of Rubber in most recipes, and is §6four times more efficient§r at §ainsulating Cables§r. It is also strictly required for certain higher-tier recipes.
+
+This isn't exactly worth making until you get the §3Distillation Tower§r, but it eventually becomes easier with §dFuel Cracking§r.
+
+---
+
+
+§9Note:§r Rubber will eventually be usurped by either §aSilicone Rubber§r or §aStyrene-Butadienne Rubber§r for §1IV§r Cables.
+
+Both these rubbers will be required once you make it to §dLuV§r.",
+  "icon_item": "gtceu:styrene_butadiene_rubber_plate",
+  "id": "styrenebutadiene_rubber",
+  "parent": "none",
+  "positionX": 176,
+  "positionY": 896,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "link_567a",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 3,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Steel Ball Run",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"styrene butadiene rubber plate"}',
+      "item_id": "gtceu:styrene_butadiene_rubber_plate",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:styrenebutadiene_rubber_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Styrene-Butadiene Rubber",
+  "visibility": "NORMAL"
+}

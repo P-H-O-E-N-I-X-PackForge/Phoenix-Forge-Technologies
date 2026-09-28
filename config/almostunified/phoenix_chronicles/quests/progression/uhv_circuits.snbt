@@ -1,0 +1,25 @@
+{
+  "chapter": "PROGRESSION",
+  "description": "Congratulations! You've reached the end of the circuit progression.
+
+The only §4UHV§r circuit is the §6Wetware Mainframe§r, which is used for crafting some endgame stuff.",
+  "hide_dep_line": 1b,
+  "icon_item": "gtceu:uhv_machine_casing",
+  "id": "uhv_circuits",
+  "parent": "none",
+  "positionX": 176,
+  "positionY": 976,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "link_0b48",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "title": "§4UHV§r Circuits",
+  "visibility": "NORMAL"
+}

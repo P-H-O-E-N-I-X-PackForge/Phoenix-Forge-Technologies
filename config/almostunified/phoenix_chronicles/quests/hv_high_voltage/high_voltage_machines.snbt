@@ -1,0 +1,49 @@
+{
+  "chapter": "HV_HIGH_VOLTAGE",
+  "description": "When your power generation allows for it, §3HV machines§r are well worth using for on-demand processing. The quadrupled energy cost compared to their §7LV§r counterparts shouldn't bother you too much.
+
+§9Note:§r Crafting Hulls in the §3Assembler§r is slightly more efficient. Prioritise this recipe!",
+  "icon_item": "gtceu:hv_machine_casing",
+  "id": "high_voltage_machines",
+  "parent": "none",
+  "positionX": 356,
+  "positionY": 638,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "link_306a",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 6,
+      "item_id": "gtceu:advanced_integrated_circuit",
+      "type": "item"
+    },
+    {
+      "count": 2,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 6,
+      "description": '{"text":"§6HV §fMachine Hull"}',
+      "item_id": "gtceu:hv_machine_hull",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:high_voltage_machines_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "High Voltage Machines",
+  "visibility": "NORMAL"
+}

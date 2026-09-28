@@ -1,0 +1,65 @@
+{
+  "chapter": "HV_HIGH_VOLTAGE",
+  "description": "Doping is the process of intentionally introducing impurities into semiconductors to alter their properties.
+
+§7Silicon§r can be doped with small amounts of §ePhosphorus§r to make a better §eSilicon Boule§r.
+
+Phosphorus-doped Silicon Boules typically yield §68 times§r more wafers than their non-doped counterparts. However, they are not strictly needed until §5EV§r, where they'll be used in more complex wafers.
+
+§9Note§r: All processing of Phosphorus Boules and Wafers will require a §dCleanroom§r.",
+  "icon_item": "gtceu:phosphorus_boule",
+  "id": "phosphorus_boules",
+  "parent": "none",
+  "positionX": 986,
+  "positionY": 548,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "the_cleanroom",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 1,
+      "item_id": "gtceu:hv_lithium_battery",
+      "type": "item"
+    },
+    {
+      "count": 3,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "That's dope, bro!",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Phosphorus-doped Monocrystalline Silicon Boule"}',
+      "item_id": "gtceu:phosphorus_boule",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:phosphorus_boules_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"§6Advanced Laser Engraver II§r"}',
+      "item_id": "gtceu:hv_laser_engraver",
+      "optional": 1b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:phosphorus_boules_task_1",
+      "type": "item_check"
+    }
+  ],
+  "title": "Phosphorus Boules",
+  "visibility": "NORMAL"
+}

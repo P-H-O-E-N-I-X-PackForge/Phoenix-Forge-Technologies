@@ -1,0 +1,385 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "starting_out_with_lines"
+	group: "74E84404EE17A851"
+	icon: "minecraft:clay_ball"
+	id: "0FCDD34855055A54"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"The core of GregTech progression lies in mastering intricate &bProcessing Lines&r. These are the industrial arteries of your base, transforming raw resources into advanced components."
+				""
+				"This comprehensive section serves as your &aintegrated guide&r, focusing solely on the most &bcritical production chains&r. It provides essential information and starting points to help you navigate each major process."
+				""
+				"&l&6It is time to process your world, and make it truly yours.&r&r"
+			]
+			icon: "gtceu:ruthenium_dust"
+			id: "58F8866781E05E78"
+			subtitle: "Process the world"
+			tasks: [{
+				id: "366C882FADDECE65"
+				title: "Process"
+				type: "checkmark"
+			}]
+			title: "All The Processing Lines"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"The &bElectrolyzer&r is a foundational machine for elemental separation. By processing &eClay Dust&r within it, you will obtain four crucial resources: &aLithium Dust, Sodium Dust, Silicon Dust,&r and &aAluminum Dust&r. Each plays a vital role in your industrial expansion."
+				""
+				"* &a&lLithium:&r Your primary component for &dLV Batteries&r and a critical ingredient for many higher-tier energy storage solutions."
+				"* &a&lSodium:&r Also used in &dBatteries&r (though less potent than Lithium), and crucial for advanced &dchemicals&r like Sodium Potassium and Sodium Sulfide, used in later &dplastics&r."
+				"* &a&lSilicon:&r Fundamentally important for creating &dSilicon Boules&r and subsequently &dWafers&r, the basis of all integrated circuits. Also a versatile component in various &dalloys&r."
+				"* &a&lAluminum:&r An indispensable metal for &dMV components, machines,&r and &dhulls&r. Due to its extensive use in &bAE2 systems&r, maintaining a significant &6stockpile&r of Aluminum is highly recommended."
+			]
+			icon: "minecraft:clay_ball"
+			id: "39D73A5C9ADFEE1E"
+			subtitle: "Earthy"
+			tasks: [{
+				id: "0AF4C08B4182DC3D"
+				title: "Clay"
+				type: "checkmark"
+			}]
+			title: "Clay Line"
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Progress in this pack often requires specific &aMob Drops&r. The &bHostile Neural Networks&r system offers a controlled and automated solution, bypassing the need for traditional mob farms."
+				""
+				"This powerful system consumes &cFlaming Prediction Matrixes&r to operate. You can craft these by combining &eClay Balls&r with a &cpiece of Flaming Dust&r."
+				""
+				"&r&l&6Bonus Tip:&r Obtaining &ageneral predictions&r allows you to &aright-click&r them, granting valuable &aExperience Point&r!"
+				""
+				"If you want a clear showing of how this custom line works go here "
+				"{ \"text\": \"Matrix Line\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"34D80B137BA82413\" } }"
+			]
+			icon: "hostilenetworks:prediction_matrix"
+			id: "1900689FED2BACAA"
+			subtitle: "Easy Mob Drops, What?!!!"
+			tasks: [{
+				id: "2055C9718BC90116"
+				title: "HNN"
+				type: "checkmark"
+			}]
+			title: "HNN Line"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Enter the intricate world of &bPetrochemistry&r! This vast field transforms &oCarbon Compounds&r (like &eOil&r and &eWood Byproducts&r) into precise &aChemicals&r. These are vital for crafting everything from advanced &dPlastics&r to durable &dEpoxy Resins&r."
+				""
+				"Your first breakthrough: producing &aEthylene&r. This essential building block will allow you to synthesize your first plastic: &aPolyethylene&r!"
+				""
+				"&r&l&6Pro Tip:&r Petrochemistry can feel overwhelming. Instead of exploring every oil's uses, &r&o&6focus on the recipes for the product you NEED.&r&o &6Build by demand!&r"
+			]
+			icon: "gtceu:oil_heavy_bucket"
+			id: "0097649DFE924672"
+			subtitle: "Petrochem!"
+			tasks: [{
+				id: "4E33BB6D52A2EE90"
+				title: "Oily"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"The &bPlatinum Line&r is your dedicated process for extracting valuable precious metals from specialized ores. This complex chain begins by converting raw ores into &aRaw Platinum Group Sludge&r."
+				""
+				"This &aSludge&r is then meticulously refined into essential products such as &bRuthenium&r, &bRhodium&r, and the highly valuable &bRarest Earth&r. &bRarest Earth&r undergoes further processing to yield crucial later-game metals: &dOsmium&r and &dIridium&r."
+				""
+				"&6&o&lStrategic Tip:&r &bRuthenium&r is especially vital, required in large quantities for &bRTm Alloy Coils&r and numerous &bAssembly Line&r components. Due to this high demand, it is strongly advised to begin establishing your &bPlatinum Line&r production early."
+				""
+				"The most efficient primary ore for this process is &eSheldonite&r, which is found in significant quantities alongside &eEnd veins of Platinum&r."
+			]
+			icon: "gtceu:ruridit_ingot"
+			id: "3F324840FE6A7629"
+			subtitle: "Processing Platinum"
+			tasks: [{
+				id: "52C7B831893FBC5F"
+				title: "Platinum"
+				type: "checkmark"
+			}]
+			title: "PlatLine"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "7230715745F52C48"
+			subtitle: "Processing Naquadah"
+			tasks: [{
+				id: "5F0DF9FCA0FC3E79"
+				item: "gtceu:trinium_dust"
+				type: "item"
+			}]
+			title: "NaqLine"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			icon: "gtceu:neuro_processing_unit"
+			id: "0266C1E532C47AB2"
+			subtitle: "Creepy"
+			tasks: [{
+				id: "7E746776BA9E6186"
+				item: "gtceu:neuro_processing_unit"
+				type: "item"
+			}]
+			title: "Wetware"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"&bEpoxy&r, a foundational polymer, is indispensable for &dCircuit Boards&r from &bLuV&r tier and upwards. Synthesize it by reacting &eBisphenol A&r with &eEpichlorohydrin&r in a &bChemical Reactor&r; these precursors involve advanced Petrochemistry."
+				""
+				"Its critical role in advanced circuitry makes an efficient &6Epoxy production line&r mandatory for progressing through higher voltage tiers."
+			]
+			icon: "gtceu:epoxy_ingot"
+			id: "38C4BCECD644C98B"
+			subtitle: "Circuit Bases"
+			tasks: [{
+				id: "61F8809276C42F91"
+				title: "Epoxy"
+				type: "checkmark"
+			}]
+			title: "Epoxy Line"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"This is the &3main food for bees&r, used to breed, collect, and incubate them. The processing line to obtain them is pretty complicated as it requires you to make &6honey&r, &6honeycombs&r, and some other dessert-based materials."
+				""
+				"To get &6honeycombs&r you need to solidify honey with a honeycomb base. This base requires &l&9Polymethyl Methacrylate (PMMA)&r, an advanced acrylic used in place of glass in some real-world applications."
+				""
+				"You will want to stockpile both &6honeytreats&r and &6honeycombs&r, as well as making a few bases, as they will be used in producing materials using bees a bit later."
+			]
+			id: "1AC7C1C845550C9C"
+			subtitle: "Yummy"
+			tasks: [{
+				id: "0FA4F55A2A410976"
+				item: "productivebees:honey_treat"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"Your journey into industrial plastics begins with &aPolyethylene&r. Produce it by reacting &eOxygen&r with &eEthylene&r on &6Program 1&r in a chemical reactor. Your initial batches will be made in &bSingleblock Chemical Reactors&r, then you'll upgrade to the more efficient &bLarge Chemical Reactor&r at &bHV&r tier. "
+				""
+				"(Be aware of the alternate recipe using &eAir&r; it offers lower yield and is  more challenging to obtain in sufficient quantity.)"
+				""
+				"Initially, the primary use of &aPolyethylene&r is crafting &dHV Machine Hulls&r from its sheets. It can also be processed in an &bAssembler&r to conserve more valuable &dmaterials plates&r. Looking ahead, &aPolyethylene&r is critical for making &dPlastic Circuit Boards&r for the  &bMicro-Processor&r circuit line."
+			]
+			icon: "gtceu:polyethylene_ingot"
+			id: "5B755243A1A01A64"
+			subtitle: "Your First Plastic"
+			tasks: [{
+				id: "0469D0D2FF45F7EF"
+				title: "Polyeth"
+				type: "checkmark"
+			}]
+			title: "Polyethylene"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"&bPTFE&r (Polytetrafluoroethylene), an indispensable polymer for advanced industrial infrastructure, is synthesized by reacting &eChloroform&r with &eHydrofluoric Acid&r in a &bChemical Reactor&r."
+				""
+				"This material is crucial for crafting the &bLarge Chemical Reactor&r itself, is extensively used in &dEV-tier machines&r, and provides &6increased output yields&r in various recipes."
+				""
+				"Establishing a robust &6PTFE production line&r is vital for expanding your high-tier chemical processing and maximizing material returns."
+			]
+			icon: "gtceu:polytetrafluoroethylene_ingot"
+			id: "2FF09D23A14436ED"
+			subtitle: "Teflon, Oh My Beloved"
+			tasks: [{
+				id: "08A8CB72FB0A99FF"
+				title: "PTFE"
+				type: "checkmark"
+			}]
+			title: "Polytetrafluoroethylene"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"&bPolybenzimidazole&r (PBI), a cutting-edge synthetic polymer, serves as the essential plastic for &bIV-tier and higher circuits&r. Its exceptional properties enable the construction of highly compact and reliable &dAdvanced SMD Components&r."
+				""
+				"The production of &bPolybenzimidazole&r involves complex chemical processes, utilizing specialized precursors and machinery."
+				""
+				"Mastering this polymer is a critical step for manufacturing the &dhighest-tier circuit boards&r, making it indispensable for ultimate technological progression."
+				""
+				"&r&o&6Consult EMI/JEI for the detailed production chain of Polybenzimidazole.&r"
+			]
+			icon: "gtceu:polybenzimidazole_ingot"
+			id: "573BACE7980D4F82"
+			subtitle: "The Ultimate Plastic (For Now)"
+			tasks: [{
+				id: "7810CF1AF716CF39"
+				title: "PBI"
+				type: "checkmark"
+			}]
+			title: "Polybenzimidazole"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"&aSilicone Rubber&r is one of two primary rubber types utilized for &bIV and higher-tier cables&r. While its full production chain involves a multi-step process, the final step needs you to react &eMethanol&r with &eSilicon Dust&r within a &bChemical Reactor&r."
+				""
+				"This material is critically required for the creation of various &dLuV Components&r in the GregTech assembly line, making its production mandatory for your progression."
+				""
+				"Compared to &aStyrene Butadiene Rubber&r, &aSilicone Rubber&r is generally &6easier to produce&r. While it offers &6lesser performance for cable recipes&r, its necessity for specific components means it cannot be bypassed, unlike &aStyrene Butadiene Rubber&r which can technically be substituted in some applications."
+				""
+				"&r&o&6For a complete overview of the Silicone Rubber production system, consult EMI/JEI for detailed recipes and processes.&r"
+			]
+			icon: "gtceu:silicone_rubber_ingot"
+			id: "248ABA57EA9BD882"
+			subtitle: "Rubbery V2"
+			tasks: [{
+				id: "33C757BAC739BB63"
+				title: "Rubber V2"
+				type: "checkmark"
+			}]
+			title: "Silicon Rubber"
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"&aStyrene Butadiene Rubber&r (SBR) represents the &dstrongest form of synthetic rubber&r available, crucial for &dhigh-performance applications&r. Its production is more involved than other rubber types, requiring two &eprimary precursors&r: &eStyrene&r (derived from &eEthylene&r and &eBenzene&r) and &eButadiene&r."
+				""
+				"The intricate steps for manufacturing these components are extensive and best explored through in-game resources. For a complete overview of the &bStyrene Butadiene Rubber production chain&r, &r&o&6consult EMI/JEI for detailed recipes and processes.&r"
+				""
+				"While &aStyrene Butadiene Rubber&r isn't &6technically required&r for any progression gate (as &7silicon rubber&r &oalso&r works), its &dsuperior properties for cables&r and &dspecific uses&r mean its production can significantly &6reduce material consumption in demanding builds.&r"
+			]
+			icon: "gtceu:styrene_butadiene_rubber_ingot"
+			id: "3AC5026D759EAC79"
+			subtitle: "Rubbery V3"
+			tasks: [{
+				id: "0F5F46872A5E2ED8"
+				title: "Rubber V3"
+				type: "checkmark"
+			}]
+			title: "Styrene Butadiene Rubber"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"&dTitanium&r is an essential advanced metal, renowned for its exceptional strength and corrosion resistance. Its intricate production begins with &aRutile&r, primarily obtained from processing &eIlmenite&r or &eBauxite&r ores."
+				""
+				"The purification of &bTitanium&r is a multi-stage process. &aRutile&r is first transformed into &aTitanium Tetrachloride&r. This compound is then cooked in an EBF with &eMagnesium Dust&r, yielding &aHot Titanium Ingots&r, which require cooling in a &bVacuum Freezer&r."
+				""
+				"&r&l&6Crucial Detail:&r During this process, only the &o&6Rutile content is consumed&r&o. This makes efficient &aRutile acquisition&r good for sustainable &bTitanium&r production."
+				""
+				"Given its high-tier applications in demanding structures and components, establishing a robust &dTitanium loop&r is a major progression milestone."
+			]
+			icon: "gtceu:titanium_ingot"
+			id: "58A7284B4C5A084C"
+			subtitle: "Your First Taste Of Strength"
+			tasks: [{
+				id: "0244588FBC45DB88"
+				title: "Titanium"
+				type: "checkmark"
+			}]
+			title: "Titanium Loop"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Your initial supply of the vital &bIndium&r will be obtained by combining &epurified Galena&r and &eSphalerite Ore&r with &eSulfuric Acid&r in a mixer. This method is your primary gateway to advanced circuitry."
+				""
+				"While later stages of progression will yield &bIndium&r more efficiently from the &bNaqLine&r, that is a future goal."
+				""
+				"The core application for &bIndium&r is in the synthesis of &aIndium Gallium Phosphate&r, a critical component for &dIV and higher-tier circuits&r."
+				""
+				"&r&l&6Strategic Tip:&r Since this initial method specifically requires &o&6purified versions&r&o of these ores, consider designing your ore processing system to not use the purified ores, or create a &6dedicated system&r for them to ensure a consistent supply without disrupting other operations."
+			]
+			icon: "gtceu:indium_dust"
+			id: "3328F6B1C39C3860"
+			subtitle: "Soft Metal, You could bite it"
+			tasks: [{
+				id: "2F2D3BF70A653467"
+				title: "indium"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"&bTungsten&r is a foundational heavy metal, crucial for high-tier industrial construction. Your primary source for this dense element is &eTungstic Acid&r, processed through a dedicated refinery chain."
+				""
+				"&bTungsten&r is indispensable for a multitude of &dmultiblock machine alloys&r used in casings. It forms the basis for resilient composites such as &aTungsten Carbide&r and &aTungsten Steel&r. While &aTungsten Steel&r is highly versatile, its advanced variant, &dVoid Touched Tungsten Steel&r, is specifically designated as the casing material for &bIV-tier machines&r. Additionally, &bTungsten&r is a key ingredient for &dIV-tier cables&r."
+				""
+				"Given its pervasive use across critical infrastructure and high-tier components, establishing a robust &6Tungsten production line&r is paramount for your industrial advancement."
+			]
+			icon: "gtceu:tungsten_dust"
+			id: "2E1B282BFB611941"
+			subtitle: "Your Gateway to the Strength of the Future"
+			tasks: [{
+				id: "18FD7866D85AD211"
+				title: "Tungsten"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"&bRadon&r is a rare, vital element essential for higher tier components."
+				""
+				"Your earliest access to &bRadon&r will be via &bEnder Air distillation&r. Later, a more complex method opens in the &bLarge Chemical Reactor&r, by reacting &eAir&r, &eUranium Dust&r, and &ePlutonium Ingots&r. As a last resort, &bRadon&r can also be produced in a &bFusion Reactor&r."
+				""
+				"This gas is crucial for crafting &dQuantum Eyes&r, &dQuantum Stars&r, and &dQubit Wafers&r, which are foundational for the &bLuV circuit line&r and beyond."
+				""
+				"&r&l&6Strategic Tip:&r Prioritize setting up an &o&6Ender Air distillation&r&o line as your initial sustainable source for this indispensable element."
+			]
+			icon: "gtceu:radon_bucket"
+			id: "7B1AB0D2108BFC0D"
+			subtitle: "Quantum Gaming"
+			tasks: [{
+				id: "307604EC2C923FB6"
+				title: "Radon"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"&bAir Processing&r is a distinct industrial pathway focused on extracting valuable gases directly from the atmosphere. Your initial use of &eAir&r involves centrifuging it to separate vital &aOxygen&r and &aNitrogen&r. &aNitrogen&r is crucial for significantly reducing &bElectric Blast Furnace&r processing times, enhancing your overall material efficiency."
+				""
+				"To fully exploit this process, you'll first transform &eAir&r into &aLiquid Air&r using a &bVacuum Freezer&r. This &aLiquid Air&r is then further separated into its constituent gases through distillation in &bDistillation Towers&r."
+				""
+				"You will also process &5Ender&r and &4Nether&r air later at iv as well."
+			]
+			icon: "gtceu:air_bucket"
+			id: "6260EBA9B691CF7F"
+			subtitle: "Air Processing"
+			tasks: [{
+				id: "7CFFE99767B43F9B"
+				title: "Airy"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+	]
+	title: "Starting Out With Lines"
+}

@@ -1,0 +1,39 @@
+{
+  "chapter": "BEES",
+  "description": "From the fiery depths of the Nether, a new fungal friend emerges!
+
+This §4Crimson Shroom Bee§r hums with a §c blistering energy§r, thriving in the scorching landscapes.
+
+To obtain this §f resilient§r friend, you'll find it §2naturally flying around§r in the §cCrimson Forest biomes§r of the Nether. Its fiery spirit is undeniable!",
+  "id": "crimson_shroombee",
+  "parent": "none",
+  "positionX": 256,
+  "positionY": 816,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "brown_shroombee",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "INFINITE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Careful, i've heard it's spicy,",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 32,
+      "description": '{"text":"crimson fungus"}',
+      "item_id": "minecraft:crimson_fungus",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:crimson_shroombee_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Crimson Shroombee",
+  "visibility": "NORMAL"
+}

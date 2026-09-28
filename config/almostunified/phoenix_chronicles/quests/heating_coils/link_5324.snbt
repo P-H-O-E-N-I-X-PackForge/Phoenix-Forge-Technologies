@@ -1,0 +1,22 @@
+{
+  "chapter": "HEATING_COILS",
+  "description": "",
+  "id": "link_5324",
+  "link_target": "phoenix_chronicles:hssg",
+  "parent": "none",
+  "positionX": 656,
+  "positionY": 256,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "link_72cb",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "title": "",
+  "visibility": "NORMAL"
+}

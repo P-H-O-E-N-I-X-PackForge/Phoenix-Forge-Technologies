@@ -1,0 +1,35 @@
+{
+  "chapter": "STEAM_AGE",
+  "description": 'Here are some more GregTech tools you will need as you go on.
+
+§aWrenches§r: Mainly used to rotate blocks, craft many items, and connect pipes. Also used to mine normally breaking casings.
+
+§aHammer§r: Used in many crafting recipes and to make dusts.
+
+§aMortars§r: The best tool for crafting dusts, but consider using the §3Steam Grinder§r instead to save resources.
+
+§aScrewdriver§r: Used to change world accel modes, tell drums to empty into pipes, and work with machine covers.
+
+§aWirecutters§r: The main tool for making wires before the wiremill. Also used to "cut" wires for better power management, which becomes very useful later.',
+  "icon_item": "gtceu:diamond_hammer",
+  "id": "workable_tools",
+  "parent": "none",
+  "positionX": 1136,
+  "positionY": 776,
+  "position_is_center": 1b,
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Whack and Fix",
+  "tasks": [
+    {
+      "description": '{"text":"Tools"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:workable_tools_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Workable Tools",
+  "visibility": "NORMAL"
+}

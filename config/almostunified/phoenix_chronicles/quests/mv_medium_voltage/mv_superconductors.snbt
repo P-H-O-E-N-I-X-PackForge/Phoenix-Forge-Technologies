@@ -1,0 +1,53 @@
+{
+  "chapter": "MV_MEDIUM_VOLTAGE",
+  "description": "§a4A§r of §bMV§r energy transmission may be appealing, but you probably don't need these at this point. The option is always there if you need it.",
+  "icon_item": "gtceu:magnesium_diboride_double_wire",
+  "id": "mv_superconductors",
+  "parent": "none",
+  "positionX": 710,
+  "positionY": 401,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "kanthal_coils",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 1,
+      "item_id": "phoenixcore:cryogenic_aluminum_strand_single_wire",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"magnesium diboride single wire"}',
+      "item_id": "gtceu:magnesium_diboride_single_wire",
+      "optional": 1b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:mv_superconductors_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"cryogenic aluminum strand single wire"}',
+      "item_id": "phoenixcore:cryogenic_aluminum_strand_single_wire",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:mv_superconductors_task_1",
+      "type": "item_check"
+    }
+  ],
+  "title": "MV Superconductors",
+  "visibility": "NORMAL"
+}

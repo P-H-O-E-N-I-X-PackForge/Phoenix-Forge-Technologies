@@ -1,0 +1,32 @@
+{
+  "chapter": "GENESIS",
+  "description": "The §aIron Furnaces§r mod adds more furnaces to make smelting a little easier in the early game. While you won't be using these all the way through, they do add a nice touch as you begin your GregTech journey.",
+  "icon_item": "ironfurnaces:rainbow_coal",
+  "id": "irons_furnaces",
+  "parent": "none",
+  "positionX": 704,
+  "positionY": 656,
+  "position_is_center": 1b,
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 1,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Fast Furnaces - Little Cost",
+  "tasks": [
+    {
+      "description": '{"text":"Check out furnaces"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:irons_furnaces_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Iron's Furnaces",
+  "visibility": "NORMAL"
+}

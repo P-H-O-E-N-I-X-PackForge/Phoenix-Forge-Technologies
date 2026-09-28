@@ -1,0 +1,38 @@
+{
+  "chapter": "MULTIBLOCK_DILEMMA",
+  "description": "",
+  "id": "link_1d2d",
+  "link_target": "phoenix_chronicles:fusion_reactor_i",
+  "parent": "none",
+  "positionX": 656,
+  "positionY": 656,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "trinium",
+      "required": 1b
+    },
+    {
+      "id": "luv_superconductors",
+      "required": 1b
+    },
+    {
+      "id": "iv_superconductors",
+      "required": 1b
+    },
+    {
+      "id": "polybenzimidazole",
+      "required": 1b
+    },
+    {
+      "id": "first_zpm_circuits",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "title": "",
+  "visibility": "NORMAL"
+}

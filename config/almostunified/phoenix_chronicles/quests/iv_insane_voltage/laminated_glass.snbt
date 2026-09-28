@@ -1,0 +1,49 @@
+{
+  "chapter": "IV_INSANE_VOLTAGE",
+  "description": "§aLaminated Glass§r is the shiny new tier of Glass for §9IV§r and above. It's made in the §3Forming Press§r using a polymer you won't be familiar with: §dPolyvinyl Butyral§r.
+
+None of the steps should be particularly difficult if you already have the §3Distillation Tower§r for Cracked Fuels, and you have also automated Epoxy.
+
+If you don't already have both set up, you know what to do!
+
+§9Note:§r §dPolyvinyl Acetate§r (required for the Glass) can also be used for §aGlue§r!",
+  "icon_item": "gtceu:laminated_glass",
+  "id": "laminated_glass",
+  "parent": "none",
+  "positionX": 536,
+  "positionY": 619,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "large_chemical_reactor",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 2,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Another Polymer Rises From The Darkness",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Laminated Glass"}',
+      "item_id": "gtceu:laminated_glass",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:laminated_glass_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Laminated Glass",
+  "visibility": "NORMAL"
+}

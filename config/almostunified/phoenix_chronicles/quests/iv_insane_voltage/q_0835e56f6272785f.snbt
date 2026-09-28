@@ -1,0 +1,104 @@
+{
+  "chapter": "IV_INSANE_VOLTAGE",
+  "description": "With your first combs produced from the Simulated Colony, it is time to delve into §6advanced processing§r.
+
+First, process the combs into §2Raw Wax Chunks§r.
+
+Next, take the wax chunks to a Brewery (a §9Large Brewing Vat§r is highly recommended!) to transform them into §bHoneyed Wax§r.
+
+Finally, centrifuge the Honeyed Wax to extract valuable §aOres§r and §dImpure Honey§r. Do not forget to put that Impure Honey back into a centrifuge for purification!",
+  "icon_item": "phoenixcore:comb_decanter",
+  "id": "q_0835e56f6272785f",
+  "parent": "none",
+  "positionX": 1004,
+  "positionY": 290,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "simulated_colony",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 6,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Material from combs?",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Comb Decanter"}',
+      "item_id": "phoenixcore:comb_decanter",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_0835e56f6272785f_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 48,
+      "description": '{"text":"tungsten steel frame"}',
+      "item_id": "gtceu:tungsten_steel_frame",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_0835e56f6272785f_task_1",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 32,
+      "description": '{"text":"RTM Alloy Coil Block"}',
+      "item_id": "gtceu:rtm_alloy_coil_block",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_0835e56f6272785f_task_2",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 16,
+      "description": '{"text":"Heat Vent"}',
+      "item_id": "gtceu:heat_vent",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_0835e56f6272785f_task_3",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 98,
+      "description": '{"text":"High Temperature Smelting Casing"}',
+      "item_id": "gtceu:high_temperature_smelting_casing",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_0835e56f6272785f_task_4",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 8,
+      "description": '{"text":"honey block"}',
+      "item_id": "minecraft:honey_block",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_0835e56f6272785f_task_5",
+      "type": "item_check"
+    }
+  ],
+  "title": "Obtain Comb Decanter",
+  "visibility": "NORMAL"
+}

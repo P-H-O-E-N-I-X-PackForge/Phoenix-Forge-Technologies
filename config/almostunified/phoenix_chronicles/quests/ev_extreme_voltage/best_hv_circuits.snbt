@@ -1,0 +1,59 @@
+{
+  "chapter": "EV_EXTREME_VOLTAGE",
+  "description": "Making the best §6HV§r Circuits will allow for easier §6HV§r Machines for your on-demand automation. Convenient!
+
+Starting from here, all circuit lines will be consistent with each other until the end of the game.
+
+Each tier until §cZPM§r will show its own challenges when acquiring new and better Circuits.",
+  "icon_item": "gtceu:nano_processor",
+  "id": "best_hv_circuits",
+  "parent": "none",
+  "positionX": 716,
+  "positionY": 896,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "advanced_circuit_boards",
+      "required": 1b
+    },
+    {
+      "id": "ev_circuit_assembling",
+      "required": 1b
+    },
+    {
+      "id": "nano_cpus",
+      "required": 1b
+    },
+    {
+      "id": "smd_components",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 2,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "The Pinnacle... the Zenith",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Nanoprocessor"}',
+      "item_id": "gtceu:nano_processor",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:best_hv_circuits_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Best HV Circuits!",
+  "visibility": "NORMAL"
+}

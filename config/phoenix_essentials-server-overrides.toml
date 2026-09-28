@@ -1,0 +1,115 @@
+# phoenix_essentials-server-overrides.toml
+#
+# Auto-generated on first load with every Phoenix Essentials server-config key set to
+# its CURRENT SHIPPED DEFAULT. Nothing here is an active override yet.
+#
+# To force a setting across every world/server this modpack is deployed to, edit the
+# value below away from its default and save the file. Only keys whose value differs
+# from this mod's current default are treated as active overrides - a line left exactly
+# as generated is ignored, so upgrading the mod and getting a new default for a key you
+# never touched works as expected.
+#
+# This file is re-applied every time the server config (re)loads, before any command or
+# feature reads a config value. It is never written to by the mod after this initial
+# generation, and the per-world serverconfig/phoenix_essentials-server.toml is never
+# touched by this mechanism either.
+
+
+[tpa]
+	#Cooldown in seconds between /tpa teleports. 0 = no cooldown.
+	#Range: 0 ~ 3600
+	tpaCooldownSeconds = 5
+	#If true, accepting a /tpa or /tpahere request from a teammate skips the teleport warmup and cooldown.
+	tpaTeammateBypassDelay = true
+	#Seconds a /tpa or /tpahere request stays valid before it expires.
+	#Range: 5 ~ 3600
+	tpaTimeoutSeconds = 120
+
+[teleport]
+	#Cooldown in seconds between /warp uses. 0 = no cooldown.
+	#Range: 0 ~ 3600
+	warpCooldownSeconds = 5
+	#Cooldown in seconds between /tpx uses. 0 = no cooldown.
+	#Range: 0 ~ 3600
+	tpxCooldownSeconds = 5
+	#If true, moving during the warmup countdown cancels the teleport.
+	cancelOnMove = true
+	#Seconds a player must stand still before a teleport fires. 0 = instant.
+	#Range: 0 ~ 300
+	teleportWarmupSeconds = 5
+	#Default fallback cooldown in seconds for teleports (/home, /spawn, /back). 0 = no cooldown.
+	#Range: 0 ~ 3600
+	teleportCooldownSeconds = 5
+	#If true, taking damage during the warmup countdown cancels the teleport.
+	cancelOnDamage = true
+	#Cooldown in seconds between /top uses. 0 = no cooldown.
+	#Range: 0 ~ 3600
+	topCooldownSeconds = 50
+
+[homes]
+	#Maximum number of named homes a single player may set.
+	#Range: 1 ~ 256
+	homesPerPlayer = 3
+	#If true, /back after dying returns the player to their death location. If false, /back only ever returns to the point before the last teleport, ignoring deaths.
+	backAfterDeath = true
+
+[enabledCommands]
+	#If false, disables /tpx entirely.
+	enableTpx = true
+	#If false, disables /heal and /feed entirely.
+	enableHealFeed = true
+	#If false, disables /msg, /tell, /r, /reply entirely.
+	enableMsg = true
+	#If false, disables /seen entirely.
+	enableSeen = true
+	#If false, disables /invsee entirely.
+	enableInvsee = true
+	#If false, disables /kit and /kits entirely.
+	enableKit = true
+	#If false, disables /top entirely.
+	enableTop = true
+	#If false, disables /playtime entirely.
+	enablePlaytime = true
+	#If false, disables /tpforce and /tphere entirely.
+	enableTpforce = true
+	#If false, disables /home, /sethome, /delhome, /homes entirely.
+	enableHome = true
+	#If false, disables /spawn and /setspawn entirely.
+	enableSpawn = true
+	#If false, disables /warp, /setwarp, /delwarp, /warps entirely.
+	enableWarp = true
+	#If false, disables /rtp entirely.
+	enableRtp = true
+	#If false, disables /god and /fly entirely.
+	enableGodFly = true
+	#If false, disables /nick entirely.
+	enableNick = true
+	#If false, disables /ignore and /unignore entirely.
+	enableIgnore = true
+	#If false, disables /gmc, /gms, /gma, /gmsp entirely.
+	enableGamemodeShortcuts = true
+	#If false, disables /playerinfo entirely.
+	enablePlayerInfo = true
+	#If false, disables /back entirely.
+	enableBack = true
+	#If false, disables /afk entirely.
+	enableAfk = true
+	#If false, disables /tpa, /tpahere, /tpaccept, /tpdeny, /tpcancel entirely.
+	enableTpa = true
+
+[rtp]
+	#Dimension ids /rtp is allowed in (e.g. "minecraft:overworld"). Empty list = allowed everywhere.
+	rtpAllowedDimensions = []
+	#Minimum distance (blocks) from the origin a /rtp destination may land.
+	#Range: 0 ~ 100000
+	rtpMinRadius = 100
+	#Cooldown in seconds between /rtp uses. 0 = no cooldown.
+	#Range: 0 ~ 86400
+	rtpCooldownSeconds = 60
+	#Maximum distance (blocks) from the origin a /rtp destination may land.
+	#Range: 1 ~ 1000000
+	rtpMaxRadius = 5000
+	#How many random locations to try before giving up and telling the player to try again.
+	#Range: 1 ~ 200
+	rtpMaxAttempts = 20
+

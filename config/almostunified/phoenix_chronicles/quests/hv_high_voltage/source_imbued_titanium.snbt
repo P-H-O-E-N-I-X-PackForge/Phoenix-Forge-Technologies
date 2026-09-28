@@ -1,0 +1,62 @@
+{
+  "chapter": "HV_HIGH_VOLTAGE",
+  "description": "§5Source Imbued Titanium§r§r has the highest corrosion resistance, magic resistance, and strength-to-density ratio of any metallic element, so it's only natural that it will be used as a base for §5EV§r machinery.
+
+Confirm that your closed loop for §aRutile§r is up to standard, and prepare to run a dedicated §3EBF§r for hours. You also need to get some §5Source§r, which is obtained by running any plant/log through the Alchemical Imbuer multiblock.
+
+
+
+---
+
+
+A quick aside - now we're at §5EV§r, single block generators are about to fall out of style! You'll need to run several §3HV Generators§r to keep up - later, upgrades to Multiblock Generators will be required.
+
+Whilst Multiblock generators are much more expensive, you'll find them to be much more energy efficient!",
+  "icon_item": "phoenixcore:source_imbued_titanium_ingot",
+  "id": "source_imbued_titanium",
+  "parent": "none",
+  "positionX": 716,
+  "positionY": 368,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "ice_cold",
+      "required": 1b
+    },
+    {
+      "id": "almost_titanium_7270",
+      "required": 1b
+    },
+    {
+      "id": "q_76681efd9b76f401",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 4,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "STAR",
+  "subtitle": "Magical Titanite Slab",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"source imbued titanium ingot"}',
+      "item_id": "minecraft:air",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:source_imbued_titanium_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Source Imbued Titanium",
+  "visibility": "NORMAL"
+}

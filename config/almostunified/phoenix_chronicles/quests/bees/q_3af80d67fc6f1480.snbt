@@ -1,0 +1,34 @@
+{
+  "chapter": "BEES",
+  "description": "Harnessing the very fabric of space and time!
+
+This §bSpacial Bee§r, deeply connected to §fAE2 Certus Quartz§r, hums with a §9crystalline energy§r, capable of wondrous feats.
+
+To obtain this §ddimensional§r friend, you'll need §f4 blocks of raw certus quartz§r. Prepare to expand your horizons!",
+  "id": "q_3af80d67fc6f1480",
+  "parent": "none",
+  "positionX": 856,
+  "positionY": 656,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "q_06df13f808e9d5a6",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Space, it's so beautiful!",
+  "tasks": [
+    {
+      "description": '{"text":"Spatial Bee"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:q_3af80d67fc6f1480_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Quest 3af80d",
+  "visibility": "NORMAL"
+}

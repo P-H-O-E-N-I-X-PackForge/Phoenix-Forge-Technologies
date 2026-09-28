@@ -1,0 +1,42 @@
+{
+  "chapter": "HV_HIGH_VOLTAGE",
+  "description": "§bDigital fluid storage§r is pretty cool. Each §b1k ME Fluid Storage Cell§r holds up to §d5 types§r of fluid, and can hold §6over 8,000 buckets§r of those 5 fluid types! That's more than a §3Super Tank 2§r!
+
+You may want to §4format§r Fluid Storage Cells to certain types to prevent the network from clogging. Make a §3Cell Workbench§r to do so.",
+  "icon_item": "ae2:fluid_cell_housing",
+  "id": "digital_fluid_storage",
+  "parent": "none",
+  "positionX": 536,
+  "positionY": 728,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "i_see_the_world_in_colour",
+      "required": 1b
+    },
+    {
+      "id": "hv_assembling_machine",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": '"Fluid Discretizer"? Who\'s that?',
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"ME Fluid Cell Housing"}',
+      "item_id": "ae2:fluid_cell_housing",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:digital_fluid_storage_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Digital Fluid Storage",
+  "visibility": "NORMAL"
+}

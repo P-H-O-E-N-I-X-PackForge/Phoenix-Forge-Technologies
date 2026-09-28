@@ -1,0 +1,36 @@
+{
+  "chapter": "STEAM_AGE",
+  "description": "Have you ever been mining and you wanted to go back to your base with a simple command?
+To set a home do §5/sethome homename§r and then §lBOOM§r, you now have a §bhome§r. Use this to get§2 easy access to veins and cool places you find§r, also helpful to not have to spend travel time getting back to your base.
+
+Also, if you find that your spawn wasn't quite what you were expecting you can do §6§l/rtp§r to randomly teleport to a new area. Also good for finding new veins then popping right back to your home.",
+  "icon_item": "minecraft:oak_door",
+  "id": "no_place_like_home",
+  "optional": 1b,
+  "parent": "none",
+  "positionX": 176,
+  "positionY": 496,
+  "position_is_center": 1b,
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 1,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Home, Sweet Home",
+  "tasks": [
+    {
+      "description": '{"text":"Home"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:no_place_like_home_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "No Place Like Home",
+  "visibility": "NORMAL"
+}

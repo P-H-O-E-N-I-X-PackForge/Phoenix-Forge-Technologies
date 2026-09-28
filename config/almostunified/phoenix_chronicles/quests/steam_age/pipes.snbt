@@ -1,0 +1,56 @@
+{
+  "chapter": "STEAM_AGE",
+  "description": "Now, pipes are pretty simple. Just connect them to your machines, add a pump, and they'll move fluid.
+
+Each pipe tier has tiny, small, normal, large, and huge variants with different fluid capacities. GregTech pipes have a system where specialized pipes move specific fluids.
+
+For example, §6bronze pipes§r can't move acids, but §e gold pipes§r can. The early recommended progression is §6bronze§r -> §5potin§r -> §7steel§r. These will serve you well for a while.
+
+
+---
+
+
+
+Use a wrench on pipes for two things: 1) Lock flow direction (shift-right click with wrench and empty offhand) – great for large systems. 2) Manually connect/disconnect – useful for troubleshooting.
+
+You can also use §bEnderIO fluid conduits§r to pull liquids without the fluid rules. Use an extraction upgrade for speed.",
+  "icon_item": "gtceu:steel_small_fluid_pipe",
+  "id": "pipes",
+  "parent": "none",
+  "positionX": 1096,
+  "positionY": 576,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "steam_production",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 12,
+      "item_id": "gtceu:bronze_small_fluid_pipe",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Moving Fluids automaticly",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"steel small fluid pipe"}',
+      "item_id": "gtceu:steel_small_fluid_pipe",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:pipes_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Pipes",
+  "visibility": "NORMAL"
+}

@@ -1,0 +1,52 @@
+{
+  "chapter": "HV_HIGH_VOLTAGE",
+  "description": "§aAmmonia§r is §doptional§r in §6HV§r.
+
+You may use it in the production of:
+
+§9-§r Nitric Acid, although we don't recommend this.
+
+§9-§r Rocket Fuel, required for Nether Stars in §1IV§r.
+
+§9-§r Polybenzimidazole (now THAT'S a tongue twister!) in §1IV§r.
+
+The \"least painful\" recipe should be the one in the §3HV Chemical Reactor§r. Make sure your §aHydrogen§r production (mostly from §aWater electrolysis§r) is enough to support the demand.
+
+You could also obtain §aAmmonia§r as a waste product from §dPlatinum Group Sludge§r processing.",
+  "icon_item": "gtceu:ammonia_bucket",
+  "id": "ammonia",
+  "parent": "none",
+  "positionX": 794,
+  "positionY": 814,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "biomass",
+      "required": 1b
+    },
+    {
+      "id": "high_voltage_chemistry",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "The Nectar of the Gods",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"ammonia bucket"}',
+      "item_id": "gtceu:ammonia_bucket",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:ammonia_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Ammonia",
+  "visibility": "NORMAL"
+}

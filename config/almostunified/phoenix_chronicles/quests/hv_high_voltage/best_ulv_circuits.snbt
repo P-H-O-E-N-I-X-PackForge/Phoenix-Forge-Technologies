@@ -1,0 +1,47 @@
+{
+  "chapter": "HV_HIGH_VOLTAGE",
+  "description": "§8ULV§r Circuits are used in some AE2 recipes, such as the §aAnnihilation Core§r and §aFormation Core§r.",
+  "icon_item": "gtceu:nand_chip",
+  "id": "best_ulv_circuits",
+  "parent": "none",
+  "positionX": 626,
+  "positionY": 908,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "laser_engraving",
+      "required": 1b
+    },
+    {
+      "id": "i_see_the_world_in_colour",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 1,
+      "item_id": "phoenixcore:phoenix_feather",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Good on you for making these!",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"NAND Chip"}',
+      "item_id": "gtceu:nand_chip",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:best_ulv_circuits_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Best ULV Circuits!",
+  "visibility": "NORMAL"
+}

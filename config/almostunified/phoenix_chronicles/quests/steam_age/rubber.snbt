@@ -1,0 +1,45 @@
+{
+  "chapter": "STEAM_AGE",
+  "description": "§6Rubber§r makes safer cables (prevents electrocution). Early on, craft them by wrapping §6rubber sheets§r around wires.
+
+You'll need a lot of rubber for later recipes, so plant many §2rubber trees§r and process the §2sticky resin§r in the §6Large Steam Compressor§r.",
+  "icon_item": "gtceu:rubber_plate",
+  "id": "rubber",
+  "parent": "none",
+  "positionX": 1336,
+  "positionY": 696,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "q_42fb4fbcde41283b",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 16,
+      "item_id": "gtceu:sticky_resin",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Insulation",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 32,
+      "description": '{"text":"rubber plate"}',
+      "item_id": "gtceu:rubber_plate",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:rubber_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Rubber",
+  "visibility": "NORMAL"
+}

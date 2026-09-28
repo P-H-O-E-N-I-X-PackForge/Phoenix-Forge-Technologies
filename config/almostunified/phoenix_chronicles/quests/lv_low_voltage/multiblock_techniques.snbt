@@ -1,0 +1,33 @@
+{
+  "chapter": "LV_LOW_VOLTAGE",
+  "description": "Multiblocks bear a large variety of interesting mechanics that might seem daunting, but don't worry - we've written a guide to help you learn.
+
+§6This quest unlocks a bunch of tutorials on Multiblocks in the §lTips and Tricks§r§6 tab - check them out to learn more!§r",
+  "icon_item": "gtceu:heatproof_machine_casing",
+  "id": "multiblock_techniques",
+  "parent": "none",
+  "positionX": 1076,
+  "positionY": 536,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "q_1e9be8d3f8a602dc",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "By the end of this, you'll be an expert",
+  "tasks": [
+    {
+      "description": '{"text":"Complete Checkmark"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:multiblock_techniques_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Multiblock Techniques",
+  "visibility": "NORMAL"
+}

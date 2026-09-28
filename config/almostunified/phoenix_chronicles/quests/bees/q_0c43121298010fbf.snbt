@@ -1,0 +1,38 @@
+{
+  "chapter": "BEES",
+  "description": "Good, old fashioned,§l §dmagic§r§r.
+
+You know, these little §5source gems§r look §o§9mighty tasty§r§r.
+
+But upon §bfurther retroflection§r, I would say §o§1not§r§r to eat them.
+
+To obtain it you need an §3undisclosed amount§r of §5source gem blocks§r.
+
+(§5What?§r They didn't tell §6§ome§r§r what was going on §bhere§r!)",
+  "id": "q_0c43121298010fbf",
+  "parent": "none",
+  "positionX": 616,
+  "positionY": 496,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "q_397edaefd995a733",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Magic.",
+  "tasks": [
+    {
+      "description": '{"text":"Arcane Bee"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:q_0c43121298010fbf_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Quest 0c4312",
+  "visibility": "NORMAL"
+}

@@ -1,0 +1,26 @@
+{
+  "chapter": "LUV_LUDICROUS_VOLTAGE",
+  "description": "",
+  "id": "link_2172",
+  "link_target": "phoenix_chronicles:advanced_smds",
+  "parent": "none",
+  "positionX": 716,
+  "positionY": 476,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "hssg_coils",
+      "required": 1b
+    },
+    {
+      "id": "link_0bd7",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "title": "",
+  "visibility": "NORMAL"
+}

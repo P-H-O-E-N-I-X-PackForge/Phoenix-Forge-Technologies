@@ -1,0 +1,36 @@
+{
+  "chapter": "ZPM_ZERO_POINT_MODULE",
+  "description": "§aStem Cells§r are a major component of §4Wetware Circuits§r. Just don't question why these use Osmiridium.",
+  "icon_item": "gtceu:stem_cells",
+  "id": "stem_cells",
+  "parent": "none",
+  "positionX": 626,
+  "positionY": 266,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "sterilized_growth_medium",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "This texture used to be really ugly...",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"Stem Cells"}',
+      "item_id": "gtceu:stem_cells",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:stem_cells_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Stem Cells",
+  "visibility": "NORMAL"
+}

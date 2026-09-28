@@ -1,0 +1,45 @@
+{
+  "chapter": "RENEWABILITY_AND_YOU",
+  "description": "Carbon Monoxide is useful when making §6Butyraldehyde§r for your Laminated Glass in §9late IV§r.
+
+§6Coal Gas§r can be processed in a Distillation Tower for a variety of useful outputs.
+
+Helium-3 is only used in §bFusion§r, and Neon is used to boost a single §aBlast Furnace§r recipe - §4UHV§r superconductors!
+
+Ashes are always useful for the handful of resources they grant.",
+  "icon_item": "gtceu:liquid_nether_air_bucket",
+  "id": "liquid_nether_air",
+  "parent": "none",
+  "positionX": 256,
+  "positionY": 410,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "all_kinds_of_air_distillation",
+      "required": 1b
+    },
+    {
+      "id": "upgrade_your_ebf_ii",
+      "required": 1b
+    },
+    {
+      "id": "ice_cold",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Carbon, Coal Gas, Helium-3...",
+  "tasks": [
+    {
+      "description": '{"text":"It\'s not all hellish in the Nether."}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:liquid_nether_air_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Liquid Nether Air",
+  "visibility": "NORMAL"
+}

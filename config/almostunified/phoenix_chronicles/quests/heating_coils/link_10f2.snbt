@@ -1,0 +1,30 @@
+{
+  "chapter": "HEATING_COILS",
+  "description": "",
+  "id": "link_10f2",
+  "link_target": "phoenix_chronicles:nichrome_coils",
+  "parent": "none",
+  "positionX": 416,
+  "positionY": 176,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "link_4999",
+      "required": 1b
+    },
+    {
+      "id": "ice_cold",
+      "required": 1b
+    },
+    {
+      "id": "nichrome",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "title": "",
+  "visibility": "NORMAL"
+}

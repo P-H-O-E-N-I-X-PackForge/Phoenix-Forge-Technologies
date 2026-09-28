@@ -3,13 +3,6 @@ Earth seive recipes
  */
 
 ServerEvents.recipes(event => {
-    // Cobblestone Sieving (increased chances)
-    event.recipes.gtceu.earth_sieve("from_cobblestone")
-        .itemInputs("4x minecraft:cobblestone")
-        .chancedOutput("kubejs:mineral_sand_vein_traces", 5000, 1) // Slightly lower
-    // Consider adding very low chances for other basic traces if desired
-        .duration(800)
-        .EUt(16);
 
     // Stone Sieving (slightly lower chances)
     event.recipes.gtceu.earth_sieve("from_stone")
@@ -35,7 +28,7 @@ ServerEvents.recipes(event => {
         .chancedOutput("kubejs:nickel_vein_traces", 3000, 1)    // Slightly lower
         .chancedOutput("kubejs:magnetite_vein_traces", 4000, 1) // Slightly lower
         .chancedOutput("kubejs:garnet_vein_traces", 4300, 1)    // Slightly lower
-        .chancedOutput("kubejs:casseterite_vein_traces", 2500, 1) // Slightly lower
+        .chancedOutput("kubejs:cassiterite_vein_traces", 2500, 1) // Slightly lower
         .chancedOutput("kubejs:garnet_tin_vein_traces", 2000, 1) // Slightly lower
         .chancedOutput("kubejs:galena_vein_traces", 2700, 1)    // Slightly lower
         .chancedOutput("kubejs:copper_tin_vein_traces", 3300, 1) // Slightly lower
@@ -44,25 +37,6 @@ ServerEvents.recipes(event => {
         .duration(800)
         .EUt(16);
 
-    event.recipes.gtceu.earth_sieve("from_cobbled_deepslate")
-        .itemInputs("4x minecraft:cobbled_deepslate")
-        .chancedOutput(" kubejs:sapphire_vein_traces", 4000, 1)   // Slightly lower
-        .chancedOutput("kubejs:olivine_vein_traces", 4500, 1)   // Slightly lower
-        .chancedOutput("kubejs:mica_vein_traces", 5000, 1)      // Slightly lower
-        .chancedOutput("kubejs:manganese_vein_traces", 3500, 1) // Slightly lower
-        .chancedOutput("kubejs:lapis_vein_traces", 5000, 1)     // Slightly lower
-        .chancedOutput("kubejs:diamond_vein_traces", 1700, 1)    // Slightly lower
-        .chancedOutput("kubejs:nickel_vein_traces", 3000, 1)    // Slightly lower
-        .chancedOutput("kubejs:magnetite_vein_traces", 4000, 1) // Slightly lower
-        .chancedOutput("kubejs:garnet_vein_traces", 4300, 1)    // Slightly lower
-        .chancedOutput("kubejs:casseterite_vein_traces", 2500, 1) // Slightly lower
-        .chancedOutput("kubejs:garnet_tin_vein_traces", 2000, 1) // Slightly lower
-        .chancedOutput("kubejs:galena_vein_traces", 2700, 1)    // Slightly lower
-        .chancedOutput("kubejs:copper_tin_vein_traces", 3300, 1) // Slightly lower
-        .chancedOutput("kubejs:topaz_vein_traces", 3500, 1)     // Slightly lower
-        .chancedOutput("kubejs:tetrahedrite_vein_traces", 3300, 1) // Slightly lower
-        .duration(800)
-        .EUt(16);
 
     // Dirt Sieving (slightly lower chances)
     event.recipes.gtceu.earth_sieve("from_dirt")
@@ -92,7 +66,7 @@ ServerEvents.recipes(event => {
         .chancedOutput("kubejs:iron_vein_traces", 3000, 1)    // Slightly lower
         .chancedOutput("kubejs:magnetite_vein_traces", 1000, 1) // Slightly lower
         .chancedOutput("kubejs:garnet_vein_traces", 1000, 1)   // Slightly lower
-        .chancedOutput("kubejs:casseterite_vein_traces", 3000, 1) // Slightly lower
+        .chancedOutput("kubejs:cassiterite_vein_traces", 3000, 1) // Slightly lower
         .chancedOutput("kubejs:galena_vein_traces", 5000, 1)    // Slightly lower
         .chancedOutput("kubejs:copper_tin_vein_traces", 5000, 1) // Slightly lower
         .chancedOutput("kubejs:coal_vein_traces", 7000, 1)     // Slightly lower
@@ -222,9 +196,9 @@ ServerEvents.recipes(event => {
         .duration(300)
         .EUt(8);
 
-    // Casseterite Vein Traces
-    event.recipes.gtceu.sifter("sift_casseterite_traces")
-        .itemInputs("kubejs:casseterite_vein_traces")
+    // Cassiterite Vein Traces
+    event.recipes.gtceu.sifter("sift_cassiterite_traces")
+        .itemInputs("kubejs:cassiterite_vein_traces")
         .itemOutputs("gtceu:cassiterite_dust")
         .duration(300)
         .EUt(8);
@@ -277,4 +251,10 @@ ServerEvents.recipes(event => {
         .itemOutputs("gtceu:tetrahedrite_dust")
         .duration(300)
         .EUt(8);
+    event.recipes.gtceu.rock_breaker("rock_break_deepslate")
+        .notConsumable("minecraft:deepslate")
+        .itemOutputs("minecraft:deepslate")
+        .adjacentFluids("minecraft:lava", "minecraft:water")
+        .duration(150)
+        .EUt(GTValues.VA[GTValues.EV])
 });

@@ -163,6 +163,190 @@ ServerEvents.recipes((event) => {
         .EUt(120)
         .circuit(2);
 
+    // new recipes
+
+    greg
+        .greenhouse("potato")
+        .notConsumable("minecraft:potato")
+        .inputFluids("water 1000")
+        .itemOutputs(
+            "16x minecraft:potato",
+        )
+        .duration(300)
+        .EUt(120)
+        .circuit(1);
+    greg
+        .greenhouse("potato_fert")
+        .notConsumable("minecraft:potato")
+        .itemInputs("4x gtceu:fertilizer")
+        .inputFluids("water 1000")
+        .itemOutputs(
+            "32x minecraft:potato",
+        )
+        .duration(200)
+        .EUt(120)
+        .circuit(2);
+
+    // Torchflower
+    greg
+        .greenhouse("torchflower")
+        .notConsumable("minecraft:torchflower_seeds")
+        .inputFluids("water 1000")
+        .itemOutputs("4x minecraft:torchflower")
+        .duration(300)
+        .EUt(120)
+        .circuit(1);
+
+    greg
+        .greenhouse("torchflower_fert")
+        .notConsumable("minecraft:torchflower_seeds")
+        .itemInputs("4x gtceu:fertilizer")
+        .inputFluids("water 1000")
+        .itemOutputs("8x minecraft:torchflower")
+        .duration(200)
+        .EUt(120)
+        .circuit(2);
+
+    // Blue Archwood
+    greg
+        .greenhouse("blue_archwood")
+        .notConsumable("ars_nouveau:blue_archwood_sapling")
+        .inputFluids("water 1000")
+        .itemOutputs("16x ars_nouveau:blue_archwood_log")
+        .duration(400)
+        .EUt(120)
+        .circuit(1);
+
+    greg
+        .greenhouse("blue_archwood_fert")
+        .notConsumable("ars_nouveau:blue_archwood_sapling")
+        .itemInputs("4x gtceu:fertilizer")
+        .inputFluids("water 1000")
+        .itemOutputs("32x ars_nouveau:blue_archwood_log")
+        .duration(250)
+        .EUt(120)
+        .circuit(2);
+
+// Purple Archwood
+    greg
+        .greenhouse("purple_archwood")
+        .notConsumable("ars_nouveau:purple_archwood_sapling")
+        .inputFluids("water 1000")
+        .itemOutputs("16x ars_nouveau:purple_archwood_log")
+        .duration(400)
+        .EUt(120)
+        .circuit(1);
+
+    greg
+        .greenhouse("purple_archwood_fert")
+        .notConsumable("ars_nouveau:purple_archwood_sapling")
+        .itemInputs("4x gtceu:fertilizer")
+        .inputFluids("water 1000")
+        .itemOutputs("32x ars_nouveau:purple_archwood_log")
+        .duration(250)
+        .EUt(120)
+        .circuit(2);
+
+// Green Archwood
+    greg
+        .greenhouse("green_archwood")
+        .notConsumable("ars_nouveau:green_archwood_sapling")
+        .inputFluids("water 1000")
+        .itemOutputs("16x ars_nouveau:green_archwood_log")
+        .duration(400)
+        .EUt(120)
+        .circuit(1);
+
+    greg
+        .greenhouse("green_archwood_fert")
+        .notConsumable("ars_nouveau:green_archwood_sapling")
+        .itemInputs("4x gtceu:fertilizer")
+        .inputFluids("water 1000")
+        .itemOutputs("32x ars_nouveau:green_archwood_log")
+        .duration(250)
+        .EUt(120)
+        .circuit(2);
+
+// Red Archwood
+    greg
+        .greenhouse("red_archwood")
+        .notConsumable("ars_nouveau:red_archwood_sapling")
+        .inputFluids("water 1000")
+        .itemOutputs("16x ars_nouveau:red_archwood_log")
+        .duration(400)
+        .EUt(120)
+        .circuit(1);
+
+    greg
+        .greenhouse("red_archwood_fert")
+        .notConsumable("ars_nouveau:red_archwood_sapling")
+        .itemInputs("4x gtceu:fertilizer")
+        .inputFluids("water 1000")
+        .itemOutputs("32x ars_nouveau:red_archwood_log")
+        .duration(250)
+        .EUt(120)
+        .circuit(2);
+
+    // Azalea
+    greg
+        .greenhouse("azalea")
+        .notConsumable("minecraft:azalea")
+        .inputFluids("water 1000")
+        .itemOutputs("16x minecraft:oak_log", "8x minecraft:azalea_leaves")
+        .duration(400)
+        .EUt(120)
+        .circuit(1);
+
+    greg
+        .greenhouse("azalea_fert")
+        .notConsumable("minecraft:azalea")
+        .itemInputs("4x gtceu:fertilizer")
+        .inputFluids("water 1000")
+        .itemOutputs("32x minecraft:oak_log", "16x minecraft:azalea_leaves")
+        .duration(250)
+        .EUt(120)
+        .circuit(2);
+
+// Flowering Azalea
+    greg
+        .greenhouse("flowering_azalea")
+        .notConsumable("minecraft:flowering_azalea")
+        .inputFluids("water 1000")
+        .itemOutputs("16x minecraft:oak_log", "8x minecraft:flowering_azalea_leaves")
+        .duration(400)
+        .EUt(120)
+        .circuit(1);
+
+    greg
+        .greenhouse("flowering_azalea_fert")
+        .notConsumable("minecraft:flowering_azalea")
+        .itemInputs("4x gtceu:fertilizer")
+        .inputFluids("water 1000")
+        .itemOutputs("32x minecraft:oak_log", "16x minecraft:flowering_azalea_leaves")
+        .duration(250)
+        .EUt(120)
+        .circuit(2);
+
+    // Menril
+    greg
+        .greenhouse("menril")
+        .notConsumable("integrateddynamics:menril_sapling")
+        .inputFluids("water 1000")
+        .itemOutputs("16x integrateddynamics:menril_log")
+        .duration(450)
+        .EUt(120)
+        .circuit(1);
+
+    greg
+        .greenhouse("menril_fert")
+        .notConsumable("integrateddynamics:menril_sapling")
+        .itemInputs("4x gtceu:fertilizer")
+        .inputFluids("water 1000")
+        .itemOutputs("32x integrateddynamics:menril_log")
+        .duration(300)
+        .EUt(120)
+        .circuit(2);
+
     greg
         .greenhouse("chorus_flower")
         .notConsumable("minecraft:chorus_flower")

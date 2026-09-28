@@ -1,0 +1,36 @@
+{
+  "chapter": "TIPS_AND_TRICKS_2",
+  "description": "§lWhy go parallel?
+
+§9-§r §4Parallelization is superior§r to overclocking! Take advantage of this for your passive setups such as Ore Processing or Oil Distilling.
+
+§9-§r §6Distinct buses§r: §3GCYM Machinery§r can accept multiple §3Input Buses§r. Use it for your pattern automation with §3Extruder§r, §3Engraver§r, and many other.
+
+Power cost is based on the current recipe being run, times the number of §4parallel§r being performed.",
+  "icon_item": "gtceu:zpm_parallel_hatch",
+  "id": "parallelization",
+  "parent": "none",
+  "positionX": 625,
+  "positionY": 387,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "gregicality_multiblocks",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "tasks": [
+    {
+      "description": '{"text":"Complete Checkmark"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:parallelization_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Parallelization",
+  "visibility": "NORMAL"
+}

@@ -1,0 +1,37 @@
+{
+  "chapter": "HV_HIGH_VOLTAGE",
+  "description": "Fluorine is the rarest gas to obtain from electrolysis in this game.
+
+You can obtain it from §aLepidolite§r, §aBastnatite§r, and §aMica§r, but the best source is from §aTopaz§r.",
+  "icon_item": "gtceu:fluorine_bucket",
+  "id": "fluorine",
+  "parent": "none",
+  "positionX": 716,
+  "positionY": 728,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "advanced_electrolyser",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"fluorine bucket"}',
+      "item_id": "gtceu:fluorine_bucket",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:fluorine_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Fluorine",
+  "visibility": "NORMAL"
+}

@@ -1,0 +1,40 @@
+{
+  "chapter": "HEATING_COILS",
+  "description": "You're gonna need to start on your §dPlatinum§r processing, or \"§bPlatline§r\", if you want to get your hands on these.",
+  "icon_item": "gtceu:rtm_alloy_ingot",
+  "id": "q_3856dbccaa6d2a58",
+  "parent": "none",
+  "positionX": 536,
+  "positionY": 256,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "ruthenium_and_rhodium",
+      "required": 1b
+    },
+    {
+      "id": "tungsten",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Tungstensteel is dead, long live RTM",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"rtm alloy ingot"}',
+      "item_id": "gtceu:rtm_alloy_ingot",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:q_3856dbccaa6d2a58_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Obtain rtm alloy ingot",
+  "visibility": "NORMAL"
+}

@@ -1,0 +1,46 @@
+{
+  "chapter": "EV_EXTREME_VOLTAGE",
+  "description": "You've probably noticed the §9\"chance per tier\"§r when hovering over the bonus outputs in §2EMI§r in previous versions.
+
+However, with the §l§cremoval of chance boosting§r§r in the §oGTM 7.x§r versions, macerators beyond hv only have the use of faster recipe times.",
+  "icon_item": "gtceu:ev_macerator",
+  "id": "even_more_byproducts",
+  "parent": "none",
+  "positionX": 626,
+  "positionY": 806,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "link_01e8",
+      "required": 1b
+    },
+    {
+      "id": "first_ev_circuits",
+      "required": 1b
+    },
+    {
+      "id": "link",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Avarice and hedonism in a single block",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"§5Advanced Macerator III§r"}',
+      "item_id": "gtceu:ev_macerator",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:even_more_byproducts_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Even More Byproducts",
+  "visibility": "NORMAL"
+}

@@ -1,0 +1,53 @@
+{
+  "chapter": "MV_MEDIUM_VOLTAGE",
+  "description": 'Welcome to the §2natural§r Ethylene route! This method uses §9plant matter§r to produce Ethanol.
+
+Before we get ahead of ourselves, §aSugar Cane§r works fine in a §3Brewery§r for a decent yield of Biomass.
+
+Othe§rrwise, you could try the "§o§dPlantball into Bio Chaff§r" route, and then turn it into Biomass, either in the §3Brewery§r or the §3Pyrolyse Oven§r - the latter being more efficient.
+
+§9Note:§r Only one Bio Chaff can be obtained from maceration until you make the §3HV Macerator§r.
+
+---
+
+
+§l§3Lore:§r§o You may recognise Plantballs from IndustrialCraft2! In IC2 Experimental, there was this rather... obscure way to turn Biomass into Biogas for power, which sadly required too much investment to be really worth it.',
+  "icon_item": "gtceu:plant_ball",
+  "id": "biomass",
+  "parent": "none",
+  "positionX": 446,
+  "positionY": 409,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "pyrolyse_oven",
+      "required": 1b
+    },
+    {
+      "id": "local_brewery_selling_booze",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 1,
+      "item_id": "gtceu:bio_chaff",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Plants aren't industrial enough!",
+  "tasks": [
+    {
+      "description": '{"text":"Biomass"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:biomass_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Biomass",
+  "visibility": "NORMAL"
+}

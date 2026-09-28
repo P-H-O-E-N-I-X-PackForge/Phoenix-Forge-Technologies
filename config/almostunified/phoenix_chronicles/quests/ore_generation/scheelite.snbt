@@ -1,0 +1,54 @@
+{
+  "chapter": "ORE_GENERATION",
+  "description": "Your one and only §9Tungsten§r source! Whilst you could technically get your Tungstate from macerating §eEnd Stone,§r the yield is tiny. Process these ores instead!
+
+An extremely important vein, as Tungsten is used in vast amounts in §9IV§r and onwards.",
+  "icon_item": "gtceu:endstone_scheelite_ore",
+  "id": "scheelite",
+  "parent": "none",
+  "positionX": 1096,
+  "positionY": 856,
+  "position_is_center": 1b,
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Source of Tungsten, Lithium",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"raw scheelite"}',
+      "item_id": "gtceu:raw_scheelite",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:scheelite_task_0",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"raw tungstate"}',
+      "item_id": "gtceu:raw_tungstate",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:scheelite_task_1",
+      "type": "item_check"
+    },
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"raw lithium"}',
+      "item_id": "gtceu:raw_lithium",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:scheelite_task_2",
+      "type": "item_check"
+    }
+  ],
+  "title": "Scheelite",
+  "visibility": "NORMAL"
+}

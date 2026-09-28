@@ -1,0 +1,34 @@
+{
+  "chapter": "BEES",
+  "description": "A stable alloy, known for its consistent resistance and unwavering nature!
+
+This §6Constantan Bee§r hums with a §e steady energy§r, a reliable presence in any electrical circuit.
+
+To obtain this §f dependable§r friend, you'll need §64 blocks of constantan§r. Its steadfastness is truly admirable!",
+  "id": "q_68a88c74a8322bf5",
+  "parent": "none",
+  "positionX": 536,
+  "positionY": 736,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "q_06df13f808e9d5a6",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "A member of the gentry, probably.",
+  "tasks": [
+    {
+      "description": '{"text":"Constantan Bee"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:q_68a88c74a8322bf5_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Quest 68a88c",
+  "visibility": "NORMAL"
+}

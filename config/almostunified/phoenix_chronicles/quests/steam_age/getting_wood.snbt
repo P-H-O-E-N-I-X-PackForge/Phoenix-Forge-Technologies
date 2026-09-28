@@ -1,0 +1,39 @@
+{
+  "chapter": "STEAM_AGE",
+  "description": "§6§lChop, Chop.§r§r It is time for you to get to work. What, you don't want to go around felling entire forrests with your axe, slowly seeing it fall around you?
+
+Wood is pretty much used for everything! No one likes §cmanual labor§r, but its your only choice till the §agreenhouse at mv§r.
+
+§a§lDon't forget to replant of course, you know the drill§r§r. Grab a stack, or 2, or 5, or maybe a whole chest full of wood?",
+  "icon_item": "minecraft:dark_oak_log",
+  "id": "getting_wood",
+  "parent": "none",
+  "positionX": 496,
+  "positionY": 576,
+  "position_is_center": 1b,
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "rewards": [
+    {
+      "count": 12,
+      "item_id": "minecraft:oak_log",
+      "type": "item"
+    }
+  ],
+  "shape": "SQUARE",
+  "subtitle": "Chopping Wood",
+  "tasks": [
+    {
+      "description": '{"text":"Any #minecraft:logs"}',
+      "optional": 0b,
+      "required": 32,
+      "sticky": 1b,
+      "tag": "minecraft:logs",
+      "task_id": "phoenix_chronicles:getting_wood_task_0",
+      "type": "tag_item"
+    }
+  ],
+  "title": "Getting Wood",
+  "visibility": "NORMAL"
+}

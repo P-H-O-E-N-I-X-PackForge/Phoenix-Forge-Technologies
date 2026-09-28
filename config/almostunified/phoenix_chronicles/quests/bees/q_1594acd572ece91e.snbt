@@ -1,0 +1,36 @@
+{
+  "chapter": "BEES",
+  "description": "§9Schee§r is §o§6quite§r§r the §9delicay§r I've heard.
+
+§6This one§r is for those on a §bdiet§r.
+
+§dAlthough,§r with it's §3use case§r maybe §cdon't§r eat it....
+
+To obtain it you need 4 raw §1scheelite§r blocks.",
+  "id": "q_1594acd572ece91e",
+  "parent": "none",
+  "positionX": 856,
+  "positionY": 576,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "q_397edaefd995a733",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "We have all heard of Schee. I guess this is the lite version?",
+  "tasks": [
+    {
+      "description": '{"text":"Scheelite bee"}',
+      "optional": 0b,
+      "task_id": "phoenix_chronicles:q_1594acd572ece91e_task_0",
+      "type": "checkmark"
+    }
+  ],
+  "title": "Quest 1594ac",
+  "visibility": "NORMAL"
+}

@@ -1,0 +1,43 @@
+{
+  "chapter": "PROGRESSION",
+  "description": "This is the §9Nano§r Circuit line.
+
+Starting from here, circuit progression will follow a pattern:
+
+§9-§r Processor
+§9-§r Assembly
+§9-§r Supercomputer
+§9-§r Mainframe",
+  "hide_dep_line": 1b,
+  "icon_item": "gtceu:ev_machine_hull",
+  "id": "craftable_in_ev",
+  "parent": "none",
+  "positionX": 496,
+  "positionY": 176,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "link_6abf",
+      "required": 1b
+    },
+    {
+      "id": "link_5956",
+      "required": 1b
+    },
+    {
+      "id": "link_629e",
+      "required": 1b
+    },
+    {
+      "id": "link_42da",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Nano Age",
+  "title": "Craftable in §5EV§r",
+  "visibility": "NORMAL"
+}

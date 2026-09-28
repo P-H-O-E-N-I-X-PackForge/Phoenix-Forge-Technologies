@@ -1,0 +1,42 @@
+{
+  "chapter": "LV_LOW_VOLTAGE",
+  "description": "§dSneak right-click§r when in hand to activate your Magnet. Do it again to deactivate. The battery capacity of your magnet depends on the battery used to craft it.
+
+§9Note:§r If you're worried about getting overwhelmed by Cobblestone or Netherrack, use the trash can from FTB Utilities (top left corner of your inventory) to void them.",
+  "icon_item": "gtceu:lv_item_magnet",
+  "id": "magnet",
+  "parent": "none",
+  "positionX": 895,
+  "positionY": 361,
+  "position_is_center": 1b,
+  "prerequisites": [
+    {
+      "id": "basic_polariser",
+      "required": 1b
+    },
+    {
+      "id": "batteries",
+      "required": 1b
+    }
+  ],
+  "repeat_cooldown_hours": 24,
+  "repeat_mode": "NONE",
+  "require_all_prereqs": 1b,
+  "shape": "SQUARE",
+  "subtitle": "Why can't these items I mine behave and enter my inventory!?",
+  "tasks": [
+    {
+      "check_ae2_storage": 1b,
+      "consume": 0b,
+      "count": 1,
+      "description": '{"text":"LV Item Magnet"}',
+      "item_id": "gtceu:lv_item_magnet",
+      "optional": 0b,
+      "sticky": 1b,
+      "task_id": "phoenix_chronicles:magnet_task_0",
+      "type": "item_check"
+    }
+  ],
+  "title": "Magnet",
+  "visibility": "NORMAL"
+}
