@@ -1,8 +1,0 @@
-{
-	chapter_groups: [
-		{ id: "693226878D58638A", title: "Climbing the Ranks" }
-		{ id: "74E84404EE17A851", title: "Processing Lines" }
-		{ id: "288DA1F92F7C0A7A", title: "Guides + More" }
-		{ id: "1C1C4FB2AFCF489D", title: "Milestones" }
-	]
-}
